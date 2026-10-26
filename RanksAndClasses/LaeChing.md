@@ -1,3 +1,7 @@
+![LaeChing](Gfx/LaeChing.png)
+
+<br>
+
 # I Ching, Two-Triangle interpretation of Yinyang symbol, Flower of Life.
 
 LaeChing is the Mythic representation among these three:
