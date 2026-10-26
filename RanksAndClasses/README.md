@@ -1,3 +1,7 @@
+![RanksAndClasses](Gfx/RanksAndClasses.png)
+
+<br>
+
 # Ranks and Classes
 
 Function growth ratios have ranks and classes, in another dimension.
