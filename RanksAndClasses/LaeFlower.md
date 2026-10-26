@@ -1,3 +1,7 @@
+![FlowerOfLife](Gfx/FlowerOfLife.png)
+
+<br>
+
 # Flower of Life, for Tree of Life
 
 > Tree of Life is too complicated for now and for me.
