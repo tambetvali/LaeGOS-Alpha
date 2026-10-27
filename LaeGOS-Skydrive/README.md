@@ -1,3 +1,7 @@
+![LaeGOS-Alpha](LaeGOS-Alpha.png)
+
+<br>
+
 # LaeChing + Numbers + Physics
 
 Because Flower of Life is multidimensional geometry, we leave it for later:
@@ -20,3 +24,7 @@ Number can be:
 I create the initial logic, then start adding different keyboards and screens. Initially to one canvas, and this windowing system - https://laegna.pythonanywhere.com/ / https://github.com/tambetvali/LaeGOS-Widgets - while the online version is often offline, the repository contains the python code.
 
 All the logic will be in this HTML, once it initially works I start to expand it to further versions, but leave this one also here to enchance the basics in a simple language before coding something hard.
+
+<br>
+
+![LaeGOS-Logon](LaeGOS-Logon.png)
