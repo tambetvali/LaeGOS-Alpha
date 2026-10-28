@@ -3509,6 +3509,8 @@ Here is the markdown article with the imagery integrated:
 
 ## A Beginner's Guide to Recursive Reality, Growth, and Hypermodellation
 
+***This article is gallery of Gemini Image Generator!***
+
 ![Image 0](DataGfx/GemCov.jpg)
 
 ---
