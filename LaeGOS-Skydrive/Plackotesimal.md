@@ -1,4 +1,4 @@
-![Cover](PlanckCover.png)
+![Cover](DataGfx/PlanckCover.png)
 
 <br>
 
@@ -457,7 +457,7 @@ The underlying relationships remain.
 
 ---
 
-![Relativity](RelativeGeometry.png)
+![Relativity](DataGfx/RelativeGeometry.png)
 
 <br>
 
@@ -556,7 +556,7 @@ In this view, hypermodellation is not merely a method for studying large systems
 
 -----
 
-![Geometry](PlanckGeometry.png)
+![Geometry](DataGfx/PlanckGeometry.png)
 
 <br>
 
@@ -932,7 +932,7 @@ My Question to CoPilot:
 
 # On Dual Rank Systems, Horizons, and the Geometry of Complexity
 
-![Ton](Planckton.png)
+![Ton](DataGfx/Planckton.png)
 
 <br>
 
@@ -2766,4 +2766,4 @@ I asked it to write the introduction, the answer is first in the file:
 
 <br>
 
-![Ending](PlanckEnding.png)
+![Ending](DataGfx/PlanckEnding.png)
