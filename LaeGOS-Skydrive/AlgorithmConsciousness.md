@@ -1,8 +1,16 @@
+![AlgorithmConsciousness-GOS](DataGfx/AlgorithmConsciousnessGOS.png)
+
+<br>
+
 # Planckton: A Ranked Number System for Relational Measurement
 
 *A LaeGOS–Laegna exploration of Planck-scale units, directional relations, rank transitions, cybernetic feedback, and the acceleration of civilization.*
 
 ## 1. Introduction: Measuring the Smallest and the Largest
+
+![Planckton](DataGfx/Planckton.jfif)
+
+<br>
 
 Let us measure our Planckotesimal. In poetic language, call it a **planckton**: a unit of conceptual measurement built from the smallest reference scales and the internal fractal structure of their relations.
 
@@ -619,6 +627,10 @@ AI part ends.
 
 ---
 
+![RankPlanckton](DataGfx/RankPlanckton.png)
+
+<br>
+
 My initial description:
 
 # Let's measure our Planckotesimal - let's call this planckton in poetic language.
@@ -710,6 +722,10 @@ I asked ChatGPT:
 > Can you explain constants, physical and mathematical relations which could be scoped-out from this number system - I propose that even if the central definition of me does not define each detail, systems based on it are similar enough to reach same constants and relations from their base definitions. What becomes simpler, linear, more easy to combine, especially considering all the combinations from sub-quantum to super-astro scales and dimensionalities-reprojections-added-positional-datums?
 
 # Laegna Relational Number System: Constants, Scale Invariance, and Unified Measurement
+
+![RankedPlankton](DataGfx/RankedPlankton.png)
+
+<br>
 
 *A research program for connecting sub-quantum models, mathematical structures, physical constants, dimensional projections, and civilization-scale systems.*
 
