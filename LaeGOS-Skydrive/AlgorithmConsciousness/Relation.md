@@ -1,3 +1,7 @@
+![Relation](GeminiRelation.jpg)
+
+<br>
+
 # What is the absolute relation?
 
 Consider particle is here and now:
@@ -37,6 +41,10 @@ Integral 2:
 What makes the numbers consistent is that zero is the origin, and unless recalculated it keeps it's relative "1:1" curvature, unitary curvature which is counted "as if curvature did not exist there" - each other, relatively, then *is* some curvature not zero or identity.
 
 ---
+
+![Relational Motion Hierarchy](GeminiRelationalMotionHierarchy.jpg)
+
+<br>
 
 ChatGPT's article on this topic:
 
@@ -132,6 +140,10 @@ This gives the idea a testable mathematical question:
 If one function suffices, the asymmetry should emerge from the function's structure. If two functions are required, their relationship must be specified.
 
 ## 4. Differential 2 — the acceleration-impulse realm
+
+![What Is Absolute Relation?](WhatIsAbsoluteRelation.png)
+
+<br>
 
 Acceleration describes the rate at which velocity changes:
 
@@ -529,6 +541,10 @@ A sound comparison therefore requires two stages:
 This allows the framework to explore scale relationships without conflating numerical similarity with physical identity.
 
 ## 16. What would make the framework scientifically testable?
+
+![Absolute Relation](AbsoluteRelation.png)
+
+<br>
 
 The most productive next step is to define the proposed curvature-like quantity precisely.
 
