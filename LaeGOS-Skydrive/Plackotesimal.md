@@ -624,28 +624,28 @@ The question is then:
 
 In ordinary special relativity, the key quantity is the Lorentz factor:
 
-\[
+$$
 \gamma=\frac{1}{\sqrt{1-v^2/c^2}}
-\]
+$$
 
 where:
 
-- \(v\) is velocity,
-- \(c\) is the speed of light.
+- $v$ is velocity,
+- $c$ is the speed of light.
 
 The Lorentz factor measures how strongly spacetime geometry departs from the rest state.
 
 At rest:
 
-\[
+$$
 v=0
-\]
+$$
 
 and therefore:
 
-\[
+$$
 \gamma=1
-\]
+$$
 
 The value `1` is thus the natural reference scale.
 
@@ -655,33 +655,33 @@ The value `1` is thus the natural reference scale.
 
 Suppose we identify depth with the Lorentz factor:
 
-\[
+$$
 d=\gamma
-\]
+$$
 
 Then asking where:
 
-\[
+$$
 d=2
-\]
+$$
 
 means solving:
 
-\[
+$$
 2=\frac{1}{\sqrt{1-v^2/c^2}}
-\]
+$$
 
 which gives:
 
-\[
+$$
 v=\sqrt{1-\frac14}\,c
-\]
+$$
 
 or
 
-\[
+$$
 v\approx0.866025c
-\]
+$$
 
 Therefore:
 
@@ -762,15 +762,15 @@ Rather than treating this range linearly, consider it logarithmically.
 
 The geometric center becomes:
 
-\[
+$$
 \sqrt{1\times16\,000\,000\,000}
-\]
+$$
 
 which yields approximately:
 
-\[
+$$
 126\,000 \; \text{light years}
-\]
+$$
 
 or:
 
