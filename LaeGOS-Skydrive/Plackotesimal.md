@@ -1,3 +1,7 @@
+![Cover](PlanckCover.png)
+
+<br>
+
 # On Life, Computation, Hypermodellation, and the Geometry of Reality
 
 Physics often begins from matter.
@@ -453,6 +457,10 @@ The underlying relationships remain.
 
 ---
 
+![Relativity](RelativeGeometry.png)
+
+<br>
+
 # Life as Multi-Rank Navigation
 
 Viewed broadly, life itself may be understood as navigation through multiple ranks of organization.
@@ -547,6 +555,10 @@ Dimensional expansion unfolds it again.
 In this view, hypermodellation is not merely a method for studying large systems. It becomes a general framework for understanding how reality organizes itself across scales. A pendulum, a light wave, a living organism, a society, and a future interstellar civilization all become instances of the same deeper process: the continual translation of information between local structure and higher-order organization while preserving identity across changing dimensions and ranks.
 
 -----
+
+![Geometry](PlanckGeometry.png)
+
+<br>
 
 This is my initial intro:
 
@@ -919,6 +931,10 @@ My Question to CoPilot:
 > - Try to renormalize them now - matrix can be used for 2-band locatification. Notice 2, 4, 8, 16 is order 1 and 1, 2, 4, 16 is order 0 interpolation of 0, 1, 2, 4, 8, 16 or 1, 2, 4, 16 of what means 1 to 16; they provide different 2D fourier-componentized matrix components. Notice in Laegna base-4 digit is relative to it's value and position pair in ideal fourier local symmetrix.
 
 # On Dual Rank Systems, Horizons, and the Geometry of Complexity
+
+![Ton](Planckton.png)
+
+<br>
 
 Most people think of numbers as points on a line.
 
@@ -2745,3 +2761,9 @@ I asked it to write the introduction, the answer is first in the file:
 > - People can model life and large models in relation to these simplifications, to calculate thermodynamic and repeated game terms where physical system is evolving over any self-referential lightwave or waveform paradox.​‌
 > - 1D pendulum to 2D light simulation to all 3D waves - they all follow the same equational structures to work properly. It's not a single domain or essential structure forming this calculus, but rather the mathematical consolidation of well-met criteria.​‌
 > - Practical modellation and life, society, engineering, space travel or multi-rank, extremely large models (hypermodellation, i.e. high-rank and high-d linearization and dimensional reduction and expansion symmetrically, with leaving properties intact and even - the number digital form has these transformations have clear symmetries with each form, if not digitwise equality in symmetric translations to other spaces).
+
+-----
+
+<br>
+
+![Ending](PlanckEnding.png)
