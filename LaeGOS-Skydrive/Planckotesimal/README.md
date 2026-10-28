@@ -1,3 +1,7 @@
+![Cosmic](ChatGPTCosmic.png)
+
+<br>
+
 ChatGPT made one additional introduction to original document; this is planckotesimal.md addons.
 
 ---
