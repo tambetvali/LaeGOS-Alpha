@@ -3811,6 +3811,10 @@ A person navigates life. A society navigates history. A civilization navigates p
 
 And every successful navigation depends upon the same fundamental skill: `transforming complexity into understanding.`
 
+<br>
+
+![Image ∞](DataGfx/GemEnd.jpg)
+
 ---
 
 <br>
@@ -3829,5 +3833,3 @@ I asked CoPilot:
 > 
 
 > Can you write complete article for beginner to advanced reader, given they did not read the question and initial articles, but want to understand both purpose, process and life practical from person to society added value and exponential as well as material growth.
-
-![Image ∞](DataGfx/GemEnd.jpg)
