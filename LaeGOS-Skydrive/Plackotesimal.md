@@ -2767,3 +2767,1065 @@ I asked it to write the introduction, the answer is first in the file:
 <br>
 
 ![Ending](DataGfx/PlanckEnding.png)
+
+-----
+
+# Relativistic models: Appendix
+
+I asked CoPilot:
+
+> Can you now compare these systems:​‌
+> - 1, 2, 3, 4, 8 and 16 planck units, where in each time area of n, n*n, n*n*n planck units - cell, square table or cube supertable - are used.​‌
+> - Universe is envisioned either to be at 1 ly at center, at 16 billion ly at the edge on higher channel.​‌
+> - Each tesimal of higher channel repeats whole universe of lower.​‌
+> - Take 1g; if starting from Earth, one passes either 1ly or 16b ly in way that in one case, 0.5 ly or 0.25 ly equals the d=0.5 and in 16b, d=0.5 is passed at 1, 2, 4 or 8 for various curvatures. This is linear realm; beyond 1 ly or 16 ly there will be outwards-exponent-linearized realm, and if added dimension has coordinate system of exponent, and whole last dimension is the first tesimal with it's limit value as focal point, but all content as what is within this +0.​‌
+> - As above so below: the planck scale unit is within 1, 2, 4, 16 logexp-2 symmetric ranks; the macroscale is logexp-10-symmetrically calculated at 1, 1 0, 1 00 00, 1 000 000 000 2D (exponentially) growing logarithm as basin, able for 2D or 1D projection. The planck scale can be scaled up, the other down - show how this maps the Universe!
+
+> Can you write complete article for beginner to advanced reader, given they did not read the question and initial articles, but want to understand both purpose, process and life practical from person to society added value and exponential as well as material growth.
+
+# From Planck to Civilization
+
+![Planckton Civilization](DataGfx/PlancktonCivilization.png)
+
+<br>
+
+## A Beginner's Guide to Recursive Reality, Growth, and Hypermodellation
+
+Most people encounter reality in separate pieces.
+
+Physics studies matter.
+
+Biology studies life.
+
+Economics studies societies.
+
+Computer science studies information.
+
+Engineering studies machines.
+
+Cosmology studies the universe.
+
+The central idea of this article is that these may not be separate stories at all.
+
+Instead, they may be different scales of the same organizational process.
+
+The smallest structures of reality and the largest structures of reality appear radically different. Yet many of their mathematical patterns repeat.
+
+The purpose of this article is not to replace established science. Rather, it is to present a conceptual framework for seeing how scales, growth, complexity, information, life, and civilization can be viewed as parts of one continuous hierarchy.
+
+---
+
+# The Simplest Question
+
+Suppose a child asks:
+
+> How does a tiny thing become a huge thing?
+
+The usual answer is:
+
+```text
+By growing.
+```
+
+But growth comes in different forms.
+
+A stone becomes larger by accumulating matter.
+
+A society becomes larger by accumulating people.
+
+Knowledge becomes larger by accumulating relationships.
+
+The first grows materially.
+
+The second grows organizationally.
+
+The third grows informationally.
+
+Already we are dealing with different kinds of growth.
+
+---
+
+# Two Types of Growth
+
+The framework begins with two simple progressions.
+
+Structural growth:
+
+```text
+1
+2
+4
+16
+```
+
+Complexity growth:
+
+```text
+1
+10
+10 000
+1 000 000 000
+```
+
+The first progression measures order.
+
+The second progression measures content.
+
+One asks:
+
+```text
+How many levels exist?
+```
+
+The other asks:
+
+```text
+How much can each level contain?
+```
+
+Together they form a coordinate system for understanding complexity.
+
+---
+
+# The Universe of Ranks
+
+Imagine reality organized into ranks.
+
+For example:
+
+```text
+Rank 1
+Rank 2
+Rank 3
+Rank 4
+```
+
+A rank does not merely mean size.
+
+It means organizational capability.
+
+For instance:
+
+```text
+atom
+molecule
+cell
+organism
+```
+
+are not just larger and larger objects.
+
+Each introduces new forms of organization.
+
+The same idea appears everywhere.
+
+---
+
+# Dimensions Multiply Capability
+
+Now imagine the same rank existing in different dimensions.
+
+One dimension:
+
+```text
+n
+```
+
+Two dimensions:
+
+```text
+n²
+```
+
+Three dimensions:
+
+```text
+n³
+```
+
+Suddenly the same basic unit gains vastly different capacities.
+
+For example:
+
+```text
+2
+4
+8
+```
+
+all emerge from the same underlying value in different dimensions.
+
+The lesson is simple:
+
+```text
+organization creates growth
+```
+
+even before additional material exists.
+
+---
+
+# Planck Scale and Compression
+
+Physics introduces a fascinating idea.
+
+At extremely small scales, near the Planck regime, ordinary intuition begins to fail.
+
+One may imagine this region symbolically as:
+
+```text
+maximum compression
+```
+
+A tremendous amount of structure becomes concentrated into an extremely small domain.
+
+Conceptually:
+
+```text
+universe
+↓
+compressed information
+↓
+coordinate seed
+```
+
+The smallest scale becomes a source point.
+
+---
+
+# The Relativistic Horizon
+
+Relativity introduces another kind of limit.
+
+As velocity approaches light speed:
+
+```text
+v → c
+```
+
+certain quantities grow dramatically.
+
+Yet the observer does not experience an infinite world.
+
+The observer experiences a local world.
+
+Thus:
+
+```text
+very large transformation
+```
+
+still produces
+
+```text
+local experience
+```
+
+Infinity becomes locally manageable.
+
+---
+
+# The Expansion Horizon
+
+Now move in the opposite direction.
+
+Instead of looking inward toward Planck scales, look outward toward cosmic scales.
+
+Imagine:
+
+```text
+1 light year
+```
+
+as a local horizon and
+
+```text
+16 billion light years
+```
+
+as a cosmic horizon.
+
+To ordinary perception the difference is enormous.
+
+Yet mathematically they may be viewed as two positions within a larger hierarchy.
+
+The same organizational principles may operate at both scales.
+
+---
+
+# As Above, So Below
+
+One recurring intuition in both ancient philosophy and modern systems thinking is:
+
+```text
+As above,
+so below.
+```
+
+In this context it means:
+
+```text
+small scales
+and
+large scales
+may share similar structures.
+```
+
+Not identical structures.
+
+Similar structures.
+
+A branching tree resembles a river basin.
+
+A river basin resembles a vascular network.
+
+A vascular network resembles certain computational graphs.
+
+Patterns reappear.
+
+---
+
+# Information as the Hidden Substance
+
+Matter is important.
+
+Energy is important.
+
+But life depends heavily upon information.
+
+A single cell contains:
+
+```text
+instructions
+memory
+error correction
+selection
+adaptation
+```
+
+These are informational properties.
+
+Civilizations exhibit the same behavior.
+
+They store laws.
+
+They store knowledge.
+
+They store culture.
+
+They store technology.
+
+They store memory.
+
+Civilizations behave partly like large information-processing systems.
+
+---
+
+# Life as Computation
+
+This does not mean humans are machines.
+
+Rather it means living systems perform computations.
+
+Every day people perform:
+
+```text
+prediction
+planning
+evaluation
+adaptation
+```
+
+These are computational behaviors.
+
+Families perform them.
+
+Companies perform them.
+
+Cities perform them.
+
+Nations perform them.
+
+Life continuously processes information about possible futures.
+
+---
+
+# Repeated Games and Thermodynamics
+
+A single decision rarely determines success.
+
+Reality is iterative.
+
+We repeatedly encounter similar situations.
+
+Thus life behaves like a repeated game.
+
+Examples include:
+
+```text
+friendship
+business
+education
+health
+trust
+cooperation
+```
+
+The quality of long-term outcomes often depends more upon repeated interactions than upon individual victories.
+
+Thermodynamics tells a similar story.
+
+Systems evolve.
+
+Patterns persist.
+
+Energy flows.
+
+Stable structures emerge.
+
+Life exists inside these flows.
+
+---
+
+# The Importance of Models
+
+Humans cannot calculate reality exactly.
+
+Reality is too large.
+
+Therefore we use models.
+
+Examples include:
+
+```text
+maps
+equations
+simulations
+stories
+languages
+theories
+```
+
+Every model simplifies reality.
+
+The challenge is preserving useful properties during simplification.
+
+A good model removes unnecessary details while retaining essential structure.
+
+---
+
+# Hypermodellation
+
+As systems become larger, ordinary models become insufficient.
+
+A civilization cannot be understood through a single equation.
+
+A planet cannot be understood through a single graph.
+
+A future interstellar society certainly cannot.
+
+This motivates what may be called:
+
+```text
+hypermodellation
+```
+
+The modelling of interacting models.
+
+Instead of describing one system, we describe systems that contain other systems.
+
+Examples include:
+
+```text
+economies of economies
+networks of networks
+models of models
+civilizations of civilizations
+```
+
+The scale becomes recursive.
+
+---
+
+# Higher Ranks See Lower Ranks Differently
+
+A powerful idea appears here.
+
+What looks complicated from one level often appears simple from a higher level.
+
+For example:
+
+```text
+exponential growth
+```
+
+appears dramatic.
+
+But viewed logarithmically:
+
+```text
+exponential
+→ linear
+```
+
+The higher perspective simplifies the lower perspective.
+
+This may happen repeatedly through hierarchical rank structures.
+
+Each higher rank transforms previous complexity into manageability.
+
+---
+
+# Localization and Fractal Coordinates
+
+Suppose reality contains recursive structure.
+
+Then a short description may encode a vast amount of information.
+
+Just as a fractal formula generates an apparently infinite pattern:
+
+```text
+simple rule
+→ enormous structure
+```
+
+A local coordinate may contain the instructions for vast organizational depth.
+
+The coordinate becomes holographic.
+
+The local contains the global.
+
+---
+
+# Society as a Higher-Dimensional Organism
+
+Individuals possess:
+
+```text
+memory
+goals
+knowledge
+adaptation
+```
+
+Societies possess the same things.
+
+The difference is scale.
+
+A society stores memory in books.
+
+A company stores memory in procedures.
+
+A civilization stores memory in institutions.
+
+Individual intelligence becomes collective intelligence.
+
+---
+
+# Material Growth vs Exponential Growth
+
+Material growth is limited.
+
+A factory can only become so large.
+
+A planet contains finite resources.
+
+Physical expansion eventually encounters constraints.
+
+Informational growth behaves differently.
+
+Ideas can replicate.
+
+Knowledge can compound.
+
+Networks can accelerate.
+
+Thus the future depends increasingly upon:
+
+```text
+organizational growth
+```
+
+alongside
+
+```text
+material growth
+```
+
+The most successful systems often combine both.
+
+---
+
+# Practical Meaning for Everyday Life
+
+The framework becomes useful when applied personally.
+
+A person may ask:
+
+```text
+What rank am I developing?
+```
+
+Material rank:
+
+```text
+income
+resources
+tools
+```
+
+Informational rank:
+
+```text
+knowledge
+skills
+understanding
+```
+
+Organizational rank:
+
+```text
+relationships
+teams
+communities
+```
+
+The greatest long-term improvements often occur when all three develop together.
+
+---
+
+# Practical Meaning for Society
+
+Societies also face rank transitions.
+
+They evolve from:
+
+```text
+survival
+↓
+coordination
+↓
+specialization
+↓
+innovation
+↓
+knowledge civilization
+```
+
+Each stage increases organizational capability.
+
+The future may depend less on raw resources and more on how effectively information is organized across scales.
+
+---
+
+# The Central Insight
+
+The central insight of the entire framework can be summarized simply:
+
+```text
+Small structures organize into larger structures.
+
+Larger structures generate new dimensions
+of organization.
+
+Information accumulates.
+
+Complexity grows.
+
+Higher ranks transform previous complexity
+into new simplicity.
+
+Life becomes increasingly capable of modelling
+itself and its environment.
+
+Civilization becomes a recursive process
+of learning about learning.
+```
+
+---
+
+# Conclusion
+
+From Planck-scale compression to cosmic expansion, from cells to societies, from simple computations to hypermodellation, a common theme appears:
+
+```text
+Reality is not merely growing.
+
+Reality is organizing.
+```
+
+Matter accumulates.
+
+Information accumulates.
+
+Relationships accumulate.
+
+Models accumulate.
+
+At each stage new levels of structure emerge.
+
+The smallest scales contribute the building blocks.
+
+The largest scales provide the context.
+
+Life exists between them as a continual process of compression, expansion, modelling, adaptation, and understanding.
+
+Viewed this way, the purpose of knowledge is not merely prediction.
+
+It is navigation.
+
+A person navigates life.
+
+A society navigates history.
+
+A civilization navigates possibility.
+
+And every successful navigation depends upon the same fundamental skill:
+
+```text
+transforming complexity
+into understanding.
+```
+
+---
+
+<br>
+
+![Unitary Mapping](DataGfx/UnitaryMapping.jpg)
+
+<br>
+
+---
+
+<br>
+
+I have created a visual journey for your article that bridges the gap between raw natural textures, precise mathematical physics, and digital neon holofractals. Each image is designed to act as a meditative visual anchor for the concepts presented in the text.
+
+Here is the markdown article with the imagery integrated:
+
+---
+
+# From Planck to Civilization
+
+## A Beginner's Guide to Recursive Reality, Growth, and Hypermodellation
+
+![Image 0](DataGfx/GemCov.jpg)
+
+---
+
+### Image 1: The Unified Field of Scales
+
+This foundational image visualizes the article’s core premise: that separate fields of study are actually connected scales of one organizational process. We see a seamless transition where rugged natural bark and stone textures flow directly into glowing, geometric, laser-etched patterns. This merger of organic biology and crystalline information mathematics symbolizes the continuous hierarchy from the smallest atomic structures to vast cosmological systems, all bound together by elegant mathematical logic.
+
+![Image 1](DataGfx/Gem1.png)
+
+Most people encounter reality in separate pieces.
+
+Physics studies matter. Biology studies life. Economics studies societies. Computer science studies information. Engineering studies machines. Cosmology studies the universe.
+
+The central idea of this article is that these may not be separate stories at all. Instead, they may be different scales of the same organizational process.
+
+The smallest structures of reality and the largest structures of reality appear radically different. Yet many of their mathematical patterns repeat.
+
+The purpose of this article is not to replace established science. Rather, it is to present a conceptual framework for seeing how scales, growth, complexity, information, life, and civilization can be viewed as parts of one continuous hierarchy.
+
+---
+
+# The Simplest Question
+
+Suppose a child asks:
+
+> How does a tiny thing become a huge thing?
+
+The usual answer is: `By growing.`
+
+But growth comes in different forms.
+
+A stone becomes larger by accumulating matter.
+A society becomes larger by accumulating people.
+Knowledge becomes larger by accumulating relationships.
+
+The first grows materially. The second grows organizationally. The third grows informationally.
+
+Already we are dealing with different kinds of growth.
+
+---
+
+### Image 2: The Two Growth Progressions
+
+This image provides a visualization of the two types of growth discussed: structural order versus exponential content. We start with the single, perfectly formed crystalline cell (Rank 1). This shifts into a glowing geometric "table" structure representing organized connections (Structural Growth).
+
+Contrasting this is the "Logexp-10" sequence: a simple point explodes into a dense, almost overwhelming cloud of a billion interconnected dots. It captures the sheer scaling difference between neat structural hierarchy and exploding information density.
+
+![Image 2](DataGfx/Gem2.jpg)
+
+# Two Types of Growth
+
+The framework begins with two simple progressions.
+
+Structural growth: `1, 2, 4, 16`
+Complexity growth: `1, 10, 10 000, 1 000 000 000`
+
+The first progression measures order. The second progression measures content.
+
+One asks: `How many levels exist?`
+The other asks: `How much can each level contain?`
+
+Together they form a coordinate system for understanding complexity.
+
+---
+
+# The Universe of Ranks
+
+Imagine reality organized into ranks. For example: `Rank 1, Rank 2, Rank 3, Rank 4`
+
+A rank does not merely mean size. It means organizational capability.
+
+For instance: `atom -> molecule -> cell -> organism` are not just larger and larger objects. Each introduces new forms of organization. The same idea appears everywhere.
+
+### Dimensions Multiply Capability
+
+Now imagine the same rank existing in different dimensions.
+
+One dimension: `n`
+Two dimensions: `n²`
+Three dimensions: `n³`
+
+Suddenly the same basic unit gains vastly different capacities. For example: `2, 4, 8` all emerge from the same underlying value in different dimensions.
+
+The lesson is simple: `organization creates growth` even before additional material exists.
+
+---
+
+# Planck Scale and Compression
+
+### Image 3: The Planck Compression Focal Point
+
+Here we visualize the ultimate limit of physics: the Planck scale. Using the deep blue void and neon geometric structures established in previous images, we see maximum compression.
+
+A vast, glowing, spiraling universe is being force-compressed into a single, infinitesimal focal point—a "coordinate seed." The extreme energy of this "tesimal" glows white-hot, creating a powerful visualization of raw information density before it is expressed as spacetime.
+
+![Image 3](DataGfx/Gem3.jpg)
+
+Physics introduces a fascinating idea. At extremely small scales, near the Planck regime, ordinary intuition begins to fail.
+
+One may imagine this region symbolically as: `maximum compression`
+
+A tremendous amount of structure becomes concentrated into an extremely small domain.
+
+Conceptually: `universe -> compressed information -> coordinate seed`
+
+The smallest scale becomes a source point.
+
+---
+
+# The Relativistic Horizon
+
+Relativity introduces another kind of limit. As velocity approaches light speed: `v -> c`, certain quantities grow dramatically. Yet the observer does not experience an infinite world. The observer experiences a local world.
+
+Thus: `very large transformation` still produces `local experience`
+
+Infinity becomes locally manageable.
+
+---
+
+# The Expansion Horizon
+
+Now move in the opposite direction. Instead of looking inward toward Planck scales, look outward toward cosmic scales.
+
+Imagine: `1 light year` as a local horizon and `16 billion light years` as a cosmic horizon. To ordinary perception the difference is enormous. Yet mathematically they may be viewed as two positions within a larger hierarchy. The same organizational principles may operate at both scales.
+
+---
+
+### Image 4: As Above, So Below (Recursive Branching)
+
+This image visualizes the principle of recursion. It blends the natural textures (the forest) with the mathematical structures (the holofractal lattice). A massive, branching structure (a tree/river basin) is shown where a tiny vein in a single leaf repeats the exact geometry of the entire forest.
+
+It bridges the 1-ly local scale (the leaf) with the 16-billion-ly cosmic scale (the forest network), illustrating how patterns persist across the vast range of symmetric ranks.
+
+![Image 4](DataGfx/Gem4.jpg)
+
+# As Above, So Below
+
+One recurring intuition in both ancient philosophy and modern systems thinking is: `As above, so below.`
+
+In this context it means: `small scales and large scales may share similar structures.` Not identical structures. Similar structures.
+
+A branching tree resembles a river basin. A river basin resembles a vascular network. A vascular network resembles certain computational graphs.
+
+Patterns reappear.
+
+---
+
+# Information as the Hidden Substance
+
+Matter is important. Energy is important. But life depends heavily upon information.
+
+A single cell contains: `instructions, memory, error correction, selection, adaptation`. These are informational properties.
+
+Civilizations exhibit the same behavior. They store laws. They store knowledge. They store culture. They store technology. They store memory.
+
+Civilizations behave partly like large information-processing systems.
+
+---
+
+# Life as Computation
+
+This does not mean humans are machines. Rather it means living systems perform computations. Every day people perform: `prediction, planning, evaluation, adaptation`. These are computational behaviors.
+
+Families perform them. Companies perform them. Cities perform them. Nations perform them.
+
+Life continuously processes information about possible futures.
+
+---
+
+# Repeated Games and Thermodynamics
+
+A single decision rarely determines success. Reality is iterative. We repeatedly encounter similar situations. Thus life behaves like a repeated game.
+
+Examples include: `friendship, business, education, health, trust, cooperation`. The quality of long-term outcomes often depends more upon repeated interactions than upon individual victories.
+
+Thermodynamics tells a similar story. Systems evolve. Patterns persist. Energy flows. Stable structures emerge. Life exists inside these flows.
+
+---
+
+# The Importance of Models
+
+Humans cannot calculate reality exactly. Reality is too large. Therefore we use models.
+
+Examples include: `maps, equations, simulations, stories, languages, theories`. Every model simplifies reality. The challenge is preserving useful properties during simplification.
+
+A good model removes unnecessary details while retaining essential structure.
+
+---
+
+# Hypermodellation
+
+As systems become larger, ordinary models become insufficient. A civilization cannot be understood through a single equation. A planet cannot be understood through a single graph. A future interstellar society certainly cannot.
+
+This motivates what may be called: `hypermodellation` (the modelling of interacting models).
+
+Instead of describing one system, we describe systems that contain other systems.
+
+Examples include: `economies of economies, networks of networks, models of models, civilizations of civilizations`. The scale becomes recursive.
+
+---
+
+# Higher Ranks See Lower Ranks Differently
+
+A powerful idea appears here. What looks complicated from one level often appears simple from a higher level.
+
+For example: `exponential growth` appears dramatic. But viewed logarithmically: `exponential -> linear`.
+
+The higher perspective simplifies the lower perspective. This may happen repeatedly through hierarchical rank structures. Each higher rank transforms previous complexity into manageability.
+
+---
+
+# Localization and Fractal Coordinates
+
+Suppose reality contains recursive structure. Then a short description may encode a vast amount of information. Just as a fractal formula generates an apparently infinite pattern: `simple rule -> enormous structure`
+
+A local coordinate may contain the instructions for vast organizational depth. The coordinate becomes holographic. The local contains the global.
+
+---
+
+### Image 5: The Hypermodelling Society
+
+This image transitions the abstract concepts into the practical, social realm. It shows a futuristic, "smart" city defined by glowing holofractal architecture. A group of diverse individuals is interacting with complex, 3D holographic models of their own society.
+
+They are practicing "hypermodellation"—modelling their own collective interactions. Individual biological life (the people) and collective computational power (the city lights and holograms) are perfectly integrated, showing how organizational growth maps a civilization's future.
+
+![Image 5](DataGfx/Gem5.jpg)
+
+# Society as a Higher-Dimensional Organism
+
+Individuals possess: `memory, goals, knowledge, adaptation`. Societies possess the same things. The difference is scale.
+
+A society stores memory in books. A company stores memory in procedures. A civilization stores memory in institutions. Individual intelligence becomes collective intelligence.
+
+---
+
+# Material Growth vs Exponential Growth
+
+Material growth is limited. A factory can only become so large. A planet contains finite resources. Physical expansion eventually encounters constraints.
+
+Informational growth behaves differently. Ideas can replicate. Knowledge can compound. Networks can accelerate.
+
+Thus the future depends increasingly upon: `organizational growth` alongside `material growth`. The most successful systems often combine both.
+
+---
+
+# Practical Meaning for Everyday Life
+
+The framework becomes useful when applied personally. A person may ask: `What rank am I developing?`
+
+Material rank: `income, resources, tools`
+Informational rank: `knowledge, skills, understanding`
+Organizational rank: `relationships, teams, communities`
+
+The greatest long-term improvements often occur when all three develop together.
+
+---
+
+# Practical Meaning for Society
+
+Societies also face rank transitions. They evolve from: `survival -> coordination -> specialization -> innovation -> knowledge civilization`
+
+Each stage increases organizational capability.
+
+The future may depend less on raw resources and more on how effectively information is organized across scales.
+
+---
+
+# The Central Insight
+
+The central insight of the entire framework can be summarized simply:
+
+> Small structures organize into larger structures.
+> Larger structures generate new dimensions of organization.
+> Information accumulates.
+> Complexity grows.
+> Higher ranks transform previous complexity into new simplicity.
+> Life becomes increasingly capable of modelling itself and its environment.
+> Civilization becomes a recursive process of learning about learning.
+
+---
+
+# Conclusion
+
+From Planck-scale compression to cosmic expansion, from cells to societies, from simple computations to hypermodellation, a common theme appears:
+
+`Reality is not merely growing. Reality is organizing.`
+
+Matter accumulates. Information accumulates. Relationships accumulate. Models accumulate.
+
+At each stage new levels of structure emerge. The smallest scales contribute the building blocks. The largest scales provide the context.
+
+Life exists between them as a continual process of compression, expansion, modelling, adaptation, and understanding.
+
+Viewed this way, the purpose of knowledge is not merely prediction. It is navigation.
+
+A person navigates life. A society navigates history. A civilization navigates possibility.
+
+And every successful navigation depends upon the same fundamental skill: `transforming complexity into understanding.`
+
+---
+
+<br>
+
+# Relativistic models: Appendix
+
+I asked CoPilot:
+
+> Can you now compare these systems:​‌
+> * 1, 2, 3, 4, 8 and 16 planck units, where in each time area of n, n*n, n*n*n planck units - cell, square table or cube supertable - are used.​‌
+> * Universe is envisioned either to be at 1 ly at center, at 16 billion ly at the edge on higher channel.​‌
+> * Each tesimal of higher channel repeats whole universe of lower.​‌
+> * Take 1g; if starting from Earth, one passes either 1ly or 16b ly in way that in one case, 0.5 ly or 0.25 ly equals the d=0.5 and in 16b, d=0.5 is passed at 1, 2, 4 or 8 for various curvatures. This is linear realm; beyond 1 ly or 16 ly there will be outwards-exponent-linearized realm, and if added dimension has coordinate system of exponent, and whole last dimension is the first tesimal with it's limit value as focal point, but all content as what is within this +0.​‌
+> * As above so below: the planck scale unit is within 1, 2, 4, 16 logexp-2 symmetric ranks; the macroscale is logexp-10-symmetrically calculated at 1, 1 0, 1 00 00, 1 000 000 000 2D (exponentially) growing logarithm as basin, able for 2D or 1D projection. The planck scale can be scaled up, the other down - show how this maps the Universe!
+> 
+> 
+
+> Can you write complete article for beginner to advanced reader, given they did not read the question and initial articles, but want to understand both purpose, process and life practical from person to society added value and exponential as well as material growth.
+
+![Image ∞](DataGfx/GemEnd.jpg)
