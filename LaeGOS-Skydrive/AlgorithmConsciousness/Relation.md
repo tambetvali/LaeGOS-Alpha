@@ -475,7 +475,11 @@ x\\
 v\\
 a
 \end{bmatrix}
+$$
+
 =
+
+$$
 \begin{bmatrix}
 v\\
 a\\
