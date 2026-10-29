@@ -1,3 +1,7 @@
+![Horizon Away](HorizonAway.png)
+
+<br>
+
 # Horizon Images - Back and Forth Album
 
 ![BackAndForth](BackAndForth.jpg)
