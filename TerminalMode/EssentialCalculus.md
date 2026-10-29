@@ -1,3 +1,7 @@
+![TheLogarithmicOcean](Gfx/TheLogarithmicOcean.png)
+
+<br>
+
 # Let's enter the Speed of Light:
 
 *Speed of Light*: ***SoL***, like ***MoM*** is computer game "Master of Magic".
@@ -744,6 +748,10 @@ can be read as a symbolic ladder connecting:
 through a single reciprocal structure centered on unity.
 
 ---
+
+![H_IntExt](Gfx/H_IntExt.jpg)
+
+<br>
 
 I asked:
 
@@ -2507,3 +2515,9 @@ all centered around the single invariant:
     d = 1
 
 the place where observer, universe, and horizon momentarily agree on what "here" means.
+
+---
+
+<br>
+
+![LaeChingLogos](Gfx/LaeChingLogos.jpg)
