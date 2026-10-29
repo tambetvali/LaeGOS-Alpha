@@ -1,3 +1,7 @@
+![ThePirateMapOfInfinities](Gfx/ThePirateMapOfInfinities.png)
+
+<br>
+
 # The Pirate Map of Infinities
 ## A Fractal-Holographic Navigation Chart from Planck Horizons to Meta-Cosmos
 
@@ -60,6 +64,10 @@ Formerly impossible distances become neighboring octaves.
 ---
 
 # The Two Pirate Oceans
+
+![NewEraPirates](Gfx/NewEraPirates.jpg)
+
+<br>
 
 There are two oceans.
 
@@ -311,6 +319,10 @@ becomes:
 # Panorama 5
 ## Universe as Particle
 
+![ScienceAndSpirit](Gfx/ScienceAndSpirit.jpg)
+
+<br>
+
 The observer climbs one more rank.
 
 Suddenly:
@@ -541,6 +553,10 @@ Every universe uses them.
 Only the interpretation changes.
 
 ---
+
+![Piratews](Gfx/Piratews.jpg)
+
+<br>
 
 # The Final Panorama
 
