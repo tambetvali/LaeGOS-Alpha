@@ -1,14 +1,14 @@
 # Cover
 
-![CoverRealms](Gfx/CoverRealms.jpg)
+![CoverRealms](CoverRealms.jpg)
 
 # Ecosystem
 
-![OQuantumEcosystem](Gfx/OQuantumEcosystem.jpg)
+![OQuantumEcosystem](OQuantumEcosystem.jpg)
 
 # Middle Way
 
-![AQuantumMiddleWay](Gfx/AQuantumMiddleWay.jpg)
+![AQuantumMiddleWay](AQuantumMiddleWay.jpg)
 
 # 1. Photopanoramic view to infinities and zeroes
 
@@ -32,4 +32,4 @@
 
 # Ending
 
-![EndingBranch](Gfx/EndingBranch.jpg)
+![EndingBranch](EndingBranch.jpg)
