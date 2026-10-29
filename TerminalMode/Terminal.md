@@ -1,4 +1,4 @@
-![P](P.jpg)
+![C](C.jpg)
 
 <br>
 
@@ -181,7 +181,7 @@ The number **3.16227766...** is the mathematical key to the universe's scaling b
 
 ---
 
-![C](C.jpg)
+![P](P.jpg)
 
 <br>
 
