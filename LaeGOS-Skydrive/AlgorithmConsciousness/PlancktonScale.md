@@ -1,3 +1,7 @@
+![PlancktonScales0](Gfx/PlancktonScales0.png)
+
+<br>
+
 # Planckton scale
 
 We have a few critical scales in Laegna.
@@ -35,6 +39,10 @@ YinYang from LaeChing could be:
 65536 becomes 1 of next round, and 1 becomes 65536 of next round.
 
 ---
+
+![PlancktonScales1](Gfx/PlancktonScales1.png)
+
+<br>
 
 CoPilot calculus:
 
@@ -501,3 +509,9 @@ and similarly:
 - 10²⁷ → completion of the third decimal magnitude
 
 so that each "world" is simultaneously an ending and a new beginning.
+
+---
+
+<br>
+
+![PlancktonScales2](Gfx/PlancktonScales2.png)
