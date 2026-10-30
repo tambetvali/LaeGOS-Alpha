@@ -82,7 +82,7 @@ Rank 0 / -3 in -4: Base-1 R=0.25: A.
 Rank 1 / -2.5 in -3: Base-2 R=0.5: OO, AA.
 Rank 2 / -2: Base-4 R=4.0: IIII, OOOO, AAAA, EEEE.
 Rank 2.5 ex 3.0 / -1: Base-8 R=4.0: 1111 1111, 2222 2222, ... ..., 8888 8888.
-Rank 3 ex 4.0 / -0: Base-16 (Base-4-4): $Base_4_4$
+Rank 3 ex 4.0 / -0: Base-16 (Base-4-4): $Base_{4_{4}}$
   16 squares of 4\*4 size filled with each possible digit; or using 4 digits of diagonal - K, P, A, H for shorthand in 4-digit hex to model this:
 
   Model Universe with everything in it's right place:
