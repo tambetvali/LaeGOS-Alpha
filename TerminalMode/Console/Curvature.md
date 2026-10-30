@@ -1,3 +1,12 @@
+# Curvature
+
+![RanksCommonCover](Gfx/RanksCommonCover.png)
+
+<br>
+
+# Common Curvatures
+
+![RanksCover](Gfx/RanksCover.png)
 
 Laegna Number restarts counting at each digit length, and omits zero. 1 directly follows -1: -1 is defined as reverse-number (axe and value reversed in relation to one another, such that while it's counting upwards, each digit inside counts downwards and connects in moebian flip between T and R of both T and R; finally values are continuous).
 
@@ -212,6 +221,20 @@ Travelling out from our space bubble:
 
 If you can do light wave, sound wave, any other wave or theoretical information structure of wave in logarithm or exponent complexity, ideal vibration where space coordinates are projected from slightly log or exp realm:
 - Altough you do not travel physically that far, you *travel at those ranks*.
+
+# Ending
+
+![RanksEnding](Gfx/RanksEnding.png)
+
+# Post Ending 1
+
+![RanksEndingPost1](Gfx/RanksEndingPost1.png)
+
+# Post Ending 2
+
+![RanksEndingPostEnding](Gfx/RanksEndingPostEnding.png)
+
+<br>
 
 ---
 
