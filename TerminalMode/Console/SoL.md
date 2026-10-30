@@ -4,15 +4,17 @@ CoPilot.
 
 # The Speed of Light in Different Units
 
-The speed of light, usually denoted **c**, is one of the most fundamental constants in physics. It is not merely the speed at which light travels. In modern physics, it is the conversion factor between space and time. Whenever a distance is measured in spatial units and a duration is measured in temporal units, **c** is the factor that connects them.
+The speed of light, usually denoted $c$, is one of the most fundamental constants in physics. It is not merely the speed at which light travels. In modern physics, it is the conversion factor between space and time.
+
+Whenever a distance is measured in spatial units and a duration is measured in temporal units, $c$ is the factor that connects them.
 
 ---
 
 ## Standard Value
 
-\[
-c = 299\,792\,458 \ \text{m/s}
-\]
+$$
+c = 299\,792\,458\ \text{m/s}
+$$
 
 Exactly, by definition.
 
@@ -22,9 +24,9 @@ Exactly, by definition.
 
 The most familiar form:
 
-\[
-c = 299\,792\,458 \ \text{m/s}
-\]
+$$
+c = 299\,792\,458\ \text{m/s}
+$$
 
 Meaning:
 
@@ -34,25 +36,25 @@ Meaning:
 
 A photon can travel:
 
-- Around Earth 7.49 times in one second.
-- From Earth to Moon in about 1.28 seconds.
-- From Sun to Earth in about 8 minutes 20 seconds.
+- Around Earth $7.48$ times in one second.
+- From Earth to Moon in about $1.28$ seconds.
+- From Sun to Earth in about $499$ seconds ($8$ minutes $19$ seconds).
 
 ---
 
 ## Kilometers and Hours
 
-Multiplying by 3600 seconds per hour:
+Multiplying by $3600$ seconds per hour:
 
-\[
-c = 1\,079\,252\,848.8 \ \text{km/h}
-\]
+$$
+c = 1\,079\,252\,848.8\ \text{km/h}
+$$
 
 Approximately:
 
-\[
-1.08 \times 10^9 \ \text{km/h}
-\]
+$$
+c \approx 1.08\times10^9\ \text{km/h}
+$$
 
 or
 
@@ -66,26 +68,26 @@ A light-year is defined as the distance light travels in one year.
 
 Therefore:
 
-\[
-c = 1 \ \text{light-year/year}
-\]
+$$
+c = 1\ \text{light-year/year}
+$$
 
 This is perhaps the most elegant representation.
 
 Light travels:
 
-- 1 light-year per year
-- 1 light-day per day
-- 1 light-hour per hour
-- 1 light-second per second
+- $1$ light-year per year
+- $1$ light-day per day
+- $1$ light-hour per hour
+- $1$ light-second per second
 
 In these units:
 
-\[
+$$
 c = 1
-\]
+$$
 
-because the unit of distance is already defined using light itself.
+because the distance unit is defined using light itself.
 
 ---
 
@@ -93,44 +95,42 @@ because the unit of distance is already defined using light itself.
 
 Planck units are constructed from:
 
-- Planck length \( l_P \)
-- Planck time \( t_P \)
+- Planck length $l_P$
+- Planck time $t_P$
 
 where
 
-\[
-l_P \approx 1.616255\times10^{-35}\ {\rm m}
-\]
+$$
+l_P \approx 1.616255\times10^{-35}\ \text{m}
+$$
 
 and
 
-\[
-t_P \approx 5.391247\times10^{-44}\ {\rm s}
-\]
+$$
+t_P \approx 5.391247\times10^{-44}\ \text{s}
+$$
 
 The ratio is:
 
-\[
+$$
 \frac{l_P}{t_P}
 =
-299\,792\,458\ {\rm m/s}
-\]
+299\,792\,458\ \text{m/s}
+$$
 
-exactly giving:
+therefore:
 
-\[
+$$
 c = 1\ \text{Planck length per Planck time}
-\]
+$$
 
-or simply
+or simply:
 
-\[
+$$
 c = 1
-\]
+$$
 
 in Planck units.
-
-This is one reason physicists love Planck units: the speed of light disappears from equations because it has been absorbed into the unit system.
 
 ---
 
@@ -138,31 +138,29 @@ This is one reason physicists love Planck units: the speed of light disappears f
 
 Because Planck time is defined from Planck length:
 
-\[
+$$
 t_P
 =
 \frac{l_P}{c}
-\]
+$$
 
-Thus:
+Therefore:
 
-\[
+$$
 \frac{l_P}{t_P}
 =
 c
-\]
+$$
 
-By choosing those units, nature's maximum information propagation speed becomes exactly:
+and so:
 
-\[
-1
-\]
+$$
+c = 1
+$$
 
-This is similar to measuring all distances in "days of walking":
+when measured in Planck units.
 
-- 1 walking-day/day = 1
-
-The conversion factor disappears.
+Physicists call such units **natural units**, because a fundamental conversion constant disappears from equations.
 
 ---
 
@@ -172,33 +170,33 @@ The conversion factor disappears.
 
 One second corresponds to:
 
-\[
-299\,792\,458\ {\rm m}
-\]
+$$
+299\,792\,458\ \text{m}
+$$
 
-Therefore:
+thus:
 
-\[
+$$
 c = 1\ \text{light-second/second}
-\]
+$$
 
 ---
 
 ### Astronomical Units
 
-One Astronomical Unit (AU) is the average Earth-Sun distance.
+One Astronomical Unit (AU) is approximately the Earth-Sun distance.
 
 Light travels:
 
-\[
-\approx 63\,241\ {\rm AU/year}
-\]
+$$
+63\,241\ \text{AU/year}
+$$
 
 or
 
-\[
-173.145\ {\rm AU/day}
-\]
+$$
+173.145\ \text{AU/day}
+$$
 
 ---
 
@@ -206,17 +204,17 @@ or
 
 Since
 
-\[
-1\ {\rm pc}
+$$
+1\ \text{pc}
 =
-3.26156\ {\rm ly}
-\]
+3.26156\ \text{ly}
+$$
 
-light speed is:
+we obtain:
 
-\[
-0.3066\ {\rm pc/year}
-\]
+$$
+c \approx 0.3066\ \text{pc/year}
+$$
 
 ---
 
@@ -224,170 +222,216 @@ light speed is:
 
 Earth circumference:
 
-\[
-40\,075\ {\rm km}
-\]
+$$
+40\,075\ \text{km}
+$$
 
 Thus:
 
-\[
-c
-=
+$$
 \frac{299\,792}{40\,075}
-\approx 7.48
-\]
-
-Light circles Earth about:
-
-\[
+\approx
 7.48
-\]
+$$
+
+Light circles Earth:
+
+$$
+7.48
+$$
 
 times every second.
 
 ---
 
-## Why Does c Appear, But Sometimes c² Appears?
+## Why Does $c$ Appear, But Sometimes $c^2$ Appears?
 
-This is a common source of confusion.
+This is one of the most important dimensional ideas in physics.
 
 The speed of light itself is:
 
-\[
-c = \frac{\text{length}}{\text{time}}
-\]
+$$
+c
+=
+\frac{\text{length}}{\text{time}}
+$$
 
-Dimensions:
+and has dimensions:
 
-\[
+$$
 [L/T]
-\]
+$$
 
 not squared.
 
 ---
 
-### Example: Velocity
+### Velocities Compare to $c$
 
-A velocity uses one power of distance:
+Any velocity is:
 
-\[
-v = \frac{x}{t}
-\]
+$$
+v
+=
+\frac{x}{t}
+$$
 
-so the natural comparison is:
+Therefore:
 
-\[
+$$
 \frac{v}{c}
-\]
+$$
 
-Both have dimensions:
+is dimensionless because both have dimensions:
 
-\[
+$$
 [L/T]
-\]
+$$
 
 ---
 
-### Example: Mass-Energy
+### Mass-Energy Uses $c^2$
 
-Einstein's famous equation is
+Einstein's equation:
 
-\[
+$$
 E = mc^2
-\]
+$$
 
-Why the square?
+requires a square because energy has dimensions:
 
-Because energy dimensions are:
+$$
+[M\,L^2/T^2]
+$$
 
-\[
-[M L^2/T^2]
-\]
+while mass alone has dimensions:
 
-while mass dimensions are:
-
-\[
+$$
 [M]
-\]
+$$
 
-To convert mass into energy, we need:
+Multiplying by:
 
-\[
-L^2/T^2
-\]
-
-and
-
-\[
+$$
 c^2
 =
-(L/T)^2
-\]
+\left(\frac{L}{T}\right)^2
+=
+\frac{L^2}{T^2}
+$$
 
-provides exactly that conversion.
+gives exactly the required dimensions:
 
-So:
+$$
+[M]
+\times
+\frac{L^2}{T^2}
+=
+[M\,L^2/T^2]
+$$
 
-\[
+which is energy.
+
+Thus:
+
+$$
 E = mc^2
-\]
+$$
 
-is fundamentally a unit-conversion statement:
-
-> mass × (space/time)² = energy.
+is fundamentally a conversion law between mass and energy.
 
 ---
 
 ## Geometric Interpretation
 
-Space uses length.
+Space has units of length.
 
-Time uses duration.
+Time has units of duration.
 
-The speed of light is the bridge:
+The speed of light converts between them:
 
-\[
-c = \frac{\text{space}}{\text{time}}
-\]
+$$
+c
+=
+\frac{\text{space}}{\text{time}}
+$$
 
-The square appears when dealing with areas, energy densities, spacetime intervals, wave equations, or mass-energy conversion.
+while
 
-A useful mnemonic:
+$$
+c^2
+=
+\frac{\text{space}^2}{\text{time}^2}
+$$
 
-- Distance ↔ Time → use **c**
-- Area-like or Energy-like quantities → use **c²**
-- Volume-like transformations often introduce **c³**
-- Space-time geometry may contain higher powers depending on dimensionality
+appears whenever area-like, energetic, or metric quantities are involved.
+
+A useful mnemonic is:
+
+- distance ↔ time → use $c$
+- velocity ratios → use $c$
+- energy ↔ mass → use $c^2$
+- spacetime intervals often contain $c^2t^2$
+- higher-dimensional formulas may contain higher powers
+
+---
+
+## Spacetime Example
+
+The relativistic spacetime interval is:
+
+$$
+s^2
+=
+c^2t^2
+-
+x^2
+-
+y^2
+-
+z^2
+$$
+
+Notice that the time term must be multiplied by $c^2$ so that every term has units of length squared.
+
+Without $c^2$, space and time could not be added or compared geometrically.
 
 ---
 
 ## The Deepest Form
 
-In ordinary units:
+In SI units:
 
-\[
-c = 299\,792\,458\ {\rm m/s}
-\]
+$$
+c
+=
+299\,792\,458\ \text{m/s}
+$$
 
 In astronomical units:
 
-\[
-c = 1\ {\rm ly/year}
-\]
+$$
+c
+=
+1\ \text{ly/year}
+$$
 
 In Planck units:
 
-\[
+$$
+c
+=
+1
+$$
+
+This reveals something profound.
+
+The large number $299\,792\,458$ is not a property of nature itself. It is a consequence of measuring distance in meters and time in seconds.
+
+Nature's simplest statement is arguably:
+
+$$
 c = 1
-\]
+$$
 
-This reveals something profound: the enormous number 299,792,458 is not a property of nature itself. It is a consequence of measuring space in meters and time in seconds.
-
-Nature's own statement is arguably much simpler:
-
-\[
-c = 1
-\]
-
-meaning that space and time are two aspects of the same structure, connected by a single universal conversion factor.
+meaning that space and time are not fundamentally separate quantities, but different aspects of a single spacetime structure connected by one universal conversion factor.
