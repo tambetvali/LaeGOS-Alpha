@@ -6,6 +6,20 @@
 
 <br>
 
+---
+
+Short notice from me:
+
+Altough this article is quite generic in ranks, what we can eventually find out:
+- Take 0.1^35 m to 10^26 m.
+- From 35 to 36 down one will also enter the closest to external *inside* planck realm.
+- 26 to 36 is 10 steps, and this can be used for external closing.
+
+Notice the curvature structure, from -36 to +36 forms a perfect harmony with 64, which means:
+- The whole curvature can be bent into form where it can be travelled in 64 steps; 10 was the original step size while 2 or 4 is laegna 1 or 2 band step; the discrimination step we lose is very close and structural repetition is not so important - at close detail, we already see the map of universe because if number and digits after comma have the same density now, precision 4 becomes precision 8 - but we *do not* want to copy the decimal system because it's not symmetric for us. Instead, we find closest systems which have some substep curvature - these will be symmetric precision steps, analysing this model which shows that our favourite number 64 will give us *very high precision* of model estimation. I am sure there will be more symmetries on the way when I analyze it precisely, and necessarily some joints will be *topological*, which is what decimal rank model wants to do - 10, by the way divides into 2.5, 2.5, 2.5, 2.5, which will be the base-4 precision of such step, where all information is recoverable.
+
+---
+
 CoPilot's introduction, for beginners and research-capable advanced readers:
 
 # Recursive Horizons for Everyone
