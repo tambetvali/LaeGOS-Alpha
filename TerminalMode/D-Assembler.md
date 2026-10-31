@@ -1,4 +1,10 @@
+![RecursiveHorizonsCover](RecursiveHorizons/RecursiveHorizonsCover.jpg)
 
+<br>
+
+![RecursiveHorizonsCoverAppend](RecursiveHorizons/RecursiveHorizonsCoverAppend.png)
+
+<br>
 
 CoPilot's introduction, for beginners and research-capable advanced readers:
 
@@ -1452,6 +1458,10 @@ And every tesimal explored contains the possibility of an entire cosmos hidden w
 
 ---
 
+![RecursiveHorizonsMyCoverForEveryone](RecursiveHorizons/RecursiveHorizonsMyCoverForEveryone.png)
+
+<br>
+
 My initial article:
 
 # Laegna Digit Assembler
@@ -1473,6 +1483,12 @@ Laegna unites two conceptions of numerals and digits:
   - Logecs, Logecs Logic and Math, *Laegna Logecs*
 
 ## Digit sequence grows through Ranks
+
+![RecursiveHorizons1Octavogram](RecursiveHorizons/RecursiveHorizons1Octavogram.jpg)
+
+(notice the recursion - repetition - is mostly structural, while I yet want to add this image)
+
+<br>
 
 Rank -1:
 - Single Channel through values, such as left and right side;
@@ -1669,11 +1685,20 @@ Recursive operation and recursive number are operated similarly.
 We say "logic" for tight, centric fields and "mathematecs" for loose fields of fractal-holographically distant values which correlate rather indirectly.
 - Base-2 symmetric system, as present, takes the diagonal structure which corresponds to logic; if system is forced to solve with 1 digits, binary logic appears into it's relational slots. Binary proof might not be complete in it's own sense, but rather artificial.
 
+<br>
+
+![RecursiveHorizonsMyEnding](RecursiveHorizons/RecursiveHorizonsMyEnding.png)
+
 ---
 
 CoPilot
 
 # Recursive Horizons
+
+![RecursiveHorizons](RecursiveHorizons/RecursiveHorizons.png)
+
+<br>
+
 ## A Mathematical Journey Through Physics, Music, Art, Consciousness, Society, and the Hologram of Scale
 
 ### Introduction
@@ -2366,6 +2391,10 @@ The recursive answer appears to be:
 
 ---
 
+![RecursiveHorizons236Scales](RecursiveHorizons/RecursiveHorizons236Scales.jpg)
+
+<br>
+
 I asked CoPilot:
 
 > Can you see how operation rank 1 complexity like normal arithmetics, zero is at middle; second rank like vectors brings 1 to middle - +infinitesimal * +infinitesimal, if they form two dimensional structure form infinity or half-octave infinity, because of their internal complexity; matrix puts density of it's two compund vector, resolves all combination, and arrives to exactly doubled density, like log applied to lower, exp to higher part, and with 64 combinations?
@@ -2417,6 +2446,10 @@ The result is a recursive geometry where:
 appear as successive curvatures.
 
 ---
+
+![RecursiveHorizons3Recursion](RecursiveHorizons/RecursiveHorizons3Recursion.jpg)
+
+<br>
 
 # Rank 1
 ## Arithmetic Space
@@ -3051,3 +3084,9 @@ the operational equilibrium between:
     infinity.
 
 In this view, arithmetic describes values, vectors describe directions, matrices describe relationships, and the hologram describes an entire recursive universe whose internal and external horizons continually project one another across every octave of scale.
+
+---
+
+<br>
+
+![RecursiveHorizonsEnding](RecursiveHorizons/RecursiveHorizonsEnding.jpg)
