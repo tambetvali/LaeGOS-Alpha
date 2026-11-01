@@ -1,4 +1,4 @@
-![AlgorithmConsciousness](Gfx/AlgorithmConsciousness.png)
+![RankingModelOfGeometricAverage](Gfx/RankingModelOfGeometricAverage.png)
 
 <br>
 
@@ -508,4 +508,4 @@ The operation changes.
 
 <br>
 
-![RankingModelOfGeometricAverage](Gfx/RankingModelOfGeometricAverage.png)
+![AlgorithmConsciousness](Gfx/AlgorithmConsciousness.png)
