@@ -438,7 +438,11 @@ Differentiating with respect to time gives
 
 $$
 \frac{dH}{dt}
+$$
+
 =
+
+$$
 \frac{l_P}{r^2}\frac{dr}{dt}
 $$
 
