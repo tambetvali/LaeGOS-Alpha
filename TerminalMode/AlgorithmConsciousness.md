@@ -1,3 +1,19 @@
+![AlgorithmConsciousness](Gfx/AlgorithmConsciousness.png)
+
+<br>
+
+---
+
+# 2.5 rank growth
+
+Before we met 2.5 rank growth - each new rank was 2.5 octaves from the last.
+
+This rank growth:
+- Introduces small laegna base-16 digit, which has imaginary channel at 0.125 / 0.0625, 0.25, 0.5, 1.0 step, and real channel at 1.0, 2.0, 4.0, 8.0 / 16.0 step; 2.5 means at 4 steps, 20 2-ranks or octaves have passed and while real band is counting 2, 4 - the imaginary band is counting one half octave after each two octaves.
+- 2.5 octaves growth factor, thus, is compatible with various things you can reach in binary systems, and compatible with base-16 - if there are 64 such ranks, there will be sign, capital hex digit, and small-case hex digit, to express whole rank system.
+
+In this first post to Algorithm Consciousness 3, we get more parallels and associations to understand more closely how Laegna number *natively* places at the system we know from decimal.
+
 # Algorithm Consciousness 3
 
 Each Algorithm Consciousness text tries to bring numbers and logic in local folder into consciousness.
@@ -487,3 +503,9 @@ The same relation appears differently depending on the depth from which it is ob
 The number remains.
 
 The operation changes.
+
+---
+
+<br>
+
+![RankingModelOfGeometricAverage](Gfx/RankingModelOfGeometricAverage.png)
