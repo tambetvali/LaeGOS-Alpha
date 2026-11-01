@@ -1,3 +1,9 @@
+![Cover](Gfx/SernelCover.png)
+
+<br>
+
+---
+
 I asked ChatGPT the final question, while previous ones are below:
 
 > Can you show how probably we can find higher-rank hologram image of exponential space, similarly to quantum creature finding something about our space: travelling there starts from information, and we can see where our holograms are projected, how they respond; maybe we can "radiate" our life basin or thermodynamic release, or create material interactions on hologram - slowly growing the exponent into more efficiency. This means rank 3 calculus of directions, instead of simply "overcoming" speed of light.
@@ -6,7 +12,23 @@ I asked ChatGPT the final question, while previous ones are below:
 
 # Laegna: Higher-Rank Holograms, Directional Calculus and Exponential Space
 
+![3 Death Fears](Gfx/Sernel3DeathFears.png)
+
+Notice the 3 Death Miracles:
+- Rank 1: When we overcome 1 ly horizon.
+- Rank 2: When we overcome 16 bly horizon.
+- Rank 3: When we overcome cooling of space.
+
+Rank 0, a minor problem - to overcome eventual cooldown of the Sun, which might seem eventually closest and worst.
+
+To be high-rank person today:
+- One should not fear 4 world universal problems.
+
+<br>
+
 ## 1. From travelling through space to interacting with its projection
+
+![3 Death Miracles](Gfx/Sernel3DeathMiracles.png)
 
 The usual way to think about reaching a distant region is to calculate how much energy is required to travel there.
 
@@ -813,6 +835,10 @@ I asked ChatGPT:
 > In each scale, each unit is measured in travelling at light speed, in octaves of curvature as seen from observer, starting from 0, 1, 2, 4, 16, etc. in 4^n, as well as 0, 1, 2, 4, 8, 16 etc. in 2^n, with 0..1 linearized, expressing the internal space relation which is linearized; while external is now having it's hologram duplicate at 0..1, which is used as reference projection - each tesimal times infinity becomes separate scale in infinity. In octaves, from close-to infinity in exponent space, to digit precision same as internal space so it's always exponent-linearized ..show how same light speed spatial curvatures, local, which also probably approximate to local gravity measure, go through one Schroedinger-equation-like lim => 0, and one higher space projection where our space would become to be with lim => 0 from Schroedinger; now project sizes 1 ly, 16 bly, 40 000 km, 1 m, 1cm, 1 planck unit and 1 infinity to each space and tell what's there, what appears on hologram, what is known, and which are the properties? These three, and the scopes which follow and preceed shortly, should be described. Those are log, lin, exp linearized projections, where one of functions is applied to all space, time, of value and it's positioning, and it appears linear of linear, or copy in exponent and differential; describe which laws of nature remain in their local, linear view, and which ones appear in linear dimension in each - where one projects as if coordinate system is taken logarithm on projection, other as it remains same, linear, and the last as if exponent has been taken to it's projection. Describe the parallels between realms, their fractals, furthest and closest things and their positions and names in their own realms. Associate with laegna rank systems and math where needed, and to classics, and to books which could be studied further for basin. 
 
 # Energy, Entropy and the Expansion of Space in the Laegna Model
+
+![Article](Gfx/SernelArticle.png)
+
+<br>
 
 There is a potentially useful connection between energy, entropy, spatial expansion, and your internal/external rank system. The central idea is to distinguish three processes:
 
