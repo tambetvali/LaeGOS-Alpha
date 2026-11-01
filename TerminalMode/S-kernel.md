@@ -1,3 +1,811 @@
+I asked ChatGPT the final question, while previous ones are below:
+
+> Can you show how probably we can find higher-rank hologram image of exponential space, similarly to quantum creature finding something about our space: travelling there starts from information, and we can see where our holograms are projected, how they respond; maybe we can "radiate" our life basin or thermodynamic release, or create material interactions on hologram - slowly growing the exponent into more efficiency. This means rank 3 calculus of directions, instead of simply "overcoming" speed of light.
+>
+> If light is converting between mass - mass is infinitesimal relative outwards speed at each tesimal of it's surface, while light speed is single point in space, but infinity in time - infinity is either in space or time. Can you describe also making it condenced to infinitesimal in quantum scope down, like lim => 0 projection through planck unit; and what happens if we manage to flatten it even degree down, so that it appears flattened in exponent space where it otherwise moves upwards - can you show what exponent space is if mass would move upwards with mass speed, or light speed, there, which would be relations?
+
+# Laegna: Higher-Rank Holograms, Directional Calculus and Exponential Space
+
+## 1. From travelling through space to interacting with its projection
+
+The usual way to think about reaching a distant region is to calculate how much energy is required to travel there.
+
+But consider a different possibility:
+
+- What if the higher-rank representation of space can be approached through information rather than ordinary physical distance?
+- What if our present universe has an external holographic representation?
+- What if local physical interactions produce measurable changes in that representation?
+- What if repeated interactions gradually improve the efficiency of the projection?
+
+Instead of asking only how to overcome a distance, we can ask how information changes its representation across different spatial ranks.
+
+This suggests three complementary descriptions:
+
+1. **Internal space:** quantum-scale structure, reciprocal coordinates and compression.
+2. **Linear space:** ordinary physical space, matter, radiation, energy and local interactions.
+3. **External space:** exponential projection, outward information unfolding and asymptotic geometry.
+
+The central hypothesis is that these descriptions might be connected through transformations of scale and information.
+
+This does not establish that another physical dimension exists or that information can be transmitted into it. It provides a mathematical framework in which such a possibility could be formulated and tested.
+
+## 2. The higher-rank hologram as an exponential projection
+
+Start with a radial scale measured relative to the Planck length:
+
+$$
+R=\frac{r}{l_P}
+$$
+
+Its binary logarithmic rank is
+
+$$
+q=\log_2 R
+$$
+
+The Planck reference corresponds to $q=0$.
+
+Positive ranks describe larger scales, while negative ranks describe smaller scales in the mathematical extension.
+
+Now define an external exponential projection:
+
+$$
+H=1-\frac{1}{R}=1-2^{-q}
+$$
+
+Its inverse is
+
+$$
+R=\frac{1}{1-H}
+$$
+
+Therefore,
+
+$$
+r=\frac{l_P}{1-H}
+$$
+
+This transformation maps the Planck reference to $H=0$ and arbitrarily large distances towards $H=1$.
+
+The important feature is that an unlimited physical distance is compressed into a finite coordinate interval.
+
+For example:
+
+| Physical scale | Logarithmic rank | External coordinate |
+|---|---:|---:|
+| 1 Planck length | 0 | 0 |
+| 1 metre | 115.575 | Almost 1 |
+| 1 light-year | 168.646 | Almost 1 |
+| 16 billion light-years | 202.543 | Almost 1 |
+| Infinity | Infinity | 1 |
+
+The external coordinate becomes increasingly compressed as physical distance increases.
+
+This is a mathematical projection, not a demonstrated physical boundary or an independently existing space.
+
+### What could the hologram represent?
+
+Imagine that our ordinary universe is a three-dimensional region, while the external hologram represents its state through a projected description.
+
+Potentially encoded quantities include:
+
+- Matter and energy distributions.
+- Gravitational geometry.
+- Quantum correlations.
+- Radiation and entropy flux.
+- Boundary conditions of the region.
+- Relationships between different spatial scales.
+
+The holographic principle in theoretical physics provides an important conceptual connection: in certain gravitational settings, information describing a region can be represented by a lower-dimensional description.
+
+However, this particular exponential projection is a proposed coordinate construction, not an established holographic correspondence.
+
+## 3. Rank 3: calculus of directions
+
+The next step is to move beyond a single radial rank.
+
+Your proposed rank 3 calculus can be interpreted as three independent spatial directions through which an information-bearing structure changes.
+
+In spherical coordinates, these are:
+
+- Radial direction: moving between scales.
+- First angular direction: changing spatial orientation.
+- Second angular direction: changing orientation in the perpendicular plane.
+
+Let an information-bearing state be
+
+$$
+\Phi=\Phi(q,\theta,\phi,t)
+$$
+
+Its spatial directional changes are represented by
+
+$$
+\nabla\Phi=
+\left(
+\frac{\partial\Phi}{\partial q},
+\frac{\partial\Phi}{\partial\theta},
+\frac{\partial\Phi}{\partial\phi}
+\right)
+$$
+
+A direction of interaction can be represented by
+
+$$
+\mathbf n=(n_q,n_\theta,n_\phi)
+$$
+
+The response along that direction is
+
+$$
+D_{\mathbf n}\Phi
+$$
+
+=
+
+$$
+n_q\frac{\partial\Phi}{\partial q}
++n_\theta\frac{\partial\Phi}{\partial\theta}
++n_\phi\frac{\partial\Phi}{\partial\phi}
+$$
+
+Time can then be included as a fourth independent coordinate.
+
+This allows us to distinguish three different types of change:
+
+1. Moving outward through scale.
+2. Moving sideways through spatial orientation.
+3. Changing the angular structure of the projected information.
+
+A higher rank is therefore not merely a farther destination. It represents a larger space of possible directions and responses.
+
+For example, a local perturbation could have a weak radial response but a strong angular response. Another perturbation could affect the radial projection while leaving most angular information unchanged.
+
+This is the beginning of a directional interaction calculus.
+
+## 4. Finding the hologram through information and response
+
+A useful experimental analogy is to treat the external projection as a system whose state cannot be observed directly, but whose response to controlled inputs can be measured.
+
+Let $J$ represent a local physical input:
+
+- A change in energy.
+- A radiation pulse.
+- A redistribution of matter.
+- A change in gravitational configuration.
+- Another measurable physical perturbation.
+
+Let $O(H)$ represent a projected observable.
+
+We can define a response function:
+
+$$
+\mathcal R(H,H')
+$$
+
+=
+
+$$
+\frac{\delta O(H)}{\delta J(H')}
+$$
+
+This asks:
+
+*If I perturb the system at one location or rank, what changes elsewhere in its projected description?*
+
+In a linear approximation,
+
+$$
+\delta O(H)
+$$
+
+=
+
+$$
+\int \mathcal R(H,H')\,\delta J(H')\,dH'
+$$
+
+This mathematical structure appears in linear response theory, field theory and control systems.
+
+For your model, we could investigate whether the response has a scale-dependent form:
+
+$$
+\mathcal R(H,H')
+$$
+
+=
+
+$$
+K(H,H')\,2^{\kappa q}
+$$
+
+Here:
+
+- $K$ describes how the perturbation is transmitted.
+- $\kappa$ describes how its effective response changes with rank.
+
+This provides a possible method for investigating a higher-rank hologram:
+
+1. Apply a controlled physical perturbation.
+2. Measure its ordinary physical consequences.
+3. Calculate its predicted external projection.
+4. Compare the prediction with the measured response.
+5. Repeat at different scales.
+
+If the projected description predicts no new measurable behaviour, it is simply another representation.
+
+If it predicts a new response that can be measured, it becomes a physical hypothesis.
+
+## 5. Radiating our life basin: thermodynamic release
+
+Your expression *radiating our life basin* can be translated into a physical model without assuming that life itself is a special form of radiation.
+
+A living system is an open thermodynamic system. It maintains internal organisation by exchanging energy and matter with its surroundings.
+
+We can represent its energy balance as
+
+$$
+\frac{dE_{\rm basin}}{dt}
+$$
+
+=
+
+$$
+P_{\rm in}-P_{\rm out}
+$$
+
+Its entropy balance can be written schematically as
+
+$$
+\frac{dS_{\rm basin}}{dt} = \dot S_{\rm exchange} + \dot S_{\rm production}
+$$
+
+Here entropy production is nonnegative for an ordinary irreversible process.
+
+A living basin therefore has:
+
+- Energy input.
+- Internal transformations.
+- Waste heat and other outputs.
+- Entropy exchange with its environment.
+- A dynamically maintained internal organisation.
+
+It radiates energy and transfers entropy into its surroundings while maintaining its own organisation.
+
+For your higher-rank model, define a source function:
+
+$$
+J_{\rm life}(q,\theta,\phi,t)
+$$
+
+It could represent the distribution of energy or information-related activity associated with a living system.
+
+Its external projection would be
+
+$$
+O_{\rm ext}(H,\theta,\phi,t)
+$$
+
+=
+
+$$
+\mathcal P[J_{\rm life}]
+$$
+
+The operator $\mathcal P$ is the projection rule.
+
+This does not mean that the living system radiates a separate life-energy into another dimension. It means that we are asking whether the ordinary physical outputs of the system have a useful representation in the external coordinate system.
+
+The measurable outputs would include:
+
+- Heat.
+- Electromagnetic radiation.
+- Chemical exchange.
+- Mechanical work.
+- Information transmitted through ordinary signals.
+
+The interesting question is whether these outputs can be represented through a common rank-dependent information geometry.
+
+## 6. Mass, light and the difference between linear and exponential motion
+
+Your proposed relation between mass and outward speed needs one important correction.
+
+Mass is not an infinitesimal version of speed. Mass and speed are different physical quantities. Their relationship appears through energy and momentum.
+
+For a massive object,
+
+$$
+E=\gamma mc^2
+$$
+
+$$
+p=\gamma mv
+$$
+
+where
+
+$$
+\gamma=\frac{1}{\sqrt{1-v^2/c^2}}
+$$
+
+At rest,
+
+$$
+E_0=mc^2
+$$
+
+For a photon,
+
+$$
+E_\gamma=pc=h\nu
+$$
+
+A photon has zero rest mass, but nonzero energy and momentum. A massive object cannot be accelerated to $c$, whereas a photon in vacuum propagates at $c$.
+
+However, there is a useful way to express your intuition about a local physical process becoming a very different quantity in exponential space.
+
+### Linear speed versus logarithmic-rank speed
+
+Physical radial speed is
+
+$$
+v=\frac{dr}{dt}
+$$
+
+Since
+
+$$
+q=\log_2\left(\frac{r}{l_P}\right)
+$$
+
+we obtain
+
+$$
+\frac{dq}{dt}
+$$
+
+=
+
+$$
+\frac{1}{r\ln2}\frac{dr}{dt}
+$$
+
+Therefore,
+
+$$
+v_q=\frac{dq}{dt}=\frac{v}{r\ln2}
+$$
+
+This is the speed of change in logarithmic rank, not an ordinary velocity measured in metres per second.
+
+For a massive object,
+
+$$
+v=\beta c,\qquad 0\leq\beta<1
+$$
+
+so
+
+$$
+v_q=\frac{\beta c}{r\ln2}
+$$
+
+For light,
+
+$$
+v_{q,\gamma}=\frac{c}{r\ln2}
+$$
+
+This produces a remarkable difference:
+
+- In linear space, light always moves at $c$ locally.
+- In logarithmic space, the rate of rank change decreases with increasing radius.
+- The same physical speed corresponds to a different rank speed at different scales.
+
+Light does not become slower in physical space. Its coordinate rate through logarithmic ranks becomes smaller.
+
+### The exponential projection
+
+Now use
+
+$$
+H=1-\frac{l_P}{r}
+$$
+
+Differentiating with respect to time gives
+
+$$
+\frac{dH}{dt}
+=
+\frac{l_P}{r^2}\frac{dr}{dt}
+$$
+
+Therefore,
+
+$$
+v_H=\frac{dH}{dt}=\frac{l_Pv}{r^2}
+$$
+
+For light,
+
+$$
+v_{H,\gamma}=\frac{l_Pc}{r^2}
+$$
+
+This is even more interesting: a constant physical speed becomes a strongly decreasing coordinate rate as the external projection approaches its limit $H=1$.
+
+The closer we get to the infinite-distance boundary in physical coordinates, the more compressed the motion appears in the external coordinate.
+
+This is a coordinate effect. It does not mean that light loses its physical speed or that a new physical force slows it down.
+
+### What would mass look like moving upwards in exponent space?
+
+Suppose we define an exponent-space trajectory:
+
+$$
+q(t)=q_0+ut
+$$
+
+where $u$ is a constant rank rate.
+
+Then
+
+$$
+r(t)=l_P\,2^{q_0+ut}
+$$
+
+Differentiating,
+
+$$
+\frac{dr}{dt}=r\ln2\,u
+$$
+
+Therefore, **constant speed in exponent space produces exponential motion in ordinary space**.
+
+This is a useful distinction:
+
+| Motion | Behaviour in ordinary space |
+|---|---|
+| Constant linear speed | $r(t)=r_0+vt$ |
+| Constant logarithmic-rank speed | $r(t)=r_0\,2^{ut}$ |
+| Constant exponential-coordinate speed | $H(t)=H_0+wt$ |
+
+In the second case, physical radial speed grows with radius:
+
+$$
+v=r\ln2\,u
+$$
+
+Eventually, this would exceed $c$ if extrapolated indefinitely.
+
+Therefore, constant rank speed cannot describe the trajectory of a massive object over arbitrary distances while respecting relativistic causality.
+
+A relativistically admissible trajectory must satisfy
+
+$$
+\left|\frac{dr}{dt}\right|\leq c
+$$
+
+Consequently,
+
+$$
+\left|\frac{dq}{dt}\right|
+\leq\frac{c}{r\ln2}
+$$
+
+This is a scale-dependent upper bound on rank speed.
+
+### What if light moved upwards at a constant rank speed?
+
+If we formally assign light a constant exponent-space rate $u$, then
+
+$$
+r(t)=r_0\,2^{ut}
+$$
+
+Its physical speed would be
+
+$$
+v(t)=r(t)\ln2\,u
+$$
+
+That is not the ordinary propagation of light in flat spacetime.
+
+It would describe an exponentially expanding radial trajectory, and it would require a different physical geometry or a different interpretation of time.
+
+This gives a precise distinction between:
+
+- Light moving through space.
+- Space expanding.
+- A coordinate moving upwards through scale ranks.
+
+They may be mathematically related, but they are not interchangeable.
+
+## 7. Compressing towards zero through the Planck reference
+
+Your idea of condensing a structure into an infinitesimal quantum scope can be represented through reciprocal coordinates.
+
+Let
+
+$$
+R=\frac{r}{l_P}
+$$
+
+Define the internal reciprocal coordinate:
+
+$$
+I=\frac{1}{R}=\frac{l_P}{r}=2^{-q}
+$$
+
+Then:
+
+- At the Planck reference, $R=1$ and $I=1$.
+- At larger distances, $R\to\infty$ and $I\to0$.
+- At smaller distances, $R\to0$ and $I\to\infty$.
+
+The external and internal coordinates are therefore reciprocal:
+
+$$
+I=1-H
+$$
+
+because
+
+$$
+H=1-\frac{1}{R}
+$$
+
+This gives a particularly clean complementary structure:
+
+$$
+H+I=1
+$$
+
+The external projection approaches one while the internal reciprocal coordinate approaches zero.
+
+This is a mathematical identity for the chosen coordinates, not a demonstrated conservation law for physical information.
+
+### What happens at the infinitesimal limit?
+
+For the reciprocal coordinate,
+
+$$
+\lim_{r\to\infty}I=0
+$$
+
+For the logarithmic coordinate,
+
+$$
+\lim_{r\to\infty}q=+\infty
+$$
+
+At the opposite end,
+
+$$
+\lim_{r\to0}I=+\infty
+$$
+
+$$
+\lim_{r\to0}q=-\infty
+$$
+
+The Planck length is the reference point between these two mathematical directions.
+
+There is a physical limitation here: we do not know whether arbitrarily small distances below the Planck scale are meaningful as ordinary physical distances. The equations can be extended mathematically, but that does not establish that nature supports the extension.
+
+### Flattening the internal structure another degree
+
+You can introduce a second projection to compress the reciprocal coordinate:
+
+$$
+P(I)=\frac{2I}{1+I}
+$$
+
+This maps:
+
+- $I=0$ to $P=0$.
+- $I=1$ to $P=1$.
+- $I\to\infty$ to $P\to2$.
+
+Using $I=2^{-q}$,
+
+$$
+P(q)=\frac{2}{1+2^q}
+$$
+
+Its derivative is
+
+$$
+\frac{dP}{dq}
+$$
+
+=
+
+$$
+-\frac{2\ln2\,2^q}{(1+2^q)^2}
+$$
+
+The projection is steepest around the Planck reference $q=0$, and becomes flatter towards both extremes.
+
+This gives you a second degree of flattening: not only are physical distances transformed into ranks, but the ranks themselves are transformed into a bounded representation.
+
+It is a useful candidate for your nested projection idea.
+
+## 8. Growing the exponent through repeated interactions
+
+Now we can formulate your idea of gradually improving efficiency.
+
+Suppose the system has an efficiency parameter $\eta(q)$, representing how effectively a local input produces a desired change in the external projection.
+
+A simple model is
+
+$$
+\eta(q)=\eta_0\,2^{\kappa q}
+$$
+
+Here $\kappa$ determines how efficiency changes across ranks.
+
+But unrestricted exponential efficiency is not realistic. A bounded model is more useful:
+
+$$
+\eta(q)=
+\frac{\eta_{\max}}
+{1+e^{-k(q-q_0)}}
+$$
+
+This describes a system that begins inefficiently, improves through repeated interactions, and eventually approaches a saturation limit.
+
+You could imagine an iterative process:
+
+1. A local system radiates energy or produces an information-bearing signal.
+2. The external projection represents its response.
+3. The response is measured.
+4. The system changes its input based on the measured result.
+5. The next interaction becomes more efficient.
+
+Mathematically, this resembles feedback control:
+
+$$
+J_{n+1}=J_n+\mu\,\Delta O_n
+$$
+
+where $\mu$ is a feedback parameter.
+
+This is a potentially useful interpretation of your idea of *growing the exponent*: repeated interactions improve the mapping between local inputs and external responses.
+
+The exponent does not have to mean that the physical universe itself becomes more efficient. It could describe the efficiency of a particular information-processing or control process.
+
+## 9. A unified internal, linear and external geometry
+
+The proposal can now be represented through several connected coordinate systems.
+
+### Internal quantum projection
+
+$$
+I=2^{-q}
+$$
+
+Reciprocal scale, approaching zero towards large external distances.
+
+### Linear physical space
+
+$$
+r=l_P2^q
+$$
+
+Ordinary distances, velocities, energy, matter and radiation.
+
+### External exponential projection
+
+$$
+H=1-2^{-q}
+$$
+
+A finite coordinate approaching its asymptotic boundary as physical distance grows.
+
+### Directional interaction
+
+$$
+\Phi(q,\theta,\phi,t)
+$$
+
+Three spatial directions, with time governing their evolution.
+
+The most interesting relationship is that the same physical process can have three different descriptions:
+
+| Description | What appears to happen |
+|---|---|
+| Internal | Structure is compressed towards an infinitesimal representation |
+| Linear | Matter and radiation interact through ordinary spacetime |
+| External | The representation unfolds towards an asymptotic boundary |
+
+The transformations do not themselves create energy, information or physical interactions. They give us different ways to describe the same underlying system.
+
+## 10. What would make this a physical theory?
+
+I would concentrate on four questions.
+
+### 1. Projection
+
+Can we define a unique external representation of a physical state?
+
+The projection must specify which information is preserved, which is compressed, and which becomes inaccessible.
+
+### 2. Response
+
+Can a local energy or information perturbation produce a predicted, measurable change in that representation?
+
+A projection that only renames existing coordinates is mathematically useful, but does not introduce new physical behaviour.
+
+### 3. Causality
+
+Does the transformation preserve the local speed-of-light limit?
+
+The coordinate velocity can change dramatically while the locally measured physical velocity remains bounded by $c$.
+
+### 4. Thermodynamics
+
+Does the model account for energy flow, entropy production, and radiation cooling without introducing unexplained energy?
+
+A physically meaningful model needs an energy balance and an entropy balance, not just a geometric analogy.
+
+### A first mathematical experiment
+
+Compare the ordinary physical propagation of a signal with its rank-space representation:
+
+$$
+\frac{dr}{dt}=v
+$$
+
+$$
+\frac{dq}{dt}=\frac{v}{r\ln2}
+$$
+
+$$
+\frac{dH}{dt}=\frac{l_Pv}{r^2}
+$$
+
+These three equations already demonstrate something important: a process that is uniform in linear space can become progressively flattened in exponential space.
+
+One could extend this experiment to three directions and compare the response of different projected components.
+
+For example, define a source field $J$ and an external response field $O$:
+
+$$
+O(H,\theta,\phi,t) = \int \mathcal R(H,\theta,\phi;H',\theta',\phi') J(H',\theta',\phi',t) \,dH'\,d\theta'\,d\phi'
+$$
+
+The response kernel $\mathcal R$ would describe how information or physical perturbations propagate through the projected geometry.
+
+The next challenge would be to derive or measure this kernel rather than choosing it arbitrarily.
+
+## 11. Overall interpretation
+
+The central idea is to move from overcoming the speed of light to investigating how information changes its representation across spatial ranks.
+
+The main connections are:
+
+1. **Higher-rank holography:** a physical region may have a lower-dimensional or transformed information representation. Your exponential coordinate offers one possible mathematical construction.
+2. **Directional calculus:** rank 3 describes radial and angular changes rather than treating the next rank as merely a farther destination.
+3. **Thermodynamic release:** living and nonliving systems exchange energy and entropy with their surroundings, providing measurable local sources for an information projection.
+4. **Exponential motion:** constant rank speed produces exponential motion in ordinary space, while constant physical speed becomes progressively flattened in logarithmic and exponential coordinates.
+5. **Reciprocal compression:** the internal coordinate approaches zero while the external coordinate approaches one.
+6. **Repeated interaction:** feedback can improve the efficiency of a projected response, potentially producing a scale-dependent effective exponent.
+
+The most important distinction is that coordinate transformations do not themselves provide a mechanism for faster-than-light travel or communication. They can, however, reveal relationships that are difficult to see in ordinary linear coordinates.
+
+**My interpretation of the central Laegna hypothesis:**
+
+Rather than overcoming the speed of light, investigate whether the geometry of information can be changed so that a local interaction has a different scale of representation.
+
+Rank 3 then describes the directions through which that representation changes, while the exponential coordinate describes how those changes accumulate towards an external limit.
+
+The next scientific step is to establish a projection rule, a response function, and an energy-and-entropy balance that can be tested against ordinary physical observations.
+
+That would turn the higher-rank hologram from an interesting geometric image into a mathematical model with potentially falsifiable physical consequences.
+
+---
+
 I asked ChatGPT:
 
 > Now, in 1g condition - take planck unit size and octave relatives; and the list of basic ranks as given - 40 000 km, 1 ly, 16b ly, exterior of each which becomes smaller as interior becomes larger - exterior is exponent or quadratic linearized.
@@ -157,7 +965,7 @@ There are established concepts that resemble parts of this construction.
 For a quantum system described by density matrix $\rho$, the von Neumann entropy is
 
 $$
-S_{\rm vN}=-k_B\operatorname{Tr}(\rho\ln\rho).
+S_{\rm vN}=-k_B\text{Tr}(\rho\ln\rho)
 $$
 
 It measures the mixedness of the quantum state. For a subsystem entangled with its environment, it also measures entanglement entropy.
