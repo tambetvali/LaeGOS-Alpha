@@ -1,3 +1,9 @@
+![ChatGPTTablesCaption](ChatGPTTablesCaption.png)
+
+<br>
+
+---
+
 ChatGPT's comments on the rank system, concentrating on how such division of main number bands helps to identify and remember / relate the numbers:
 
 # Algorithm Consciousness 4
@@ -677,3 +683,9 @@ The physical universe supplies the reference points.
 The ranking system supplies the coordinates.
 
 The interpolation supplies the transitions.
+
+---
+
+<br>
+
+![ChatGPTTablesEnding](ChatGPTTablesEnding.png)
