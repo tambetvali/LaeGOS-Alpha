@@ -1,7 +1,7 @@
 {
   "schema": {
     "version": "1.0",
-    "description": "LaeChing symbols and Laegna number / digit / letter encoding systems."
+    "description": "LaeChing symbols and Laegna number / digit / letter encoding systems.",
     "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/Graphics/DaisyElise.png"
   },
 
@@ -167,7 +167,7 @@
    },
    {
     "symbol": "Ὦ",
-    "meaning": "This is the final unknown: instead of solving it, you flow around. Some meanings and essences need to be left open, while their interactions are solved into substantial unknownness - `Philosophy of Dao and Zen`."
+    "meaning": "This is the final unknown: instead of solving it, you flow around. Some meanings and essences need to be left open, while their interactions are solved into substantial unknownness - `Philosophy of Dao and Zen`.",
     "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/FinalUnknown/OOmega.png"
    }
   ],
@@ -337,7 +337,7 @@
   "laegnaOperators": [
     {
       "id": "unary",
-      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/LogicStates/LogicStates.png"
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/LogicStates/LogicStates.png",
       "uimage": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/LogicStates/LogicStatesUnknowns.png"
     },
     {
@@ -353,9 +353,9 @@
       "name": "Laegna Binary",
       "base": 2,
       "digits": ["O", "A"],
-      "utf8-digits": ["⬜", "⬛"]
+      "utf8-digits": ["⬜", "⬛"],
       "scdigits": ["o", "a"],
-      "utf8-scdigits": ["⚪", "⚫"]
+      "utf8-scdigits": ["⚪", "⚫"],
       "udigits": ["U"],
       "scudigits": ["u"],
       "description": "Two-state number system. Foundation of logic, computation, and duality."
@@ -402,7 +402,7 @@
       "ucolors": ["Black", "White"],
       "uutf8-o1": ["⬛", "⬜"],
       "uutf8-o2": ["⚫", "⚪"],
-      "uutf8-o3": ["🖤", "🤍"],
+      "uutf8-o3": ["🖤", "🤍"]
     },
     {
       "id": "signs-4",
