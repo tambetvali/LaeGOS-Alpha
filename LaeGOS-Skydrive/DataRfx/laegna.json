@@ -868,7 +868,7 @@
       }
     ],
 
-    "hexagrams": [
+    "hexagrams": {
 
     "signs": {
       "E": {
@@ -884,17 +884,17 @@
           },
           "A": {
             "color": "🟢",
-            "hexagrams": ["䷉䷅䷘䷋"]
+            "hexagrams": ["䷉䷅䷘䷋"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           },
           "O": {
             "color": "🔴",
-            "hexagrams": ["䷈䷸䷤䷴"]
+            "hexagrams": ["䷈䷸䷤䷴"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           },
           "I": {
             "color": "🟡",
-            "hexagrams": ["䷼䷺䷩䷓"]
+            "hexagrams": ["䷼䷺䷩䷓"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           }
         }
@@ -913,17 +913,17 @@
           },
           "A": {
             "color": "🟢",
-            "hexagrams": ["䷥䷿䷔䷢"]
+            "hexagrams": ["䷥䷿䷔䷢"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           },
           "O": {
             "color": "🔴",
-            "hexagrams": ["䷙䷑䷕䷳"]
+            "hexagrams": ["䷙䷑䷕䷳"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           },
           "I": {
             "color": "🟡",
-            "hexagrams": ["䷨䷃䷚䷖"]
+            "hexagrams": ["䷨䷃䷚䷖"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           }
         }
@@ -942,17 +942,17 @@
           },
           "A": {
             "color": "🟢",
-            "hexagrams": ["䷹䷮䷐䷬"]
+            "hexagrams": ["䷹䷮䷐䷬"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           },
           "O": {
             "color": "🔴",
-            "hexagrams": ["䷄䷯䷾䷦"]
+            "hexagrams": ["䷄䷯䷾䷦"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           },
           "I": {
             "color": "🟡",
-            "hexagrams": ["䷻䷜䷂䷇"]
+            "hexagrams": ["䷻䷜䷂䷇"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           }
         }
@@ -970,24 +970,24 @@
           },
           "A": {
             "color": "🟢",
-            "hexagrams": ["䷵䷧䷲䷏"]
+            "hexagrams": ["䷵䷧䷲䷏"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           },
           "O": {
             "color": "🔴",
-            "hexagrams": ["䷊䷭䷣䷎"]
+            "hexagrams": ["䷊䷭䷣䷎"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           },
           "I": {
             "color": "🟡",
-            "hexagrams": ["䷒䷆䷗䷁"]
+            "hexagrams": ["䷒䷆䷗䷁"],
             "colors": ["🟦", "🟩", "🟥", "🟨"]
           }
         }
       }
-    ]
+    },
     
-    "hexagrams": [
+    "hexagrams-d": [
       {
         "number": 1,
         "symbol": "䷀",
@@ -1010,4 +1010,5 @@
       }
     ]
   }
+}
 }
