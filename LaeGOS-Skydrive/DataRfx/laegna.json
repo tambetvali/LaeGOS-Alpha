@@ -384,14 +384,14 @@
       "base": 16,
       "digits": [
         "G", "F", "E", "H",
-        "C", "D", "A", "D",
+        "C", "B", "A", "D",
         "Q", "P", "O", "R",
         "K", "J", "I", "L"
       ],
       "udigits": ["W", "V", "U", "Ո"],
       "scdigits": [
         "G", "F", "E", "H",
-        "C", "D", "A", "D",
+        "C", "B", "A", "D",
         "Q", "P", "O", "R",
         "K", "J", "I", "L"
       ],
@@ -606,11 +606,11 @@
         "2     Frequency A, with R = 0.5, R rank = 0.",
         "1     Frequency U, with R = 0.25, R rank = -1.",
         "0     Frequency W, with R = 0.125, R rank = -2.",
-        "1     Frequency V, with R = 0.25, R rank = -1.",
+        "-1    Frequency V, with R = 0.25, R rank = -1.",
         "-2    Frequency O, with R = 0.5, R rank = 0.",
         "-4    Frequency I, with R = 1, R rank = 1.",
         "-8    Frequency II, with R = 2, R rank = 2.",
-        "-16   Frequency IIII, with R = 4, R rank = 3."
+        "-16   Frequency IIII, with R = 4, R rank = 3.",
         "±256  Frequency Ո, with R = 1, R rank = 1."
       ],
       "Manual-frequencies": [
@@ -627,6 +627,7 @@
         "1/16   Frequency IIII, with R = 4, R rank = 3.",
         "256 / 1/256  Frequency Ո, with R = 1, R rank = 1."
       ]
+    }
   ],
   
   "laegnaLogecs-yy": [
