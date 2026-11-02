@@ -13,8 +13,8 @@
     ћ̵ℏ - m and h harmony
     𝜏́ - taú
     𝓩𝓧𝓨 - `zeta, etha, theta` or for real, `exceeta é group` - Zeta, Exceeta or exzeta, Yeta (or yeyeta or yoyota playing with Japanese-sounding fakery)",
-    "name": "Uneton",
-  }
+    "name": "Uneton"
+  },
 
   "laegnaBaseAlphabet": [
    {
@@ -168,8 +168,8 @@
       {
         "id": 1,
         "symbol": "⚊",
-        "lae4-symbol": "E"
-        "lae2-symbol": "A"
+        "lae4-symbol": "E",
+        "lae2-symbol": "A",
         "unicode": "U+268A",
         "binary": "1",
         "name": "Yang",
@@ -178,8 +178,8 @@
       {
         "id": 2,
         "symbol": "⚋",
-        "lae4-symbol": "I"
-        "lae2-symbol": "O"
+        "lae4-symbol": "I",
+        "lae2-symbol": "O",
         "unicode": "U+268B",
         "binary": "0",
         "name": "Yin",
@@ -380,7 +380,7 @@
       "id": "base16",
       "alt-id": "base44",
       "name": "Laegna Hexadecimal",
-      "alt-name": "Laegna Double-Quaternary."
+      "alt-name": "Laegna Double-Quaternary.",
       "base": 16,
       "digits": [
         "G", "F", "E", "H",
@@ -414,7 +414,8 @@
       "truth": "True",
       "value": 1,
       "description": "Negative state."
-    },
+    }
+  ],
 
     "laegnaLogecsLatin2": [
    {
@@ -435,7 +436,7 @@
       "value": 2,
       "description": "Strong positive or emergent state."
     }
-  ]
+  ],
 
   "laegnaLogecs": [
     {
@@ -467,10 +468,10 @@
       "name": "Posetion",
       "value": 2,
       "count": 4,
-      "description": "Strong positive or emergent state."
+      "description": "Strong positive or emergent state.",
       "radialdescription": "Too much yang is broken yang: failure of treasure hunt, a pose - positive collapse of success or rather failure."
     }
-  ]
+  ],
 
   "laegnaLogecs-y": [
     {
@@ -494,117 +495,138 @@
       "ovalue": 1,
       "ocount": 2,
       "description": "Zoom out, composite."
-    },
+    }
   ],
 
-  "laegnaLogecs-manual" [
+  "laegnaLogecs-manual": [
     {
       "System": "Latin",
-      "Manual": "Logarithmic     : y = log(x)
-Linear          : y = x
-Quadratic       : y = x²
-Cubic           : y = x³
-Polynomial      : y = xⁿ
-Exponential     : y = aˣ
-Double Exponential : y = a^(aˣ)
-..."
+      "Rank": "0",
+      "Manual": [
+        "Logarithmic     : y = log(x)",
+        "Linear          : y = x",
+        "Quadratic       : y = x²",
+        "Cubic           : y = x³",
+        "Polynomial      : y = xⁿ",
+        "Exponential     : y = aˣ",
+        "Double Exponential : y = a^(aˣ)",
+        "..."
+      ]
     },
     {
       "System": "Laegna",
-      "Manual": "Quadratic  ← fourfold
-Cubic      ← eightfold (in your system)
-Quartic    ← sixteenfold",
-      "Manual-divisionbased": "1/16  = Quarterlogarithmic
-1/8   = Cubic Logarithmic
-1/4   = Quadratic Logarithmic
-1/2   = Logarithmic
-1     = Linear
-2     = Exponential
-4     = Quadratic
-8     = Cubic
-16    = Quartic"
-      ",
-      "Manual-latinprefix": "16    = Quartic
-8     = Cubic
-4     = Quadratic
-2     = Exponential
-1     = Linear
-1/2   = Logarithmic
-1/4   = Quadrologarithmic
-1/8   = Cubilogarithmic
-1/16  = Quartilogarithmic",
-      "Manual-ranks": "16    Multiplication rank 4
-8     Multiplication rank 3
-4     Multiplication rank 2
-2     Multiplication rank 1
-1     Neutral
-1/2   Division rank 1
-1/4   Division rank 2
-1/8   Division rank 3
-1/16  Division rank 4"
-      "Manual-octaves": "16    Octave 4
-8     Octave 3
-4     Octave 2
-2     Octave 1
-1     Octave 0
-1/2   Octave -1
-1/4   Octave -2
-1/8   Octave -3
-1/16  Octave -4",
-      "Manual-linearspace": "16    Integral order 4
-8     Integral order 3
-4     Integral order 2
-2     Integral order 1
-1     Linear order = Integral order 0 = Differential order 0
-1/2   Differential order 1
-1/4   Differential order 2
-1/8   Differential order 3
-1/16  Differential order 4"
-    }
-      "Manual-octaves-rankminus1": "16    Octave 4
-8     Octave 3
-4     Octave 2
-2     Octave 1
-1     Octave 0
--2   Octave -1
--4   Octave -2
--8   Octave -3
--16  Octave -4",
-      "Manual-linearspace-rankminus1": "16    Integral order 4
-8     Integral order 3
-4     Integral order 2
-2     Integral order 1
-1     Linear order = Integral order 0 = Differential order 0
--2   Differential order 1
--4   Differential order 2
--8   Differential order 3
--16  Differential order 4
-±256 Differential order Ո"
-    }
-      "Manual-frequencies-rankminus1": "16    Frequency EEEE, with R = 4, R rank = 3.
-8     Frequency EE, with R = 2, R rank = 2.
-4     Frequency E, with R = 1, R rank = 1.
-2     Frequency A, with R = 0.5, R rank = 0.
-1     Frequency U, with R = 0.25, R rank = -1.
-0     Frequency W, with R = 0.125, R rank = -2.
-1     Frequency V, with R = 0.25, R rank = -1.
--2    Frequency O, with R = 0.5, R rank = 0
--4    Frequency I, with R = 1, R rank = 1.
--8    Frequency II, with R = 2, R rank = 2.
--16   Frequency IIII, with R = 4, R rank = 4.
-      "Manual-frequencies-rankminus1": "16    Octave 4
-16    Frequency EEEE, with R = 4, R rank = 3.
-8     Frequency EE, with R = 2, R rank = 2.
-4     Frequency E, with R = 1, R rank = 1.
-2     Frequency A, with R = 0.5, R rank = 0.
-1     Frequency U, with R = 0.25, R rank = -1.
-0     Frequency W, with R = 0.125, R rank = -2.
-1/1   Frequency V, with R = 0.25, R rank = -1.
--2    Frequency O, with R = 0.5, R rank = 0
--4    Frequency I, with R = 1, R rank = 1.
--8    Frequency II, with R = 2, R rank = 2.
--16   Frequency IIII, with R = 4, R rank = 4.
-±256  Frequency Ո, with R = 1, R rank = 1.
+      "Rank": "1",
+      "Manual": [
+        "Quadratic  ← fourfold",
+        "Cubic      ← eightfold (in your system)",
+        "Quartic    ← sixteenfold"
+      ],
+      "Manual-divisionbased": [
+        "1/16  = Quarterlogarithmic",
+        "1/8   = Cubic Logarithmic",
+        "1/4   = Quadratic Logarithmic",
+        "1/2   = Logarithmic",
+        "1     = Linear",
+        "2     = Exponential",
+        "4     = Quadratic",
+        "8     = Cubic",
+        "16    = Quartic"
+      ],
+      "Manual-latinprefix": [
+        "16    = Quartic",
+        "8     = Cubic",
+        "4     = Quadratic",
+        "2     = Exponential",
+        "1     = Linear",
+        "1/2   = Logarithmic",
+        "1/4   = Quadrologarithmic",
+        "1/8   = Cubilogarithmic",
+        "1/16  = Quartilogarithmic"
+      ],
+      "Manual-ranks": [
+        "16    Multiplication rank 4",
+        "8     Multiplication rank 3",
+        "4     Multiplication rank 2",
+        "2     Multiplication rank 1",
+        "1     Neutral",
+        "1/2   Division rank 1",
+        "1/4   Division rank 2",
+        "1/8   Division rank 3",
+        "1/16  Division rank 4"
+      ]
+      "Manual-octaves": [
+        "16    Octave 4",
+        "8     Octave 3",
+        "4     Octave 2",
+        "2     Octave 1",
+        "1     Octave 0",
+        "1/2   Octave -1",
+        "1/4   Octave -2",
+        "1/8   Octave -3",
+        "1/16  Octave -4"
+      ]
+      "Manual-linearspace": [
+        "16    Integral order 4",
+        "8     Integral order 3",
+        "4     Integral order 2",
+        "2     Integral order 1",
+        "1     Linear order = Integral order 0 = Differential order 0",
+        "1/2   Differential order 1",
+        "1/4   Differential order 2",
+        "1/8   Differential order 3",
+        "1/16  Differential order 4"
+      ]
+      "Manual-octaves-rankminus1": [
+        "16    Octave 4",
+        "8     Octave 3",
+        "4     Octave 2",
+        "2     Octave 1",
+        "1     Octave 0",
+        "-2   Octave -1",
+        "-4   Octave -2",
+        "-8   Octave -3",
+        "-16  Octave -4"
+      ]
+      "Manual-linearspace-rankminus1": [
+        "16    Integral order 4",
+        "8     Integral order 3",
+        "4     Integral order 2",
+        "2     Integral order 1",
+        "1     Linear order = Integral order 0 = Differential order 0.",
+        "-2   Differential order 1",
+        "-4   Differential order 2",
+        "-8   Differential order 3",
+        "-16  Differential order 4",
+        "±256 Differential order Ո"
+      ]
+      "Manual-frequencies-rankminus1": [
+        "16    Frequency EEEE, with R = 4, R rank = 3.",
+        "8     Frequency EE, with R = 2, R rank = 2.",
+        "4     Frequency E, with R = 1, R rank = 1.",
+        "2     Frequency A, with R = 0.5, R rank = 0.",
+        "1     Frequency U, with R = 0.25, R rank = -1.",
+        "0     Frequency W, with R = 0.125, R rank = -2.",
+        "1     Frequency V, with R = 0.25, R rank = -1.",
+        "-2    Frequency O, with R = 0.5, R rank = 0.",
+        "-4    Frequency I, with R = 1, R rank = 1.",
+        "-8    Frequency II, with R = 2, R rank = 2.",
+        "-16   Frequency IIII, with R = 4, R rank = 4."
+      ]
+      "Manual-frequencies-rankminus1": [
+        "16    Octave 4",
+        "16    Frequency EEEE, with R = 4, R rank = 3.",
+        "8     Frequency EE, with R = 2, R rank = 2.",
+        "4     Frequency E, with R = 1, R rank = 1.",
+        "2     Frequency A, with R = 0.5, R rank = 0.",
+        "1     Frequency U, with R = 0.25, R rank = -1.",
+        "0     Frequency W, with R = 0.125, R rank = -2.",
+        "1/1   Frequency V, with R = 0.25, R rank = -1.",
+        "-2    Frequency O, with R = 0.5, R rank = 0.",
+        "-4    Frequency I, with R = 1, R rank = 1.",
+        "-8    Frequency II, with R = 2, R rank = 2.",
+        "-16   Frequency IIII, with R = 4, R rank = 4.",
+        "±256  Frequency Ո, with R = 1, R rank = 1."
+      ]
   ],
   
   "laegnaLogecs-yy": [
@@ -626,7 +648,7 @@ Quartic    ← sixteenfold",
       "name": "Quandratic scope",
       "ovalue": 2,
       "description": "Deep negative or anti-state."
-    },
+    }
   ],
 
   "laegnaLogecs-u": [
