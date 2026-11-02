@@ -1,0 +1,665 @@
+{
+  "schema": {
+    "version": "1.0",
+    "description": "LaeChing symbols and Laegna number / digit / letter encoding systems."
+  },
+
+  "gen-laegnaBaseAlphabet-simplified": {
+    "symbol": "ABCDEFGHћ̵ℏIJKLMNμ𝜈OPQRST𝜏́UVWՈXYZ𝓩𝓧𝓨Ὦ",
+    "g-symbol": "ABCD EFGH ћ̵ℏ IJKL MN μ𝜈 OPQR ST 𝜏́ UVWՈ XYZ 𝓩𝓧𝓨 Ὦ",
+    "url": "https://laegna.notaku.site/laegna-base-alphabet",
+    "alt-url": "https://github.com/tambetvali/LaegnaBaseAlphabet",
+    "manual": "μ𝜈 - replacement for Laegna mü, nü.
+    ћ̵ℏ - m and h harmony
+    𝜏́ - taú
+    𝓩𝓧𝓨 - `zeta, etha, theta` or for real, `exceeta é group` - Zeta, Exceeta or exzeta, Yeta (or yeyeta or yoyota playing with Japanese-sounding fakery)",
+    "name": "Uneton",
+  }
+
+  "laegnaBaseAlphabet": [
+   {
+    "symbol": "A",
+     "meaning": "Letter A is the material stability, repeating the natural life cycles and cycles of mathematics."
+   },
+   {
+    "symbol": "B",
+    "meaning": "Letter B is “on the way somewhere”, or alternatively an alternative where A is the real essential solution."
+   },
+   {
+    "symbol": "C",
+    "meaning": "Letter C is connecting things into such orders that they are rather in the same coordinate system than distorted in each way; such as the language (rather negatively kee or positively cee unless posetion)."
+   },
+   {
+    "symbol": "D",
+    "meaning": "Letter D is where your series multiplies to plurar thanks to exponentiation in infinity (such as getting many children over generations), or it’s stopped and obstacled by destructive force, or it’s the natural growth of a tendency (or a “wind” in chinese martial arts) into reality in so subtle way that you won’t notice (D is like a life tunnel)."
+   },
+   {
+    "symbol": "E",
+    "meaning": "Letter E is good outcome, happy end of a story, actual meaning or outcome in infinity. It could be exponent and relate to E in classical mathematics."
+   },
+   {
+    "symbol": "F",
+    "meaning": "Letter F is frequency or range of frequencies, small part of infinity, perhaps for example a meaningful vibration."
+   },
+   {
+    "symbol": "G",
+    "meaning": "Letter G is stable acceleration, opposite of D in sense of providing non-obstacled flow or gravitizing towards something."
+   },
+   {
+    "symbol": "H",
+    "meaning": "Letter H is the heavenly view, a view to something in such coordinate system where 100% H would mean it’s absolutely vertical number where normal logic is horizontal, transcending all the numbers into relation with very sharp angle upwards."
+   },
+   {
+    "symbol": "ћ̵",
+    "meaning": "ћ̵ - h- or m-harmony is where one helped other(s), and this did prove the ethics in circulating back to oneself with real force not obstacled. This is ethics, long runs and wide terms."
+   },
+   {
+    "symbol": "ℏ",
+    "meaning": "ℏ - n-harmony is where one helped other(s), but it's not turned to their own success so it's not thermodynamically recreative, sustainable, circular recreation seed."
+   },
+   {
+    "symbol": "I",
+    "meaning": "Letter I is an unit, a shared introspection or philosophical world, an infinitesimal or related to imaginary unit of classical complex numbers, the i component."
+   },
+   {
+    "symbol": "J",
+    "meaning": "Letter J is connecting things like “and”, so that the result integrates both in meaningful sense."
+   },
+   {
+    "symbol": "K",
+    "meaning": "Letter K is subunit, or so small point that it’s far below zero (it’s zero squared or in laegna rather square rooted in direction of it’s zeroness)."
+   },
+   {
+    "symbol": "L",
+    "meaning": "Letter L is the “left”, where you map the whole society into one number, and componentize this number to parts, getting numbers for left wing, communist, socialist or rather the unities, where behaviour of each person for example, looking this person, is measured in society in same format as you would measure direct business and ethics in right wing. R is the right wing and L is a very small number compared to R, which allows to contain the little effects you have on society as a while with your little deeds of contribution and rebellion."
+   },
+   {
+    "symbol": "M",
+    "meaning": "Letter M is a positive difference, a distance between two things, for example me and you, or two different logical units which are kind of unrelated."
+   },
+   {
+    "symbol": "N",
+    "meaning": "Letter N is lack of such difference, a positive connection between things."
+   },
+   {
+    "symbol": "μ",
+    "meaning": "μ - mü is when one made other(s) lose, but the consequence is not circulating back as loss, even if it could be paid in advance - ethical collapse is weak, so it's not always wu wéi to reach such consequence."
+   },
+   {
+    "symbol": "𝜈",
+    "meaning": "𝜈 - nü is when one made other(s) lose, but in long run it's first-hand their own loss; negative thermodynamics becomes actual bankcruptcy and resolves ethical values."
+   },
+   {
+    "symbol": "O",
+    "meaning": "Letter O is unit, a closed area, such as Zero is closed to point, but has an universe inside when you zoom with Z (you could call Z a zoom, where Y is zoomout)."
+   },
+   {
+    "symbol": "P",
+    "meaning": "Letter P is a stepping point, where you step into new reality; or the lack of such step, where you are below the good level of being, thus such step would appear in the future. While this is “fatal” lack of something in the past, where you see at most the Posetion of this potential, a positional version or zero-point is where you overcome this, and in Laegna system of relations of time ´P or position-P, which is used as often, relates to stepping point in now, where such lack of something existed; this could be innovation or act of creativity, overcoming fears or enlightenment or satori."
+   },
+   {
+    "symbol": "Q",
+    "meaning": "Letter Q is quality."
+   },
+   {
+    "symbol": "R",
+    "meaning": "Letter R is the maximum reality; ´R, when moved to top octave, sees one four in sequence of A, E, I, O and another one in sequence O, P, Q, R, so if you want maximum infinity or infinity squared, which forms it’s coordinate and also the coordinate system - space of time; this kind of infinity is called R, normally used to oppose T as a Truth or Theorem to R, a coordinate system where it can be broken or reinterpreted; where the meaning appears from your shallow initial conjectures and theorems not covering the whole set of infinite possibilities; often, R is not locally infinite, but the solution moment of your theory for example."
+   },
+   {
+    "symbol": "S",
+    "meaning": "Letter S is locally (at O, A) going straight, but in infinity or meaning, rather fading out (if Ie=Uu) or turning back without concrete turning point in your partial math or sensory input, so you can use this rather as observation of a day than doing any generalizations. STR is important cycle as TR is imporant opposite."
+   },
+   {
+    "symbol": "T",
+    "meaning": "Letter T is theorem, ^T is Turing complex where your value implies other value to same position."
+   },
+   {
+    "symbol": "𝜏́",
+    "meaning": "Taú is where A becomes E, O becomes I - where the same logical value changes it's sign or value in I, or agrees in E - one is negatively, other positively self-referential, and both matter (A in local space is replied with A in infinity - `correct` or E in infinity - if A is wrong answer as it turns out then and for back then)."
+   },
+   {
+    "symbol": "U",
+    "meaning": "U is unknown."
+   },
+   {
+    "symbol": "V",
+    "meaning": "V is not unknown, or a negative difference / distance / conflict between two things (in beginning of words especially) or the problem’s solution when in end of the words."
+   },
+   {
+    "symbol": "W",
+    "meaning": "W is solution for V."
+   },
+   {
+    "symbol": "Ո",
+    "meaning": "Ո - Ո-Uneton or Ո-U-Neuton or Ո-Neuton is the external band of unknown, where one cannot decide between I and E. In U, one cannot decide between O and A - in Ô-ôômega, Ὦ, one must leave the axis open, for example undecided between science and religion => doing science which holds anyway no matter what, where, how, and how metaphysically or importantly."
+   },
+   {
+    "symbol": "X",
+    "meaning": "X is the visible, actual reality as you see it directly."
+   },
+   {
+    "symbol": "Y",
+    "meaning": "Y is a futuristic vision, a point in the future where good karmic cycle has been stabilized and as it continues to infinity, this already is infinity or part of it, not being apart from it’s straight function and oneness with itself."
+   },
+   {
+    "symbol": "Z",
+    "meaning": "Z is a microscopic world, a potential, or the work and process before something starts to materialize. For example, in relation to building a house and going to live in it as X, the Z of the same activity would be planning to build a house and looking ideas about where to live, which would be directed to given X and thus, where this variable was smaller than itself (remember in Laegna, opposites are not contradicting or creating alternative theories, such as war against peace and prosperity, where binary war seems to get worse, ideally, but in Laegna Logecs while you can create war theorems pointing to Negotion, the Negation itself is going upwards and in the same direction with peace, and you don’t lose the peace variables in opposite operations, where the enemy getting rich for example can not be “false” to war, as “false” to war is equally when you die - having things heads-up, where R=T and they are on the correct line, you don’t have to break all your relationship when you break a part, but naturally you go straight on and don’t wobble between “good and bad”)."
+   },
+   {
+    "symbol": "𝓩",
+    "meaning": "This is the H_ext space, but centralized (H_int and H_ext switched, but not reversed in any rank of sign), as it's seen from Quantum realm."
+   },
+   {
+    "symbol": "𝓧",
+    "meaning": "H_ext is center of Exceeta / Xeta / X-exceeta."
+   },
+   {
+    "symbol": "𝓨",
+    "meaning": "This is the external higher, hologram head topology which simplifies hologram at higher frequency; but of H_ext not H_int, where H_ext is made center. This letter is called Yeta or Y-exceeta."
+   },
+   {
+    "symbol": "Ὦ",
+    "meaning": "This is the final unknown: instead of solving it, you flow around. Some meanings and essences need to be left open, while their interactions are solved into substantial unknownness - `Philosophy of Dao and Zen`."
+   }
+  ]
+
+  "iching": {
+    "singleLines": [
+      {
+        "id": 1,
+        "symbol": "⚊",
+        "lae4-symbol": "E"
+        "lae2-symbol": "A"
+        "unicode": "U+268A",
+        "binary": "1",
+        "name": "Yang",
+        "description": "Solid line, active principle."
+      },
+      {
+        "id": 2,
+        "symbol": "⚋",
+        "lae4-symbol": "I"
+        "lae2-symbol": "O"
+        "unicode": "U+268B",
+        "binary": "0",
+        "name": "Yin",
+        "description": "Broken line, receptive principle."
+      }
+    ],
+
+    "twoLiners": [
+      {
+        "id": 1,
+        "symbol": "",
+        "binary": "11",
+        "name": "",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "symbol": "",
+        "binary": "10",
+        "name": "",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "symbol": "",
+        "binary": "01",
+        "name": "",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "symbol": "",
+        "binary": "00",
+        "name": "",
+        "description": ""
+      }
+    ],
+
+    "trigrams": [
+      {
+        "number": 1,
+        "symbol": "☰",
+        "unicode": "U+2630",
+        "binary": "111",
+        "name": "Heaven",
+        "chinese": "Qián",
+        "element": "Sky",
+        "description": "Creative force."
+      },
+      {
+        "number": 2,
+        "symbol": "☱",
+        "unicode": "U+2631",
+        "binary": "110",
+        "name": "Lake",
+        "chinese": "Duì",
+        "element": "Lake",
+        "description": "Joy and openness."
+      },
+      {
+        "number": 3,
+        "symbol": "☲",
+        "unicode": "U+2632",
+        "binary": "101",
+        "name": "Fire",
+        "chinese": "Lí",
+        "element": "Fire",
+        "description": "Clarity and illumination."
+      },
+      {
+        "number": 4,
+        "symbol": "☳",
+        "unicode": "U+2633",
+        "binary": "100",
+        "name": "Thunder",
+        "chinese": "Zhèn",
+        "element": "Thunder",
+        "description": "Movement and action."
+      },
+      {
+        "number": 5,
+        "symbol": "☴",
+        "unicode": "U+2634",
+        "binary": "011",
+        "name": "Wind",
+        "chinese": "Xùn",
+        "element": "Wind",
+        "description": "Penetration and influence."
+      },
+      {
+        "number": 6,
+        "symbol": "☵",
+        "unicode": "U+2635",
+        "binary": "010",
+        "name": "Water",
+        "chinese": "Kǎn",
+        "element": "Water",
+        "description": "Depth and danger."
+      },
+      {
+        "number": 7,
+        "symbol": "☶",
+        "unicode": "U+2636",
+        "binary": "001",
+        "name": "Mountain",
+        "chinese": "Gèn",
+        "element": "Mountain",
+        "description": "Stillness and stability."
+      },
+      {
+        "number": 8,
+        "symbol": "☷",
+        "unicode": "U+2637",
+        "binary": "000",
+        "name": "Earth",
+        "chinese": "Kūn",
+        "element": "Earth",
+        "description": "Receptive force."
+      }
+    ],
+
+    "hexagrams": [
+      {
+        "number": 1,
+        "symbol": "䷀",
+        "unicode": "U+4DC0",
+        "binary": "111111",
+        "name": "The Creative",
+        "upperTrigram": "Heaven",
+        "lowerTrigram": "Heaven",
+        "description": ""
+      },
+      {
+        "number": 2,
+        "symbol": "䷁",
+        "unicode": "U+4DC1",
+        "binary": "000000",
+        "name": "The Receptive",
+        "upperTrigram": "Earth",
+        "lowerTrigram": "Earth",
+        "description": ""
+      }
+
+      /* Continue through all 64 hexagrams */
+    ]
+  },
+
+  "laegnaNumberSystems": [
+    {
+      "id": "base2",
+      "name": "Laegna Binary",
+      "base": 2,
+      "digits": ["O", "A"],
+      "scdigits": ["o", "a"],
+      "udigits": ["U"],
+      "scudigits": ["u"],
+      "description": "Two-state number system. Foundation of logic, computation, and duality."
+    },
+    {
+      "id": "base22",
+      "name": "Laegna Double-Binary",
+      "base": 4,
+      "lbase": [2, 2],
+      "digits": ["M", "N", "S", "T"],
+      "scdigits": ["m", "n", "s", "t"],
+      "udigits": ["U", "Ո"],
+       "scudigits": ["u", "∩"],
+     "description": "Two-state number system. Foundation of logic, computation, and duality."
+    },
+    {
+      "id": "base4",
+      "name": "Laegna Quaternary",
+      "base": 4,
+      "digits": ["I", "O", "A", "E"],
+      "scdigits": ["i", "o", "a", "e"],
+      "udigits": ["U", "Ո"],
+      "scudigits": ["u", "∩"],
+      "ludigits": ["UU", "UՈ", "ՈU", "ՈՈ"],
+      "scludigits": ["uu", "u∩", "∩u", "∩∩"],
+      "description": "Four-state system. Can map naturally to Laegna four-value logic."
+    },
+    {
+      "id": "base8",
+      "name": "Laegna Octal",
+      "base": 8,
+      "digits": ["1", "2", "3", "4", "5", "6", "7", "8"],
+      "udigits": ["0", "9"],
+      "description": "Three binary bits per digit."
+    },
+    {
+      "id": "base10",
+      "name": "Latin Decimal",
+      "base": 10,
+      "digits": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+      "description": "Standard human counting system."
+    },
+    {
+      "id": "base16",
+      "alt-id": "base44",
+      "name": "Laegna Hexadecimal",
+      "alt-name": "Laegna Double-Quaternary."
+      "base": 16,
+      "digits": [
+        "G", "F", "E", "H",
+        "C", "D", "A", "D",
+        "Q", "P", "O", "R",
+        "K", "J", "I", "L"
+      ],
+      "udigits": ["W", "V", "U", "Ո"],
+      "scdigits": [
+        "G", "F", "E", "H",
+        "C", "D", "A", "D",
+        "Q", "P", "O", "R",
+        "K", "J", "I", "L"
+      ],
+      "scudigits": ["w", "v", "u", "∩"],
+      "description": "Four binary bits per digit. Common in computing."
+    }
+  ],
+
+  "laegnaLogecsLaegna2": [
+    {
+      "symbol": "O",
+      "name": "Negative",
+      "truth": "True",
+      "value": -1,
+      "description": "Deep negative or anti-state."
+    },
+    {
+      "symbol": "A",
+      "name": "Positive",
+      "truth": "True",
+      "value": 1,
+      "description": "Negative state."
+    },
+
+    "laegnaLogecsLatin2": [
+   {
+      "symbol": "✔",
+      "alt-symbol": "☑",
+      "name": "Positive",
+      "truth": "True",
+      "value": 1,
+      "description": "Positive state."
+    },
+    {
+      "symbol": "✖",
+      "alt-symbol": "☒",
+      "alt-2-symbol": "❌",
+      "symbolset": "☐",
+      "name": "Negative",
+      "truth": "False",
+      "value": 2,
+      "description": "Strong positive or emergent state."
+    }
+  ]
+
+  "laegnaLogecs": [
+    {
+      "symbol": "I",
+      "name": "Negotion",
+      "value": -2,
+      "count": 1,
+      "description": "Deep negative or anti-state.",
+      "radialdescription": "Negative becomes real, cancels itself; negotion tables - negative collapse."
+    },
+    {
+      "symbol": "O",
+      "name": "Negation",
+      "value": -1,
+      "count": 2,
+      "description": "Negative state.",
+      "radialdescription": "Adventure rather than negative, simply say no and you got this - negative flow."
+    },
+    {
+      "symbol": "A",
+      "name": "Position",
+      "value": 1,
+      "count": 3,
+      "description": "Positive state.",
+      "radialdescription": "Position remains, whatever happens: your position, it's position - positive flow."
+    },
+    {
+      "symbol": "E",
+      "name": "Posetion",
+      "value": 2,
+      "count": 4,
+      "description": "Strong positive or emergent state."
+      "radialdescription": "Too much yang is broken yang: failure of treasure hunt, a pose - positive collapse of success or rather failure."
+    }
+  ]
+
+  "laegnaLogecs-y": [
+    {
+      "symbol": "Z",
+      "name": "Logarithmic scope",
+      "name-2": "U-uneton",
+      "ovalue": -1,
+      "ocount": 1,
+      "description": "Zoom in, decompose."
+    },
+    {
+      "symbol": "X",
+      "name": "Linear scope",
+      "ovalue": 0,
+      "ocount": 1,
+      "description": "Focus, resolve."
+    },
+    {
+      "symbol": "Y",
+      "name": "Exponential scope",
+      "ovalue": 1,
+      "ocount": 2,
+      "description": "Zoom out, composite."
+    },
+  ],
+
+  "laegnaLogecs-manual" [
+    {
+      "System": "Latin",
+      "Manual": "Logarithmic     : y = log(x)
+Linear          : y = x
+Quadratic       : y = x²
+Cubic           : y = x³
+Polynomial      : y = xⁿ
+Exponential     : y = aˣ
+Double Exponential : y = a^(aˣ)
+..."
+    },
+    {
+      "System": "Laegna",
+      "Manual": "Quadratic  ← fourfold
+Cubic      ← eightfold (in your system)
+Quartic    ← sixteenfold",
+      "Manual-divisionbased": "1/16  = Quarterlogarithmic
+1/8   = Cubic Logarithmic
+1/4   = Quadratic Logarithmic
+1/2   = Logarithmic
+1     = Linear
+2     = Exponential
+4     = Quadratic
+8     = Cubic
+16    = Quartic"
+      ",
+      "Manual-latinprefix": "16    = Quartic
+8     = Cubic
+4     = Quadratic
+2     = Exponential
+1     = Linear
+1/2   = Logarithmic
+1/4   = Quadrologarithmic
+1/8   = Cubilogarithmic
+1/16  = Quartilogarithmic",
+      "Manual-ranks": "16    Multiplication rank 4
+8     Multiplication rank 3
+4     Multiplication rank 2
+2     Multiplication rank 1
+1     Neutral
+1/2   Division rank 1
+1/4   Division rank 2
+1/8   Division rank 3
+1/16  Division rank 4"
+      "Manual-octaves": "16    Octave 4
+8     Octave 3
+4     Octave 2
+2     Octave 1
+1     Octave 0
+1/2   Octave -1
+1/4   Octave -2
+1/8   Octave -3
+1/16  Octave -4",
+      "Manual-linearspace": "16    Integral order 4
+8     Integral order 3
+4     Integral order 2
+2     Integral order 1
+1     Linear order = Integral order 0 = Differential order 0
+1/2   Differential order 1
+1/4   Differential order 2
+1/8   Differential order 3
+1/16  Differential order 4"
+    }
+      "Manual-octaves-rankminus1": "16    Octave 4
+8     Octave 3
+4     Octave 2
+2     Octave 1
+1     Octave 0
+-2   Octave -1
+-4   Octave -2
+-8   Octave -3
+-16  Octave -4",
+      "Manual-linearspace-rankminus1": "16    Integral order 4
+8     Integral order 3
+4     Integral order 2
+2     Integral order 1
+1     Linear order = Integral order 0 = Differential order 0
+-2   Differential order 1
+-4   Differential order 2
+-8   Differential order 3
+-16  Differential order 4
+±256 Differential order Ո"
+    }
+      "Manual-frequencies-rankminus1": "16    Frequency EEEE, with R = 4, R rank = 3.
+8     Frequency EE, with R = 2, R rank = 2.
+4     Frequency E, with R = 1, R rank = 1.
+2     Frequency A, with R = 0.5, R rank = 0.
+1     Frequency U, with R = 0.25, R rank = -1.
+0     Frequency W, with R = 0.125, R rank = -2.
+1     Frequency V, with R = 0.25, R rank = -1.
+-2    Frequency O, with R = 0.5, R rank = 0
+-4    Frequency I, with R = 1, R rank = 1.
+-8    Frequency II, with R = 2, R rank = 2.
+-16   Frequency IIII, with R = 4, R rank = 4.
+      "Manual-frequencies-rankminus1": "16    Octave 4
+16    Frequency EEEE, with R = 4, R rank = 3.
+8     Frequency EE, with R = 2, R rank = 2.
+4     Frequency E, with R = 1, R rank = 1.
+2     Frequency A, with R = 0.5, R rank = 0.
+1     Frequency U, with R = 0.25, R rank = -1.
+0     Frequency W, with R = 0.125, R rank = -2.
+1/1   Frequency V, with R = 0.25, R rank = -1.
+-2    Frequency O, with R = 0.5, R rank = 0
+-4    Frequency I, with R = 1, R rank = 1.
+-8    Frequency II, with R = 2, R rank = 2.
+-16   Frequency IIII, with R = 4, R rank = 4.
+±256  Frequency Ո, with R = 1, R rank = 1.
+  ],
+  
+  "laegnaLogecs-yy": [
+    {
+      "symbol": "ZZ",
+      "name": "Quadrologarithmic scope",
+      "name-2": "U-uneton",
+      "ovalue": -2,
+      "description": "Deep negative or anti-state."
+    },
+    {
+      "symbol": "XX",
+      "name": "Superlinearized scope",
+      "ovalue": 0,
+      "description": "Deep negative or anti-state."
+    },
+    {
+      "symbol": "YY",
+      "name": "Quandratic scope",
+      "ovalue": 2,
+      "description": "Deep negative or anti-state."
+    },
+  ],
+
+  "laegnaLogecs-u": [
+    {
+      "symbol": "U",
+      "name": "Uneton",
+      "name-2": "U-uneton",
+      "uvalue": 1,
+      "description": "Unknown."
+    },
+    {
+      "symbol": "Ո",
+      "name": "Ո-Uneton",
+      "uvalue": 2,
+      "description": "Metaunknown."
+    },
+    {
+      "symbol": "V",
+      "name": "V-Uneton",
+      "uvalue": -1,
+      "description": "Known."
+    },
+    {
+      "symbol": "W",
+      "name": "W-Uneton",
+      "uvalue": -2,
+      "description": "Well-known (metaknown)."
+    },
+    {
+      "symbol": "Ὦ",
+      "name": "W-Uneton",
+      "uvalue": -4,
+      "description": "Final unknown."
+    }
+    ]
+}
