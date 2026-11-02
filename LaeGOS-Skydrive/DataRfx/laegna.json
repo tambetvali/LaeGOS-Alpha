@@ -389,7 +389,7 @@
       "ludigits": ["UU", "UՈ", "ՈU", "ՈՈ"],
       "utf8-ludigits": ["⚫", "⚪", "⬛", "⬜"],
       "scludigits": ["uu", "u∩", "∩u", "∩∩"],
-      "utf8-ludigits": ["⚫", "⚪", "⬛", "⬜"],
+      "utf8-scludigits": ["⚫", "⚪", "⬛", "⬜"],
       "description": "Four-state system. Can map naturally to Laegna four-value logic."
     },
     {
@@ -399,7 +399,7 @@
       "utf8-o1": ["🟨", "🟥", "🟩", "🟦"],
       "utf8-o2": ["🟡", "🔴", "🟢", "🔵"],
       "utf8-o3": ["💛", "❤️", "💚", "💙"],
-      "ucolors": ["Black", "White"]
+      "ucolors": ["Black", "White"],
       "uutf8-o1": ["⬛", "⬜"],
       "uutf8-o2": ["⚫", "⚪"],
       "uutf8-o3": ["🖤", "🤍"],
@@ -470,9 +470,9 @@
       "symbol": "O",
       "name": "Negative",
       "utf8-symbol": "⚫",
-      "truth": "True",
+      "truth": "False",
       "value": -1,
-      "description": "Deep negative or anti-state."
+      "description": "Negative state."
     },
     {
       "symbol": "A",
@@ -480,7 +480,7 @@
       "utf8-symbol": "⬜",
       "truth": "True",
       "value": 1,
-      "description": "Negative state."
+      "description": "Positive state."
     }
   ],
 
@@ -492,6 +492,7 @@
       "name": "Positive",
       "truth": "True",
       "value": 1,
+      "count": 1,
       "description": "Positive state."
     },
     {
@@ -502,7 +503,8 @@
       "symbolset": "☐",
       "name": "Negative",
       "truth": "False",
-      "value": 2,
+      "value": -1,
+      "count": 2,
       "description": "Strong positive or emergent state."
     }
   ],
@@ -529,7 +531,7 @@
     {
       "symbol": "A",
       "name": "Position",
-      "utf8": ["🟩"]
+      "utf8": ["🟩"],
       "value": 1,
       "count": 3,
       "description": "Positive state.",
@@ -538,7 +540,7 @@
     {
       "symbol": "E",
       "name": "Posetion",
-      "utf8": ["🟦"]
+      "utf8": ["🟦"],
       "value": 2,
       "count": 4,
       "description": "Strong positive or emergent state.",
@@ -559,7 +561,7 @@
     {
       "symbol": "X",
       "name": "Linear scope",
-      "utf-8-symbol": "╱".
+      "utf8-symbol": "╱",
       "ovalue": 0,
       "ocount": 1,
       "description": "Focus, resolve."
