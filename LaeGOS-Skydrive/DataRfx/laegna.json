@@ -172,168 +172,6 @@
    }
   ],
 
-  "iching": {
-    "singleLines": [
-      {
-        "id": 1,
-        "symbol": "⚊",
-        "lae4-symbol": "E",
-        "lae2-symbol": "A",
-        "unicode": "U+268A",
-        "binary": "1",
-        "name": "Yang",
-        "description": "Solid line, active principle."
-      },
-      {
-        "id": 2,
-        "symbol": "⚋",
-        "lae4-symbol": "I",
-        "lae2-symbol": "O",
-        "unicode": "U+268B",
-        "binary": "0",
-        "name": "Yin",
-        "description": "Broken line, receptive principle."
-      }
-    ],
-
-    "twoLiners": [
-      {
-        "id": 1,
-        "symbol": "",
-        "binary": "11",
-        "name": "",
-        "description": ""
-      },
-      {
-        "id": 2,
-        "symbol": "",
-        "binary": "10",
-        "name": "",
-        "description": ""
-      },
-      {
-        "id": 3,
-        "symbol": "",
-        "binary": "01",
-        "name": "",
-        "description": ""
-      },
-      {
-        "id": 4,
-        "symbol": "",
-        "binary": "00",
-        "name": "",
-        "description": ""
-      }
-    ],
-
-    "trigrams": [
-      {
-        "number": 1,
-        "symbol": "☰",
-        "unicode": "U+2630",
-        "binary": "111",
-        "name": "Heaven",
-        "chinese": "Qián",
-        "element": "Sky",
-        "description": "Creative force."
-      },
-      {
-        "number": 2,
-        "symbol": "☱",
-        "unicode": "U+2631",
-        "binary": "110",
-        "name": "Lake",
-        "chinese": "Duì",
-        "element": "Lake",
-        "description": "Joy and openness."
-      },
-      {
-        "number": 3,
-        "symbol": "☲",
-        "unicode": "U+2632",
-        "binary": "101",
-        "name": "Fire",
-        "chinese": "Lí",
-        "element": "Fire",
-        "description": "Clarity and illumination."
-      },
-      {
-        "number": 4,
-        "symbol": "☳",
-        "unicode": "U+2633",
-        "binary": "100",
-        "name": "Thunder",
-        "chinese": "Zhèn",
-        "element": "Thunder",
-        "description": "Movement and action."
-      },
-      {
-        "number": 5,
-        "symbol": "☴",
-        "unicode": "U+2634",
-        "binary": "011",
-        "name": "Wind",
-        "chinese": "Xùn",
-        "element": "Wind",
-        "description": "Penetration and influence."
-      },
-      {
-        "number": 6,
-        "symbol": "☵",
-        "unicode": "U+2635",
-        "binary": "010",
-        "name": "Water",
-        "chinese": "Kǎn",
-        "element": "Water",
-        "description": "Depth and danger."
-      },
-      {
-        "number": 7,
-        "symbol": "☶",
-        "unicode": "U+2636",
-        "binary": "001",
-        "name": "Mountain",
-        "chinese": "Gèn",
-        "element": "Mountain",
-        "description": "Stillness and stability."
-      },
-      {
-        "number": 8,
-        "symbol": "☷",
-        "unicode": "U+2637",
-        "binary": "000",
-        "name": "Earth",
-        "chinese": "Kūn",
-        "element": "Earth",
-        "description": "Receptive force."
-      }
-    ],
-
-    "hexagrams": [
-      {
-        "number": 1,
-        "symbol": "䷀",
-        "unicode": "U+4DC0",
-        "binary": "111111",
-        "name": "The Creative",
-        "upperTrigram": "Heaven",
-        "lowerTrigram": "Heaven",
-        "description": ""
-      },
-      {
-        "number": 2,
-        "symbol": "䷁",
-        "unicode": "U+4DC1",
-        "binary": "000000",
-        "name": "The Receptive",
-        "upperTrigram": "Earth",
-        "lowerTrigram": "Earth",
-        "description": ""
-      }
-    ]
-  },
-
   "laegnaOperators": [
     {
       "id": "unary",
@@ -762,5 +600,168 @@
       "uvalue": -4,
       "description": "Final unknown."
     }
+  ],
+
+  
+  "iching": {
+    "singleLines": [
+      {
+        "id": 1,
+        "symbol": "⚊",
+        "lae4-symbol": "E",
+        "lae2-symbol": "A",
+        "unicode": "U+268A",
+        "binary": "1",
+        "name": "Yang",
+        "description": "Solid line, active principle."
+      },
+      {
+        "id": 2,
+        "symbol": "⚋",
+        "lae4-symbol": "I",
+        "lae2-symbol": "O",
+        "unicode": "U+268B",
+        "binary": "0",
+        "name": "Yin",
+        "description": "Broken line, receptive principle."
+      }
+    ],
+
+    "twoLiners": [
+      {
+        "id": 1,
+        "symbol": "",
+        "binary": "11",
+        "name": "",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "symbol": "",
+        "binary": "10",
+        "name": "",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "symbol": "",
+        "binary": "01",
+        "name": "",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "symbol": "",
+        "binary": "00",
+        "name": "",
+        "description": ""
+      }
+    ],
+
+    "trigrams": [
+      {
+        "number": 1,
+        "symbol": "☰",
+        "unicode": "U+2630",
+        "binary": "111",
+        "name": "Heaven",
+        "chinese": "Qián",
+        "element": "Sky",
+        "description": "Creative force."
+      },
+      {
+        "number": 2,
+        "symbol": "☱",
+        "unicode": "U+2631",
+        "binary": "110",
+        "name": "Lake",
+        "chinese": "Duì",
+        "element": "Lake",
+        "description": "Joy and openness."
+      },
+      {
+        "number": 3,
+        "symbol": "☲",
+        "unicode": "U+2632",
+        "binary": "101",
+        "name": "Fire",
+        "chinese": "Lí",
+        "element": "Fire",
+        "description": "Clarity and illumination."
+      },
+      {
+        "number": 4,
+        "symbol": "☳",
+        "unicode": "U+2633",
+        "binary": "100",
+        "name": "Thunder",
+        "chinese": "Zhèn",
+        "element": "Thunder",
+        "description": "Movement and action."
+      },
+      {
+        "number": 5,
+        "symbol": "☴",
+        "unicode": "U+2634",
+        "binary": "011",
+        "name": "Wind",
+        "chinese": "Xùn",
+        "element": "Wind",
+        "description": "Penetration and influence."
+      },
+      {
+        "number": 6,
+        "symbol": "☵",
+        "unicode": "U+2635",
+        "binary": "010",
+        "name": "Water",
+        "chinese": "Kǎn",
+        "element": "Water",
+        "description": "Depth and danger."
+      },
+      {
+        "number": 7,
+        "symbol": "☶",
+        "unicode": "U+2636",
+        "binary": "001",
+        "name": "Mountain",
+        "chinese": "Gèn",
+        "element": "Mountain",
+        "description": "Stillness and stability."
+      },
+      {
+        "number": 8,
+        "symbol": "☷",
+        "unicode": "U+2637",
+        "binary": "000",
+        "name": "Earth",
+        "chinese": "Kūn",
+        "element": "Earth",
+        "description": "Receptive force."
+      }
+    ],
+
+    "hexagrams": [
+      {
+        "number": 1,
+        "symbol": "䷀",
+        "unicode": "U+4DC0",
+        "binary": "111111",
+        "name": "The Creative",
+        "upperTrigram": "Heaven",
+        "lowerTrigram": "Heaven",
+        "description": ""
+      },
+      {
+        "number": 2,
+        "symbol": "䷁",
+        "unicode": "U+4DC1",
+        "binary": "000000",
+        "name": "The Receptive",
+        "upperTrigram": "Earth",
+        "lowerTrigram": "Earth",
+        "description": ""
+      }
     ]
+  }
 }
