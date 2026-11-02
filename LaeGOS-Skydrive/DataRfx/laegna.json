@@ -607,7 +607,12 @@
     "singleLines": [
       {
         "id": 1,
+        "number": 1,
+        "count": 2,
+        "utf8": "⬜",
+        "alt-utf8": "🟢",
         "symbol": "⚊",
+        "laesymbol": "E",
         "lae4-symbol": "E",
         "lae2-symbol": "A",
         "unicode": "U+268A",
@@ -617,7 +622,12 @@
       },
       {
         "id": 2,
+        "number": -1,
+        "count": 1,
+        "utf8": "⚪",
+        "alt-utf8": "🔴",
         "symbol": "⚋",
+        "laesymbol": "A",
         "lae4-symbol": "I",
         "lae2-symbol": "O",
         "unicode": "U+268B",
@@ -627,41 +637,144 @@
       }
     ],
 
+    "usingleLines": [
+      {
+        "id": 3,
+        "number": 0,
+        "count": 1.5,
+        "utf8": "🟫",
+        "utf8-2": "🟤",
+        "alt-utf8": "⚫",
+        "symbol": "☯",
+        "laesymbol": "U",
+        "lae4-symbol": "U",
+        "lae2-symbol": "U",
+        "unicode": "U+268A",
+        "binary": "1",
+        "name": "Yang",
+        "description": "Solid line, active principle."
+      }
+    ],
+
     "twoLiners": [
       {
         "id": 1,
-        "symbol": "",
+        "symbol": "⚌",
+        "element": "Fire",
+        "laesymbol": "🔥",
+        "vikingsymbol": "🚂",
+        "laedirection": "Mult. Acceleration",
+        "laeoperator": "×",
+        "laeutf8": "💙",
+        "utf8": "🟦",
+        "utf8-2": "🔵",
+        "laesymbol": "E",
+        "laeElement": "Fire",
         "binary": "11",
         "name": "",
         "description": ""
       },
       {
         "id": 2,
-        "symbol": "",
+        "symbol": "⚎",
+        "laeElement": "Air",
+        "laesymbol": "💨",
+        "vikingsymbol": "⛵",
+        "laedirection": "Pos. Velocity",
+        "laeoperator": "+",
+        "laeutf8": "💚",
+        "utf8": "🟩",
+        "utf8-2": "🟢",
+        "laesymbol": "A",
+        "element": "Wood",
         "binary": "10",
         "name": "",
         "description": ""
       },
       {
         "id": 3,
-        "symbol": "",
+        "symbol": "⚍",
+        "laeElement": "Water",
+        "laesymbol": "💧",
+        "vikingsymbol": "🐬",
+        "laedirection": "Neg. Velocity",
+        "laeoperator": "-",
+        "laeutf8": "❤️",
+        "utf8": "🟥",
+        "utf8-2": "🔴",
+        "laesymbol": "O",
+        "element": "Metal",
         "binary": "01",
         "name": "",
         "description": ""
       },
       {
         "id": 4,
-        "symbol": "",
+        "symbol": "⚏",
+        "laeElement": "Stone",
+        "alt-laeElement": "Earth",
+        "laesymbol": "⛰️",
+        "vikingsymbol": "⚓",
+        "laedirection": "Div. Acceleration",
+        "laesymbol": "I",
+        "laeoperator": "-",
+        "laeutf8": "❤️",
+        "utf8": "🟥",
+        "utf8-2": "🔴",
+        "element": "Water",
         "binary": "00",
         "name": "",
         "description": ""
       }
     ],
+    
+    "utwoLiners": [
+      {
+        "symbol": "☯",
+        "id": 5,
+        "number": 0,
+        "count": 1.5,
+        "utf8": "🏛️",
+        "utf8-2": "🟤",
+        "alt-utf8": "⚫",
+        "laeoperator": "·",
+        "laeutf8": "❤️",
+        "utf8": "🟥",
+        "utf8-2": "🔴",
+        "laesymbol": "U",
+        "lae4-symbol": "U",
+        "lae2-symbol": "U",
+        "unicode": "U+268A",
+        "binary": "1",
+        "name": "Yang",
+        "description": "Solid line, active principle."
+      },
+      {
+        "symbol": "☮",
+        "id": 6,
+        "number": 0,
+        "count": 1.5,
+        "utf8": "🕯️",
+        "laeoperator": ":",
+        "laeutf8": "❤️",
+        "utf8": "🟥",
+        "utf8-2": "🔴",
+        "laesymbol": "U",
+        "lae4-symbol": "U",
+        "lae2-symbol": "U",
+        "unicode": "U+268A",
+        "binary": "1",
+        "name": "Yang",
+        "description": "Solid line, active principle."
+      }
+    ],
 
     "trigrams": [
       {
-        "number": 1,
+        "id": 1,
+        "number": 8,
         "symbol": "☰",
+        "vikingsymbol": "🚀",
         "unicode": "U+2630",
         "binary": "111",
         "name": "Heaven",
@@ -670,8 +783,10 @@
         "description": "Creative force."
       },
       {
-        "number": 2,
+        "id": 2,
+        "number": 7,
         "symbol": "☱",
+        "vikingsymbol": "🌊",
         "unicode": "U+2631",
         "binary": "110",
         "name": "Lake",
@@ -680,8 +795,10 @@
         "description": "Joy and openness."
       },
       {
-        "number": 3,
+        "id": 3,
+        "number": 6,
         "symbol": "☲",
+        "vikingsymbol": "🚂",
         "unicode": "U+2632",
         "binary": "101",
         "name": "Fire",
@@ -690,8 +807,10 @@
         "description": "Clarity and illumination."
       },
       {
-        "number": 4,
+        "id": 4,
+        "number": 5,
         "symbol": "☳",
+        "vikingsymbol": "⚡",
         "unicode": "U+2633",
         "binary": "100",
         "name": "Thunder",
@@ -700,8 +819,10 @@
         "description": "Movement and action."
       },
       {
-        "number": 5,
+        "id": 5,
+        "number": 4,
         "symbol": "☴",
+        "vikingsymbol": "⛵",
         "unicode": "U+2634",
         "binary": "011",
         "name": "Wind",
@@ -710,8 +831,10 @@
         "description": "Penetration and influence."
       },
       {
-        "number": 6,
+        "id": 6,
+        "number": 3,
         "symbol": "☵",
+        "vikingsymbol": "🐟",
         "unicode": "U+2635",
         "binary": "010",
         "name": "Water",
@@ -720,8 +843,10 @@
         "description": "Depth and danger."
       },
       {
-        "number": 7,
+        "id": 7,
+        "number": 2,
         "symbol": "☶",
+        "vikingsymbol": "⚓",
         "unicode": "U+2636",
         "binary": "001",
         "name": "Mountain",
@@ -730,8 +855,10 @@
         "description": "Stillness and stability."
       },
       {
-        "number": 8,
+        "id": 8,
+        "number": 1,
         "symbol": "☷",
+        "vikingsymbol": "🔋",
         "unicode": "U+2637",
         "binary": "000",
         "name": "Earth",
@@ -741,6 +868,125 @@
       }
     ],
 
+    "hexagrams": [
+
+    "signs": {
+      "E": {
+        "number": 4,
+        "utf8": "💙",
+        "name": "Multiply",
+        "symbol": "×",
+        "hexagramgroups": {
+          "E": {
+            "color": "🔵",
+            "hexagrams": ["䷀䷫䷌䷠"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "A": {
+            "color": "🟢",
+            "hexagrams": ["䷉䷅䷘䷋"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "O": {
+            "color": "🔴",
+            "hexagrams": ["䷈䷸䷤䷴"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "I": {
+            "color": "🟡",
+            "hexagrams": ["䷼䷺䷩䷓"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          }
+        }
+      },
+        
+      "A": {
+        "number": 3,
+        "utf8": "💚",
+        "name": "Add",
+        "symbol": "+",
+        "hexagramgroups": {
+          "E": {
+            "color": "🔵",
+            "hexagrams": ["䷍䷱䷝䷷"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "A": {
+            "color": "🟢",
+            "hexagrams": ["䷥䷿䷔䷢"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "O": {
+            "color": "🔴",
+            "hexagrams": ["䷙䷑䷕䷳"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "I": {
+            "color": "🟡",
+            "hexagrams": ["䷨䷃䷚䷖"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          }
+        }
+      },
+      
+      "O": {
+        "number": 4,
+        "utf8": "❤️",
+        "name": "Substract",
+        "symbol": "-",
+        "hexagramgroups": {
+          "E": {
+            "color": "🔵",
+            "hexagrams": ["䷪䷛䷰䷞"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "A": {
+            "color": "🟢",
+            "hexagrams": ["䷹䷮䷐䷬"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "O": {
+            "color": "🔴",
+            "hexagrams": ["䷄䷯䷾䷦"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "I": {
+            "color": "🟡",
+            "hexagrams": ["䷻䷜䷂䷇"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          }
+        }
+      },
+      "I": {
+        "number": 4,
+        "utf8": "💛",
+        "name": "Divide",
+        "symbol": "÷",
+        "hexagramgroups": {
+          "E": {
+            "color": "🔵",
+            "hexagrams": ["䷡䷟䷶䷽"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "A": {
+            "color": "🟢",
+            "hexagrams": ["䷵䷧䷲䷏"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "O": {
+            "color": "🔴",
+            "hexagrams": ["䷊䷭䷣䷎"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          },
+          "I": {
+            "color": "🟡",
+            "hexagrams": ["䷒䷆䷗䷁"]
+            "colors": ["🟦", "🟩", "🟥", "🟨"]
+          }
+        }
+      }
+    ]
+    
     "hexagrams": [
       {
         "number": 1,
