@@ -367,7 +367,7 @@
       "base": 4,
       "lbase": [2, 2],
       "digits": ["M", "N", "S", "T"],
-      "utf8-digits": ["⚫", "⚪", "⬛", "⬜"]
+      "utf8-digits": ["⚫", "⚪", "⬛", "⬜"],
       "scdigits": ["m", "n", "s", "t"],
       "udigits": ["U", "Ո"],
        "scudigits": ["u", "∩"],
@@ -379,37 +379,37 @@
       "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/DiagonalIOAE.png",
       "base": 4,
       "digits": ["I", "O", "A", "E"],
-      "utf8-digits": ["🟨", "🟥", "🟩", "🟦"]
+      "utf8-digits": ["🟨", "🟥", "🟩", "🟦"],
       "scdigits": ["i", "o", "a", "e"],
-      "utf8-scdigits": ["🟡", "🔴", "🟢", "🔵"]
+      "utf8-scdigits": ["🟡", "🔴", "🟢", "🔵"],
       "udigits": ["U", "Ո"],
-      "utf8-udigits": ["⬛", "⬜"]
+      "utf8-udigits": ["⬛", "⬜"],
       "scudigits": ["u", "∩"],
-      "utf8-scudigits": ["⚫", "⚪"]
+      "utf8-scudigits": ["⚫", "⚪"],
       "ludigits": ["UU", "UՈ", "ՈU", "ՈՈ"],
-      "utf8-ludigits": ["⚫", "⚪", "⬛", "⬜"]
+      "utf8-ludigits": ["⚫", "⚪", "⬛", "⬜"],
       "scludigits": ["uu", "u∩", "∩u", "∩∩"],
-      "utf8-ludigits": ["⚫", "⚪", "⬛", "⬜"]
+      "utf8-ludigits": ["⚫", "⚪", "⬛", "⬜"],
       "description": "Four-state system. Can map naturally to Laegna four-value logic."
     },
     {
       "id": "colors-4",
       "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/LaegnaDao.png",
       "colors": ["Yellow", "Red", "Green", "Blue"],
-      "utf8-o1": ["🟨", "🟥", "🟩", "🟦"]
-      "utf8-o2": ["🟡", "🔴", "🟢", "🔵"]
-      "utf8-o3": ["💛", "❤️", "💚", "💙"]
+      "utf8-o1": ["🟨", "🟥", "🟩", "🟦"],
+      "utf8-o2": ["🟡", "🔴", "🟢", "🔵"],
+      "utf8-o3": ["💛", "❤️", "💚", "💙"],
       "ucolors": ["Black", "White"]
-      "uutf8-o1": ["⬛", "⬜"]
-      "uutf8-o2": ["⚫", "⚪"]
-      "uutf8-o3": ["🖤", "🤍"]
+      "uutf8-o1": ["⬛", "⬜"],
+      "uutf8-o2": ["⚫", "⚪"],
+      "uutf8-o3": ["🖤", "🤍"],
     },
     {
       "id": "signs-4",
       "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/PlusMinus/SignsOfSystems.png",
       "signs": ["÷", "-", "+", "×"],
-      "utf8": ["💛", "❤️", "💚", "💙"]
-      "usigns": ["·", ":"]
+      "utf8": ["💛", "❤️", "💚", "💙"],
+      "usigns": ["·", ":"],
       "uutf8": ["🖤", "🤍"]
     },
     {
@@ -417,9 +417,9 @@
       "name": "Laegna Octal",
       "base": 8,
       "digits": ["1", "2", "3", "4", "5", "6", "7", "8"],
-      "utf8-digits": ["🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦"]
+      "utf8-digits": ["🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦"],
       "udigits": ["0", "9"],
-      "utf8-udigits": ["⚫", "⚪"]
+      "utf8-udigits": ["⚫", "⚪"],
       "description": "Three binary bits per digit."
     },
     {
@@ -427,7 +427,7 @@
       "name": "Latin Decimal",
       "base": 10,
       "digits": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
-      "utf8-digits": ["⚫", "🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦", "⬜"]
+      "utf8-digits": ["⚫", "🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦", "⬜"],
       "description": "Standard human counting system."
     },
     {
@@ -445,7 +445,7 @@
         "K", "J", "I", "L"
       ],
       "udigits": ["W", "V", "U", "Ո"],
-      "utf8-udigits": ["⚫", "⚪", "⬛", "⬜"]
+      "utf8-udigits": ["⚫", "⚪", "⬛", "⬜"],
       "scdigits": [
         "G", "F", "E", "H",
         "C", "B", "A", "D",
@@ -458,9 +458,9 @@
         "🟥🟡", "🟥🔴", "🟥🟢", "🟥🔵",
         "🟨🟡", "🟨🔴", "🟨🟢", "🟨🔵"
       ],
-      "utf8-digits": ["🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦"]
+      "utf8-digits": ["🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦"],
       "scudigits": ["w", "v", "u", "∩"],
-      "utf8-scudigits": ["⚫", "⚪", "⬛", "⬜"]
+      "utf8-scudigits": ["⚫", "⚪", "⬛", "⬜"],
       "description": "Four binary bits per digit. Common in computing."
     }
   ],
