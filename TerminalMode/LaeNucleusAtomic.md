@@ -1,4 +1,14 @@
+![FractaliteCover](Gfx/FractaliteCover.png)
+
+<br>
+
+---
+
 ChatGPT introduction:
+
+![Fractalizer1](Gfx/Fractalizer1.png)
+
+<br>
 
 # Atomic / Nuclear Laegna
 
@@ -969,6 +979,10 @@ Its practical value will emerge through mathematical consistency, computational 
 
 ---
 
+![Fractalizer2](Gfx/Fractalizer2.png)
+
+<br>
+
 My initial document:
 
 # Atomic / Nuclear Laegna
@@ -1040,3 +1054,9 @@ Object with other than exponential growth, in 1st integral projection, would not
 Z, X, Y: while X is equal to original projection, it's now component of 3 bands, so it's three times less dense as it's single band of fourier decomposition; it reflects the initial fractal with 3-based rank 1 down, recursive 3 down instead of two. Tetrinary logarithmic growth (or rather, unshrink) in Laegna. Each dimension has higher value upwards, through each polarizable rank, to keep it efficiently a linear number count through all the local infinities we can measure in degrees or in Physics and Einstein realms - spatial curvature.
 
 External coordinates come from 5th which is equal to 4th, other aspect of the same diagonal so that they form + and - infinity or + and - zero; in Laegna they are planck unit and external-projection centered or next-internal-projection centered view, where H_int and H_ext are seen as single octave which can be played in Laegna octave space; Z and Y can also be 2-dimensional octave down and up, while X is what is left of original linear projection in middle where it projects it's lower precision which meets it's octave-wise 1/3 precision.
+
+---
+
+<br>
+
+![Fractalizer3](Gfx/Fractalizer3.png)
