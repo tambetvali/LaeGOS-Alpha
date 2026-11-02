@@ -2,6 +2,7 @@
   "schema": {
     "version": "1.0",
     "description": "LaeChing symbols and Laegna number / digit / letter encoding systems."
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/Graphics/DaisyElise.png"
   },
 
   "gen-laegnaBaseAlphabet-simplified": {
@@ -53,11 +54,13 @@
    },
    {
     "symbol": "ћ̵",
-    "meaning": "ћ̵ - h- or m-harmony is where one helped other(s), and this did prove the ethics in circulating back to oneself with real force not obstacled. This is ethics, long runs and wide terms."
+    "meaning": "ћ̵ - h- or m-harmony is where one helped other(s), and this did prove the ethics in circulating back to oneself with real force not obstacled. This is ethics, long runs and wide terms.",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/GlobalEthics/Harmonic.png"
    },
    {
     "symbol": "ℏ",
-    "meaning": "ℏ - n-harmony is where one helped other(s), but it's not turned to their own success so it's not thermodynamically recreative, sustainable, circular recreation seed."
+    "meaning": "ℏ - n-harmony is where one helped other(s), but it's not turned to their own success so it's not thermodynamically recreative, sustainable, circular recreation seed.",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/GlobalEthics/Harmonic.png"
    },
    {
     "symbol": "I",
@@ -85,11 +88,13 @@
    },
    {
     "symbol": "μ",
-    "meaning": "μ - mü is when one made other(s) lose, but the consequence is not circulating back as loss, even if it could be paid in advance - ethical collapse is weak, so it's not always wu wéi to reach such consequence."
+    "meaning": "μ - mü is when one made other(s) lose, but the consequence is not circulating back as loss, even if it could be paid in advance - ethical collapse is weak, so it's not always wu wéi to reach such consequence.",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/GlobalEthics/Harmonic.png"
    },
    {
     "symbol": "𝜈",
-    "meaning": "𝜈 - nü is when one made other(s) lose, but in long run it's first-hand their own loss; negative thermodynamics becomes actual bankcruptcy and resolves ethical values."
+    "meaning": "𝜈 - nü is when one made other(s) lose, but in long run it's first-hand their own loss; negative thermodynamics becomes actual bankcruptcy and resolves ethical values.",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/GlobalEthics/Harmonic.png"
    },
    {
     "symbol": "O",
@@ -117,7 +122,8 @@
    },
    {
     "symbol": "𝜏́",
-    "meaning": "Taú is where A becomes E, O becomes I - where the same logical value changes it's sign or value in I, or agrees in E - one is negatively, other positively self-referential, and both matter (A in local space is replied with A in infinity - `correct` or E in infinity - if A is wrong answer as it turns out then and for back then)."
+    "meaning": "Taú is where A becomes E, O becomes I - where the same logical value changes it's sign or value in I, or agrees in E - one is negatively, other positively self-referential, and both matter (A in local space is replied with A in infinity - `correct` or E in infinity - if A is wrong answer as it turns out then and for back then).",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/Paradox/Tau.png"
    },
    {
     "symbol": "U",
@@ -162,6 +168,7 @@
    {
     "symbol": "Ὦ",
     "meaning": "This is the final unknown: instead of solving it, you flow around. Some meanings and essences need to be left open, while their interactions are solved into substantial unknownness - `Philosophy of Dao and Zen`."
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/FinalUnknown/OOmega.png"
    }
   ],
 
@@ -327,13 +334,28 @@
     ]
   },
 
+  "laegnaOperators": [
+    {
+      "id": "unary",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/LogicStates/LogicStates.png"
+      "uimage": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/LogicStates/LogicStatesUnknowns.png"
+    },
+    {
+      "id": "math",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/MathOps/MathOps.png"
+    }
+  ],
+  
   "laegnaNumberSystems": [
     {
       "id": "base2",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/OA.png",
       "name": "Laegna Binary",
       "base": 2,
       "digits": ["O", "A"],
+      "utf8-digits": ["⬜", "⬛"]
       "scdigits": ["o", "a"],
+      "utf8-scdigits": ["⚪", "⚫"]
       "udigits": ["U"],
       "scudigits": ["u"],
       "description": "Two-state number system. Foundation of logic, computation, and duality."
@@ -341,9 +363,11 @@
     {
       "id": "base22",
       "name": "Laegna Double-Binary",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/STMN.png",
       "base": 4,
       "lbase": [2, 2],
       "digits": ["M", "N", "S", "T"],
+      "utf8-digits": ["⚫", "⚪", "⬛", "⬜"]
       "scdigits": ["m", "n", "s", "t"],
       "udigits": ["U", "Ո"],
        "scudigits": ["u", "∩"],
@@ -352,21 +376,50 @@
     {
       "id": "base4",
       "name": "Laegna Quaternary",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/DiagonalIOAE.png",
       "base": 4,
       "digits": ["I", "O", "A", "E"],
+      "utf8-digits": ["🟨", "🟥", "🟩", "🟦"]
       "scdigits": ["i", "o", "a", "e"],
+      "utf8-scdigits": ["🟡", "🔴", "🟢", "🔵"]
       "udigits": ["U", "Ո"],
+      "utf8-udigits": ["⬛", "⬜"]
       "scudigits": ["u", "∩"],
+      "utf8-scudigits": ["⚫", "⚪"]
       "ludigits": ["UU", "UՈ", "ՈU", "ՈՈ"],
+      "utf8-ludigits": ["⚫", "⚪", "⬛", "⬜"]
       "scludigits": ["uu", "u∩", "∩u", "∩∩"],
+      "utf8-ludigits": ["⚫", "⚪", "⬛", "⬜"]
       "description": "Four-state system. Can map naturally to Laegna four-value logic."
+    },
+    {
+      "id": "colors-4",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/LaegnaDao.png",
+      "colors": ["Yellow", "Red", "Green", "Blue"],
+      "utf8-o1": ["🟨", "🟥", "🟩", "🟦"]
+      "utf8-o2": ["🟡", "🔴", "🟢", "🔵"]
+      "utf8-o3": ["💛", "❤️", "💚", "💙"]
+      "ucolors": ["Black", "White"]
+      "uutf8-o1": ["⬛", "⬜"]
+      "uutf8-o2": ["⚫", "⚪"]
+      "uutf8-o3": ["🖤", "🤍"]
+    },
+    {
+      "id": "signs-4",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/PlusMinus/SignsOfSystems.png",
+      "signs": ["÷", "-", "+", "×"],
+      "utf8": ["💛", "❤️", "💚", "💙"]
+      "usigns": ["·", ":"]
+      "uutf8": ["🖤", "🤍"]
     },
     {
       "id": "base8",
       "name": "Laegna Octal",
       "base": 8,
       "digits": ["1", "2", "3", "4", "5", "6", "7", "8"],
+      "utf8-digits": ["🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦"]
       "udigits": ["0", "9"],
+      "utf8-udigits": ["⚫", "⚪"]
       "description": "Three binary bits per digit."
     },
     {
@@ -374,11 +427,14 @@
       "name": "Latin Decimal",
       "base": 10,
       "digits": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+      "utf8-digits": ["⚫", "🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦", "⬜"]
       "description": "Standard human counting system."
     },
     {
       "id": "base16",
       "alt-id": "base44",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/Hexadecimal.png",
+      "uimage": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/Probably.png",
       "name": "Laegna Hexadecimal",
       "alt-name": "Laegna Double-Quaternary.",
       "base": 16,
@@ -389,13 +445,22 @@
         "K", "J", "I", "L"
       ],
       "udigits": ["W", "V", "U", "Ո"],
+      "utf8-udigits": ["⚫", "⚪", "⬛", "⬜"]
       "scdigits": [
         "G", "F", "E", "H",
         "C", "B", "A", "D",
         "Q", "P", "O", "R",
         "K", "J", "I", "L"
       ],
+      "utf8-scdigits": [
+        "🟦🟡", "🟦🔴", "🟦🟢", "🟦🔵",
+        "🟩🟡", "🟩🔴", "🟩🟢", "🟩🔵",
+        "🟥🟡", "🟥🔴", "🟥🟢", "🟥🔵",
+        "🟨🟡", "🟨🔴", "🟨🟢", "🟨🔵"
+      ],
+      "utf8-digits": ["🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦"]
       "scudigits": ["w", "v", "u", "∩"],
+      "utf8-scudigits": ["⚫", "⚪", "⬛", "⬜"]
       "description": "Four binary bits per digit. Common in computing."
     }
   ],
@@ -404,6 +469,7 @@
     {
       "symbol": "O",
       "name": "Negative",
+      "utf8-symbol": "⚫",
       "truth": "True",
       "value": -1,
       "description": "Deep negative or anti-state."
@@ -411,6 +477,7 @@
     {
       "symbol": "A",
       "name": "Positive",
+      "utf8-symbol": "⬜",
       "truth": "True",
       "value": 1,
       "description": "Negative state."
@@ -421,6 +488,7 @@
    {
       "symbol": "✔",
       "alt-symbol": "☑",
+      "utf8-symbol": "⚫",
       "name": "Positive",
       "truth": "True",
       "value": 1,
@@ -430,6 +498,7 @@
       "symbol": "✖",
       "alt-symbol": "☒",
       "alt-2-symbol": "❌",
+      "utf8-symbol": "⬜",
       "symbolset": "☐",
       "name": "Negative",
       "truth": "False",
@@ -442,6 +511,7 @@
     {
       "symbol": "I",
       "name": "Negotion",
+      "utf8": ["🟨"],
       "value": -2,
       "count": 1,
       "description": "Deep negative or anti-state.",
@@ -450,6 +520,7 @@
     {
       "symbol": "O",
       "name": "Negation",
+      "utf8": ["🟥"],
       "value": -1,
       "count": 2,
       "description": "Negative state.",
@@ -458,6 +529,7 @@
     {
       "symbol": "A",
       "name": "Position",
+      "utf8": ["🟩"]
       "value": 1,
       "count": 3,
       "description": "Positive state.",
@@ -466,6 +538,7 @@
     {
       "symbol": "E",
       "name": "Posetion",
+      "utf8": ["🟦"]
       "value": 2,
       "count": 4,
       "description": "Strong positive or emergent state.",
@@ -477,6 +550,7 @@
     {
       "symbol": "Z",
       "name": "Logarithmic scope",
+      "utf8-symbol": "⤺",
       "name-2": "U-uneton",
       "ovalue": -1,
       "ocount": 1,
@@ -485,6 +559,7 @@
     {
       "symbol": "X",
       "name": "Linear scope",
+      "utf-8-symbol": "╱".
       "ovalue": 0,
       "ocount": 1,
       "description": "Focus, resolve."
@@ -492,6 +567,7 @@
     {
       "symbol": "Y",
       "name": "Exponential scope",
+      "utf8-symbol": "⤻",
       "ovalue": 1,
       "ocount": 2,
       "description": "Zoom out, composite."
