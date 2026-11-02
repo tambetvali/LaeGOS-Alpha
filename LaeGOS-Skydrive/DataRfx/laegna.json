@@ -9,10 +9,12 @@
     "g-symbol": "ABCD EFGH ћ̵ℏ IJKL MN μ𝜈 OPQR ST 𝜏́ UVWՈ XYZ 𝓩𝓧𝓨 Ὦ",
     "url": "https://laegna.notaku.site/laegna-base-alphabet",
     "alt-url": "https://github.com/tambetvali/LaegnaBaseAlphabet",
-    "manual": "μ𝜈 - replacement for Laegna mü, nü.
-    ћ̵ℏ - m and h harmony
-    𝜏́ - taú
-    𝓩𝓧𝓨 - `zeta, etha, theta` or for real, `exceeta é group` - Zeta, Exceeta or exzeta, Yeta (or yeyeta or yoyota playing with Japanese-sounding fakery)",
+    "manual": [
+      "μ𝜈 - replacement for Laegna mü, nü.",
+      "ћ̵ℏ - m and h harmony",
+      "𝜏́ - taú",
+      "𝓩𝓧𝓨 - `zeta, etha, theta` or for real, `exceeta é group` - Zeta, Exceeta or exzeta, Yeta (or yeyeta or yoyota playing with Japanese-sounding fakery)"
+    ],
     "name": "Uneton"
   },
 
@@ -161,7 +163,7 @@
     "symbol": "Ὦ",
     "meaning": "This is the final unknown: instead of solving it, you flow around. Some meanings and essences need to be left open, while their interactions are solved into substantial unknownness - `Philosophy of Dao and Zen`."
    }
-  ]
+  ],
 
   "iching": {
     "singleLines": [
@@ -322,8 +324,6 @@
         "lowerTrigram": "Earth",
         "description": ""
       }
-
-      /* Continue through all 64 hexagrams */
     ]
   },
 
@@ -553,7 +553,7 @@
         "1/4   Division rank 2",
         "1/8   Division rank 3",
         "1/16  Division rank 4"
-      ]
+      ],
       "Manual-octaves": [
         "16    Octave 4",
         "8     Octave 3",
@@ -564,7 +564,7 @@
         "1/4   Octave -2",
         "1/8   Octave -3",
         "1/16  Octave -4"
-      ]
+      ],
       "Manual-linearspace": [
         "16    Integral order 4",
         "8     Integral order 3",
@@ -575,7 +575,7 @@
         "1/4   Differential order 2",
         "1/8   Differential order 3",
         "1/16  Differential order 4"
-      ]
+      ],
       "Manual-octaves-rankminus1": [
         "16    Octave 4",
         "8     Octave 3",
@@ -586,7 +586,7 @@
         "-4   Octave -2",
         "-8   Octave -3",
         "-16  Octave -4"
-      ]
+      ],
       "Manual-linearspace-rankminus1": [
         "16    Integral order 4",
         "8     Integral order 3",
@@ -598,7 +598,7 @@
         "-8   Differential order 3",
         "-16  Differential order 4",
         "±256 Differential order Ո"
-      ]
+      ],
       "Manual-frequencies-rankminus1": [
         "16    Frequency EEEE, with R = 4, R rank = 3.",
         "8     Frequency EE, with R = 2, R rank = 2.",
@@ -610,10 +610,10 @@
         "-2    Frequency O, with R = 0.5, R rank = 0.",
         "-4    Frequency I, with R = 1, R rank = 1.",
         "-8    Frequency II, with R = 2, R rank = 2.",
-        "-16   Frequency IIII, with R = 4, R rank = 4."
-      ]
-      "Manual-frequencies-rankminus1": [
-        "16    Octave 4",
+        "-16   Frequency IIII, with R = 4, R rank = 3."
+        "±256  Frequency Ո, with R = 1, R rank = 1."
+      ],
+      "Manual-frequencies": [
         "16    Frequency EEEE, with R = 4, R rank = 3.",
         "8     Frequency EE, with R = 2, R rank = 2.",
         "4     Frequency E, with R = 1, R rank = 1.",
@@ -621,11 +621,11 @@
         "1     Frequency U, with R = 0.25, R rank = -1.",
         "0     Frequency W, with R = 0.125, R rank = -2.",
         "1/1   Frequency V, with R = 0.25, R rank = -1.",
-        "-2    Frequency O, with R = 0.5, R rank = 0.",
-        "-4    Frequency I, with R = 1, R rank = 1.",
-        "-8    Frequency II, with R = 2, R rank = 2.",
-        "-16   Frequency IIII, with R = 4, R rank = 4.",
-        "±256  Frequency Ո, with R = 1, R rank = 1."
+        "1/2    Frequency O, with R = 0.5, R rank = 0.",
+        "1/4    Frequency I, with R = 1, R rank = 1.",
+        "1/8    Frequency II, with R = 2, R rank = 2.",
+        "1/16   Frequency IIII, with R = 4, R rank = 3.",
+        "256 / 1/256  Frequency Ո, with R = 1, R rank = 1."
       ]
   ],
   
