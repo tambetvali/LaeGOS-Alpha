@@ -2,6 +2,21 @@
 
 <br>
 
+Notice where I will use the change lines:
+- Laegna number is accelerated number.
+- I will use the change line for this:
+  - Draw this parallel:
+    - Let's say e, energy is unit 1.
+    - gravity, m, is it's spatial spread.
+    - speed, c, is it's spread in time.
+    - e, the energy, is substance which changes into m or c.
+  - Now I need clearly this:
+    - Change from yin to yang => this is equal to c.
+    - Change from yang to yin => this is equal to m.
+    - Yang => this is equal to 1.
+    - Yin => this is equal to 1.
+    - These are not values, but relative scales.
+
 ---
 
 # Two modifications of Laegna Number Bases
