@@ -2,7 +2,9 @@
   "schema": {
     "version": "1.0",
     "description": "LaeChing symbols and Laegna number / digit / letter encoding systems.",
-    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/Graphics/DaisyElise.png"
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/Graphics/DaisyElise.png",
+    "url": "https://github.com/tambetvali/LaeChing/tree/main/Programming",
+    "url-2": "https://github.com/tambetvali/LaGOS-Physics-Laegna/tree/main/Lagenesis"
   },
 
   "gen-laegnaBaseAlphabet-simplified": {
