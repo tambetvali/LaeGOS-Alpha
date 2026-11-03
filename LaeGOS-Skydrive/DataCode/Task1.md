@@ -1,3 +1,7 @@
+![Task1MathES](Task1MathES.png)
+
+<br>
+
 # First Iterations
 
 ## Operational Backup
