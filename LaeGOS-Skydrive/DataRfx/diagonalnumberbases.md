@@ -1,4 +1,4 @@
-![Diagonal Number Bases](LaeGOS-Skydrive/DataGfx/DiagonalBasin.png)
+![Diagonal Number Bases](../DataGfx/DiagonalBasin.png)
 
 <br>
 
