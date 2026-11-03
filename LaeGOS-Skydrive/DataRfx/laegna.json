@@ -879,6 +879,10 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 1,
+                "name": "The Creative",
+                "name-alt": "Heaven",
+                "name-alt2": "Force",
                 "id": 1,
                 "number": 32,
                 "count": 64,
@@ -886,6 +890,9 @@
                 "utf8": "💙🔵🟦"
               },
               {
+                "iching_idx": 44,
+                "name": "Coming to Meet",
+                "name-alt": "Encounter",
                 "id": 2,
                 "number": 31,
                 "count": 63,
@@ -893,6 +900,9 @@
                 "utf8": "💙🔵🟩"
               },
               {
+                "iching_idx": 13,
+                "name": "Fellowship with Men",
+                "name-alt": "Community",
                 "id": 3,
                 "number": 30,
                 "count": 62,
@@ -900,6 +910,9 @@
                 "utf8": "💙🔵🟥"
               },
               {
+                "iching_idx": 33,
+                "name": "Retreat",
+                "name-alt": "Withdrawal",
                 "id": 4,
                 "number": 29,
                 "count": 61,
@@ -914,6 +927,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 10,
+                "name": "Treading",
+                "name-alt": "Conduct",
                 "id": 5,
                 "number": 28,
                 "count": 60,
@@ -921,6 +937,9 @@
                 "utf8": "💙🟢🟦"
               },
               {
+                "iching_idx": 6,
+                "name": "Conflict",
+                "name-alt": "Arguing",
                 "id": 6,
                 "number": 27,
                 "count": 59,
@@ -928,6 +947,9 @@
                 "utf8": "💙🟢🟩"
               },
               {
+                "iching_idx": 25,
+                "name": "Innocence",
+                "name-alt": "Without Entanglement",
                 "id": 7,
                 "number": 26,
                 "count": 58,
@@ -935,6 +957,9 @@
                 "utf8": "💙🟢🟥"
               },
               {
+                "iching_idx": 12,
+                "name": "Standstill",
+                "name-alt": "Stagnation",
                 "id": 8,
                 "number": 25,
                 "count": 57,
@@ -949,6 +974,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 9,
+                "name": "The Taming Power of the Small",
+                "name-alt": "Small Accumulation",
                 "id": 9,
                 "number": 24,
                 "count": 56,
@@ -956,6 +984,10 @@
                 "utf8": "💙🔴🟦"
               },
               {
+                "iching_idx": 57,
+                "name": "The Gentle",
+                "name-alt": "Wind",
+                "name-alt2": "Penetrating",
                 "id": 10,
                 "number": 23,
                 "count": 55,
@@ -963,6 +995,9 @@
                 "utf8": "💙🔴🟩"
               },
               {
+                "iching_idx": 37,
+                "name": "The Family",
+                "name-alt": "The Clan",
                 "id": 11,
                 "number": 22,
                 "count": 54,
@@ -970,6 +1005,9 @@
                 "utf8": "💙🔴🟥"
               },
               {
+                "iching_idx": 53,
+                "name": "Development",
+                "name-alt": "Gradual Progress",
                 "id": 12,
                 "number": 21,
                 "count": 53,
@@ -984,6 +1022,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 61,
+                "name": "Inner Truth",
+                "name-alt": "Central Returning",
                 "id": 13,
                 "number": 20,
                 "count": 52,
@@ -991,6 +1032,9 @@
                 "utf8": "💙🟡🟦"
               },
               {
+                "iching_idx": 59,
+                "name": "Dispersion",
+                "name-alt": "Dissolution",
                 "id": 14,
                 "number": 19,
                 "count": 51,
@@ -998,6 +1042,8 @@
                 "utf8": "💙🟡🟩"
               },
               {
+                "iching_idx": 42,
+                "name": "Increase",
                 "id": 15,
                 "number": 18,
                 "count": 50,
@@ -1005,6 +1051,9 @@
                 "utf8": "💙🟡🟥"
               },
               {
+                "iching_idx": 20,
+                "name": "Contemplation",
+                "name-alt": "Viewing",
                 "id": 16,
                 "number": 17,
                 "count": 49,
@@ -1028,6 +1077,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 14,
+                "name": "Great Possession",
+                "name-alt": "Great Having",
                 "id": 17,
                 "number": 16,
                 "count": 48,
@@ -1035,6 +1087,9 @@
                 "utf8": "💚🔵🟦"
               },
               {
+                "iching_idx": 50,
+                "name": "The Cauldron",
+                "name-alt": "The Vessel",
                 "id": 18,
                 "number": 15,
                 "count": 47,
@@ -1042,6 +1097,10 @@
                 "utf8": "💚🔵🟩"
               },
               {
+                "iching_idx": 30,
+                "name": "The Clinging",
+                "name-alt": "Fire",
+                "name-alt2": "Radiance",
                 "id": 19,
                 "number": 14,
                 "count": 46,
@@ -1049,6 +1108,9 @@
                 "utf8": "💚🔵🟥"
               },
               {
+                "iching_idx": 56,
+                "name": "The Wanderer",
+                "name-alt": "Traveller",
                 "id": 20,
                 "number": 13,
                 "count": 45,
@@ -1063,6 +1125,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 38,
+                "name": "Opposition",
+                "name-alt": "Polarising",
                 "id": 21,
                 "number": 12,
                 "count": 44,
@@ -1070,6 +1135,8 @@
                 "utf8": "💚🟢🟦"
               },
               {
+                "iching_idx": 64,
+                "name": "Before Completion",
                 "id": 22,
                 "number": 11,
                 "count": 43,
@@ -1077,6 +1144,9 @@
                 "utf8": "💚🟢🟩"
               },
               {
+                "iching_idx": 21,
+                "name": "Biting Through",
+                "name-alt": "Gnawing Bite",
                 "id": 23,
                 "number": 10,
                 "count": 42,
@@ -1084,6 +1154,8 @@
                 "utf8": "💚🟢🟥"
               },
               {
+                "iching_idx": 35,
+                "name": "Progress",
                 "id": 24,
                 "number": 9,
                 "count": 41,
@@ -1098,6 +1170,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 26,
+                "name": "The Taming Power of the Great",
+                "name-alt": "Great Accumulation",
                 "id": 25,
                 "number": 8,
                 "count": 40,
@@ -1105,6 +1180,10 @@
                 "utf8": "💚🔴🟦"
               },
               {
+                "iching_idx": 18,
+                "name": "Work on What Has Been Spoiled",
+                "name-alt": "Correction",
+                "name-alt2": "Decay",
                 "id": 26,
                 "number": 7,
                 "count": 39,
@@ -1112,6 +1191,9 @@
                 "utf8": "💚🔴🟩"
               },
               {
+                "iching_idx": 22,
+                "name": "Grace",
+                "name-alt": "Adornment",
                 "id": 27,
                 "number": 6,
                 "count": 38,
@@ -1119,6 +1201,10 @@
                 "utf8": "💚🔴🟥"
               },
               {
+                "iching_idx": 52,
+                "name": "Keeping Still",
+                "name-alt": "Mountain",
+                "name-alt2": "Stillness",
                 "id": 28,
                 "number": 5,
                 "count": 37,
@@ -1133,6 +1219,8 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 41,
+                "name": "Decrease",
                 "id": 29,
                 "number": 4,
                 "count": 36,
@@ -1140,6 +1228,9 @@
                 "utf8": "💚🟡"
               },
               {
+                "iching_idx": 4,
+                "name": "Youthful Folly",
+                "name-alt": "Enveloping",
                 "id": 30,
                 "number": 3,
                 "count": 35,
@@ -1147,6 +1238,9 @@
                 "utf8": "💚🟡"
               },
               {
+                "iching_idx": 27,
+                "name": "Nourishment",
+                "name-alt": "Jaws",
                 "id": 31,
                 "number": 2,
                 "count": 34,
@@ -1154,6 +1248,9 @@
                 "utf8": "💚🟡"
               },
               {
+                "iching_idx": 23,
+                "name": "Splitting Apart",
+                "name-alt": "Stripping Away",
                 "id": 32,
                 "number": 1,
                 "count": 33,
@@ -1177,6 +1274,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 43,
+                "name": "Breakthrough",
+                "name-alt": "Resoluteness",
                 "id": 33,
                 "number": -1,
                 "count": 32,
@@ -1184,6 +1284,9 @@
                 "utf8": "❤️🔵🟦"
               },
               {
+                "iching_idx": 28,
+                "name": "Great Preponderance",
+                "name-alt": "Great Exceeding",
                 "id": 34,
                 "number": -2,
                 "count": 31,
@@ -1191,6 +1294,9 @@
                 "utf8": "❤️🔵🟩"
               },
               {
+                "iching_idx": 49,
+                "name": "Revolution",
+                "name-alt": "Molting",
                 "id": 35,
                 "number": -3,
                 "count": 30,
@@ -1198,6 +1304,9 @@
                 "utf8": "❤️🔵🟥"
               },
               {
+                "iching_idx": 31,
+                "name": "Influence",
+                "name-alt": "Wooing",
                 "id": 36,
                 "number": -4,
                 "count": 29,
@@ -1212,6 +1321,10 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 58,
+                "name": "The Joyous",
+                "name-alt": "Lake",
+                "name-alt2": "Open",
                 "id": 37,
                 "number": -5,
                 "count": 28,
@@ -1219,6 +1332,9 @@
                 "utf8": "❤️🟢🟦"
               },
               {
+                "iching_idx": 47,
+                "name": "Oppression",
+                "name-alt": "Exhaustion",
                 "id": 38,
                 "number": -6,
                 "count": 27,
@@ -1226,6 +1342,8 @@
                 "utf8": "❤️🟢🟩"
               },
               {
+                "iching_idx": 17,
+                "name": "Following",
                 "id": 39,
                 "number": -7,
                 "count": 26,
@@ -1233,6 +1351,9 @@
                 "utf8": "❤️🟢🟥"
               },
               {
+                "iching_idx": 45,
+                "name": "Gathering Together",
+                "name-alt": "Gathering",
                 "id": 40,
                 "number": -8,
                 "count": 25,
@@ -1247,6 +1368,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 5,
+                "name": "Waiting",
+                "name-alt": "Attending",
                 "id": 41,
                 "number": -9,
                 "count": 24,
@@ -1254,6 +1378,8 @@
                 "utf8": "❤️🔴🟦"
               },
               {
+                "iching_idx": 48,
+                "name": "The Well",
                 "id": 42,
                 "number": -10,
                 "count": 23,
@@ -1261,6 +1387,8 @@
                 "utf8": "❤️🔴🟩"
               },
               {
+                "iching_idx": 63,
+                "name": "After Completion",
                 "id": 43,
                 "number": -11,
                 "count": 22,
@@ -1268,6 +1396,9 @@
                 "utf8": "❤️🔴🟥"
               },
               {
+                "iching_idx": 39,
+                "name": "Obstruction",
+                "name-alt": "Limping",
                 "id": 44,
                 "number": -12,
                 "count": 21,
@@ -1282,6 +1413,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 60,
+                "name": "Limitation",
+                "name-alt": "Articulating",
                 "id": 45,
                 "number": -13,
                 "count": 20,
@@ -1289,6 +1423,10 @@
                 "utf8": "❤️🟡🟦"
               },
               {
+                "iching_idx": 29,
+                "name": "The Abysmal",
+                "name-alt": "Water",
+                "name-alt2": "Gorge",
                 "id": 46,
                 "number": -14,
                 "count": 19,
@@ -1296,6 +1434,9 @@
                 "utf8": "❤️🟡🟩"
               },
               {
+                "iching_idx": 3,
+                "name": "Difficulty at the Beginning",
+                "name-alt": "Sprouting",
                 "id": 47,
                 "number": -15,
                 "count": 18,
@@ -1303,6 +1444,10 @@
                 "utf8": "❤️🟡🟥"
               },
               {
+                "iching_idx": 8,
+                "name": "Holding Together",
+                "name-alt": "Union",
+                "name-alt2": "Grouping",
                 "id": 48,
                 "number": -16,
                 "count": 17,
@@ -1325,6 +1470,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 34,
+                "name": "The Power of the Great",
+                "name-alt": "Great Strength",
                 "id": 49,
                 "number": -17,
                 "count": 16,
@@ -1332,6 +1480,9 @@
                 "utf8": "💛🔵🟦"
               },
               {
+                "iching_idx": 32,
+                "name": "Duration",
+                "name-alt": "Perseverance",
                 "id": 50,
                 "number": -18,
                 "count": 15,
@@ -1339,6 +1490,9 @@
                 "utf8": "💛🔵🟩"
               },
               {
+                "iching_idx": 55,
+                "name": "Abundance",
+                "name-alt": "Fullness",
                 "id": 51,
                 "number": -19,
                 "count": 14,
@@ -1346,6 +1500,9 @@
                 "utf8": "💛🔵🟥"
               },
               {
+                "iching_idx": 62,
+                "name": "Small Preponderance",
+                "name-alt": "Small Exceeding",
                 "id": 52,
                 "number": -20,
                 "count": 13,
@@ -1360,6 +1517,8 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 54,
+                "name": "The Marrying Maiden",
                 "id": 53,
                 "number": -21,
                 "count": 12,
@@ -1367,6 +1526,9 @@
                 "utf8": "💛🟢🟦"
               },
               {
+                "iching_idx": 40,
+                "name": "Deliverance",
+                "name-alt": "Release",
                 "id": 54,
                 "number": -22,
                 "count": 11,
@@ -1374,6 +1536,10 @@
                 "utf8": "💛🟢🟩"
               },
               {
+                "iching_idx": 51,
+                "name": "The Arousing",
+                "name-alt": "Thunder",
+                "name-alt2": "Shock",
                 "id": 55,
                 "number": -23,
                 "count": 10,
@@ -1381,6 +1547,9 @@
                 "utf8": "💛🟢🟥"
               },
               {
+                "iching_idx": 16,
+                "name": "Enthusiasm",
+                "name-alt": "Providing-For",
                 "id": 56,
                 "number": -24,
                 "count": 9,
@@ -1395,6 +1564,8 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 11,
+                "name": "Peace",
                 "id": 57,
                 "number": -25,
                 "count": 8,
@@ -1402,6 +1573,9 @@
                 "utf8": "💛🔴🟦"
               },
               {
+                "iching_idx": 46,
+                "name": "Pushing Upward",
+                "name-alt": "Ascending",
                 "id": 58,
                 "number": -26,
                 "count": 7,
@@ -1409,6 +1583,9 @@
                 "utf8": "💛🔴🟩"
               },
               {
+                "iching_idx": 36,
+                "name": "Darkening of the Light",
+                "name-alt": "Brightness Hiding",
                 "id": 59,
                 "number": -27,
                 "count": 6,
@@ -1416,6 +1593,9 @@
                 "utf8": "💛🔴🟥"
               },
               {
+                "iching_idx": 15,
+                "name": "Modesty",
+                "name-alt": "Humility",
                 "id": 60,
                 "number": -28,
                 "count": 5,
@@ -1430,6 +1610,9 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "iching_idx": 19,
+                "name": "Approach",
+                "name-alt": "Nearing",
                 "id": 61,
                 "number": -29,
                 "count": 4,
@@ -1437,6 +1620,9 @@
                 "utf8": "💛🟡🟦"
               },
               {
+                "iching_idx": 7,
+                "name": "The Army",
+                "name-alt": "Leading",
                 "id": 62,
                 "number": -30,
                 "count": 3,
@@ -1444,6 +1630,9 @@
                 "utf8": "💛🟡🟩"
               },
               {
+                "iching_idx": 24,
+                "name": "Return",
+                "name-alt": "Turning Back",
                 "id": 63,
                 "number": -31,
                 "count": 2,
@@ -1451,6 +1640,10 @@
                 "utf8": "💛🟡🟥"
               },
               {
+                "iching_idx": 2,
+                "name": "The Receptive",
+                "name-alt": "Earth",
+                "name-alt2": "Field",
                 "id": 64,
                 "number": -32,
                 "count": 1,
