@@ -889,9 +889,9 @@
                 "count": 64,
                 "symbol": "䷀",
                 "utf8": "💙🔵🟦",
-                "lae2": "OOO OOO",
+                "lae2": "AAA AAA",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×H"
               },
               {
                 "iching_idx": 44,
@@ -903,9 +903,9 @@
                 "count": 63,
                 "symbol": "䷫",
                 "utf8": "💙🔵🟩",
-                "lae2": "OOO OOO",
+                "lae2": "AAA AAO",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×E"
               },
               {
                 "iching_idx": 13,
@@ -917,9 +917,9 @@
                 "count": 62,
                 "symbol": "䷌",
                 "utf8": "💙🔵🟥",
-                "lae2": "OOO OOO",
+                "lae2": "AAA AOA",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×F"
               },
               {
                 "iching_idx": 33,
@@ -931,9 +931,9 @@
                 "count": 61,
                 "symbol": "䷠",
                 "utf8": "💙🔵🟨",
-                "lae2": "OOO OOO",
+                "lae2": "AAA AOO",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×G"
               }              
             ]
           },
@@ -952,9 +952,9 @@
                 "count": 60,
                 "symbol": "䷉",
                 "utf8": "💙🟢🟦",
-                "lae2": "OOO OOO",
+                "lae2": "AAA OAA",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×D"
               },
               {
                 "iching_idx": 6,
@@ -966,9 +966,9 @@
                 "count": 59,
                 "symbol": "䷅",
                 "utf8": "💙🟢🟩",
-                "lae2": "OOO OOO",
+                "lae2": "AAA OAO",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×A"
               },
               {
                 "iching_idx": 25,
@@ -980,9 +980,9 @@
                 "count": 58,
                 "symbol": "䷘",
                 "utf8": "💙🟢🟥",
-                "lae2": "OOO OOO",
+                "lae2": "AAA OOA",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×B"
               },
               {
                 "iching_idx": 12,
@@ -994,9 +994,9 @@
                 "count": 57,
                 "symbol": "䷋",
                 "utf8": "💙🟢🟨",
-                "lae2": "OOO OOO",
+                "lae2": "AAA OOO",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×C"
               }              
             ]
           },
@@ -1015,9 +1015,9 @@
                 "count": 56,
                 "symbol": "䷈",
                 "utf8": "💙🔴🟦",
-                "lae2": "OOO OOO",
+                "lae2": "AAO AAA",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×R"
               },
               {
                 "iching_idx": 57,
@@ -1030,9 +1030,9 @@
                 "count": 55,
                 "symbol": "䷸",
                 "utf8": "💙🔴🟩",
-                "lae2": "OOO OOO",
+                "lae2": "AAO AAO",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×O"
               },
               {
                 "iching_idx": 37,
@@ -1044,9 +1044,9 @@
                 "count": 54,
                 "symbol": "䷤",
                 "utf8": "💙🔴🟥",
-                "lae2": "OOO OOO",
+                "lae2": "AAO AOA",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×P"
               },
               {
                 "iching_idx": 53,
@@ -1058,9 +1058,9 @@
                 "count": 53,
                 "symbol": "䷴",
                 "utf8": "💙🔴🟨",
-                "lae2": "OOO OOO",
+                "lae2": "AAO AOO",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×Q"
               }              
             ]
           },
@@ -1079,9 +1079,9 @@
                 "count": 52,
                 "symbol": "䷼",
                 "utf8": "💙🟡🟦",
-                "lae2": "OOO OOO",
+                "lae2": "AAO OAA",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×L"
               },
               {
                 "iching_idx": 59,
@@ -1093,9 +1093,9 @@
                 "count": 51,
                 "symbol": "䷺",
                 "utf8": "💙🟡🟩",
-                "lae2": "OOO OOO",
+                "lae2": "AAO OAO",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×I"
               },
               {
                 "iching_idx": 42,
@@ -1106,9 +1106,9 @@
                 "count": 50,
                 "symbol": "䷩",
                 "utf8": "💙🟡🟥",
-                "lae2": "OOO OOO",
+                "lae2": "AAO OOA",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×J"
               },
               {
                 "iching_idx": 20,
@@ -1120,9 +1120,9 @@
                 "count": 49,
                 "symbol": "䷓",
                 "utf8": "💙🟡🟨",
-                "lae2": "OOO OOO",
+                "lae2": "AAO OOO",
                 "lae4": "III",
-                "lae44": "×"
+                "lae44": "×K"
               }              
             ]
           }
@@ -1150,9 +1150,9 @@
                 "count": 48,
                 "symbol": "䷍",
                 "utf8": "💚🔵🟦",
-                "lae2": "OOO OOO",
+                "lae2": "AOA AAA",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+H"
               },
               {
                 "iching_idx": 50,
@@ -1164,9 +1164,9 @@
                 "count": 47,
                 "symbol": "䷱",
                 "utf8": "💚🔵🟩",
-                "lae2": "OOO OOO",
+                "lae2": "AOA AAO",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+E"
               },
               {
                 "iching_idx": 30,
@@ -1179,9 +1179,9 @@
                 "count": 46,
                 "symbol": "䷝",
                 "utf8": "💚🔵🟥",
-                "lae2": "OOO OOO",
+                "lae2": "AOA AOA",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+F"
               },
               {
                 "iching_idx": 56,
@@ -1193,9 +1193,9 @@
                 "count": 45,
                 "symbol": "䷷",
                 "utf8": "💚🔵🟨",
-                "lae2": "OOO OOO",
+                "lae2": "AOA AOO",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+G"
               }              
             ]
           },
@@ -1214,9 +1214,9 @@
                 "count": 44,
                 "symbol": "䷥",
                 "utf8": "💚🟢🟦",
-                "lae2": "OOO OOO",
+                "lae2": "AOA OAA",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+D"
               },
               {
                 "iching_idx": 64,
@@ -1227,9 +1227,9 @@
                 "count": 43,
                 "symbol": "䷿",
                 "utf8": "💚🟢🟩",
-                "lae2": "OOO OOO",
+                "lae2": "AOA OAO",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+A"
               },
               {
                 "iching_idx": 21,
@@ -1241,9 +1241,9 @@
                 "count": 42,
                 "symbol": "䷔",
                 "utf8": "💚🟢🟥",
-                "lae2": "OOO OOO",
+                "lae2": "AOA OOA",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+B"
               },
               {
                 "iching_idx": 35,
@@ -1254,9 +1254,9 @@
                 "count": 41,
                 "symbol": "䷢",
                 "utf8": "💚🟢🟨",
-                "lae2": "OOO OOO",
+                "lae2": "AOA OOO",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+C"
               }              
             ]
           },
@@ -1275,9 +1275,9 @@
                 "count": 40,
                 "symbol": "䷙",
                 "utf8": "💚🔴🟦",
-                "lae2": "OOO OOO",
+                "lae2": "AOO AAA",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+R"
               },
               {
                 "iching_idx": 18,
@@ -1290,9 +1290,9 @@
                 "count": 39,
                 "symbol": "䷑",
                 "utf8": "💚🔴🟩",
-                "lae2": "OOO OOO",
+                "lae2": "AOO AAO",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+O"
               },
               {
                 "iching_idx": 22,
@@ -1304,9 +1304,9 @@
                 "count": 38,
                 "symbol": "䷕",
                 "utf8": "💚🔴🟥",
-                "lae2": "OOO OOO",
+                "lae2": "AOO AOA",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+P"
               },
               {
                 "iching_idx": 52,
@@ -1319,9 +1319,9 @@
                 "count": 37,
                 "symbol": "䷳",
                 "utf8": "💚🔴🟨",
-                "lae2": "OOO OOO",
+                "lae2": "AOO AOO",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+Q"
               }              
             ]
           },
@@ -1339,9 +1339,9 @@
                 "count": 36,
                 "symbol": "䷨",
                 "utf8": "💚🟡🟦",
-                "lae2": "OOO OOO",
+                "lae2": "AOO OAA",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+L"
               },
               {
                 "iching_idx": 4,
@@ -1353,9 +1353,9 @@
                 "count": 35,
                 "symbol": "䷃",
                 "utf8": "💚🟡🟩",
-                "lae2": "OOO OOO",
+                "lae2": "AOO OAO",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+I"
               },
               {
                 "iching_idx": 27,
@@ -1367,9 +1367,9 @@
                 "count": 34,
                 "symbol": "䷚",
                 "utf8": "💚🟡🟥",
-                "lae2": "OOO OOO",
+                "lae2": "AOO OOA",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+J"
               },
               {
                 "iching_idx": 23,
@@ -1381,9 +1381,9 @@
                 "count": 33,
                 "symbol": "䷖",
                 "utf8": "💚🟡🟨",
-                "lae2": "OOO OOO",
+                "lae2": "AOO OOO",
                 "lae4": "III",
-                "lae44": "+"
+                "lae44": "+K"
               }              
             ]
           }
@@ -1411,9 +1411,9 @@
                 "count": 32,
                 "symbol": "䷪",
                 "utf8": "❤️🔵🟦",
-                "lae2": "OOO OOO",
+                "lae2": "OAA AAA",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-H"
               },
               {
                 "iching_idx": 28,
@@ -1425,9 +1425,9 @@
                 "count": 31,
                 "symbol": "䷛",
                 "utf8": "❤️🔵🟩",
-                "lae2": "OOO OOO",
+                "lae2": "OAA AAO",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-E"
               },
               {
                 "iching_idx": 49,
@@ -1439,9 +1439,9 @@
                 "count": 30,
                 "symbol": "䷰",
                 "utf8": "❤️🔵🟥",
-                "lae2": "OOO OOO",
+                "lae2": "OAA AOA",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-F"
               },
               {
                 "iching_idx": 31,
@@ -1453,9 +1453,9 @@
                 "count": 29,
                 "symbol": "䷞",
                 "utf8": "❤️🔵🟨",
-                "lae2": "OOO OOO",
+                "lae2": "OAA AOO",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-G"
              }              
             ]
           },
@@ -1475,9 +1475,9 @@
                 "count": 28,
                 "symbol": "䷹",
                 "utf8": "❤️🟢🟦",
-                "lae2": "OOO OOO",
+                "lae2": "OAA OAA",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-D"
               },
               {
                 "iching_idx": 47,
@@ -1489,9 +1489,9 @@
                 "count": 27,
                 "symbol": "䷮",
                 "utf8": "❤️🟢🟩",
-                "lae2": "OOO OOO",
+                "lae2": "OAA OAO",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-A"
               },
               {
                 "iching_idx": 17,
@@ -1502,9 +1502,9 @@
                 "count": 26,
                 "symbol": "䷐",
                 "utf8": "❤️🟢🟥",
-                "lae2": "OOO OOO",
+                "lae2": "OAA OOA",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-B"
               },
               {
                 "iching_idx": 45,
@@ -1516,9 +1516,9 @@
                 "count": 25,
                 "symbol": "䷬",
                 "utf8": "❤️🟢🟨",
-                "lae2": "OOO OOO",
+                "lae2": "OAA OOO",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-C"
               }              
             ]
           },
@@ -1537,9 +1537,9 @@
                 "count": 24,
                 "symbol": "䷄",
                 "utf8": "❤️🔴🟦",
-                "lae2": "OOO OOO",
+                "lae2": "OAO AAA",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-R"
               },
               {
                 "iching_idx": 48,
@@ -1550,9 +1550,9 @@
                 "count": 23,
                 "symbol": "䷯",
                 "utf8": "❤️🔴🟩",
-                "lae2": "OOO OOO",
+                "lae2": "OAO AAO",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-O"
               },
               {
                 "iching_idx": 63,
@@ -1563,9 +1563,9 @@
                 "count": 22,
                 "symbol": "䷾",
                 "utf8": "❤️🔴🟥",
-                "lae2": "OOO OOO",
+                "lae2": "OAO AOA",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-P"
               },
               {
                 "iching_idx": 39,
@@ -1577,9 +1577,9 @@
                 "count": 21,
                 "symbol": "䷦",
                 "utf8": "❤️🔴🟨",
-                "lae2": "OOO OOO",
+                "lae2": "OAO AOO",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-Q"
               }              
             ]
           },
@@ -1598,9 +1598,9 @@
                 "count": 20,
                 "symbol": "䷻",
                 "utf8": "❤️🟡🟦",
-                "lae2": "OOO OOO",
+                "lae2": "OAO OAA",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-L"
               },
               {
                 "iching_idx": 29,
@@ -1613,9 +1613,9 @@
                 "count": 19,
                 "symbol": "䷜",
                 "utf8": "❤️🟡🟩",
-                "lae2": "OOO OOO",
+                "lae2": "OAO OAO",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-I"
               },
               {
                 "iching_idx": 3,
@@ -1627,9 +1627,9 @@
                 "count": 18,
                 "symbol": "䷂",
                 "utf8": "❤️🟡🟥",
-                "lae2": "OOO OOO",
+                "lae2": "OAO OOA",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-J"
               },
               {
                 "iching_idx": 8,
@@ -1642,9 +1642,9 @@
                 "count": 17,
                 "symbol": "䷇",
                 "utf8": "❤️🟡🟨",
-                "lae2": "OOO OOO",
+                "lae2": "OAO OOO",
                 "lae4": "III",
-                "lae44": "-"
+                "lae44": "-K"
               }              
             ]
           }
@@ -1671,9 +1671,9 @@
                 "count": 16,
                 "symbol": "䷡",
                 "utf8": "💛🔵🟦",
-                "lae2": "OOO OOO",
+                "lae2": "OOA AAA",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷H"
               },
               {
                 "iching_idx": 32,
@@ -1685,9 +1685,9 @@
                 "count": 15,
                 "symbol": "䷟",
                 "utf8": "💛🔵🟩",
-                "lae2": "OOO OOO",
+                "lae2": "OOA AAO",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷E"
               },
               {
                 "iching_idx": 55,
@@ -1699,9 +1699,9 @@
                 "count": 14,
                 "symbol": "䷶",
                 "utf8": "💛🔵🟥",
-                "lae2": "OOO OOO",
+                "lae2": "OOA AOA",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷F"
               },
               {
                 "iching_idx": 62,
@@ -1713,9 +1713,9 @@
                 "count": 13,
                 "symbol": "䷽",
                 "utf8": "💛🔵🟨",
-                "lae2": "OOO OOO",
+                "lae2": "OOA AOO",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷G"
               }              
             ]
           },
@@ -1733,9 +1733,9 @@
                 "count": 12,
                 "symbol": "䷵",
                 "utf8": "💛🟢🟦",
-                "lae2": "OOO OOO",
+                "lae2": "OOA OAA",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷D"
               },
               {
                 "iching_idx": 40,
@@ -1747,9 +1747,9 @@
                 "count": 11,
                 "symbol": "䷧",
                 "utf8": "💛🟢🟩",
-                "lae2": "OOO OOO",
+                "lae2": "OOA OAO",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷A"
               },
               {
                 "iching_idx": 51,
@@ -1762,9 +1762,9 @@
                 "count": 10,
                 "symbol": "䷲",
                 "utf8": "💛🟢🟥",
-                "lae2": "OOO OOO",
+                "lae2": "OOA OOA",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷B"
               },
               {
                 "iching_idx": 16,
@@ -1776,9 +1776,9 @@
                 "count": 9,
                 "symbol": "䷏",
                 "utf8": "💛🟢🟨",
-                "lae2": "OOO OOO",
+                "lae2": "OOA OOO",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷C"
              }              
             ]
           },
@@ -1796,9 +1796,9 @@
                 "count": 8,
                 "symbol": "䷊",
                 "utf8": "💛🔴🟦",
-                "lae2": "OOO OOO",
+                "lae2": "OOO AAA",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷R"
               },
               {
                 "iching_idx": 46,
@@ -1810,9 +1810,9 @@
                 "count": 7,
                 "symbol": "䷭",
                 "utf8": "💛🔴🟩",
-                "lae2": "OOO OOO",
+                "lae2": "OOO AAO",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷O"
               },
               {
                 "iching_idx": 36,
@@ -1824,9 +1824,9 @@
                 "count": 6,
                 "symbol": "䷣",
                 "utf8": "💛🔴🟥",
-                "lae2": "OOO OOO",
+                "lae2": "OOO AOA",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷P"
               },
               {
                 "iching_idx": 15,
@@ -1838,9 +1838,9 @@
                 "count": 5,
                 "symbol": "䷎",
                 "utf8": "💛🔴🟨",
-                "lae2": "OOO OOO",
+                "lae2": "OOO AOO",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷Q"
               }              
             ]
           },
@@ -1859,9 +1859,9 @@
                 "count": 4,
                 "symbol": "䷒",
                 "utf8": "💛🟡🟦",
-                "lae2": "OOO OOO",
+                "lae2": "OOO OAA",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷L"
               },
               {
                 "iching_idx": 7,
@@ -1873,9 +1873,9 @@
                 "count": 3,
                 "symbol": "䷆",
                 "utf8": "💛🟡🟩",
-                "lae2": "OOO OOO",
+                "lae2": "OOO OAO",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷I"
               },
               {
                 "iching_idx": 24,
@@ -1887,9 +1887,9 @@
                 "count": 2,
                 "symbol": "䷗",
                 "utf8": "💛🟡🟥",
-                "lae2": "OOO OOO",
+                "lae2": "OOO OOA",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷J"
               },
               {
                 "iching_idx": 2,
@@ -1904,7 +1904,7 @@
                 "utf8": "💛🟡🟨",
                 "lae2": "OOO OOO",
                 "lae4": "III",
-                "lae44": "÷"
+                "lae44": "÷K"
               }              
             ]
           }
