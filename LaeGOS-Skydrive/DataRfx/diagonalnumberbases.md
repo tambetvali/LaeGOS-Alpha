@@ -1,3 +1,9 @@
+![Diagonal Number Bases](LaeGOS-Skydrive/DataGfx/DiagonalBasin.png)
+
+<br>
+
+---
+
 # Two modifications of Laegna Number Bases
 
 I made two modifications which best represent the I Ching symbols:
