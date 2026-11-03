@@ -1305,7 +1305,7 @@
                 "symbol": "䷕",
                 "utf8": "💚🔴🟥",
                 "lae2": "AOO AOA",
-                "lae4": "EIA",
+                "lae4": "EIO",
                 "lae44": "+P"
               },
               {
@@ -1368,7 +1368,7 @@
                 "symbol": "䷚",
                 "utf8": "💚🟡🟥",
                 "lae2": "AOO OOA",
-                "lae4": "AIA",
+                "lae4": "AIO",
                 "lae44": "+J"
               },
               {
@@ -1628,7 +1628,7 @@
                 "symbol": "䷂",
                 "utf8": "❤️🟡🟥",
                 "lae2": "OAO OOA",
-                "lae4": "IAE",
+                "lae4": "IAO",
                 "lae44": "-J"
               },
               {
@@ -1643,7 +1643,7 @@
                 "symbol": "䷇",
                 "utf8": "❤️🟡🟨",
                 "lae2": "OAO OOO",
-                "lae4": "IEI",
+                "lae4": "IAI",
                 "lae44": "-K"
               }              
             ]
