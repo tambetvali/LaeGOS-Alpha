@@ -890,7 +890,7 @@
                 "symbol": "䷀",
                 "utf8": "💙🔵🟦",
                 "lae2": "AAA AAA",
-                "lae4": "III",
+                "lae4": "EEE",
                 "lae44": "×H"
               },
               {
@@ -904,7 +904,7 @@
                 "symbol": "䷫",
                 "utf8": "💙🔵🟩",
                 "lae2": "AAA AAO",
-                "lae4": "III",
+                "lae4": "EEA",
                 "lae44": "×E"
               },
               {
@@ -918,7 +918,7 @@
                 "symbol": "䷌",
                 "utf8": "💙🔵🟥",
                 "lae2": "AAA AOA",
-                "lae4": "III",
+                "lae4": "EAE",
                 "lae44": "×F"
               },
               {
@@ -932,7 +932,7 @@
                 "symbol": "䷠",
                 "utf8": "💙🔵🟨",
                 "lae2": "AAA AOO",
-                "lae4": "III",
+                "lae4": "EAA",
                 "lae44": "×G"
               }              
             ]
@@ -953,7 +953,7 @@
                 "symbol": "䷉",
                 "utf8": "💙🟢🟦",
                 "lae2": "AAA OAA",
-                "lae4": "III",
+                "lae4": "AEE",
                 "lae44": "×D"
               },
               {
@@ -967,7 +967,7 @@
                 "symbol": "䷅",
                 "utf8": "💙🟢🟩",
                 "lae2": "AAA OAO",
-                "lae4": "III",
+                "lae4": "AEA",
                 "lae44": "×A"
               },
               {
@@ -981,7 +981,7 @@
                 "symbol": "䷘",
                 "utf8": "💙🟢🟥",
                 "lae2": "AAA OOA",
-                "lae4": "III",
+                "lae4": "AAE",
                 "lae44": "×B"
               },
               {
@@ -995,7 +995,7 @@
                 "symbol": "䷋",
                 "utf8": "💙🟢🟨",
                 "lae2": "AAA OOO",
-                "lae4": "III",
+                "lae4": "AAA",
                 "lae44": "×C"
               }              
             ]
@@ -1016,7 +1016,7 @@
                 "symbol": "䷈",
                 "utf8": "💙🔴🟦",
                 "lae2": "AAO AAA",
-                "lae4": "III",
+                "lae4": "EEO",
                 "lae44": "×R"
               },
               {
@@ -1031,7 +1031,7 @@
                 "symbol": "䷸",
                 "utf8": "💙🔴🟩",
                 "lae2": "AAO AAO",
-                "lae4": "III",
+                "lae4": "EEI",
                 "lae44": "×O"
               },
               {
@@ -1045,7 +1045,7 @@
                 "symbol": "䷤",
                 "utf8": "💙🔴🟥",
                 "lae2": "AAO AOA",
-                "lae4": "III",
+                "lae4": "EAO",
                 "lae44": "×P"
               },
               {
@@ -1059,7 +1059,7 @@
                 "symbol": "䷴",
                 "utf8": "💙🔴🟨",
                 "lae2": "AAO AOO",
-                "lae4": "III",
+                "lae4": "EAI",
                 "lae44": "×Q"
               }              
             ]
@@ -1080,7 +1080,7 @@
                 "symbol": "䷼",
                 "utf8": "💙🟡🟦",
                 "lae2": "AAO OAA",
-                "lae4": "III",
+                "lae4": "AEO",
                 "lae44": "×L"
               },
               {
@@ -1094,7 +1094,7 @@
                 "symbol": "䷺",
                 "utf8": "💙🟡🟩",
                 "lae2": "AAO OAO",
-                "lae4": "III",
+                "lae4": "AEI",
                 "lae44": "×I"
               },
               {
@@ -1107,7 +1107,7 @@
                 "symbol": "䷩",
                 "utf8": "💙🟡🟥",
                 "lae2": "AAO OOA",
-                "lae4": "III",
+                "lae4": "AAO",
                 "lae44": "×J"
               },
               {
@@ -1121,7 +1121,7 @@
                 "symbol": "䷓",
                 "utf8": "💙🟡🟨",
                 "lae2": "AAO OOO",
-                "lae4": "III",
+                "lae4": "AAI",
                 "lae44": "×K"
               }              
             ]
@@ -1151,7 +1151,7 @@
                 "symbol": "䷍",
                 "utf8": "💚🔵🟦",
                 "lae2": "AOA AAA",
-                "lae4": "III",
+                "lae4": "EOE",
                 "lae44": "+H"
               },
               {
@@ -1165,7 +1165,7 @@
                 "symbol": "䷱",
                 "utf8": "💚🔵🟩",
                 "lae2": "AOA AAO",
-                "lae4": "III",
+                "lae4": "EOA",
                 "lae44": "+E"
               },
               {
@@ -1180,7 +1180,7 @@
                 "symbol": "䷝",
                 "utf8": "💚🔵🟥",
                 "lae2": "AOA AOA",
-                "lae4": "III",
+                "lae4": "EIE",
                 "lae44": "+F"
               },
               {
@@ -1194,7 +1194,7 @@
                 "symbol": "䷷",
                 "utf8": "💚🔵🟨",
                 "lae2": "AOA AOO",
-                "lae4": "III",
+                "lae4": "EIA",
                 "lae44": "+G"
               }              
             ]
@@ -1215,7 +1215,7 @@
                 "symbol": "䷥",
                 "utf8": "💚🟢🟦",
                 "lae2": "AOA OAA",
-                "lae4": "III",
+                "lae4": "AOE",
                 "lae44": "+D"
               },
               {
@@ -1228,7 +1228,7 @@
                 "symbol": "䷿",
                 "utf8": "💚🟢🟩",
                 "lae2": "AOA OAO",
-                "lae4": "III",
+                "lae4": "AOA",
                 "lae44": "+A"
               },
               {
@@ -1242,7 +1242,7 @@
                 "symbol": "䷔",
                 "utf8": "💚🟢🟥",
                 "lae2": "AOA OOA",
-                "lae4": "III",
+                "lae4": "AIE",
                 "lae44": "+B"
               },
               {
@@ -1255,7 +1255,7 @@
                 "symbol": "䷢",
                 "utf8": "💚🟢🟨",
                 "lae2": "AOA OOO",
-                "lae4": "III",
+                "lae4": "AIA",
                 "lae44": "+C"
               }              
             ]
@@ -1276,7 +1276,7 @@
                 "symbol": "䷙",
                 "utf8": "💚🔴🟦",
                 "lae2": "AOO AAA",
-                "lae4": "III",
+                "lae4": "EOO",
                 "lae44": "+R"
               },
               {
@@ -1291,7 +1291,7 @@
                 "symbol": "䷑",
                 "utf8": "💚🔴🟩",
                 "lae2": "AOO AAO",
-                "lae4": "III",
+                "lae4": "EOI",
                 "lae44": "+O"
               },
               {
@@ -1305,7 +1305,7 @@
                 "symbol": "䷕",
                 "utf8": "💚🔴🟥",
                 "lae2": "AOO AOA",
-                "lae4": "III",
+                "lae4": "EIA",
                 "lae44": "+P"
               },
               {
@@ -1320,7 +1320,7 @@
                 "symbol": "䷳",
                 "utf8": "💚🔴🟨",
                 "lae2": "AOO AOO",
-                "lae4": "III",
+                "lae4": "EII",
                 "lae44": "+Q"
               }              
             ]
@@ -1340,7 +1340,7 @@
                 "symbol": "䷨",
                 "utf8": "💚🟡🟦",
                 "lae2": "AOO OAA",
-                "lae4": "III",
+                "lae4": "AOO",
                 "lae44": "+L"
               },
               {
@@ -1354,7 +1354,7 @@
                 "symbol": "䷃",
                 "utf8": "💚🟡🟩",
                 "lae2": "AOO OAO",
-                "lae4": "III",
+                "lae4": "AOI",
                 "lae44": "+I"
               },
               {
@@ -1368,7 +1368,7 @@
                 "symbol": "䷚",
                 "utf8": "💚🟡🟥",
                 "lae2": "AOO OOA",
-                "lae4": "III",
+                "lae4": "AIA",
                 "lae44": "+J"
               },
               {
@@ -1382,7 +1382,7 @@
                 "symbol": "䷖",
                 "utf8": "💚🟡🟨",
                 "lae2": "AOO OOO",
-                "lae4": "III",
+                "lae4": "AII",
                 "lae44": "+K"
               }              
             ]
@@ -1412,7 +1412,7 @@
                 "symbol": "䷪",
                 "utf8": "❤️🔵🟦",
                 "lae2": "OAA AAA",
-                "lae4": "III",
+                "lae4": "OEE",
                 "lae44": "-H"
               },
               {
@@ -1426,7 +1426,7 @@
                 "symbol": "䷛",
                 "utf8": "❤️🔵🟩",
                 "lae2": "OAA AAO",
-                "lae4": "III",
+                "lae4": "OEA",
                 "lae44": "-E"
               },
               {
@@ -1440,7 +1440,7 @@
                 "symbol": "䷰",
                 "utf8": "❤️🔵🟥",
                 "lae2": "OAA AOA",
-                "lae4": "III",
+                "lae4": "OAE",
                 "lae44": "-F"
               },
               {
@@ -1454,7 +1454,7 @@
                 "symbol": "䷞",
                 "utf8": "❤️🔵🟨",
                 "lae2": "OAA AOO",
-                "lae4": "III",
+                "lae4": "OAA",
                 "lae44": "-G"
              }              
             ]
@@ -1476,7 +1476,7 @@
                 "symbol": "䷹",
                 "utf8": "❤️🟢🟦",
                 "lae2": "OAA OAA",
-                "lae4": "III",
+                "lae4": "IEE",
                 "lae44": "-D"
               },
               {
@@ -1490,7 +1490,7 @@
                 "symbol": "䷮",
                 "utf8": "❤️🟢🟩",
                 "lae2": "OAA OAO",
-                "lae4": "III",
+                "lae4": "IEA",
                 "lae44": "-A"
               },
               {
@@ -1503,7 +1503,7 @@
                 "symbol": "䷐",
                 "utf8": "❤️🟢🟥",
                 "lae2": "OAA OOA",
-                "lae4": "III",
+                "lae4": "IAE",
                 "lae44": "-B"
               },
               {
@@ -1517,7 +1517,7 @@
                 "symbol": "䷬",
                 "utf8": "❤️🟢🟨",
                 "lae2": "OAA OOO",
-                "lae4": "III",
+                "lae4": "IAA",
                 "lae44": "-C"
               }              
             ]
@@ -1538,7 +1538,7 @@
                 "symbol": "䷄",
                 "utf8": "❤️🔴🟦",
                 "lae2": "OAO AAA",
-                "lae4": "III",
+                "lae4": "OEO",
                 "lae44": "-R"
               },
               {
@@ -1551,7 +1551,7 @@
                 "symbol": "䷯",
                 "utf8": "❤️🔴🟩",
                 "lae2": "OAO AAO",
-                "lae4": "III",
+                "lae4": "OEI",
                 "lae44": "-O"
               },
               {
@@ -1564,7 +1564,7 @@
                 "symbol": "䷾",
                 "utf8": "❤️🔴🟥",
                 "lae2": "OAO AOA",
-                "lae4": "III",
+                "lae4": "OAO",
                 "lae44": "-P"
               },
               {
@@ -1578,7 +1578,7 @@
                 "symbol": "䷦",
                 "utf8": "❤️🔴🟨",
                 "lae2": "OAO AOO",
-                "lae4": "III",
+                "lae4": "OAI",
                 "lae44": "-Q"
               }              
             ]
@@ -1599,7 +1599,7 @@
                 "symbol": "䷻",
                 "utf8": "❤️🟡🟦",
                 "lae2": "OAO OAA",
-                "lae4": "III",
+                "lae4": "IEO",
                 "lae44": "-L"
               },
               {
@@ -1614,7 +1614,7 @@
                 "symbol": "䷜",
                 "utf8": "❤️🟡🟩",
                 "lae2": "OAO OAO",
-                "lae4": "III",
+                "lae4": "IEI",
                 "lae44": "-I"
               },
               {
@@ -1628,7 +1628,7 @@
                 "symbol": "䷂",
                 "utf8": "❤️🟡🟥",
                 "lae2": "OAO OOA",
-                "lae4": "III",
+                "lae4": "IAE",
                 "lae44": "-J"
               },
               {
@@ -1643,7 +1643,7 @@
                 "symbol": "䷇",
                 "utf8": "❤️🟡🟨",
                 "lae2": "OAO OOO",
-                "lae4": "III",
+                "lae4": "IEI",
                 "lae44": "-K"
               }              
             ]
@@ -1672,7 +1672,7 @@
                 "symbol": "䷡",
                 "utf8": "💛🔵🟦",
                 "lae2": "OOA AAA",
-                "lae4": "III",
+                "lae4": "OOE",
                 "lae44": "÷H"
               },
               {
@@ -1686,7 +1686,7 @@
                 "symbol": "䷟",
                 "utf8": "💛🔵🟩",
                 "lae2": "OOA AAO",
-                "lae4": "III",
+                "lae4": "OOA",
                 "lae44": "÷E"
               },
               {
@@ -1700,7 +1700,7 @@
                 "symbol": "䷶",
                 "utf8": "💛🔵🟥",
                 "lae2": "OOA AOA",
-                "lae4": "III",
+                "lae4": "OIE",
                 "lae44": "÷F"
               },
               {
@@ -1714,7 +1714,7 @@
                 "symbol": "䷽",
                 "utf8": "💛🔵🟨",
                 "lae2": "OOA AOO",
-                "lae4": "III",
+                "lae4": "OIA",
                 "lae44": "÷G"
               }              
             ]
@@ -1734,7 +1734,7 @@
                 "symbol": "䷵",
                 "utf8": "💛🟢🟦",
                 "lae2": "OOA OAA",
-                "lae4": "III",
+                "lae4": "IOE",
                 "lae44": "÷D"
               },
               {
@@ -1748,7 +1748,7 @@
                 "symbol": "䷧",
                 "utf8": "💛🟢🟩",
                 "lae2": "OOA OAO",
-                "lae4": "III",
+                "lae4": "IOA",
                 "lae44": "÷A"
               },
               {
@@ -1763,7 +1763,7 @@
                 "symbol": "䷲",
                 "utf8": "💛🟢🟥",
                 "lae2": "OOA OOA",
-                "lae4": "III",
+                "lae4": "IIE",
                 "lae44": "÷B"
               },
               {
@@ -1777,7 +1777,7 @@
                 "symbol": "䷏",
                 "utf8": "💛🟢🟨",
                 "lae2": "OOA OOO",
-                "lae4": "III",
+                "lae4": "IIA",
                 "lae44": "÷C"
              }              
             ]
@@ -1797,7 +1797,7 @@
                 "symbol": "䷊",
                 "utf8": "💛🔴🟦",
                 "lae2": "OOO AAA",
-                "lae4": "III",
+                "lae4": "OOO",
                 "lae44": "÷R"
               },
               {
@@ -1811,7 +1811,7 @@
                 "symbol": "䷭",
                 "utf8": "💛🔴🟩",
                 "lae2": "OOO AAO",
-                "lae4": "III",
+                "lae4": "OOI",
                 "lae44": "÷O"
               },
               {
@@ -1825,7 +1825,7 @@
                 "symbol": "䷣",
                 "utf8": "💛🔴🟥",
                 "lae2": "OOO AOA",
-                "lae4": "III",
+                "lae4": "OIO",
                 "lae44": "÷P"
               },
               {
@@ -1839,7 +1839,7 @@
                 "symbol": "䷎",
                 "utf8": "💛🔴🟨",
                 "lae2": "OOO AOO",
-                "lae4": "III",
+                "lae4": "OII",
                 "lae44": "÷Q"
               }              
             ]
@@ -1860,7 +1860,7 @@
                 "symbol": "䷒",
                 "utf8": "💛🟡🟦",
                 "lae2": "OOO OAA",
-                "lae4": "III",
+                "lae4": "IOO",
                 "lae44": "÷L"
               },
               {
@@ -1874,7 +1874,7 @@
                 "symbol": "䷆",
                 "utf8": "💛🟡🟩",
                 "lae2": "OOO OAO",
-                "lae4": "III",
+                "lae4": "IOI",
                 "lae44": "÷I"
               },
               {
@@ -1888,7 +1888,7 @@
                 "symbol": "䷗",
                 "utf8": "💛🟡🟥",
                 "lae2": "OOO OOA",
-                "lae4": "III",
+                "lae4": "IIO",
                 "lae44": "÷J"
               },
               {
