@@ -881,12 +881,20 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 1,
                 "iching_idx": 1,
                 "lae8": "88",
                 "name": "The Creative",
                 "name-alt": "Heaven",
                 "name-alt2": "Force",
-                "id": 1,
+                "changes": [
+                  "Hidden Force",
+                  "Gathering Power",
+                  "Testing Heaven",
+                  "Manifesting Creation",
+                  "Mastering Force",
+                  "Ascending Dragon"
+                ],
                 "number": 32,
                 "count": 64,
                 "symbol": "䷀",
@@ -896,11 +904,19 @@
                 "lae44": "×H"
               },
               {
+                "id": 2,
                 "iching_idx": 44,
                 "lae8": "87",
                 "name": "Coming to Meet",
                 "name-alt": "Encounter",
-                "id": 2,
+                "changes": [
+                  "First Encounter",
+                  "Mutual Attraction",
+                  "Crossing Paths",
+                  "Receiving the Guest",
+                  "Sacred Meeting",
+                  "Parting Again"
+                ],
                 "number": 31,
                 "count": 63,
                 "symbol": "䷫",
@@ -910,11 +926,19 @@
                 "lae44": "×E"
               },
               {
+                "id": 3,
                 "iching_idx": 13,
                 "lae8": "86",
                 "name": "Fellowship with Men",
                 "name-alt": "Community",
-                "id": 3,
+                "changes": [
+                  "Seeking Companions",
+                  "Joining Voices",
+                  "Testing Loyalty",
+                  "Uniting the Circle",
+                  "Shared Purpose",
+                  "Beyond the Tribe"
+                ],
                 "number": 30,
                 "count": 62,
                 "symbol": "䷌",
@@ -924,11 +948,19 @@
                 "lae44": "×F"
               },
               {
+                "id": 4,
                 "iching_idx": 33,
                 "lae8": "85",
                 "name": "Retreat",
                 "name-alt": "Withdrawal",
-                "id": 4,
+                "changes": [
+                  "Stepping Back",
+                  "Guarded Withdrawal",
+                  "Choosing Distance",
+                  "Leaving the Field",
+                  "Wise Seclusion",
+                  "Vanishing Beyond Reach"
+                ],
                 "number": 29,
                 "count": 61,
                 "symbol": "䷠",
@@ -945,11 +977,19 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 5,
                 "iching_idx": 10,
                 "lae8": "84",
                 "name": "Treading",
                 "name-alt": "Conduct",
-                "id": 5,
+                "changes": [
+                  "First Footstep",
+                  "Following the Path",
+                  "Testing Boundaries",
+                  "Measured Conduct",
+                  "Perfect Bearing",
+                  "Walking Beyond Form"
+                ],
                 "number": 28,
                 "count": 60,
                 "symbol": "䷉",
@@ -959,11 +999,19 @@
                 "lae44": "×D"
               },
               {
+                "id": 6,
                 "iching_idx": 6,
                 "lae8": "83",
                 "name": "Conflict",
                 "name-alt": "Arguing",
-                "id": 6,
+                "changes": [
+                  "Rising Tension",
+                  "Taking Sides",
+                  "Open Contest",
+                  "Seeking Judgment",
+                  "Resolving Dispute",
+                  "Abandoning Strife"
+                ],
                 "number": 27,
                 "count": 59,
                 "symbol": "䷅",
@@ -973,11 +1021,19 @@
                 "lae44": "×A"
               },
               {
+                "id": 7,
                 "iching_idx": 25,
                 "lae8": "82",
                 "name": "Innocence",
                 "name-alt": "Without Entanglement",
-                "id": 7,
+                "changes": [
+                  "Pure Impulse",
+                  "Trusting Nature",
+                  "Testing Simplicity",
+                  "Acting Without Scheme",
+                  "Perfect Sincerity",
+                  "Returning to Origin"
+                ],
                 "number": 26,
                 "count": 58,
                 "symbol": "䷘",
@@ -987,11 +1043,19 @@
                 "lae44": "×B"
               },
               {
+                "id": 8,
                 "iching_idx": 12,
                 "lae8": "81",
                 "name": "Standstill",
                 "name-alt": "Stagnation",
-                "id": 8,
+                "changes": [
+                  "The First Blockage",
+                  "Holding Position",
+                  "Enduring Stagnation",
+                  "Waiting for Change",
+                  "Seeing the Opening",
+                  "Breaking the Stillness"
+                ],
                 "number": 25,
                 "count": 57,
                 "symbol": "䷋",
@@ -1008,11 +1072,19 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 9,
                 "iching_idx": 9,
                 "lae8": "78",
                 "name": "The Taming Power of the Small",
                 "name-alt": "Small Accumulation",
-                "id": 9,
+                "changes": [
+                  "Gathering Fragments",
+                  "Gentle Restraint",
+                  "Testing Limits",
+                  "Accumulating Influence",
+                  "Mastering the Small",
+                  "Releasing the Stored Force"
+                ],
                 "number": 24,
                 "count": 56,
                 "symbol": "䷈",
@@ -1022,12 +1094,20 @@
                 "lae44": "×R"
               },
               {
+                "id": 10,
                 "iching_idx": 57,
                 "lae8": "77",
                 "name": "The Gentle",
                 "name-alt": "Wind",
                 "name-alt2": "Penetrating",
-                "id": 10,
+                "changes": [
+                  "First Penetration",
+                  "Entering Softly",
+                  "Persistent Influence",
+                  "Spreading Through",
+                  "Perfect Adaptation",
+                  "Becoming the Wind"
+                ],
                 "number": 23,
                 "count": 55,
                 "symbol": "䷸",
@@ -1037,11 +1117,19 @@
                 "lae44": "×O"
               },
               {
+                "id": 11,
                 "iching_idx": 37,
                 "lae8": "76",
                 "name": "The Family",
                 "name-alt": "The Clan",
-                "id": 11,
+                "changes": [
+                  "Founding the House",
+                  "Strengthening Bonds",
+                  "Testing Relations",
+                  "Ordering the Clan",
+                  "Honoring the Lineage",
+                  "Extending the Household"
+                ],
                 "number": 22,
                 "count": 54,
                 "symbol": "䷤",
@@ -1051,11 +1139,19 @@
                 "lae44": "×P"
               },
               {
+                "id": 12,
                 "iching_idx": 53,
                 "lae8": "75",
                 "name": "Development",
                 "name-alt": "Gradual Progress",
-                "id": 12,
+                "changes": [
+                  "First Growth",
+                  "Taking Root",
+                  "Crossing Stages",
+                  "Steady Advancement",
+                  "Mature Progress",
+                  "Flight Beyond the Horizon"
+                ],
                 "number": 21,
                 "count": 53,
                 "symbol": "䷴",
@@ -1072,11 +1168,19 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 13,
                 "iching_idx": 61,
                 "lae8": "74",
                 "name": "Inner Truth",
                 "name-alt": "Central Returning",
-                "id": 13,
+                "changes": [
+                  "Listening Within",
+                  "Awakening Sincerity",
+                  "Testing the Heart",
+                  "Speaking Truly",
+                  "Perfect Integrity",
+                  "Returning to the Center"
+                ],
                 "number": 20,
                 "count": 52,
                 "symbol": "䷼",
@@ -1086,11 +1190,19 @@
                 "lae44": "×L"
               },
               {
+                "id": 14,
                 "iching_idx": 59,
                 "lae8": "73",
                 "name": "Dispersion",
                 "name-alt": "Dissolution",
-                "id": 14,
+                "changes": [
+                  "The First Release",
+                  "Dissolving Barriers",
+                  "Scattered Currents",
+                  "Spreading Influence",
+                  "Liberating the Whole",
+                  "Vanish Into Mist"
+                ],
                 "number": 19,
                 "count": 51,
                 "symbol": "䷺",
@@ -1100,10 +1212,18 @@
                 "lae44": "×I"
               },
               {
+                "id": 15,
                 "iching_idx": 42,
                 "lae8": "72",
                 "name": "Increase",
-                "id": 15,
+                "changes": [
+                  "Receiving Gain",
+                  "Growing Resources",
+                  "Testing Abundance",
+                  "Sharing Prosperity",
+                  "Blessing the Many",
+                  "Overflowing Fortune"
+                ],
                 "number": 18,
                 "count": 50,
                 "symbol": "䷩",
@@ -1117,6 +1237,14 @@
                 "lae8": "71",
                 "name": "Contemplation",
                 "name-alt": "Viewing",
+                "changes": [
+                  "Looking Upward",
+                  "Observing Signs",
+                  "Reflecting Deeply",
+                  "Witnessing Patterns",
+                  "Clear Vision",
+                  "The Boundless View"
+                ],
                 "id": 16,
                 "number": 17,
                 "count": 49,
@@ -1143,11 +1271,12 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 17,
                 "iching_idx": 14,
                 "lae8": "68",
                 "name": "Great Possession",
                 "name-alt": "Great Having",
-                "id": 17,
+                "changes": ["Receiving the Flame", "Gathering Treasures", "Testing Abundance", "Holding Greatness", "Sharing the Light", "Possessing the Heavens"],
                 "number": 16,
                 "count": 48,
                 "symbol": "䷍",
@@ -1157,11 +1286,12 @@
                 "lae44": "+H"
               },
               {
+                "id": 18,
                 "iching_idx": 50,
                 "lae8": "67",
                 "name": "The Cauldron",
                 "name-alt": "The Vessel",
-                "id": 18,
+                "changes": ["Kindling the Vessel", "Preparing the Offering", "Transforming the Elements", "Nourishing the Spirit", "Perfecting the Vessel", "Becoming the Sacred Fire"],
                 "number": 15,
                 "count": 47,
                 "symbol": "䷱",
@@ -1171,12 +1301,13 @@
                 "lae44": "+E"
               },
               {
+                "id": 19,
                 "iching_idx": 30,
                 "lae8": "66",
                 "name": "The Clinging",
                 "name-alt": "Fire",
                 "name-alt2": "Radiance",
-                "id": 19,
+                "changes": ["First Spark", "Finding the Flame", "Burning Brightly", "Illuminating the Path", "Mastering the Fire", "Becoming Radiance"],
                 "number": 14,
                 "count": 46,
                 "symbol": "䷝",
@@ -1186,11 +1317,12 @@
                 "lae44": "+F"
               },
               {
+                "id": 20,
                 "iching_idx": 56,
                 "lae8": "65",
                 "name": "The Wanderer",
                 "name-alt": "Traveller",
-                "id": 20,
+                "changes": ["Leaving Home", "Finding Shelter", "Walking Alone", "Meeting Strangers", "Earning Respect", "Beyond the Horizon"],
                 "number": 13,
                 "count": 45,
                 "symbol": "䷷",
@@ -1207,11 +1339,12 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 21,
                 "iching_idx": 38,
                 "lae8": "64",
                 "name": "Opposition",
                 "name-alt": "Polarising",
-                "id": 21,
+                "changes": ["The First Division", "Recognizing Differences", "Facing Resistance", "Finding Common Ground", "Honoring Opposites", "Unity Beyond Division"],
                 "number": 12,
                 "count": 44,
                 "symbol": "䷥",
@@ -1221,10 +1354,11 @@
                 "lae44": "+D"
               },
               {
+                "id": 22,
                 "iching_idx": 64,
                 "lae8": "63",
                 "name": "Before Completion",
-                "id": 22,
+                "changes": ["Approaching the Crossing", "Gathering Momentum", "The Unfinished Work", "Navigating Uncertainty", "Near the Fulfillment", "Beginning Anew"],
                 "number": 11,
                 "count": 43,
                 "symbol": "䷿",
@@ -1234,11 +1368,12 @@
                 "lae44": "+A"
               },
               {
+                "id": 23,
                 "iching_idx": 21,
                 "lae8": "62",
                 "name": "Biting Through",
                 "name-alt": "Gnawing Bite",
-                "id": 23,
+                "changes": ["Recognizing the Obstacle", "Applying Pressure", "Breaking Resistance", "Delivering Judgment", "Restoring Justice", "Clearing the Way"],
                 "number": 10,
                 "count": 42,
                 "symbol": "䷔",
@@ -1248,10 +1383,11 @@
                 "lae44": "+B"
               },
               {
+                "id": 24,
                 "iching_idx": 35,
                 "lae8": "61",
                 "name": "Progress",
-                "id": 24,
+                "changes": ["First Light", "Emerging Forward", "Gaining Recognition", "Expanding Influence", "Ascending Toward Glory", "Radiance Without Boundaries"],
                 "number": 9,
                 "count": 41,
                 "symbol": "䷢",
@@ -1268,11 +1404,12 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 25,
                 "iching_idx": 26,
                 "lae8": "58",
                 "name": "The Taming Power of the Great",
                 "name-alt": "Great Accumulation",
-                "id": 25,
+                "changes": ["Gathering Strength", "Restraining Impulse", "Training the Will", "Mastering Power", "Serving the Greater Good", "Unleashing the Great Force"],
                 "number": 8,
                 "count": 40,
                 "symbol": "䷙",
@@ -1282,12 +1419,13 @@
                 "lae44": "+R"
               },
               {
+                "id": 26,
                 "iching_idx": 18,
                 "lae8": "57",
                 "name": "Work on What Has Been Spoiled",
                 "name-alt": "Correction",
                 "name-alt2": "Decay",
-                "id": 26,
+                "changes": ["Discovering the Decay", "Facing the Inheritance", "Uncovering the Cause", "Beginning Restoration", "Healing the Past", "Renewing the Foundation"],
                 "number": 7,
                 "count": 39,
                 "symbol": "䷑",
@@ -1297,11 +1435,12 @@
                 "lae44": "+O"
               },
               {
+                "id": 27,
                 "iching_idx": 22,
                 "lae8": "56",
                 "name": "Grace",
                 "name-alt": "Adornment",
-                "id": 27,
+                "changes": ["The First Ornament", "Refining Appearance", "Balancing Form", "Revealing Beauty", "Perfecting Elegance", "Beauty Beyond Form"],
                 "number": 6,
                 "count": 38,
                 "symbol": "䷕",
@@ -1311,12 +1450,13 @@
                 "lae44": "+P"
               },
               {
+                "id": 28,
                 "iching_idx": 52,
                 "lae8": "55",
                 "name": "Keeping Still",
                 "name-alt": "Mountain",
                 "name-alt2": "Stillness",
-                "id": 28,
+                "changes": ["Finding Stillness", "Quieting the Mind", "Holding the Center", "Resting in Silence", "Mastering Immobility", "Stillness Beyond Thought"],
                 "number": 5,
                 "count": 37,
                 "symbol": "䷳",
@@ -1333,10 +1473,11 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 29,
                 "iching_idx": 41,
                 "lae8": "54",
                 "name": "Decrease",
-                "id": 29,
+                "changes": ["Recognizing Excess", "Letting Go", "Accepting Less", "Giving Freely", "Discovering Simplicity", "Returning to the Essential"],
                 "number": 4,
                 "count": 36,
                 "symbol": "䷨",
@@ -1346,11 +1487,12 @@
                 "lae44": "+L"
               },
               {
+                "id": 30,
                 "iching_idx": 4,
                 "lae8": "53",
                 "name": "Youthful Folly",
                 "name-alt": "Enveloping",
-                "id": 30,
+                "changes": ["The First Question", "Seeking Guidance", "Learning Through Error", "Finding Direction", "Awakening Understanding", "Leaving Innocence Behind"],
                 "number": 3,
                 "count": 35,
                 "symbol": "䷃",
@@ -1360,11 +1502,12 @@
                 "lae44": "+I"
               },
               {
+                "id": 31,
                 "iching_idx": 27,
                 "lae8": "52",
                 "name": "Nourishment",
                 "name-alt": "Jaws",
-                "id": 31,
+                "changes": ["Seeking Sustenance", "Choosing What Feeds", "Recognizing Hunger", "Nourishing Others", "Mastering Desire", "Becoming the Source"],
                 "number": 2,
                 "count": 34,
                 "symbol": "䷚",
@@ -1374,11 +1517,12 @@
                 "lae44": "+J"
               },
               {
+                "id": 32,
                 "iching_idx": 23,
                 "lae8": "51",
                 "name": "Splitting Apart",
                 "name-alt": "Stripping Away",
-                "id": 32,
+                "changes": ["The First Fracture", "Weakening Foundations", "Stripping Away Illusions", "Accepting Collapse", "Releasing the Old", "Preparing for Renewal"],
                 "number": 1,
                 "count": 33,
                 "symbol": "䷖",
@@ -1404,11 +1548,12 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 33,
                 "iching_idx": 43,
                 "lae8": "48",
                 "name": "Breakthrough",
                 "name-alt": "Resoluteness",
-                "id": 33,
+                "changes": ["Gathering Resolve", "Recognizing the Truth", "Confronting Resistance", "Declaring the Decision", "Breaking Through", "Victory Through Clarity"],
                 "number": -1,
                 "count": 32,
                 "symbol": "䷪",
@@ -1418,11 +1563,12 @@
                 "lae44": "-H"
               },
               {
+                "id": 34,
                 "iching_idx": 28,
                 "lae8": "47",
                 "name": "Great Preponderance",
                 "name-alt": "Great Exceeding",
-                "id": 34,
+                "changes": ["The Growing Burden", "Feeling the Weight", "Testing the Structure", "Bearing the Pressure", "Finding Inner Support", "Rising Beyond the Weight"],
                 "number": -2,
                 "count": 31,
                 "symbol": "䷛",
@@ -1432,11 +1578,12 @@
                 "lae44": "-E"
               },
               {
+                "id": 35,
                 "iching_idx": 49,
                 "lae8": "46",
                 "name": "Revolution",
                 "name-alt": "Molting",
-                "id": 35,
+                "changes": ["Recognizing the Need", "Questioning the Old", "Gathering Courage", "Changing the Order", "Establishing the New", "Renewing the World"],
                 "number": -3,
                 "count": 30,
                 "symbol": "䷰",
@@ -1446,11 +1593,12 @@
                 "lae44": "-F"
               },
               {
+                "id": 36,
                 "iching_idx": 31,
                 "lae8": "45",
                 "name": "Influence",
                 "name-alt": "Wooing",
-                "id": 36,
+                "changes": ["The First Attraction", "Opening the Heart", "Mutual Response", "Deepening Connection", "Lasting Devotion", "Union Beyond Words"],
                 "number": -4,
                 "count": 29,
                 "symbol": "䷞",
@@ -1467,12 +1615,13 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 37,
                 "iching_idx": 58,
                 "lae8": "44",
                 "name": "The Joyous",
                 "name-alt": "Lake",
                 "name-alt2": "Open",
-                "id": 37,
+                "changes": ["The First Smile", "Opening to Others", "Sharing Delight", "Finding Harmony", "Joy Through Sincerity", "The Endless Celebration"],
                 "number": -5,
                 "count": 28,
                 "symbol": "䷹",
@@ -1482,11 +1631,12 @@
                 "lae44": "-D"
               },
               {
+                "id": 38,
                 "iching_idx": 47,
                 "lae8": "43",
                 "name": "Oppression",
                 "name-alt": "Exhaustion",
-                "id": 38,
+                "changes": ["The First Constraint", "Feeling the Pressure", "Enduring Isolation", "Finding Inner Strength", "Speaking Through Silence", "Freedom Within the Depths"],
                 "number": -6,
                 "count": 27,
                 "symbol": "䷮",
@@ -1496,10 +1646,11 @@
                 "lae44": "-A"
               },
               {
+                "id": 39,
                 "iching_idx": 17,
                 "lae8": "42",
                 "name": "Following",
-                "id": 39,
+                "changes": ["Recognizing the Lead", "Choosing to Follow", "Finding the Right Path", "Testing Allegiance", "Leading Through Service", "Following the Way"],
                 "number": -7,
                 "count": 26,
                 "symbol": "䷐",
@@ -1509,11 +1660,12 @@
                 "lae44": "-B"
               },
               {
+                "id": 40,
                 "iching_idx": 45,
                 "lae8": "41",
                 "name": "Gathering Together",
                 "name-alt": "Gathering",
-                "id": 40,
+                "changes": ["The First Gathering", "Finding Companions", "Building the Circle", "Uniting the Many", "Leading the Assembly", "The Great Communion"],
                 "number": -8,
                 "count": 25,
                 "symbol": "䷬",
@@ -1530,11 +1682,12 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 41,
                 "iching_idx": 5,
                 "lae8": "38",
                 "name": "Waiting",
                 "name-alt": "Attending",
-                "id": 41,
+                "changes": ["Recognizing the Moment", "Preparing in Patience", "Facing Uncertainty", "Waiting with Trust", "Receiving the Opportunity", "The Moment Arrives"],
                 "number": -9,
                 "count": 24,
                 "symbol": "䷄",
@@ -1544,10 +1697,11 @@
                 "lae44": "-R"
               },
               {
+                "id": 42,
                 "iching_idx": 48,
                 "lae8": "37",
                 "name": "The Well",
-                "id": 42,
+                "changes": ["Discovering the Source", "Clearing the Waters", "Restoring the Well", "Sharing the Waters", "Sustaining the Community", "The Eternal Spring"],
                 "number": -10,
                 "count": 23,
                 "symbol": "䷯",
@@ -1557,10 +1711,11 @@
                 "lae44": "-O"
               },
               {
+                "id": 43,
                 "iching_idx": 63,
                 "lae8": "36",
                 "name": "After Completion",
-                "id": 43,
+                "changes": ["Crossing the Threshold", "Securing the Work", "Guarding Against Disorder", "Preserving Balance", "Recognizing the Turning", "Beginning the Next Cycle"],
                 "number": -11,
                 "count": 22,
                 "symbol": "䷾",
@@ -1570,11 +1725,12 @@
                 "lae44": "-P"
               },
               {
+                "id": 44,
                 "iching_idx": 39,
                 "lae8": "35",
                 "name": "Obstruction",
                 "name-alt": "Limping",
-                "id": 44,
+                "changes": ["Meeting the Barrier", "Recognizing the Difficulty", "Choosing Another Way", "Seeking Assistance", "Finding the Opening", "Turning Obstruction into Wisdom"],
                 "number": -12,
                 "count": 21,
                 "symbol": "䷦",
@@ -1591,11 +1747,12 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 45,
                 "iching_idx": 60,
                 "lae8": "34",
                 "name": "Limitation",
                 "name-alt": "Articulating",
-                "id": 45,
+                "changes": ["Recognizing Boundaries", "Accepting Measure", "Testing Restraint", "Finding the Right Limits", "Freedom Through Discipline", "Beyond All Restriction"],
                 "number": -13,
                 "count": 20,
                 "symbol": "䷻",
@@ -1605,12 +1762,13 @@
                 "lae44": "-L"
               },
               {
+                "id": 46,
                 "iching_idx": 29,
                 "lae8": "33",
                 "name": "The Abysmal",
                 "name-alt": "Water",
                 "name-alt2": "Gorge",
-                "id": 46,
+                "changes": ["Entering the Depths", "Facing the Current", "Passing Through Danger", "Finding the Inner Channel", "Mastering the Waters", "The River Beyond Fear"],
                 "number": -14,
                 "count": 19,
                 "symbol": "䷜",
@@ -1620,11 +1778,12 @@
                 "lae44": "-I"
               },
               {
+                "id": 47,
                 "iching_idx": 3,
                 "lae8": "32",
                 "name": "Difficulty at the Beginning",
                 "name-alt": "Sprouting",
-                "id": 47,
+                "changes": ["The First Sprouting", "Facing Resistance", "Finding Support", "Establishing Direction", "Overcoming Confusion", "The Birth of Order"],
                 "number": -15,
                 "count": 18,
                 "symbol": "䷂",
@@ -1634,12 +1793,13 @@
                 "lae44": "-J"
               },
               {
+                "id": 48,
                 "iching_idx": 8,
                 "lae8": "31",
                 "name": "Holding Together",
                 "name-alt": "Union",
                 "name-alt2": "Grouping",
-                "id": 48,
+                "changes": ["Seeking Belonging", "Finding Allies", "Building Trust", "Strengthening Bonds", "Becoming One", "The Great Union"],
                 "number": -16,
                 "count": 17,
                 "symbol": "䷇",
@@ -1664,11 +1824,12 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 49,
                 "iching_idx": 34,
                 "lae8": "28",
                 "name": "The Power of the Great",
                 "name-alt": "Great Strength",
-                "id": 49,
+                "changes": ["Awakening Strength", "Testing Power", "Acting with Courage", "Mastering Force", "Strength Through Restraint", "The Power of Heaven"],
                 "number": -17,
                 "count": 16,
                 "symbol": "䷡",
@@ -1678,11 +1839,12 @@
                 "lae44": "÷H"
               },
               {
+                "id": 50,
                 "iching_idx": 32,
                 "lae8": "27",
                 "name": "Duration",
                 "name-alt": "Perseverance",
-                "id": 50,
+                "changes": ["Making the Commitment", "Establishing Rhythm", "Enduring Change", "Maintaining Direction", "Perfecting Perseverance", "The Eternal Movement"],
                 "number": -18,
                 "count": 15,
                 "symbol": "䷟",
@@ -1692,11 +1854,12 @@
                 "lae44": "÷E"
               },
               {
+                "id": 51,
                 "iching_idx": 55,
                 "lae8": "26",
                 "name": "Abundance",
                 "name-alt": "Fullness",
-                "id": 51,
+                "changes": ["The First Fullness", "Gathering Riches", "Reaching the Height", "Managing Prosperity", "Illuminating the World", "Beyond the Hour of Abundance"],
                 "number": -19,
                 "count": 14,
                 "symbol": "䷶",
@@ -1706,11 +1869,12 @@
                 "lae44": "÷F"
               },
               {
+                "id": 52,
                 "iching_idx": 62,
                 "lae8": "25",
                 "name": "Small Preponderance",
                 "name-alt": "Small Exceeding",
-                "id": 52,
+                "changes": ["Noticing the Small", "Taking Careful Steps", "Respecting Limits", "Attending to Details", "Finding Balance", "The Greatness of Small Things"],
                 "number": -20,
                 "count": 13,
                 "symbol": "䷽",
@@ -1727,10 +1891,11 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 53,
                 "iching_idx": 54,
                 "lae8": "24",
                 "name": "The Marrying Maiden",
-                "id": 53,
+                "changes": ["Entering the New Bond", "Accepting the Position", "Navigating Desire", "Finding Mutual Respect", "Understanding Devotion", "Beyond Possession"],
                 "number": -21,
                 "count": 12,
                 "symbol": "䷵",
@@ -1740,11 +1905,12 @@
                 "lae44": "÷D"
               },
               {
+                "id": 54,
                 "iching_idx": 40,
                 "lae8": "23",
                 "name": "Deliverance",
                 "name-alt": "Release",
-                "id": 54,
+                "changes": ["The First Release", "Breaking Free", "Leaving the Danger", "Restoring Movement", "Returning to Peace", "Freedom Without Burden"],
                 "number": -22,
                 "count": 11,
                 "symbol": "䷧",
@@ -1754,12 +1920,13 @@
                 "lae44": "÷A"
               },
               {
+                "id": 55,
                 "iching_idx": 51,
                 "lae8": "22",
                 "name": "The Arousing",
                 "name-alt": "Thunder",
                 "name-alt2": "Shock",
-                "id": 55,
+                "changes": ["The First Thunder", "Receiving the Shock", "Overcoming Fear", "Awakening Action", "Finding Courage", "The Great Awakening"],
                 "number": -23,
                 "count": 10,
                 "symbol": "䷲",
@@ -1769,11 +1936,12 @@
                 "lae44": "÷B"
               },
               {
+                "id": 56,
                 "iching_idx": 16,
                 "lae8": "21",
                 "name": "Enthusiasm",
                 "name-alt": "Providing-For",
-                "id": 56,
+                "changes": ["The First Inspiration", "Awakening the Spirit", "Gathering Momentum", "Moving the Many", "Leading with Passion", "The Music of Heaven"],
                 "number": -24,
                 "count": 9,
                 "symbol": "䷏",
@@ -1790,10 +1958,11 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 57,
                 "iching_idx": 11,
                 "lae8": "18",
                 "name": "Peace",
-                "id": 57,
+                "changes": ["The First Harmony", "Opening the Passage", "Joining Heaven and Earth", "Cultivating Prosperity", "Maintaining Balance", "The Great Peace"],
                 "number": -25,
                 "count": 8,
                 "symbol": "䷊",
@@ -1803,11 +1972,12 @@
                 "lae44": "÷R"
               },
               {
+                "id": 58,
                 "iching_idx": 46,
                 "lae8": "17",
                 "name": "Pushing Upward",
                 "name-alt": "Ascending",
-                "id": 58,
+                "changes": ["The First Ascent", "Taking Root", "Growing Through Effort", "Ascending with Purpose", "Reaching Higher Ground", "Rising Beyond the Clouds"],
                 "number": -26,
                 "count": 7,
                 "symbol": "䷭",
@@ -1817,11 +1987,12 @@
                 "lae44": "÷O"
               },
               {
+                "id": 59,
                 "iching_idx": 36,
                 "lae8": "16",
                 "name": "Darkening of the Light",
                 "name-alt": "Brightness Hiding",
-                "id": 59,
+                "changes": ["The Light Concealed", "Protecting the Flame", "Enduring the Darkness", "Keeping Faith Within", "The Hidden Radiance", "Light Beyond the Night"],
                 "number": -27,
                 "count": 6,
                 "symbol": "䷣",
@@ -1831,11 +2002,12 @@
                 "lae44": "÷P"
               },
               {
+                "id": 60,
                 "iching_idx": 15,
                 "lae8": "15",
                 "name": "Modesty",
                 "name-alt": "Humility",
-                "id": 60,
+                "changes": ["Recognizing One's Place", "Practicing Humility", "Reducing Excess", "Serving Without Pride", "The Strength of Modesty", "Greatness Without Display"],
                 "number": -28,
                 "count": 5,
                 "symbol": "䷎",
@@ -1852,11 +2024,12 @@
             "colors": ["🟦", "🟩", "🟥", "🟨"],
             "hexitems": [
               {
+                "id": 61,
                 "iching_idx": 19,
                 "lae8": "14",
                 "name": "Approach",
                 "name-alt": "Nearing",
-                "id": 61,
+                "changes": ["The First Arrival", "Drawing Near", "Opening the Way", "Welcoming Growth", "Leading with Care", "The Great Arrival"],
                 "number": -29,
                 "count": 4,
                 "symbol": "䷒",
@@ -1866,11 +2039,12 @@
                 "lae44": "÷L"
               },
               {
+                "id": 62,
                 "iching_idx": 7,
                 "lae8": "13",
                 "name": "The Army",
                 "name-alt": "Leading",
-                "id": 62,
+                "changes": ["Gathering the Forces", "Establishing Discipline", "Testing Leadership", "Maintaining Order", "Victory Through Unity", "The Wise Commander"],
                 "number": -30,
                 "count": 3,
                 "symbol": "䷆",
@@ -1880,11 +2054,12 @@
                 "lae44": "÷I"
               },
               {
+                "id": 63,
                 "iching_idx": 24,
                 "lae8": "12",
                 "name": "Return",
                 "name-alt": "Turning Back",
-                "id": 63,
+                "changes": ["The First Turning", "Recognizing the Way Back", "Restoring the Path", "Renewing the Heart", "Returning to Harmony", "The Great Renewal"],
                 "number": -31,
                 "count": 2,
                 "symbol": "䷗",
@@ -1894,12 +2069,13 @@
                 "lae44": "÷J"
               },
               {
+                "id": 64,
                 "iching_idx": 2,
                 "lae8": "11",
                 "name": "The Receptive",
                 "name-alt": "Earth",
                 "name-alt2": "Field",
-                "id": 64,
+                "changes": ["Opening the Field", "Receiving the Seed", "Nurturing Growth", "Supporting Creation", "Perfect Surrender", "The Boundless Earth"],
                 "number": -32,
                 "count": 1,
                 "symbol": "䷁",
