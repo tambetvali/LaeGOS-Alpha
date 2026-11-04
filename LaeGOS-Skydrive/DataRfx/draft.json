@@ -1,0 +1,2524 @@
+/ this file is here because I could not commit but must end right now /
+
+{
+  "schema": {
+    "version": "1.0",
+    "description": "LaeChing symbols and Laegna number / digit / letter encoding systems.",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/Graphics/DaisyElise.png",
+    "url": "https://github.com/tambetvali/LaeChing/tree/main/Programming",
+    "url-2": "https://github.com/tambetvali/LaGOS-Physics-Laegna/tree/main/Lagenesis"
+  },
+
+  "gen-laegnaBaseAlphabet-simplified": {
+    "symbol": "ABCDEFGHћ̵ℏIJKLMNμ𝜈OPQRST𝜏́UVWՈXYZ𝓩𝓧𝓨Ὦ",
+    "g-symbol": "ABCD EFGH ћ̵ℏ IJKL MN μ𝜈 OPQR ST 𝜏́ UVWՈ XYZ 𝓩𝓧𝓨 Ὦ",
+    "url": "https://laegna.notaku.site/laegna-base-alphabet",
+    "alt-url": "https://github.com/tambetvali/LaegnaBaseAlphabet",
+    "manual": [
+      "μ𝜈 - replacement for Laegna mü, nü.",
+      "ћ̵ℏ - m and h harmony",
+      "𝜏́ - taú",
+      "𝓩𝓧𝓨 - `zeta, etha, theta` or for real, `exceeta é group` - Zeta, Exceeta or exzeta, Yeta (or yeyeta or yoyota playing with Japanese-sounding fakery)"
+    ],
+    "name": "Uneton"
+  },
+
+  "laegnaBaseAlphabet": [
+   {
+    "symbol": "A",
+     "meaning": "Letter A is the material stability, repeating the natural life cycles and cycles of mathematics."
+   },
+   {
+    "symbol": "B",
+    "meaning": "Letter B is “on the way somewhere”, or alternatively an alternative where A is the real essential solution."
+   },
+   {
+    "symbol": "C",
+    "meaning": "Letter C is connecting things into such orders that they are rather in the same coordinate system than distorted in each way; such as the language (rather negatively kee or positively cee unless posetion)."
+   },
+   {
+    "symbol": "D",
+    "meaning": "Letter D is where your series multiplies to plurar thanks to exponentiation in infinity (such as getting many children over generations), or it’s stopped and obstacled by destructive force, or it’s the natural growth of a tendency (or a “wind” in chinese martial arts) into reality in so subtle way that you won’t notice (D is like a life tunnel)."
+   },
+   {
+    "symbol": "E",
+    "meaning": "Letter E is good outcome, happy end of a story, actual meaning or outcome in infinity. It could be exponent and relate to E in classical mathematics."
+   },
+   {
+    "symbol": "F",
+    "meaning": "Letter F is frequency or range of frequencies, small part of infinity, perhaps for example a meaningful vibration."
+   },
+   {
+    "symbol": "G",
+    "meaning": "Letter G is stable acceleration, opposite of D in sense of providing non-obstacled flow or gravitizing towards something."
+   },
+   {
+    "symbol": "H",
+    "meaning": "Letter H is the heavenly view, a view to something in such coordinate system where 100% H would mean it’s absolutely vertical number where normal logic is horizontal, transcending all the numbers into relation with very sharp angle upwards."
+   },
+   {
+    "symbol": "ћ̵",
+    "meaning": "ћ̵ - h- or m-harmony is where one helped other(s), and this did prove the ethics in circulating back to oneself with real force not obstacled. This is ethics, long runs and wide terms.",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/GlobalEthics/Harmonic.png"
+   },
+   {
+    "symbol": "ℏ",
+    "meaning": "ℏ - n-harmony is where one helped other(s), but it's not turned to their own success so it's not thermodynamically recreative, sustainable, circular recreation seed.",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/GlobalEthics/Harmonic.png"
+   },
+   {
+    "symbol": "I",
+    "meaning": "Letter I is an unit, a shared introspection or philosophical world, an infinitesimal or related to imaginary unit of classical complex numbers, the i component."
+   },
+   {
+    "symbol": "J",
+    "meaning": "Letter J is connecting things like “and”, so that the result integrates both in meaningful sense."
+   },
+   {
+    "symbol": "K",
+    "meaning": "Letter K is subunit, or so small point that it’s far below zero (it’s zero squared or in laegna rather square rooted in direction of it’s zeroness)."
+   },
+   {
+    "symbol": "L",
+    "meaning": "Letter L is the “left”, where you map the whole society into one number, and componentize this number to parts, getting numbers for left wing, communist, socialist or rather the unities, where behaviour of each person for example, looking this person, is measured in society in same format as you would measure direct business and ethics in right wing. R is the right wing and L is a very small number compared to R, which allows to contain the little effects you have on society as a while with your little deeds of contribution and rebellion."
+   },
+   {
+    "symbol": "M",
+    "meaning": "Letter M is a positive difference, a distance between two things, for example me and you, or two different logical units which are kind of unrelated."
+   },
+   {
+    "symbol": "N",
+    "meaning": "Letter N is lack of such difference, a positive connection between things."
+   },
+   {
+    "symbol": "μ",
+    "meaning": "μ - mü is when one made other(s) lose, but the consequence is not circulating back as loss, even if it could be paid in advance - ethical collapse is weak, so it's not always wu wéi to reach such consequence.",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/GlobalEthics/Harmonic.png"
+   },
+   {
+    "symbol": "𝜈",
+    "meaning": "𝜈 - nü is when one made other(s) lose, but in long run it's first-hand their own loss; negative thermodynamics becomes actual bankcruptcy and resolves ethical values.",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/GlobalEthics/Harmonic.png"
+   },
+   {
+    "symbol": "O",
+    "meaning": "Letter O is unit, a closed area, such as Zero is closed to point, but has an universe inside when you zoom with Z (you could call Z a zoom, where Y is zoomout)."
+   },
+   {
+    "symbol": "P",
+    "meaning": "Letter P is a stepping point, where you step into new reality; or the lack of such step, where you are below the good level of being, thus such step would appear in the future. While this is “fatal” lack of something in the past, where you see at most the Posetion of this potential, a positional version or zero-point is where you overcome this, and in Laegna system of relations of time ´P or position-P, which is used as often, relates to stepping point in now, where such lack of something existed; this could be innovation or act of creativity, overcoming fears or enlightenment or satori."
+   },
+   {
+    "symbol": "Q",
+    "meaning": "Letter Q is quality."
+   },
+   {
+    "symbol": "R",
+    "meaning": "Letter R is the maximum reality; ´R, when moved to top octave, sees one four in sequence of A, E, I, O and another one in sequence O, P, Q, R, so if you want maximum infinity or infinity squared, which forms it’s coordinate and also the coordinate system - space of time; this kind of infinity is called R, normally used to oppose T as a Truth or Theorem to R, a coordinate system where it can be broken or reinterpreted; where the meaning appears from your shallow initial conjectures and theorems not covering the whole set of infinite possibilities; often, R is not locally infinite, but the solution moment of your theory for example."
+   },
+   {
+    "symbol": "S",
+    "meaning": "Letter S is locally (at O, A) going straight, but in infinity or meaning, rather fading out (if Ie=Uu) or turning back without concrete turning point in your partial math or sensory input, so you can use this rather as observation of a day than doing any generalizations. STR is important cycle as TR is imporant opposite."
+   },
+   {
+    "symbol": "T",
+    "meaning": "Letter T is theorem, ^T is Turing complex where your value implies other value to same position."
+   },
+   {
+    "symbol": "𝜏́",
+    "meaning": "Taú is where A becomes E, O becomes I - where the same logical value changes it's sign or value in I, or agrees in E - one is negatively, other positively self-referential, and both matter (A in local space is replied with A in infinity - `correct` or E in infinity - if A is wrong answer as it turns out then and for back then).",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/Paradox/Tau.png"
+   },
+   {
+    "symbol": "U",
+    "meaning": "U is unknown."
+   },
+   {
+    "symbol": "V",
+    "meaning": "V is not unknown, or a negative difference / distance / conflict between two things (in beginning of words especially) or the problem’s solution when in end of the words."
+   },
+   {
+    "symbol": "W",
+    "meaning": "W is solution for V."
+   },
+   {
+    "symbol": "Ո",
+    "meaning": "Ո - Ո-Uneton or Ո-U-Neuton or Ո-Neuton is the external band of unknown, where one cannot decide between I and E. In U, one cannot decide between O and A - in Ô-ôômega, Ὦ, one must leave the axis open, for example undecided between science and religion => doing science which holds anyway no matter what, where, how, and how metaphysically or importantly."
+   },
+   {
+    "symbol": "X",
+    "meaning": "X is the visible, actual reality as you see it directly."
+   },
+   {
+    "symbol": "Y",
+    "meaning": "Y is a futuristic vision, a point in the future where good karmic cycle has been stabilized and as it continues to infinity, this already is infinity or part of it, not being apart from it’s straight function and oneness with itself."
+   },
+   {
+    "symbol": "Z",
+    "meaning": "Z is a microscopic world, a potential, or the work and process before something starts to materialize. For example, in relation to building a house and going to live in it as X, the Z of the same activity would be planning to build a house and looking ideas about where to live, which would be directed to given X and thus, where this variable was smaller than itself (remember in Laegna, opposites are not contradicting or creating alternative theories, such as war against peace and prosperity, where binary war seems to get worse, ideally, but in Laegna Logecs while you can create war theorems pointing to Negotion, the Negation itself is going upwards and in the same direction with peace, and you don’t lose the peace variables in opposite operations, where the enemy getting rich for example can not be “false” to war, as “false” to war is equally when you die - having things heads-up, where R=T and they are on the correct line, you don’t have to break all your relationship when you break a part, but naturally you go straight on and don’t wobble between “good and bad”)."
+   },
+   {
+    "symbol": "𝓩",
+    "meaning": "This is the H_ext space, but centralized (H_int and H_ext switched, but not reversed in any rank of sign), as it's seen from Quantum realm."
+   },
+   {
+    "symbol": "𝓧",
+    "meaning": "H_ext is center of Exceeta / Xeta / X-exceeta."
+   },
+   {
+    "symbol": "𝓨",
+    "meaning": "This is the external higher, hologram head topology which simplifies hologram at higher frequency; but of H_ext not H_int, where H_ext is made center. This letter is called Yeta or Y-exceeta."
+   },
+   {
+    "symbol": "Ὦ",
+    "meaning": "This is the final unknown: instead of solving it, you flow around. Some meanings and essences need to be left open, while their interactions are solved into substantial unknownness - `Philosophy of Dao and Zen`.",
+    "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/FinalUnknown/OOmega.png"
+   }
+  ],
+
+  "laegnaOperators": [
+    {
+      "id": "unary",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/LogicStates/LogicStates.png",
+      "uimage": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/LogicStates/LogicStatesUnknowns.png"
+    },
+    {
+      "id": "math",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/MathOps/MathOps.png"
+    }
+  ],
+  
+  "laegnaNumberSystems": [
+    {
+      "id": "signs2",
+      "rank": 1,
+      "complexity": 1,
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/PlusMinus/SignsOfSystems.png",
+      "signs": ["-", "+"],
+      "utf8": ["❤️", "💚"],
+      "digits-values": ["Below Zero", "Above Zero"],
+      "digits-values-alt": ["Negative", "Positive"],
+      "digits-meanings": ["Down", "Up"],
+      "digits-meanings-alt": ["Left", "Right"],
+      "usigns": ["·"],
+      "udigits-values": ["Mean"],
+      "udigits-values-alt": ["Average"],
+      "udigits-meanings": ["Middle"],
+      "udigits-meanings-alt": ["Centered"],
+      "uutf8": ["🖤"],
+      "digits-numbers": [
+        {
+          "class": "sign",
+          "name": "Typical base-2 sign usable in different number bases, best fit for base-2 and base-4.",
+          "archetypes": ["Polarity"],
+          "dimensions": 1,
+          "bands": 1,
+          "composition_bits": 1,
+          "total_bits": 1,
+          "ordered": [-1, 1],
+          "signed_values": [-1, 1],
+          "usigned_values": [-1, 0, 1],
+          "counted": [1, 2],
+          "ucounted": [0, 1, 2],
+          "unsigned_values": [1, 2],
+          "unsigned_values": [0, 1, 2]
+        }
+      ]
+    },
+    {
+      "id": "base2",
+      "rank": 1,
+      "complexity": 1,
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/OA.png",
+      "name": "Laegna Binary",
+      "base": 2,
+      "digits": ["O", "A"],
+      "digits-values": ["False", "True"],
+      "digits-values-alt": ["Negative", "Positive"],
+      "digits-meanings": ["Bad", "Good"],
+      "utf8-digits": ["⬜", "⬛"],
+      "scdigits": ["o", "a"],
+      "utf8-scdigits": ["⚪", "⚫"],
+      "udigits": ["U"],
+      "scudigits": ["u"],
+      "digits-numbers": [
+        {
+          "class": "number",
+          "name": "Metaphysical or compound realm with 1 dimensions.",
+          "archetypes": ["Metaphysical", "Linear", "Logic", "Partial Logecs", "Primitive Semiaggregator"],
+          "dimensions": 1,
+          "bands": 1,
+          "composition_bits": 1,
+          "total_bits": 1,
+          "ordered": [-1, 1],
+          "signed_values": [-1, 1],
+          "usigned_values": [-1, 0, 1],
+          "counted": [1, 2],
+          "ucounted": [0, 1, 2],
+          "unsigned_values": [1, 2],
+          "unsigned_values": [0, 1, 2]
+        }
+      ],
+      "description": "Two-state number system. Foundation of logic, computation, and duality."
+    },
+    {
+      "id": "base11",
+      "rank": 1,
+      "complexity": 1,
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/ScopesZXY/Scopes1AIFreeForever.webp",
+      "help": "Naming: 1+1 = 2 in the linear zone, thus while 22 becomes 4 in exponent, 11 becomes 2 not 1 in linear scoping.",
+      "base": 2,
+      "digits": ["T", "R"],
+      "digits-values": ["Internal", "External"],
+      "digits-values-math": ["H_{int}", "H_{ext}"],
+      "digits-values-alt": ["Unit", "External Unit"],
+      "digits-values-alt2": ["Time", "Space"],
+      "digits-values-alt3": ["Value", "Value Space"],
+      "digits-meanings": ["Down", "Up"],
+      "digits-meanings-alt": ["Left", "Right"],
+      "utf8-digits": ["🔘", "🔲"],
+      "utf8-digits-alt": ["🔴", "🟦"],
+      "digits-numbers": [
+        {
+          "class": "relation",
+          "rank": 1,
+          "name": "Base-4 sign usable in different number bases, best fit for base-4 and base-16.",
+          "archetypes": ["Polarity"],
+          "dimensions": 2,
+          "bands": 1,
+          "composition_bits": 1,
+          "total_bits": 1,
+          "ordered": [-1, 1],
+          "signed_values": [-1, 1],
+          "signed_uvalues": [-1, 1],
+          "counted": [1, 2],
+          "unsigned_values": [1, 2],
+          "unsigned_uvalues": [1, 2]
+        }
+      ]
+    },
+    {
+      "id": "base9",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/ScopesZXY/Scopes1AIFreeForever.webp",
+      "base": 3,
+      "digits": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+      "digits-alt": ["ZZ", "ZX", "ZY", "XZ", "XX", "XY", "YZ", "YX", "YY"],
+      "digits-values": ["Upleft", "Upmiddle", "Upright", "Medleft", "Medmiddle", "Medright", "Downleft", "Downmiddle", "Downright"],
+      "digits-values-alt": ["Low Hell", "Middle Hell", "Hight Hell", "Low Earth", "Middle Earth", "High Earth", "Low Heaven", "Middle Heaven", "High Heaven"],
+      "digits-values-symbol": [
+        "Neanderthalian in his misery", "Primitive man in his normality", "Primitive man in his high",
+        "Primitive man in his misery", "Primitive man in his normality", "Primitive man in his high",
+        "Modern man in his misery", "Modern man in his normality", "Modern man in his high"
+      ],
+      "digits-values-neutral": [
+        "Quantum planck", "Quantum middle band", "Quantum infinity",
+        "Linear planck", "Linear middle band", "Linear infinity",
+        "Macroplanck", "Macro middle band", "Macroinfinity"
+      ],
+      "gdigits": [["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"]],
+      "udigits": ["0"],
+      "digits-basin0": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+      "gdigits-basin0": [["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"]],
+      "udigits-basin0": ["0"],
+      "digits-basin1": ["0", "1", "2", "3", "4", "5", "6", "7", "8"],
+      "gdigits-basin1": [["0", "1", "2"], ["3", "4", "5"], ["6", "7", "8"]],
+      "udigits-basin1": ["9"],
+      "utf8-digits": ["🟨", "🔘", "🟦", "🟥", "🟢", "⚪", "🟡", "🔲", "🔵"],
+      "utf8-udigits": ["⬜"]
+    },
+    {
+      "id": "base3",
+      "rank": 1.5,
+      "complexity": 1.5,
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/ScopesZXY/Scopes1AIFreeForever.webp",
+      "base": 3,
+      "digits": ["Z", "X", "Y"],
+      "digits-values": ["Zoom In", "Focus", "Zoom Out"],
+      "digits-values-symbolic": ["Hell", "Earth", "Heaven"],
+      "digits-values-physics": ["Quantum", "Newtonian", ["Relative", "Astrophysical"]],
+      "digits-values-math": ["log", "lin", "exp"],
+      "digits-values-math-alt": ["Logarithmic", "Linear", "Exponential"],
+      "utf8-digits": ["🟡", "🔘", "🔵"],
+      "digits_int": ["Z", "X", "Y"],
+      "utf8-digits_int": ["🟡", "🔲", "🔵"],
+      "digits_ext": ["𝓩", "𝓧", "𝓨"],
+      "utf8-digits_ext": ["🟨", "🔘", "🟦"],
+      "digits-numbers": [
+        {
+          "class": "relation",
+          "rank": 2,
+          "name": "Base-4 sign usable in different number bases, best fit for base-4 and base-16.",
+          "archetypes": ["Polarity"],
+          "dimensions": 3,
+          "bands": 1,
+          "composition_bits": 1,
+          "total_bits": 1.5,
+          "ordered": [-1, 0, 1],
+          "signed_values": [-1, 0, 1],
+          "signed_uvalues": [-1, 0, 1],
+          "counted": [1, 2, 3],
+          "unsigned_values": [1, 2, 3],
+          "unsigned_uvalues": [1, 2, 3]
+        }
+      ]
+    },
+    {
+      "id": "signs4",
+      "rank": 3,
+      "complexity": 2,
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/PlusMinus/SignsOfSystems.png",
+      "signs": ["÷", "-", "+", "×"],
+      "digits-values": ["Negotion", "Negation", "Position", "Posetion"],
+      "digits-values-lin": ["Negotive", "Negative", "Positive", "Posetive"],
+      "digits-values-sign": ["Divide", "Minus", "Plus", "Times"],
+      "digits-values-symbolic": ["Hell", "Myrran", "Terran", "Heaven"],
+      "digits-values-percents": ["-200%", "-100%", "100%", "200%"],
+      "utf8": ["💛", "❤️", "💚", "💙"],
+      "utf8-alt": ["♣️", "♠️", "♦️", "❤️"],
+      "usigns": ["·", ":"],
+      "uutf8": ["🖤", "🤍"],
+      "udigits-values": ["U-Neuton", "Ո-Neuton"],
+      "udigits-values-alt": ["Uneton", "Ոneton"],
+      "udigits-values-lin": ["Unetive", "Ոnetive"],
+      "udigits-values-sign": ["Mean", "Geomean"],
+      "udigits-values-symbolic": ["In here", "In this inertial system"],
+      "udigits-values-percents": ["±0%", "±∞%"],
+      "digits-numbers": [
+        {
+          "class": "sign",
+          "rank": 2,
+          "name": "Base-4 sign usable in different number bases, best fit for base-4 and base-16.",
+          "archetypes": ["Polarity"],
+          "dimensions": 1,
+          "bands": 1,
+          "composition_bits": 1,
+          "total_bits": 1,
+          "full_values": [
+            [-1, -1], [-1, 1],
+            [1, -1], [1, 1]
+          ],
+          "full_uvalues": [[0, 0]],
+          "ordered": [-2, -1, 1, 2],
+          "signed_values": [-2, -1, 1, 2],
+          "signed_uvalues": [-2, -1, 0, 1, 2],
+          "counted": [-2, -1, 1, 2],
+          "unsigned_values": [1, 2, 3, 4]
+          "unsigned_uvalues": [0, 1, 2, 3, 4]
+        }
+      ]
+    },
+    {
+      "id": "base4",
+      "rank": 2,
+      "complexity": 2,
+      "name": "Laegna Quaternary",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/DiagonalIOAE.png",
+      "base": 4,
+      "digits-values": ["Negotion", "Negation", "Position", "Posetion"],
+      "digits-values-alt": ["False-False", "True-False", "False-True", "True-True"],
+      "digits-values-alt1": ["Negative", "False Negative", "Positive", "False Positive"],
+      "digits-meanings": ["Bad in bad", "Good in bad", "Bad in good", "Good in good"],
+      "digits": ["I", "O", "A", "E"],
+      "digits-names": [
+        "Negative Collapse", ["Work", "Adventure"], ["Party", "Vacation"], "Positive Collapse"
+      ],
+      "utf8-digits": ["🟨", "🟥", "🟩", "🟦"],
+      "scdigits": ["i", "o", "a", "e"],
+      "utf8-scdigits": ["🟡", "🔴", "🟢", "🔵"],
+      "udigits": ["U", "Ո"],
+      "utf8-udigits": ["⬛", "⬜"],
+      "scudigits": ["u", "∩"],
+      "utf8-scudigits": ["⚫", "⚪"],
+      "udigits-values": ["Uneton", "Ոneton"],
+      "udigits-values-alt": ["Unset-Unknown", "Unknown-Unset"],
+      "udigits-values-alt1": ["Local Unknown", "Global Unknown"],
+      "udigits-values-alt2": ["Zero", "Superzero"],
+      "udigits-meanings": ["Unknown in bad", "Unknown in good"],
+      "ludigits": ["UU", "UՈ", "ՈU", "ՈՈ"],
+      "utf8-ludigits": ["⚫", "⚪", "⬛", "⬜"],
+      "scludigits": ["uu", "u∩", "∩u", "∩∩"],
+      "utf8-scludigits": ["⚫", "⚪", "⬛", "⬜"],
+      "digit-type": [
+        {
+          "class": "number",
+          "name": "Linear or compound numbers for 1 or 2 band use.",
+          "archetypes": ["Logexp", "Linear", "Basin", "Logecs", "Logecs Aggregator"],
+          "dimensions": 1,
+          "bands": 2,
+          "composition_bits": 1,
+          "total_bits": 1,
+          "full_uvalues": [[0, 0]],
+          "ordered": [-2, -1, 1, 2],
+          "signed_values": [-2, -1, 1, 2],
+          "signed_uvalues": [-2, -1, 0, 1, 2],
+          "counted": [-2, -1, 1, 2],
+          "unsigned_values": [1, 2, 3, 4]
+          "unsigned_uvalues": [0, 1, 2, 3, 4]
+        }
+      ],
+      "description": "Four-state system. Can map naturally to Laegna four-value logic."
+    },
+    {
+      "id": "colors4",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/LaegnaDao.png",
+      "colors": ["Yellow", "Red", "Green", "Blue"],
+      "utf8-o1": ["🟨", "🟥", "🟩", "🟦"],
+      "utf8-o2": ["🟡", "🔴", "🟢", "🔵"],
+      "utf8-o3": ["💛", "❤️", "💚", "💙"],
+      "ucolors": ["Black", "White"],
+      "uutf8-o1": ["⬛", "⬜"],
+      "uutf8-o2": ["⚫", "⚪"],
+      "uutf8-o3": ["🖤", "🤍"]
+    },
+    {
+      "id": "base22",
+      "rank": 2,
+      "complexity": 2,
+      "name": "Laegna Double-Binary",
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/STMN.png",
+      "base": 4,
+      "lbase": [2, 2],
+      "digits-values": ["False", "Left", "Right", "True"],
+      "digits-values-help": "Left and Right means digit value unknown, neutral.",
+      "digits-values-alt": ["False-False", "True-False", "False-True", "True-True"],
+      "digits-values-alt2": ["Theorem False", "Proposed True", "Proposed False", "Theorem False"],
+      "digits-meanings": ["Bad as bad", "Good as bad", "Bad as good", "Good as good"],
+      "digits": ["M", "N", "S", "T"],
+      "digits-names": [
+        ["Positive unrelation", "Positively far"], ["Positive relation", "Positively close"], ["Particular", "Locally"], "Theorem"
+      ],
+      "utf8-digits": ["⚫", "⚪", "⬛", "⬜"],
+      "scdigits": ["m", "n", "s", "t"],
+      "udigits": ["U", "Ո"],
+      "scudigits": ["u", "∩"],
+      "digit-type": [
+        {
+          "class": "number",
+          "name": "Metaphysical or compound realm with 2 dimensions.",
+          "archetypes": ["Metaphysical", "Composite", "Logic", "Partial Logecs", "Fundamental Aggregator"],
+          "dimensions": 2,
+          "bands": 1,
+          "composition_bits": 1,
+          "total_bits": 1,
+          "full_values": [
+            (-1, -1), (-1, 1),
+            (1, -1), (1, 1)
+          ],
+          "full_uvalues": [[0, 0]],
+          "ordered": [-2, -1, 1, 2],
+          "signed_values": [-2, -1, 1, 2],
+          "signed_uvalues": [-2, -1, 0, 1, 2],
+          "counted": [-2, -1, 1, 2],
+          "unsigned_values": [1, 2, 3, 4]
+          "unsigned_uvalues": [0, 1, 2, 3, 4]
+        }
+      ],
+      "description": "Two-state number system. Foundation of logic, computation, and duality."
+    },
+    {
+      "id": "signs8",
+      "rank": 3,
+      "complexity": 3,
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/PlusMinus/SignsOfSystems.png",
+      "signs": ["÷", "-", "+", "×", "⊘", "⊖", "⊕", "⊗"],
+      "help": "High values can be same values backwards in function draw, or otherwards.",
+      "utf8": ["💛", "❤️", "💚", "💙", "♣️", "♠️", "♦️", "🧡"],
+      "digits-values": ["Negotion", "Negation", "Position", "Posetion", "Ronegotion", "Ronegation", "Roposition", "Roposetion"],
+      "digits-values-wo": ["Negotion", "Negation", "Position", "Posetion", "Legodriad", "Legadriad", "Rosidriad", "Rosedriad"],
+      "digits-values-lin": ["Negotive", "Negative", "Positive", "Posetive", "Legotive", "Legative", "Rositive", "Rosetive"],
+      "digits-values-sign": ["Divide", "Minus", "Plus", "Times", "Distribute", "Reduce", "Amplify", "Accumulate"],
+      "digits-values-op": ["Division", "Substraction", "Addition", "Multiplication", "Distribution", "Reduction", "Amplification", "Accumulation"],
+      "digits-values-symbolic": ["Hell", "Myrran", "Terran", "Heaven"],
+      "digits-values-percents": ["-200%", "-100%", "100%", "200%"],
+      "usigns": ["·", ":", "∴", "⠶"],
+      "usigns-alt": ["·", ":", "⊙", "⊚"],
+      "uutf8": ["🖤", "🤍"],
+      "udigits-values": ["U-Neuton", "Ո-Neuton", "V-Neuton", "W-Neuton"],
+      "udigits-values-alt": ["Uneton", "Ոneton", "Veneton", "Weneton"],
+      "udigits-values-lin": ["Unetive", "Ոnetive", "Venetive", "Wenetive"],
+      "udigits-values-sign": ["Mean", "Geomean", "Comean", "Cogeomean"],
+      "udigits-values-op": ["Linear mean", "Geometric mean", "Internal barycentre", "Geometric barycentre"],
+      "udigits-values-symbolic": ["In here", "In this inertial system", "In this space", "In this metaspace"],
+      "udigits-values-percents": ["±0%", "±∞%", "±(0+0i)%", "±(∞+∞i)%"],
+      "digits-numbers": [
+        {
+          "class": "sign",
+          "rank": 3,
+          "name": "Base-4 sign usable in different number bases, best fit for base-4 and base-16.",
+          "archetypes": ["Polarity"],
+          "dimensions": 3,
+          "bands": 1,
+          "composition_bits": 1,
+          "total_bits": 1,
+          "full_values": [
+            [-1, -1, -1], [-1, -1, 1],
+            [-1, 1, -1], [-1, 1, 1],
+            [1, -1, -1], [1, -1, 1],
+            [1, 1, -1], [1, 1, 1]
+          ],
+          "full_uvalues": [[0, 0]],
+          "ordered": [-4, -3, -2, -1, 1, 2, 3, 4],
+          "ordered-alt": [-2, -1, 1, 2, -4, -3, 3, 4],
+          "signed_values": [-4, -3, -2, -1, 1, 2, 3, 4],
+          "signed_values-alt": [-2, -1, 1, 2, -4, -3, 3, 4],
+          "signed_uvalues": [-4, -3, -2, -1, 0, 1, 2, 3, 4],
+          "signed_uvalues-alt": [-2, -1, 1, 2, -4, -3, 3, 4],
+          "counted": [1, 2, 3, 4, 5, 6, 7, 8],
+          "counted-alt": [3, 4, 5, 6, 1, 2, 7, 8],
+          "unsigned_values": [1, 2, 3, 4, 5, 6, 7, 8],
+          "unsigned_values-alt": [3, 4, 5, 6, 1, 2, 7, 8],
+          "unsigned_uvalues-alt": [3, 4, 0, 5, 6, 1, 2, 0, 7, 8],
+          "unsigned_uvalues-alt2": [3, 4, 0, 5, 6, 9, 1, 2, 0, 7, 8],
+          "unsigned_uvalues-alt2-help": "2 signifies switch between lower and higher max-band.",
+          "unsigned_uvalues": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+      ]
+    },
+    {
+      "id": "base8",
+      "rank": 2.5,
+      "complexity": 3,
+      "name": "Laegna Octal",
+      "base": 8,
+      "digits": ["1", "2", "3", "4", "5", "6", "7", "8"],
+      "utf8-digits": ["🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦"],
+      "digits-values": ["···-", "···+", "··--", "··++", "·---", "·+++", "----", "++++"],
+      "digits-values-moeb": ["---", "--+", "-+-", "-++", "+--", "+-+", "++-", "+++"],
+      "udigits": ["0", "9"],
+      "udigits-values": ["In first group of 4", "In second group of 4"],
+      "udigits-values-alt": ["X / Zoom In", "Y / Zoom Out"],
+      "utf8-udigits": ["⚫", "⚪"],
+      "description": "Three binary bits per digit."
+      "digit-type": [
+        {
+          "class": "number",
+          "name": "Metaphysical or compound realm with 2 dimensions.",
+          "archetypes": ["Metaphysical", "Composite", "Logic", "Partial Logecs", "Fundamental Aggregator"],
+          "dimensions": 1,
+          "bands": 3,
+          "composition_bits": 1,
+          "total_bits": 3,
+          "full_values": [
+            [-1, -1, -1], [-1, -1, 1],
+            [-1, 1, -1], [-1, 1, 1],
+            [1, -1, -1], [1, -1, 1],
+            [1, 1, -1], [1, 1, 1]
+          ],
+          "full_uvalues": [[0, 0]],
+          "ordered": [-4, -3, -2, -1, 1, 2, 3, 4],
+          "ordered-alt": [-2, -1, 1, 2, -4, -3, 3, 4],
+          "signed_values": [-4, -3, -2, -1, 1, 2, 3, 4],
+          "signed_values-alt": [-2, -1, 1, 2, -4, -3, 3, 4],
+          "signed_uvalues": [-4, -3, -2, -1, 0, 1, 2, 3, 4],
+          "signed_uvalues-alt": [-2, -1, 1, 2, -4, -3, 3, 4],
+          "counted": [1, 2, 3, 4, 5, 6, 7, 8],
+          "counted-alt": [3, 4, 5, 6, 1, 2, 7, 8],
+          "unsigned_values": [1, 2, 3, 4, 5, 6, 7, 8],
+          "unsigned_values-alt": [3, 4, 5, 6, 1, 2, 7, 8],
+          "unsigned_uvalues-alt": [3, 4, 0, 5, 6, 1, 2, 0, 7, 8],
+          "unsigned_uvalues-alt2": [3, 4, 0, 5, 6, 9, 1, 2, 0, 7, 8],
+          "unsigned_uvalues-alt2-help": "2 signifies switch between lower and higher max-band.",
+          "unsigned_uvalues": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+        },
+        {
+          "class": "rank",
+          "name": "Ranked number.",
+          "archetypes": ["External"],
+          "dimensions": 3,
+          "bands": 1,
+          "composition_bits": 1,
+          "total_bits": 3,
+          "full_values": [
+            [-1, -1, -1], [-1, -1, 1],
+            [-1, 1, -1], [-1, 1, 1],
+            [1, -1, -1], [1, -1, 1],
+            [1, 1, -1], [1, 1, 1]
+          ],
+          "full_uvalues": [[0, 0]],
+        }
+      ],
+    },
+    {
+      "id": "base10",
+      "name": "Latin Decimal",
+      "base": 10,
+      "digits": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+      "utf8-digits": ["⚫", "🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦", "⬜"],
+      "description": "Standard human counting system."
+    },
+    {
+      "id": "base16",
+      "rank": 3,
+      "complexity": 4,
+      "alt-id": "base44",
+      "alt-lbase": [4, 4],
+      "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/Hexadecimal.png",
+      "uimage": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/Probably.png",
+      "name": "Laegna Hexadecimal",
+      "alt-name": "Laegna Double-Quaternary.",
+      "base": 16,
+      "digits": [
+        "G", "F", "E", "H",
+        "C", "B", "A", "D",
+        "Q", "P", "O", "R",
+        "K", "J", "I", "L"
+      ],
+      "digits-names": [
+        "Gravity (upwards)", "Frequency", "Posetion", "Etalon",
+        "Stream", "Work", "Position", "Idealization",
+        "Quality", "Overcoming", "Negation", "Right-wing",
+        "Wobbling", "And", "Negotion", "Left-wing"
+      ],
+      "udigits": ["W", "V", "U", "Ո"],
+      "utf8-udigits": ["⚫", "⚪", "⬛", "⬜"],
+      "scdigits": [
+        "g", "f", "e", "h",
+        "c", "b", "a", "d",
+        "q", "p", "o", "r",
+        "k", "j", "i", "l"
+      ],
+      "utf8-scdigits": [
+        "🟦🟡", "🟦🔴", "🟦🟢", "🟦🔵",
+        "🟩🟡", "🟩🔴", "🟩🟢", "🟩🔵",
+        "🟥🟡", "🟥🔴", "🟥🟢", "🟥🔵",
+        "🟨🟡", "🟨🔴", "🟨🟢", "🟨🔵"
+      ],
+      "utf8-digits": ["🟡", "🔴", "🟢", "🔵", "🟨", "🟥", "🟩", "🟦"],
+      "scudigits": ["w", "v", "u", "∩"],
+      "utf8-scudigits": ["⚫", "⚪", "⬛", "⬜"],
+      "digit-type": [
+        {
+          "class": "number",
+          "name": "2D base-4-4.",
+          "archetypes": ["Logexp", "Linear", "Basin", "Logecs", "Logecs Aggregator"],
+          "dimensions": 2,
+          "bands": 2,
+          "composition_bits": 1,
+          "total_bits": 4,
+          "full_values": [
+            [ 2, -2], [ 2, -1], [ 2,  1], [ 2,  2],
+            [ 1, -2], [ 1, -1], [ 1,  1], [ 1,  2],
+            [-1, -2], [-1, -1], [-1,  1], [-1,  2],
+            [-2, -2], [-2, -1], [-2,  1], [-2,  2]
+          ],
+          "full_counts": [
+            [4, 1], [4, 2], [4,  3], [4, 4],
+            [3, 1], [3, 2], [3,  3], [3, 4],
+            [2, 1], [2, 2], [2,  3], [2, 4],
+            [1, 1], [1, 2], [1,  3], [1, 4]
+          ],
+          "ordered": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "unsigned_values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "unsigned_uvalues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "counted": [-8, -7, -6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8],
+          "signed_values": [-8, -7, -6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8],
+          "signed_uvalues": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+        },
+        {
+          "class": "number",
+          "name": "Linear Base-16.",
+          "archetypes": ["Logexp", "Linear", "Basin", "Logecs", "Logecs Aggregator"],
+          "dimensions": 1,
+          "bands": 4,
+          "composition_bits": 1,
+          "total_bits": 4,
+          "full_values": [-8, -7, -6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8],
+          "full_uvalues": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "ordered": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "unsigned_values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "unsigned_uvalues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "counted": [-8, -7, -6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8],
+          "signed_values": [-8, -7, -6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8],
+          "signed_uvalues": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+        }
+      ],
+      "description": "Four binary bits per digit. Common in computing."
+    }
+  ],
+
+  "laegnaLogecsLaegna2": [
+    {
+      "symbol": "O",
+      "name": "Negative",
+      "utf8-symbol": "⚫",
+      "truth": "False",
+      "value": -1,
+      "description": "Negative state."
+    },
+    {
+      "symbol": "A",
+      "name": "Positive",
+      "utf8-symbol": "⬜",
+      "truth": "True",
+      "value": 1,
+      "description": "Positive state."
+    }
+  ],
+
+    "laegnaLogecsLatin2": [
+   {
+      "symbol": "✔",
+      "alt-symbol": "☑",
+      "utf8-symbol": "⚫",
+      "name": "Positive",
+      "truth": "True",
+      "value": 1,
+      "count": 1,
+      "description": "Positive state."
+    },
+    {
+      "symbol": "✖",
+      "alt-symbol": "☒",
+      "alt-2-symbol": "❌",
+      "utf8-symbol": "⬜",
+      "symbolset": "☐",
+      "name": "Negative",
+      "truth": "False",
+      "value": -1,
+      "count": 2,
+      "description": "Strong positive or emergent state."
+    }
+  ],
+
+  "laegnaLogecs": [
+    {
+      "symbol": "I",
+      "name": "Negotion",
+      "utf8": ["🟨"],
+      "value": -2,
+      "count": 1,
+      "description": "Deep negative or anti-state.",
+      "radialdescription": "Negative becomes real, cancels itself; negotion tables - negative collapse."
+    },
+    {
+      "symbol": "O",
+      "name": "Negation",
+      "utf8": ["🟥"],
+      "value": -1,
+      "count": 2,
+      "description": "Negative state.",
+      "radialdescription": "Adventure rather than negative, simply say no and you got this - negative flow."
+    },
+    {
+      "symbol": "A",
+      "name": "Position",
+      "utf8": ["🟩"],
+      "value": 1,
+      "count": 3,
+      "description": "Positive state.",
+      "radialdescription": "Position remains, whatever happens: your position, it's position - positive flow."
+    },
+    {
+      "symbol": "E",
+      "name": "Posetion",
+      "utf8": ["🟦"],
+      "value": 2,
+      "count": 4,
+      "description": "Strong positive or emergent state.",
+      "radialdescription": "Too much yang is broken yang: failure of treasure hunt, a pose - positive collapse of success or rather failure."
+    }
+  ],
+
+  "laegnaLogecs-y": [
+    {
+      "symbol": "Z",
+      "name": "Logarithmic scope",
+      "utf8-symbol": "⤺",
+      "name-2": "U-uneton",
+      "ovalue": -1,
+      "ocount": 1,
+      "description": "Zoom in, decompose."
+    },
+    {
+      "symbol": "X",
+      "name": "Linear scope",
+      "utf8-symbol": "╱",
+      "ovalue": 0,
+      "ocount": 1,
+      "description": "Focus, resolve."
+    },
+    {
+      "symbol": "Y",
+      "name": "Exponential scope",
+      "utf8-symbol": "⤻",
+      "ovalue": 1,
+      "ocount": 2,
+      "description": "Zoom out, composite."
+    }
+  ],
+
+  "laegnaLogecs-manual": [
+    {
+      "System": "Latin",
+      "Rank": "0",
+      "Manual": [
+        "Logarithmic     : y = log(x)",
+        "Linear          : y = x",
+        "Quadratic       : y = x²",
+        "Cubic           : y = x³",
+        "Polynomial      : y = xⁿ",
+        "Exponential     : y = aˣ",
+        "Double Exponential : y = a^(aˣ)",
+        "..."
+      ]
+    },
+    {
+      "System": "Laegna",
+      "Rank": "1",
+      "Manual": [
+        "Quadratic  ← fourfold",
+        "Cubic      ← eightfold (in your system)",
+        "Quartic    ← sixteenfold"
+      ],
+      "Manual-divisionbased": [
+        "1/16  = Quarterlogarithmic",
+        "1/8   = Cubic Logarithmic",
+        "1/4   = Quadratic Logarithmic",
+        "1/2   = Logarithmic",
+        "1     = Linear",
+        "2     = Exponential",
+        "4     = Quadratic",
+        "8     = Cubic",
+        "16    = Quartic"
+      ],
+      "Manual-latinprefix": [
+        "16    = Quartic",
+        "8     = Cubic",
+        "4     = Quadratic",
+        "2     = Exponential",
+        "1     = Linear",
+        "1/2   = Logarithmic",
+        "1/4   = Quadrologarithmic",
+        "1/8   = Cubilogarithmic",
+        "1/16  = Quartilogarithmic"
+      ],
+      "Manual-ranks": [
+        "16    Multiplication rank 4",
+        "8     Multiplication rank 3",
+        "4     Multiplication rank 2",
+        "2     Multiplication rank 1",
+        "1     Neutral",
+        "1/2   Division rank 1",
+        "1/4   Division rank 2",
+        "1/8   Division rank 3",
+        "1/16  Division rank 4"
+      ],
+      "Manual-octaves": [
+        "16    Octave 4",
+        "8     Octave 3",
+        "4     Octave 2",
+        "2     Octave 1",
+        "1     Octave 0",
+        "1/2   Octave -1",
+        "1/4   Octave -2",
+        "1/8   Octave -3",
+        "1/16  Octave -4"
+      ],
+      "Manual-linearspace": [
+        "16    Integral order 4",
+        "8     Integral order 3",
+        "4     Integral order 2",
+        "2     Integral order 1",
+        "1     Linear order = Integral order 0 = Differential order 0",
+        "1/2   Differential order 1",
+        "1/4   Differential order 2",
+        "1/8   Differential order 3",
+        "1/16  Differential order 4"
+      ],
+      "Manual-octaves-rankminus1": [
+        "16    Octave 4",
+        "8     Octave 3",
+        "4     Octave 2",
+        "2     Octave 1",
+        "1     Octave 0",
+        "-2   Octave -1",
+        "-4   Octave -2",
+        "-8   Octave -3",
+        "-16  Octave -4"
+      ],
+      "Manual-linearspace-rankminus1": [
+        "16    Integral order 4",
+        "8     Integral order 3",
+        "4     Integral order 2",
+        "2     Integral order 1",
+        "1     Linear order = Integral order 0 = Differential order 0.",
+        "-2   Differential order 1",
+        "-4   Differential order 2",
+        "-8   Differential order 3",
+        "-16  Differential order 4",
+        "±256 Differential order Ո"
+      ],
+      "Manual-frequencies-rankminus1": [
+        "16    Frequency EEEE, with R = 4, R rank = 3.",
+        "8     Frequency EE, with R = 2, R rank = 2.",
+        "4     Frequency E, with R = 1, R rank = 1.",
+        "2     Frequency A, with R = 0.5, R rank = 0.",
+        "1     Frequency U, with R = 0.25, R rank = -1.",
+        "0     Frequency W, with R = 0.125, R rank = -2.",
+        "-1    Frequency V, with R = 0.25, R rank = -1.",
+        "-2    Frequency O, with R = 0.5, R rank = 0.",
+        "-4    Frequency I, with R = 1, R rank = 1.",
+        "-8    Frequency II, with R = 2, R rank = 2.",
+        "-16   Frequency IIII, with R = 4, R rank = 3.",
+        "±256  Frequency Ո, with R = 1, R rank = 1."
+      ],
+      "Manual-frequencies": [
+        "16    Frequency EEEE, with R = 4, R rank = 3.",
+        "8     Frequency EE, with R = 2, R rank = 2.",
+        "4     Frequency E, with R = 1, R rank = 1.",
+        "2     Frequency A, with R = 0.5, R rank = 0.",
+        "1     Frequency U, with R = 0.25, R rank = -1.",
+        "0     Frequency W, with R = 0.125, R rank = -2.",
+        "1/1   Frequency V, with R = 0.25, R rank = -1.",
+        "1/2    Frequency O, with R = 0.5, R rank = 0.",
+        "1/4    Frequency I, with R = 1, R rank = 1.",
+        "1/8    Frequency II, with R = 2, R rank = 2.",
+        "1/16   Frequency IIII, with R = 4, R rank = 3.",
+        "256 / 1/256  Frequency Ո, with R = 1, R rank = 1."
+      ]
+    }
+  ],
+  
+  "laegnaLogecs-yy": [
+    {
+      "symbol": "ZZ",
+      "name": "Quadrologarithmic scope",
+      "name-2": "U-uneton",
+      "ovalue": -2,
+      "description": "Deep negative or anti-state."
+    },
+    {
+      "symbol": "XX",
+      "name": "Superlinearized scope",
+      "ovalue": 0,
+      "description": "Deep negative or anti-state."
+    },
+    {
+      "symbol": "YY",
+      "name": "Quandratic scope",
+      "ovalue": 2,
+      "description": "Deep negative or anti-state."
+    }
+  ],
+
+  "laegnaLogecs-u": [
+    {
+      "symbol": "U",
+      "name": "Uneton",
+      "name-2": "U-uneton",
+      "uvalue": 1,
+      "description": "Unknown."
+    },
+    {
+      "symbol": "Ո",
+      "name": "Ո-Uneton",
+      "uvalue": 2,
+      "description": "Metaunknown."
+    },
+    {
+      "symbol": "V",
+      "name": "V-Uneton",
+      "uvalue": -1,
+      "description": "Known."
+    },
+    {
+      "symbol": "W",
+      "name": "W-Uneton",
+      "uvalue": -2,
+      "description": "Well-known (metaknown)."
+    },
+    {
+      "symbol": "Ὦ",
+      "name": "Ô-ôômega",
+      "uvalue": -4,
+      "description": "Final unknown."
+    }
+  ],
+
+  
+  "iching": {
+    "singleLines": [
+      {
+        "id": 1,
+        "number": 1,
+        "count": 2,
+        "utf8": "⬜",
+        "alt-utf8": "🟢",
+        "symbol": "⚊",
+        "laesymbol": "E",
+        "lae4-symbol": "E",
+        "lae2-symbol": "A",
+        "unicode": "U+268A",
+        "binary": "1",
+        "name": "Yang",
+        "description": "Solid line, active principle."
+      },
+      {
+        "id": 2,
+        "number": -1,
+        "count": 1,
+        "utf8": "⚪",
+        "alt-utf8": "🔴",
+        "symbol": "⚋",
+        "laesymbol": "A",
+        "lae4-symbol": "I",
+        "lae2-symbol": "O",
+        "unicode": "U+268B",
+        "binary": "0",
+        "name": "Yin",
+        "description": "Broken line, receptive principle."
+      }
+    ],
+
+    "usingleLines": [
+      {
+        "id": 3,
+        "number": 0,
+        "count": 1.5,
+        "utf8": "🟫",
+        "utf8-2": "🟤",
+        "alt-utf8": "⚫",
+        "symbol": "☯",
+        "laesymbol": "U",
+        "lae4-symbol": "U",
+        "lae2-symbol": "U",
+        "unicode": "U+268A",
+        "binary": "1",
+        "name": "Yang",
+        "description": "Solid line, active principle."
+      }
+    ],
+
+    "twoLiners": [
+      {
+        "id": 1,
+        "symbol": "⚌",
+        "element": "Fire",
+        "laeicon": "🔥",
+        "vikingsymbol": "🚂",
+        "laedirection": "Mult. Acceleration",
+        "laeoperator": "×",
+        "laeutf8": "💙",
+        "utf8": "🟦",
+        "utf8-2": "🔵",
+        "laesymbol": "E",
+        "laeElement": "Fire",
+        "binary": "11",
+        "name": "",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "symbol": "⚎",
+        "laeElement": "Air",
+        "laeicon": "💨",
+        "vikingsymbol": "⛵",
+        "laedirection": "Pos. Velocity",
+        "laeoperator": "+",
+        "laeutf8": "💚",
+        "utf8": "🟩",
+        "utf8-2": "🟢",
+        "laesymbol": "A",
+        "element": "Wood",
+        "binary": "10",
+        "name": "",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "symbol": "⚍",
+        "laeElement": "Water",
+        "laeicon": "💧",
+        "vikingsymbol": "🐬",
+        "laedirection": "Neg. Velocity",
+        "laeoperator": "-",
+        "laeutf8": "❤️",
+        "utf8": "🟥",
+        "utf8-2": "🔴",
+        "laesymbol": "O",
+        "element": "Metal",
+        "binary": "01",
+        "name": "",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "symbol": "⚏",
+        "laeElement": "Stone",
+        "alt-laeElement": "Earth",
+        "laeicon": "⛰️",
+        "vikingsymbol": "⚓",
+        "laedirection": "Div. Acceleration",
+        "laesymbol": "I",
+        "laeoperator": "-",
+        "laeutf8": "❤️",
+        "utf8": "🟥",
+        "utf8-2": "🔴",
+        "element": "Water",
+        "binary": "00",
+        "name": "",
+        "description": ""
+      }
+    ],
+    
+    "utwoLiners": [
+      {
+        "symbol": "☯",
+        "laeElement": "Spirit",
+        "laeicon": "🏛️",
+        "id": 5,
+        "number": 0,
+        "count": 1.5,
+        "utf8": "⚫",
+        "laeoperator": "·",
+        "laesymbol": "U",
+        "lae4-symbol": "U",
+        "lae2-symbol": "U",
+        "unicode": "U+268A",
+        "binary": "1",
+        "name": "Yang",
+        "description": "Solid line, active principle."
+      },
+      {
+        "symbol": "☮",
+        "laeElement": "God",
+        "laeicon": "🕯️",
+        "id": 6,
+        "number": 0,
+        "count": 1.5,
+        "laeoperator": ":",
+        "utf8": "⬜",
+        "laesymbol": "U",
+        "lae4-symbol": "U",
+        "lae2-symbol": "U",
+        "unicode": "U+268A",
+        "binary": "1",
+        "name": "Yang",
+        "description": "Solid line, active principle."
+      }
+    ],
+
+    "trigrams": [
+      {
+        "id": 1,
+        "number": 8,
+        "symbol": "☰",
+        "vikingsymbol": "🚀",
+        "unicode": "U+2630",
+        "binary": "111",
+        "name": "Heaven",
+        "chinese": "Qián",
+        "element": "Sky",
+        "description": "Creative force."
+      },
+      {
+        "id": 2,
+        "number": 7,
+        "symbol": "☱",
+        "vikingsymbol": "🌊",
+        "unicode": "U+2631",
+        "binary": "110",
+        "name": "Lake",
+        "chinese": "Duì",
+        "element": "Lake",
+        "description": "Joy and openness."
+      },
+      {
+        "id": 3,
+        "number": 6,
+        "symbol": "☲",
+        "vikingsymbol": "🚂",
+        "unicode": "U+2632",
+        "binary": "101",
+        "name": "Fire",
+        "chinese": "Lí",
+        "element": "Fire",
+        "description": "Clarity and illumination."
+      },
+      {
+        "id": 4,
+        "number": 5,
+        "symbol": "☳",
+        "vikingsymbol": "⚡",
+        "unicode": "U+2633",
+        "binary": "100",
+        "name": "Thunder",
+        "chinese": "Zhèn",
+        "element": "Thunder",
+        "description": "Movement and action."
+      },
+      {
+        "id": 5,
+        "number": 4,
+        "symbol": "☴",
+        "vikingsymbol": "⛵",
+        "unicode": "U+2634",
+        "binary": "011",
+        "name": "Wind",
+        "chinese": "Xùn",
+        "element": "Wind",
+        "description": "Penetration and influence."
+      },
+      {
+        "id": 6,
+        "number": 3,
+        "symbol": "☵",
+        "vikingsymbol": "🐟",
+        "unicode": "U+2635",
+        "binary": "010",
+        "name": "Water",
+        "chinese": "Kǎn",
+        "element": "Water",
+        "description": "Depth and danger."
+      },
+      {
+        "id": 7,
+        "number": 2,
+        "symbol": "☶",
+        "vikingsymbol": "⚓",
+        "unicode": "U+2636",
+        "binary": "001",
+        "name": "Mountain",
+        "chinese": "Gèn",
+        "element": "Mountain",
+        "description": "Stillness and stability."
+      },
+      {
+        "id": 8,
+        "number": 1,
+        "symbol": "☷",
+        "vikingsymbol": "🔋",
+        "unicode": "U+2637",
+        "binary": "000",
+        "name": "Earth",
+        "chinese": "Kūn",
+        "element": "Earth",
+        "description": "Receptive force."
+      }
+    ],
+
+    "hexagrams": {
+
+    "signs": {
+      "E": {
+        "number": 4,
+        "utf8": "💙",
+        "name": "Multiply",
+        "symbol": "×",
+        "hexagramgroups": {
+          "E": {
+            "color": "🔵",
+            "hexagrams": ["䷀䷫䷌䷠"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 1,
+                "iching_idx": 1,
+                "lae8": "88",
+                "name": "The Creative",
+                "name-alt": "Heaven",
+                "name-alt2": "Force",
+                "changes": [
+                  "Hidden Force",
+                  "Gathering Power",
+                  "Testing Heaven",
+                  "Manifesting Creation",
+                  "Mastering Force",
+                  "Ascending Dragon"
+                ],
+                "number": 32,
+                "count": 64,
+                "symbol": "䷀",
+                "utf8": "💙🔵🟦",
+                "lae2": "AAA AAA",
+                "lae4": "EEE",
+                "lae44": "×H"
+              },
+              {
+                "id": 2,
+                "iching_idx": 44,
+                "lae8": "87",
+                "name": "Coming to Meet",
+                "name-alt": "Encounter",
+                "changes": [
+                  "First Encounter",
+                  "Mutual Attraction",
+                  "Crossing Paths",
+                  "Receiving the Guest",
+                  "Sacred Meeting",
+                  "Parting Again"
+                ],
+                "number": 31,
+                "count": 63,
+                "symbol": "䷫",
+                "utf8": "💙🔵🟩",
+                "lae2": "AAA AAO",
+                "lae4": "EEA",
+                "lae44": "×E"
+              },
+              {
+                "id": 3,
+                "iching_idx": 13,
+                "lae8": "86",
+                "name": "Fellowship with Men",
+                "name-alt": "Community",
+                "changes": [
+                  "Seeking Companions",
+                  "Joining Voices",
+                  "Testing Loyalty",
+                  "Uniting the Circle",
+                  "Shared Purpose",
+                  "Beyond the Tribe"
+                ],
+                "number": 30,
+                "count": 62,
+                "symbol": "䷌",
+                "utf8": "💙🔵🟥",
+                "lae2": "AAA AOA",
+                "lae4": "EAE",
+                "lae44": "×F"
+              },
+              {
+                "id": 4,
+                "iching_idx": 33,
+                "lae8": "85",
+                "name": "Retreat",
+                "name-alt": "Withdrawal",
+                "changes": [
+                  "Stepping Back",
+                  "Guarded Withdrawal",
+                  "Choosing Distance",
+                  "Leaving the Field",
+                  "Wise Seclusion",
+                  "Vanishing Beyond Reach"
+                ],
+                "number": 29,
+                "count": 61,
+                "symbol": "䷠",
+                "utf8": "💙🔵🟨",
+                "lae2": "AAA AOO",
+                "lae4": "EAA",
+                "lae44": "×G"
+              }              
+            ]
+          },
+          "A": {
+            "color": "🟢",
+            "hexagrams": ["䷉䷅䷘䷋"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 5,
+                "iching_idx": 10,
+                "lae8": "84",
+                "name": "Treading",
+                "name-alt": "Conduct",
+                "changes": [
+                  "First Footstep",
+                  "Following the Path",
+                  "Testing Boundaries",
+                  "Measured Conduct",
+                  "Perfect Bearing",
+                  "Walking Beyond Form"
+                ],
+                "number": 28,
+                "count": 60,
+                "symbol": "䷉",
+                "utf8": "💙🟢🟦",
+                "lae2": "AAA OAA",
+                "lae4": "AEE",
+                "lae44": "×D"
+              },
+              {
+                "id": 6,
+                "iching_idx": 6,
+                "lae8": "83",
+                "name": "Conflict",
+                "name-alt": "Arguing",
+                "changes": [
+                  "Rising Tension",
+                  "Taking Sides",
+                  "Open Contest",
+                  "Seeking Judgment",
+                  "Resolving Dispute",
+                  "Abandoning Strife"
+                ],
+                "number": 27,
+                "count": 59,
+                "symbol": "䷅",
+                "utf8": "💙🟢🟩",
+                "lae2": "AAA OAO",
+                "lae4": "AEA",
+                "lae44": "×A"
+              },
+              {
+                "id": 7,
+                "iching_idx": 25,
+                "lae8": "82",
+                "name": "Innocence",
+                "name-alt": "Without Entanglement",
+                "changes": [
+                  "Pure Impulse",
+                  "Trusting Nature",
+                  "Testing Simplicity",
+                  "Acting Without Scheme",
+                  "Perfect Sincerity",
+                  "Returning to Origin"
+                ],
+                "number": 26,
+                "count": 58,
+                "symbol": "䷘",
+                "utf8": "💙🟢🟥",
+                "lae2": "AAA OOA",
+                "lae4": "AAE",
+                "lae44": "×B"
+              },
+              {
+                "id": 8,
+                "iching_idx": 12,
+                "lae8": "81",
+                "name": "Standstill",
+                "name-alt": "Stagnation",
+                "changes": [
+                  "The First Blockage",
+                  "Holding Position",
+                  "Enduring Stagnation",
+                  "Waiting for Change",
+                  "Seeing the Opening",
+                  "Breaking the Stillness"
+                ],
+                "number": 25,
+                "count": 57,
+                "symbol": "䷋",
+                "utf8": "💙🟢🟨",
+                "lae2": "AAA OOO",
+                "lae4": "AAA",
+                "lae44": "×C"
+              }              
+            ]
+          },
+          "O": {
+            "color": "🔴",
+            "hexagrams": ["䷈䷸䷤䷴"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 9,
+                "iching_idx": 9,
+                "lae8": "78",
+                "name": "The Taming Power of the Small",
+                "name-alt": "Small Accumulation",
+                "changes": [
+                  "Gathering Fragments",
+                  "Gentle Restraint",
+                  "Testing Limits",
+                  "Accumulating Influence",
+                  "Mastering the Small",
+                  "Releasing the Stored Force"
+                ],
+                "number": 24,
+                "count": 56,
+                "symbol": "䷈",
+                "utf8": "💙🔴🟦",
+                "lae2": "AAO AAA",
+                "lae4": "EEO",
+                "lae44": "×R"
+              },
+              {
+                "id": 10,
+                "iching_idx": 57,
+                "lae8": "77",
+                "name": "The Gentle",
+                "name-alt": "Wind",
+                "name-alt2": "Penetrating",
+                "changes": [
+                  "First Penetration",
+                  "Entering Softly",
+                  "Persistent Influence",
+                  "Spreading Through",
+                  "Perfect Adaptation",
+                  "Becoming the Wind"
+                ],
+                "number": 23,
+                "count": 55,
+                "symbol": "䷸",
+                "utf8": "💙🔴🟩",
+                "lae2": "AAO AAO",
+                "lae4": "EEI",
+                "lae44": "×O"
+              },
+              {
+                "id": 11,
+                "iching_idx": 37,
+                "lae8": "76",
+                "name": "The Family",
+                "name-alt": "The Clan",
+                "changes": [
+                  "Founding the House",
+                  "Strengthening Bonds",
+                  "Testing Relations",
+                  "Ordering the Clan",
+                  "Honoring the Lineage",
+                  "Extending the Household"
+                ],
+                "number": 22,
+                "count": 54,
+                "symbol": "䷤",
+                "utf8": "💙🔴🟥",
+                "lae2": "AAO AOA",
+                "lae4": "EAO",
+                "lae44": "×P"
+              },
+              {
+                "id": 12,
+                "iching_idx": 53,
+                "lae8": "75",
+                "name": "Development",
+                "name-alt": "Gradual Progress",
+                "changes": [
+                  "First Growth",
+                  "Taking Root",
+                  "Crossing Stages",
+                  "Steady Advancement",
+                  "Mature Progress",
+                  "Flight Beyond the Horizon"
+                ],
+                "number": 21,
+                "count": 53,
+                "symbol": "䷴",
+                "utf8": "💙🔴🟨",
+                "lae2": "AAO AOO",
+                "lae4": "EAI",
+                "lae44": "×Q"
+              }              
+            ]
+          },
+          "I": {
+            "color": "🟡",
+            "hexagrams": ["䷼䷺䷩䷓"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 13,
+                "iching_idx": 61,
+                "lae8": "74",
+                "name": "Inner Truth",
+                "name-alt": "Central Returning",
+                "changes": [
+                  "Listening Within",
+                  "Awakening Sincerity",
+                  "Testing the Heart",
+                  "Speaking Truly",
+                  "Perfect Integrity",
+                  "Returning to the Center"
+                ],
+                "number": 20,
+                "count": 52,
+                "symbol": "䷼",
+                "utf8": "💙🟡🟦",
+                "lae2": "AAO OAA",
+                "lae4": "AEO",
+                "lae44": "×L"
+              },
+              {
+                "id": 14,
+                "iching_idx": 59,
+                "lae8": "73",
+                "name": "Dispersion",
+                "name-alt": "Dissolution",
+                "changes": [
+                  "The First Release",
+                  "Dissolving Barriers",
+                  "Scattered Currents",
+                  "Spreading Influence",
+                  "Liberating the Whole",
+                  "Vanish Into Mist"
+                ],
+                "number": 19,
+                "count": 51,
+                "symbol": "䷺",
+                "utf8": "💙🟡🟩",
+                "lae2": "AAO OAO",
+                "lae4": "AEI",
+                "lae44": "×I"
+              },
+              {
+                "id": 15,
+                "iching_idx": 42,
+                "lae8": "72",
+                "name": "Increase",
+                "changes": [
+                  "Receiving Gain",
+                  "Growing Resources",
+                  "Testing Abundance",
+                  "Sharing Prosperity",
+                  "Blessing the Many",
+                  "Overflowing Fortune"
+                ],
+                "number": 18,
+                "count": 50,
+                "symbol": "䷩",
+                "utf8": "💙🟡🟥",
+                "lae2": "AAO OOA",
+                "lae4": "AAO",
+                "lae44": "×J"
+              },
+              {
+                "iching_idx": 20,
+                "lae8": "71",
+                "name": "Contemplation",
+                "name-alt": "Viewing",
+                "changes": [
+                  "Looking Upward",
+                  "Observing Signs",
+                  "Reflecting Deeply",
+                  "Witnessing Patterns",
+                  "Clear Vision",
+                  "The Boundless View"
+                ],
+                "id": 16,
+                "number": 17,
+                "count": 49,
+                "symbol": "䷓",
+                "utf8": "💙🟡🟨",
+                "lae2": "AAO OOO",
+                "lae4": "AAI",
+                "lae44": "×K"
+              }              
+            ]
+          }
+        }
+      },
+        
+      "A": {
+        "number": 3,
+        "utf8": "💚",
+        "name": "Add",
+        "symbol": "+",
+        "hexagramgroups": {
+          "E": {
+            "color": "🔵",
+            "hexagrams": ["䷍䷱䷝䷷"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 17,
+                "iching_idx": 14,
+                "lae8": "68",
+                "name": "Great Possession",
+                "name-alt": "Great Having",
+                "changes": ["Receiving the Flame", "Gathering Treasures", "Testing Abundance", "Holding Greatness", "Sharing the Light", "Possessing the Heavens"],
+                "number": 16,
+                "count": 48,
+                "symbol": "䷍",
+                "utf8": "💚🔵🟦",
+                "lae2": "AOA AAA",
+                "lae4": "EOE",
+                "lae44": "+H"
+              },
+              {
+                "id": 18,
+                "iching_idx": 50,
+                "lae8": "67",
+                "name": "The Cauldron",
+                "name-alt": "The Vessel",
+                "changes": ["Kindling the Vessel", "Preparing the Offering", "Transforming the Elements", "Nourishing the Spirit", "Perfecting the Vessel", "Becoming the Sacred Fire"],
+                "number": 15,
+                "count": 47,
+                "symbol": "䷱",
+                "utf8": "💚🔵🟩",
+                "lae2": "AOA AAO",
+                "lae4": "EOA",
+                "lae44": "+E"
+              },
+              {
+                "id": 19,
+                "iching_idx": 30,
+                "lae8": "66",
+                "name": "The Clinging",
+                "name-alt": "Fire",
+                "name-alt2": "Radiance",
+                "changes": ["First Spark", "Finding the Flame", "Burning Brightly", "Illuminating the Path", "Mastering the Fire", "Becoming Radiance"],
+                "number": 14,
+                "count": 46,
+                "symbol": "䷝",
+                "utf8": "💚🔵🟥",
+                "lae2": "AOA AOA",
+                "lae4": "EIE",
+                "lae44": "+F"
+              },
+              {
+                "id": 20,
+                "iching_idx": 56,
+                "lae8": "65",
+                "name": "The Wanderer",
+                "name-alt": "Traveller",
+                "changes": ["Leaving Home", "Finding Shelter", "Walking Alone", "Meeting Strangers", "Earning Respect", "Beyond the Horizon"],
+                "number": 13,
+                "count": 45,
+                "symbol": "䷷",
+                "utf8": "💚🔵🟨",
+                "lae2": "AOA AOO",
+                "lae4": "EIA",
+                "lae44": "+G"
+              }              
+            ]
+          },
+          "A": {
+            "color": "🟢",
+            "hexagrams": ["䷥䷿䷔䷢"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 21,
+                "iching_idx": 38,
+                "lae8": "64",
+                "name": "Opposition",
+                "name-alt": "Polarising",
+                "changes": ["The First Division", "Recognizing Differences", "Facing Resistance", "Finding Common Ground", "Honoring Opposites", "Unity Beyond Division"],
+                "number": 12,
+                "count": 44,
+                "symbol": "䷥",
+                "utf8": "💚🟢🟦",
+                "lae2": "AOA OAA",
+                "lae4": "AOE",
+                "lae44": "+D"
+              },
+              {
+                "id": 22,
+                "iching_idx": 64,
+                "lae8": "63",
+                "name": "Before Completion",
+                "changes": ["Approaching the Crossing", "Gathering Momentum", "The Unfinished Work", "Navigating Uncertainty", "Near the Fulfillment", "Beginning Anew"],
+                "number": 11,
+                "count": 43,
+                "symbol": "䷿",
+                "utf8": "💚🟢🟩",
+                "lae2": "AOA OAO",
+                "lae4": "AOA",
+                "lae44": "+A"
+              },
+              {
+                "id": 23,
+                "iching_idx": 21,
+                "lae8": "62",
+                "name": "Biting Through",
+                "name-alt": "Gnawing Bite",
+                "changes": ["Recognizing the Obstacle", "Applying Pressure", "Breaking Resistance", "Delivering Judgment", "Restoring Justice", "Clearing the Way"],
+                "number": 10,
+                "count": 42,
+                "symbol": "䷔",
+                "utf8": "💚🟢🟥",
+                "lae2": "AOA OOA",
+                "lae4": "AIE",
+                "lae44": "+B"
+              },
+              {
+                "id": 24,
+                "iching_idx": 35,
+                "lae8": "61",
+                "name": "Progress",
+                "changes": ["First Light", "Emerging Forward", "Gaining Recognition", "Expanding Influence", "Ascending Toward Glory", "Radiance Without Boundaries"],
+                "number": 9,
+                "count": 41,
+                "symbol": "䷢",
+                "utf8": "💚🟢🟨",
+                "lae2": "AOA OOO",
+                "lae4": "AIA",
+                "lae44": "+C"
+              }              
+            ]
+          },
+          "O": {
+            "color": "🔴",
+            "hexagrams": ["䷙䷑䷕䷳"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 25,
+                "iching_idx": 26,
+                "lae8": "58",
+                "name": "The Taming Power of the Great",
+                "name-alt": "Great Accumulation",
+                "changes": ["Gathering Strength", "Restraining Impulse", "Training the Will", "Mastering Power", "Serving the Greater Good", "Unleashing the Great Force"],
+                "number": 8,
+                "count": 40,
+                "symbol": "䷙",
+                "utf8": "💚🔴🟦",
+                "lae2": "AOO AAA",
+                "lae4": "EOO",
+                "lae44": "+R"
+              },
+              {
+                "id": 26,
+                "iching_idx": 18,
+                "lae8": "57",
+                "name": "Work on What Has Been Spoiled",
+                "name-alt": "Correction",
+                "name-alt2": "Decay",
+                "changes": ["Discovering the Decay", "Facing the Inheritance", "Uncovering the Cause", "Beginning Restoration", "Healing the Past", "Renewing the Foundation"],
+                "number": 7,
+                "count": 39,
+                "symbol": "䷑",
+                "utf8": "💚🔴🟩",
+                "lae2": "AOO AAO",
+                "lae4": "EOI",
+                "lae44": "+O"
+              },
+              {
+                "id": 27,
+                "iching_idx": 22,
+                "lae8": "56",
+                "name": "Grace",
+                "name-alt": "Adornment",
+                "changes": ["The First Ornament", "Refining Appearance", "Balancing Form", "Revealing Beauty", "Perfecting Elegance", "Beauty Beyond Form"],
+                "number": 6,
+                "count": 38,
+                "symbol": "䷕",
+                "utf8": "💚🔴🟥",
+                "lae2": "AOO AOA",
+                "lae4": "EIO",
+                "lae44": "+P"
+              },
+              {
+                "id": 28,
+                "iching_idx": 52,
+                "lae8": "55",
+                "name": "Keeping Still",
+                "name-alt": "Mountain",
+                "name-alt2": "Stillness",
+                "changes": ["Finding Stillness", "Quieting the Mind", "Holding the Center", "Resting in Silence", "Mastering Immobility", "Stillness Beyond Thought"],
+                "number": 5,
+                "count": 37,
+                "symbol": "䷳",
+                "utf8": "💚🔴🟨",
+                "lae2": "AOO AOO",
+                "lae4": "EII",
+                "lae44": "+Q"
+              }              
+            ]
+          },
+          "I": {
+            "color": "🟡",
+            "hexagrams": ["䷨䷃䷚䷖"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 29,
+                "iching_idx": 41,
+                "lae8": "54",
+                "name": "Decrease",
+                "changes": ["Recognizing Excess", "Letting Go", "Accepting Less", "Giving Freely", "Discovering Simplicity", "Returning to the Essential"],
+                "number": 4,
+                "count": 36,
+                "symbol": "䷨",
+                "utf8": "💚🟡🟦",
+                "lae2": "AOO OAA",
+                "lae4": "AOO",
+                "lae44": "+L"
+              },
+              {
+                "id": 30,
+                "iching_idx": 4,
+                "lae8": "53",
+                "name": "Youthful Folly",
+                "name-alt": "Enveloping",
+                "changes": ["The First Question", "Seeking Guidance", "Learning Through Error", "Finding Direction", "Awakening Understanding", "Leaving Innocence Behind"],
+                "number": 3,
+                "count": 35,
+                "symbol": "䷃",
+                "utf8": "💚🟡🟩",
+                "lae2": "AOO OAO",
+                "lae4": "AOI",
+                "lae44": "+I"
+              },
+              {
+                "id": 31,
+                "iching_idx": 27,
+                "lae8": "52",
+                "name": "Nourishment",
+                "name-alt": "Jaws",
+                "changes": ["Seeking Sustenance", "Choosing What Feeds", "Recognizing Hunger", "Nourishing Others", "Mastering Desire", "Becoming the Source"],
+                "number": 2,
+                "count": 34,
+                "symbol": "䷚",
+                "utf8": "💚🟡🟥",
+                "lae2": "AOO OOA",
+                "lae4": "AIO",
+                "lae44": "+J"
+              },
+              {
+                "id": 32,
+                "iching_idx": 23,
+                "lae8": "51",
+                "name": "Splitting Apart",
+                "name-alt": "Stripping Away",
+                "changes": ["The First Fracture", "Weakening Foundations", "Stripping Away Illusions", "Accepting Collapse", "Releasing the Old", "Preparing for Renewal"],
+                "number": 1,
+                "count": 33,
+                "symbol": "䷖",
+                "utf8": "💚🟡🟨",
+                "lae2": "AOO OOO",
+                "lae4": "AII",
+                "lae44": "+K"
+              }              
+            ]
+          }
+        }
+      },
+      
+      "O": {
+        "number": 4,
+        "utf8": "❤️",
+        "name": "Substract",
+        "symbol": "-",
+        "hexagramgroups": {
+          "E": {
+            "color": "🔵",
+            "hexagrams": ["䷪䷛䷰䷞"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 33,
+                "iching_idx": 43,
+                "lae8": "48",
+                "name": "Breakthrough",
+                "name-alt": "Resoluteness",
+                "changes": ["Gathering Resolve", "Recognizing the Truth", "Confronting Resistance", "Declaring the Decision", "Breaking Through", "Victory Through Clarity"],
+                "number": -1,
+                "count": 32,
+                "symbol": "䷪",
+                "utf8": "❤️🔵🟦",
+                "lae2": "OAA AAA",
+                "lae4": "OEE",
+                "lae44": "-H"
+              },
+              {
+                "id": 34,
+                "iching_idx": 28,
+                "lae8": "47",
+                "name": "Great Preponderance",
+                "name-alt": "Great Exceeding",
+                "changes": ["The Growing Burden", "Feeling the Weight", "Testing the Structure", "Bearing the Pressure", "Finding Inner Support", "Rising Beyond the Weight"],
+                "number": -2,
+                "count": 31,
+                "symbol": "䷛",
+                "utf8": "❤️🔵🟩",
+                "lae2": "OAA AAO",
+                "lae4": "OEA",
+                "lae44": "-E"
+              },
+              {
+                "id": 35,
+                "iching_idx": 49,
+                "lae8": "46",
+                "name": "Revolution",
+                "name-alt": "Molting",
+                "changes": ["Recognizing the Need", "Questioning the Old", "Gathering Courage", "Changing the Order", "Establishing the New", "Renewing the World"],
+                "number": -3,
+                "count": 30,
+                "symbol": "䷰",
+                "utf8": "❤️🔵🟥",
+                "lae2": "OAA AOA",
+                "lae4": "OAE",
+                "lae44": "-F"
+              },
+              {
+                "id": 36,
+                "iching_idx": 31,
+                "lae8": "45",
+                "name": "Influence",
+                "name-alt": "Wooing",
+                "changes": ["The First Attraction", "Opening the Heart", "Mutual Response", "Deepening Connection", "Lasting Devotion", "Union Beyond Words"],
+                "number": -4,
+                "count": 29,
+                "symbol": "䷞",
+                "utf8": "❤️🔵🟨",
+                "lae2": "OAA AOO",
+                "lae4": "OAA",
+                "lae44": "-G"
+             }              
+            ]
+          },
+          "A": {
+            "color": "🟢",
+            "hexagrams": ["䷹䷮䷐䷬"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 37,
+                "iching_idx": 58,
+                "lae8": "44",
+                "name": "The Joyous",
+                "name-alt": "Lake",
+                "name-alt2": "Open",
+                "changes": ["The First Smile", "Opening to Others", "Sharing Delight", "Finding Harmony", "Joy Through Sincerity", "The Endless Celebration"],
+                "number": -5,
+                "count": 28,
+                "symbol": "䷹",
+                "utf8": "❤️🟢🟦",
+                "lae2": "OAA OAA",
+                "lae4": "IEE",
+                "lae44": "-D"
+              },
+              {
+                "id": 38,
+                "iching_idx": 47,
+                "lae8": "43",
+                "name": "Oppression",
+                "name-alt": "Exhaustion",
+                "changes": ["The First Constraint", "Feeling the Pressure", "Enduring Isolation", "Finding Inner Strength", "Speaking Through Silence", "Freedom Within the Depths"],
+                "number": -6,
+                "count": 27,
+                "symbol": "䷮",
+                "utf8": "❤️🟢🟩",
+                "lae2": "OAA OAO",
+                "lae4": "IEA",
+                "lae44": "-A"
+              },
+              {
+                "id": 39,
+                "iching_idx": 17,
+                "lae8": "42",
+                "name": "Following",
+                "changes": ["Recognizing the Lead", "Choosing to Follow", "Finding the Right Path", "Testing Allegiance", "Leading Through Service", "Following the Way"],
+                "number": -7,
+                "count": 26,
+                "symbol": "䷐",
+                "utf8": "❤️🟢🟥",
+                "lae2": "OAA OOA",
+                "lae4": "IAE",
+                "lae44": "-B"
+              },
+              {
+                "id": 40,
+                "iching_idx": 45,
+                "lae8": "41",
+                "name": "Gathering Together",
+                "name-alt": "Gathering",
+                "changes": ["The First Gathering", "Finding Companions", "Building the Circle", "Uniting the Many", "Leading the Assembly", "The Great Communion"],
+                "number": -8,
+                "count": 25,
+                "symbol": "䷬",
+                "utf8": "❤️🟢🟨",
+                "lae2": "OAA OOO",
+                "lae4": "IAA",
+                "lae44": "-C"
+              }              
+            ]
+          },
+          "O": {
+            "color": "🔴",
+            "hexagrams": ["䷄䷯䷾䷦"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 41,
+                "iching_idx": 5,
+                "lae8": "38",
+                "name": "Waiting",
+                "name-alt": "Attending",
+                "changes": ["Recognizing the Moment", "Preparing in Patience", "Facing Uncertainty", "Waiting with Trust", "Receiving the Opportunity", "The Moment Arrives"],
+                "number": -9,
+                "count": 24,
+                "symbol": "䷄",
+                "utf8": "❤️🔴🟦",
+                "lae2": "OAO AAA",
+                "lae4": "OEO",
+                "lae44": "-R"
+              },
+              {
+                "id": 42,
+                "iching_idx": 48,
+                "lae8": "37",
+                "name": "The Well",
+                "changes": ["Discovering the Source", "Clearing the Waters", "Restoring the Well", "Sharing the Waters", "Sustaining the Community", "The Eternal Spring"],
+                "number": -10,
+                "count": 23,
+                "symbol": "䷯",
+                "utf8": "❤️🔴🟩",
+                "lae2": "OAO AAO",
+                "lae4": "OEI",
+                "lae44": "-O"
+              },
+              {
+                "id": 43,
+                "iching_idx": 63,
+                "lae8": "36",
+                "name": "After Completion",
+                "changes": ["Crossing the Threshold", "Securing the Work", "Guarding Against Disorder", "Preserving Balance", "Recognizing the Turning", "Beginning the Next Cycle"],
+                "number": -11,
+                "count": 22,
+                "symbol": "䷾",
+                "utf8": "❤️🔴🟥",
+                "lae2": "OAO AOA",
+                "lae4": "OAO",
+                "lae44": "-P"
+              },
+              {
+                "id": 44,
+                "iching_idx": 39,
+                "lae8": "35",
+                "name": "Obstruction",
+                "name-alt": "Limping",
+                "changes": ["Meeting the Barrier", "Recognizing the Difficulty", "Choosing Another Way", "Seeking Assistance", "Finding the Opening", "Turning Obstruction into Wisdom"],
+                "number": -12,
+                "count": 21,
+                "symbol": "䷦",
+                "utf8": "❤️🔴🟨",
+                "lae2": "OAO AOO",
+                "lae4": "OAI",
+                "lae44": "-Q"
+              }              
+            ]
+          },
+          "I": {
+            "color": "🟡",
+            "hexagrams": ["䷻䷜䷂䷇"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 45,
+                "iching_idx": 60,
+                "lae8": "34",
+                "name": "Limitation",
+                "name-alt": "Articulating",
+                "changes": ["Recognizing Boundaries", "Accepting Measure", "Testing Restraint", "Finding the Right Limits", "Freedom Through Discipline", "Beyond All Restriction"],
+                "number": -13,
+                "count": 20,
+                "symbol": "䷻",
+                "utf8": "❤️🟡🟦",
+                "lae2": "OAO OAA",
+                "lae4": "IEO",
+                "lae44": "-L"
+              },
+              {
+                "id": 46,
+                "iching_idx": 29,
+                "lae8": "33",
+                "name": "The Abysmal",
+                "name-alt": "Water",
+                "name-alt2": "Gorge",
+                "changes": ["Entering the Depths", "Facing the Current", "Passing Through Danger", "Finding the Inner Channel", "Mastering the Waters", "The River Beyond Fear"],
+                "number": -14,
+                "count": 19,
+                "symbol": "䷜",
+                "utf8": "❤️🟡🟩",
+                "lae2": "OAO OAO",
+                "lae4": "IEI",
+                "lae44": "-I"
+              },
+              {
+                "id": 47,
+                "iching_idx": 3,
+                "lae8": "32",
+                "name": "Difficulty at the Beginning",
+                "name-alt": "Sprouting",
+                "changes": ["The First Sprouting", "Facing Resistance", "Finding Support", "Establishing Direction", "Overcoming Confusion", "The Birth of Order"],
+                "number": -15,
+                "count": 18,
+                "symbol": "䷂",
+                "utf8": "❤️🟡🟥",
+                "lae2": "OAO OOA",
+                "lae4": "IAO",
+                "lae44": "-J"
+              },
+              {
+                "id": 48,
+                "iching_idx": 8,
+                "lae8": "31",
+                "name": "Holding Together",
+                "name-alt": "Union",
+                "name-alt2": "Grouping",
+                "changes": ["Seeking Belonging", "Finding Allies", "Building Trust", "Strengthening Bonds", "Becoming One", "The Great Union"],
+                "number": -16,
+                "count": 17,
+                "symbol": "䷇",
+                "utf8": "❤️🟡🟨",
+                "lae2": "OAO OOO",
+                "lae4": "IAI",
+                "lae44": "-K"
+              }              
+            ]
+          }
+        }
+      },
+      "I": {
+        "number": 4,
+        "utf8": "💛",
+        "name": "Divide",
+        "symbol": "÷",
+        "hexagramgroups": {
+          "E": {
+            "color": "🔵",
+            "hexagrams": ["䷡䷟䷶䷽"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 49,
+                "iching_idx": 34,
+                "lae8": "28",
+                "name": "The Power of the Great",
+                "name-alt": "Great Strength",
+                "changes": ["Awakening Strength", "Testing Power", "Acting with Courage", "Mastering Force", "Strength Through Restraint", "The Power of Heaven"],
+                "number": -17,
+                "count": 16,
+                "symbol": "䷡",
+                "utf8": "💛🔵🟦",
+                "lae2": "OOA AAA",
+                "lae4": "OOE",
+                "lae44": "÷H"
+              },
+              {
+                "id": 50,
+                "iching_idx": 32,
+                "lae8": "27",
+                "name": "Duration",
+                "name-alt": "Perseverance",
+                "changes": ["Making the Commitment", "Establishing Rhythm", "Enduring Change", "Maintaining Direction", "Perfecting Perseverance", "The Eternal Movement"],
+                "number": -18,
+                "count": 15,
+                "symbol": "䷟",
+                "utf8": "💛🔵🟩",
+                "lae2": "OOA AAO",
+                "lae4": "OOA",
+                "lae44": "÷E"
+              },
+              {
+                "id": 51,
+                "iching_idx": 55,
+                "lae8": "26",
+                "name": "Abundance",
+                "name-alt": "Fullness",
+                "changes": ["The First Fullness", "Gathering Riches", "Reaching the Height", "Managing Prosperity", "Illuminating the World", "Beyond the Hour of Abundance"],
+                "number": -19,
+                "count": 14,
+                "symbol": "䷶",
+                "utf8": "💛🔵🟥",
+                "lae2": "OOA AOA",
+                "lae4": "OIE",
+                "lae44": "÷F"
+              },
+              {
+                "id": 52,
+                "iching_idx": 62,
+                "lae8": "25",
+                "name": "Small Preponderance",
+                "name-alt": "Small Exceeding",
+                "changes": ["Noticing the Small", "Taking Careful Steps", "Respecting Limits", "Attending to Details", "Finding Balance", "The Greatness of Small Things"],
+                "number": -20,
+                "count": 13,
+                "symbol": "䷽",
+                "utf8": "💛🔵🟨",
+                "lae2": "OOA AOO",
+                "lae4": "OIA",
+                "lae44": "÷G"
+              }              
+            ]
+          },
+          "A": {
+            "color": "🟢",
+            "hexagrams": ["䷵䷧䷲䷏"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 53,
+                "iching_idx": 54,
+                "lae8": "24",
+                "name": "The Marrying Maiden",
+                "changes": ["Entering the New Bond", "Accepting the Position", "Navigating Desire", "Finding Mutual Respect", "Understanding Devotion", "Beyond Possession"],
+                "number": -21,
+                "count": 12,
+                "symbol": "䷵",
+                "utf8": "💛🟢🟦",
+                "lae2": "OOA OAA",
+                "lae4": "IOE",
+                "lae44": "÷D"
+              },
+              {
+                "id": 54,
+                "iching_idx": 40,
+                "lae8": "23",
+                "name": "Deliverance",
+                "name-alt": "Release",
+                "changes": ["The First Release", "Breaking Free", "Leaving the Danger", "Restoring Movement", "Returning to Peace", "Freedom Without Burden"],
+                "number": -22,
+                "count": 11,
+                "symbol": "䷧",
+                "utf8": "💛🟢🟩",
+                "lae2": "OOA OAO",
+                "lae4": "IOA",
+                "lae44": "÷A"
+              },
+              {
+                "id": 55,
+                "iching_idx": 51,
+                "lae8": "22",
+                "name": "The Arousing",
+                "name-alt": "Thunder",
+                "name-alt2": "Shock",
+                "changes": ["The First Thunder", "Receiving the Shock", "Overcoming Fear", "Awakening Action", "Finding Courage", "The Great Awakening"],
+                "number": -23,
+                "count": 10,
+                "symbol": "䷲",
+                "utf8": "💛🟢🟥",
+                "lae2": "OOA OOA",
+                "lae4": "IIE",
+                "lae44": "÷B"
+              },
+              {
+                "id": 56,
+                "iching_idx": 16,
+                "lae8": "21",
+                "name": "Enthusiasm",
+                "name-alt": "Providing-For",
+                "changes": ["The First Inspiration", "Awakening the Spirit", "Gathering Momentum", "Moving the Many", "Leading with Passion", "The Music of Heaven"],
+                "number": -24,
+                "count": 9,
+                "symbol": "䷏",
+                "utf8": "💛🟢🟨",
+                "lae2": "OOA OOO",
+                "lae4": "IIA",
+                "lae44": "÷C"
+             }              
+            ]
+          },
+          "O": {
+            "color": "🔴",
+            "hexagrams": ["䷊䷭䷣䷎"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 57,
+                "iching_idx": 11,
+                "lae8": "18",
+                "name": "Peace",
+                "changes": ["The First Harmony", "Opening the Passage", "Joining Heaven and Earth", "Cultivating Prosperity", "Maintaining Balance", "The Great Peace"],
+                "number": -25,
+                "count": 8,
+                "symbol": "䷊",
+                "utf8": "💛🔴🟦",
+                "lae2": "OOO AAA",
+                "lae4": "OOO",
+                "lae44": "÷R"
+              },
+              {
+                "id": 58,
+                "iching_idx": 46,
+                "lae8": "17",
+                "name": "Pushing Upward",
+                "name-alt": "Ascending",
+                "changes": ["The First Ascent", "Taking Root", "Growing Through Effort", "Ascending with Purpose", "Reaching Higher Ground", "Rising Beyond the Clouds"],
+                "number": -26,
+                "count": 7,
+                "symbol": "䷭",
+                "utf8": "💛🔴🟩",
+                "lae2": "OOO AAO",
+                "lae4": "OOI",
+                "lae44": "÷O"
+              },
+              {
+                "id": 59,
+                "iching_idx": 36,
+                "lae8": "16",
+                "name": "Darkening of the Light",
+                "name-alt": "Brightness Hiding",
+                "changes": ["The Light Concealed", "Protecting the Flame", "Enduring the Darkness", "Keeping Faith Within", "The Hidden Radiance", "Light Beyond the Night"],
+                "number": -27,
+                "count": 6,
+                "symbol": "䷣",
+                "utf8": "💛🔴🟥",
+                "lae2": "OOO AOA",
+                "lae4": "OIO",
+                "lae44": "÷P"
+              },
+              {
+                "id": 60,
+                "iching_idx": 15,
+                "lae8": "15",
+                "name": "Modesty",
+                "name-alt": "Humility",
+                "changes": ["Recognizing One's Place", "Practicing Humility", "Reducing Excess", "Serving Without Pride", "The Strength of Modesty", "Greatness Without Display"],
+                "number": -28,
+                "count": 5,
+                "symbol": "䷎",
+                "utf8": "💛🔴🟨",
+                "lae2": "OOO AOO",
+                "lae4": "OII",
+                "lae44": "÷Q"
+              }              
+            ]
+          },
+          "I": {
+            "color": "🟡",
+            "hexagrams": ["䷒䷆䷗䷁"],
+            "colors": ["🟦", "🟩", "🟥", "🟨"],
+            "hexitems": [
+              {
+                "id": 61,
+                "iching_idx": 19,
+                "lae8": "14",
+                "name": "Approach",
+                "name-alt": "Nearing",
+                "changes": ["The First Arrival", "Drawing Near", "Opening the Way", "Welcoming Growth", "Leading with Care", "The Great Arrival"],
+                "number": -29,
+                "count": 4,
+                "symbol": "䷒",
+                "utf8": "💛🟡🟦",
+                "lae2": "OOO OAA",
+                "lae4": "IOO",
+                "lae44": "÷L"
+              },
+              {
+                "id": 62,
+                "iching_idx": 7,
+                "lae8": "13",
+                "name": "The Army",
+                "name-alt": "Leading",
+                "changes": ["Gathering the Forces", "Establishing Discipline", "Testing Leadership", "Maintaining Order", "Victory Through Unity", "The Wise Commander"],
+                "number": -30,
+                "count": 3,
+                "symbol": "䷆",
+                "utf8": "💛🟡🟩",
+                "lae2": "OOO OAO",
+                "lae4": "IOI",
+                "lae44": "÷I"
+              },
+              {
+                "id": 63,
+                "iching_idx": 24,
+                "lae8": "12",
+                "name": "Return",
+                "name-alt": "Turning Back",
+                "changes": ["The First Turning", "Recognizing the Way Back", "Restoring the Path", "Renewing the Heart", "Returning to Harmony", "The Great Renewal"],
+                "number": -31,
+                "count": 2,
+                "symbol": "䷗",
+                "utf8": "💛🟡🟥",
+                "lae2": "OOO OOA",
+                "lae4": "IIO",
+                "lae44": "÷J"
+              },
+              {
+                "id": 64,
+                "iching_idx": 2,
+                "lae8": "11",
+                "name": "The Receptive",
+                "name-alt": "Earth",
+                "name-alt2": "Field",
+                "changes": ["Opening the Field", "Receiving the Seed", "Nurturing Growth", "Supporting Creation", "Perfect Surrender", "The Boundless Earth"],
+                "number": -32,
+                "count": 1,
+                "symbol": "䷁",
+                "utf8": "💛🟡🟨",
+                "lae2": "OOO OOO",
+                "lae4": "III",
+                "lae44": "÷K"
+              }              
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+}
