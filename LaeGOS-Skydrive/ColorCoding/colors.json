@@ -1,0 +1,174 @@
+
+{
+  "title": "Color Coding",
+  "sections": [
+    {
+      "title": "Four Primary Values",
+      "groups": [
+        {
+          "title": "Operators",
+          "items": [
+            {
+              "symbol": "💛",
+              "alternatives": ["÷"],
+              "meaning": "Division sign or operator"
+            },
+            {
+              "symbol": "❤️",
+              "alternatives": ["-"],
+              "meaning": "Minus sign or subtraction operator"
+            },
+            {
+              "symbol": "💚",
+              "alternatives": ["+"],
+              "meaning": "Plus sign or addition operator"
+            },
+            {
+              "symbol": "💙",
+              "alternatives": ["×"],
+              "meaning": "Multiplication sign or operator"
+            }
+          ]
+        }
+      ],
+      "number_system": {
+        "title": "Numbers",
+        "principles": [
+          "Numbers are organized through octaves.",
+          "If the lower octave forms a circle, the higher octave forms a square. The square is the best representation because it tries to resolve limits within a repeated area.",
+          "Circle, from outside, looks square; square, from outside, looks circle.",
+          "In LaeChing, in trigrams 8, square and circle come in one; in hexagrams 64, in another. Because the higher octave of 8 must match the lower of 64, they have to be reverse-directional.",
+          "For this reason, sometimes the naming of the first and second groups of four could be switched to show relative positioning in curvature layers and levels.",
+          "On the first hyperoctave, circle seems larger; on the second, square seems larger. Even orientation is color-coding things."
+        ],
+        "groups": [
+          {
+            "title": "Square curvature numbers",
+            "items": [
+              {
+                "symbol": "💛",
+                "alternatives": ["÷"],
+                "meaning": "Division sign or operator"
+              },
+              {
+                "symbol": "❤️",
+                "alternatives": ["-"],
+                "meaning": "Minus sign or subtraction operator"
+              },
+              {
+                "symbol": "💚",
+                "alternatives": ["+"],
+                "meaning": "Plus sign or addition operator"
+              },
+              {
+                "symbol": "💙",
+                "alternatives": ["×"],
+                "meaning": "Multiplication sign or operator"
+              }
+            ]
+          },
+          {
+            "title": "Square curvature numbers",
+            "items": [
+              {
+                "symbol": "🟨",
+                "alternatives": ["8", "E"],
+                "meaning": "Second shape, fourth letter"
+              },
+              {
+                "symbol": "🟥",
+                "alternatives": ["7", "A"],
+                "meaning": "Second shape, third letter"
+              },
+              {
+                "symbol": "🟩",
+                "alternatives": ["6", "O"],
+                "meaning": "Second shape, second letter"
+              },
+              {
+                "symbol": "🟦",
+                "alternatives": ["5", "I"],
+                "meaning": "Second shape, first letter"
+              }
+            ]
+          },
+          {
+            "title": "Circle curvature numbers",
+            "items": [
+              {
+                "symbol": "🔴",
+                "alternatives": ["4", "e"],
+                "meaning": "First shape, fourth letter"
+              },
+              {
+                "symbol": "🟡",
+                "alternatives": ["3", "a"],
+                "meaning": "First shape, third letter"
+              },
+              {
+                "symbol": "🟢",
+                "alternatives": ["2", "o"],
+                "meaning": "First shape, second letter"
+              },
+              {
+                "symbol": "🔵",
+                "alternatives": ["1", "i"],
+                "meaning": "First shape, first letter"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Two Additional Values",
+      "groups": [
+        {
+          "title": "Operators",
+          "items": [
+            {
+              "symbol": "🖤",
+              "alternatives": ["·"],
+              "meaning": "Digitwise rank 0 (linear) average operator"
+            },
+            {
+              "symbol": "🤍",
+              "alternatives": [":"],
+              "meaning": "Digitwise rank 1 (geometric) average operator"
+            }
+          ]
+        },
+        {
+          "title": "Square curvature numbers",
+          "items": [
+            {
+              "symbol": "⬜",
+              "alternatives": ["9", "⋂"],
+              "meaning": "Second shape, fifth / infiniteth letter"
+            },
+            {
+              "symbol": "⬛",
+              "alternatives": ["W"],
+              "meaning": "Second shape, zeroeth letter"
+            }
+          ]
+        },
+        {
+          "title": "Circle curvature numbers",
+          "items": [
+            {
+              "symbol": "⚪",
+              "alternatives": ["V"],
+              "meaning": "First shape, fifth / infiniteth letter"
+            },
+            {
+              "symbol": "⚫",
+              "alternatives": ["0", "U"],
+              "meaning": "First shape, zeroeth letter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
