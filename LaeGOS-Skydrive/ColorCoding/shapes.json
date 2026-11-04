@@ -1,0 +1,31 @@
+{
+  "title": "Shape Coding",
+  "sections": [
+    {
+      "title": "Three Primary Shapes",
+      "groups": [
+        {
+          "title": "Scopes",
+          "principles": [
+            "First type of scope is the operation. It's first base-2 or base-4 number compatible information bit at special position.",
+            "Second and third types are even and odd, R and T distribution of two closest ranks; compatible system might need it to be in reverse when choosing even and odd differently in two cases for 1st and 2nd position of it's subarray."
+          ],
+          "items": [
+            {
+              "symbol": "🤍",
+              "meaning": "Sign is half (b2) or one quarter (b4) of directional encoding; for example + and - are two directions; heart is symbol of how starting from neutral zero, one can follow the mean or divide the axe to two infinities."
+            },
+            {
+              "symbol": "⬜",
+              "meaning": "Circle at second octave is topologically most similar to square; square thus means even octave or two-channel content."
+            },
+            {
+              "symbol": "⚪",
+              "meaning": "Circle is the normal reach of a scalar - if squares are even, this is odd; if square is two-channel - this is one."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
