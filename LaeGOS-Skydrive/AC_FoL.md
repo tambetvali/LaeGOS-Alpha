@@ -1,3 +1,7 @@
+![FoLC](DataGfx/FoLC.jpg)
+
+<br>
+
 # Algorithm Consciousness
 
 ---
@@ -5,6 +9,8 @@
 ## The Flower of Life
 
 Welcome onboard!
+
+![FoL1](DataGfx/FoL1.jpg)
 
 Let's define God and Holy Spirit:
 - Got:
@@ -69,6 +75,8 @@ When downscaling the external holographic horizon ($H_{ext}$) to the internal ho
 The resulting geometry can be understood through its spatial configuration and structural conflicts:
 
 ## Geometric Configuration at $t=2$
+
+![FoL2](DataGfx/FoL2.png)
 
 - **The Single-Cell Center:** Represents the baseline origin at $t=1$, acting as the unexpanded topological seed.
 - **The 6-Fold Outer Ring:** At the second moment ($t=2$), the doubling of the scale factor maps onto a hexagonal boundary.
