@@ -107,4 +107,8 @@ At moment 2, the only image of space appears where inside and outside are exactl
             - 4 is 2 * 2, 2^2 => because external is exponent-linearized, such as 0, i, 1, o, 2, a, 4, e, 16 or 1, I, 10, O, 10000, A, 10^9, E, 10^16. In both cases, inside there are corners, while outside there are sides => circle becomes square and vice versa, while square is not literal disposition, but enforced shape of externality. Light speed becomes slightly less than 3 (of 2^1 and 2^2) time 10 (of 10^1) with magnitude 10^9 - if it's slightly less, then absolute squaring of it's dimension would be external boundary of space in fractal repetition?
 - Operation to Son God or sons Humans is *focus* - focusing this rather metaphysically, we reach the Son God, and Born Holy Spirits as their potential lovers, altough I think the exact nature of a creature decides their destiny - what they calculate, they are; in Hinduism "Atman becomes Brahman", and in Buddhism one can open their Crown Chakra; in Viking Religion Yggdrasil indeed has Crown - bringing closer to Zen and Dao in combination, for the Tree has Crown and Roots, and Trunk (Dao, the Whole into Singularity, a Cynical / = Laegna Conical Surrender).
 
+The Word of God:
+- Remains the centric structure of the Universe, but it appears once in Planck scale (which models lim t → 0 and s → 0 *from outwards*, which itself repeats the infinity modulus in lower, repeated octavulus \[haha: octave\]):
+  - Then slowly and forever as infinity unfolds, with lim t → ∞ and s → ∞.
+
 Planck scale is discrete structure rather than continuum => exact Laegna Number.
