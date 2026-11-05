@@ -1,4 +1,14 @@
+![AlgorithmConsciousness2Full](AlgorithmConsciousness/Gfx2/AlgorithmConsciousness2Full.png)
+
+<br>
+
+---
+
 # Algorithm Consciousness 2
+
+![AlgorithmConsciousness2CoverC](AlgorithmConsciousness/Gfx2/AlgorithmConsciousness2CoverC.png)
+
+<br>
 
 This is second algorithm consciousness text in this folder, and the content is very similar, but with little shift:
 - Previous one gave many general relations.
@@ -378,6 +388,10 @@ I gave over to CoPilot:
 CoPilot's article:
 
 # Appendix: Commentary, Critique and Extensions
+
+![AlgorithmConsciousness2Ch2CoverB](AlgorithmConsciousness/Gfx2/AlgorithmConsciousness2Ch2CoverB.png)
+
+<br>
 
 This appendix is not part of the core Laegna system. Instead, it evaluates the framework from the perspective of numeric consistency, scale theory, computation, and compatibility with modern physics.
 
