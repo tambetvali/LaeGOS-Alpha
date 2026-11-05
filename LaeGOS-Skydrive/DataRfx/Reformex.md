@@ -1,3 +1,9 @@
+![Phi](Phi.png)
+
+<br>
+
+---
+
 # Time has passed
 
 And gave me a deliberate need for:
