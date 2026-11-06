@@ -1,3 +1,9 @@
+![Phi](Phi.png)
+
+<br>
+
+---
+
 # About Fol2.png
 
 Image: [FoL2](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/LaeGOS-Skydrive/DataGfx/FoL2.png).
