@@ -574,7 +574,7 @@ A higher-rank representation might approach a more sharply defined boundary betw
 The square wave is:
 
 $$
-s(x) = \operatorname{sgn}(\sin(x))
+s(x) = \mathrm{sgn}\,(\sin(x))
 $$
 
 Its Fourier representation is:
