@@ -28,6 +28,16 @@ To be high-rank person today:
 
 ## 1. From travelling through space to interacting with its projection
 
+### Theorem: Φ
+
+[The numerical relation](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/LaeGOS-Skydrive/DataGfx/Description/Phi.md).
+
+### Conjecture: ϕ
+
+[The physical weirdness](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/LaeGOS-Skydrive/DataGfx/Description/PhiFoLdSpaceWarps.md).
+
+---
+
 ![3 Death Miracles](Gfx/Sernel3DeathMiracles.png)
 
 The usual way to think about reaching a distant region is to calculate how much energy is required to travel there.
