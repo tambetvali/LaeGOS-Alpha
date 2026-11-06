@@ -1,3 +1,9 @@
+![PhiFoLdSpaceWarps](PhiFoLdSpaceWarps.png)
+
+<br>
+
+---
+
 # FoL - playin on SoL, Speed of Light; Frequency of Light
 
 **Conjecture attempt:** this *disruption* is what we missed to see:
