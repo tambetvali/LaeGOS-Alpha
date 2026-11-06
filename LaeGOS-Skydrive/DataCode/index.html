@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="LaGOS interactive Laegna number-system workspace.">
+  <title>LaGOS — Laegna OS Alpha</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="os-shell" id="os-shell">
+    <header class="top-screen" aria-label="Calculator screen">
+      <div class="screen-brand">
+        <a href="../index.html" aria-label="Back to LaGOS Skydrive">📟 <span>LaGOS</span></a>
+        <span class="screen-caption">LAEGNA NUMBER SYSTEM</span>
+      </div>
+      <div class="registers">
+        <div class="register total-register">
+          <span class="register-label">TOTAL</span>
+          <output id="total-display">—</output>
+        </div>
+        <div class="register operator-register">
+          <span class="register-label">OPERATION</span>
+          <output id="operator-display">—</output>
+        </div>
+        <div class="register current-register">
+          <span class="register-label">CURRENT NUMBER</span>
+          <output id="current-display" aria-live="polite">…</output>
+        </div>
+      </div>
+      <p class="screen-status" id="status-message" role="status">Loading laegna.json…</p>
+    </header>
+
+    <section class="desktop" aria-label="LaGOS desktop">
+      <aside class="side-panel left-panel" aria-label="Keyboard panel">
+        <div class="panel-heading">
+          <span class="panel-kicker">INPUT</span>
+          <h2>Keyboard</h2>
+        </div>
+        <label class="field-label" for="base-select">Number base</label>
+        <select id="base-select" disabled></select>
+        <p class="base-description" id="base-description">Waiting for number-system data.</p>
+        <div class="keyboard-meta">
+          <span id="keyboard-layout">Linear layout</span>
+          <span id="digit-count">—</span>
+        </div>
+        <div class="digit-keyboard" id="digit-keyboard" aria-label="Number keys"></div>
+        <div class="keyboard-actions">
+          <button type="button" class="key-action clear-key" id="clear-key" disabled>C&nbsp; Clear</button>
+          <button type="button" class="key-action" id="delete-key" disabled>←&nbsp; Delete</button>
+        </div>
+        <p class="key-help">Keyboard keys and their order are read from <code>laegna.json</code>.</p>
+      </aside>
+
+      <section class="center-panel" aria-label="Window workspace">
+        <div class="tab-strip">
+          <div class="tabs" id="tabs" role="tablist" aria-label="Window groups"></div>
+          <label class="tab-count-control" for="tab-count">
+            Groups
+            <select id="tab-count" aria-label="Number of window groups" disabled>
+              <option value="2">2</option>
+              <option value="3" selected>3</option>
+            </select>
+          </label>
+        </div>
+        <div class="center-stage" id="center-stage">
+          <div class="stage-label">
+            <span>WINBOX DESKTOP</span>
+            <span id="active-group-name">Workspace 1</span>
+          </div>
+          <div class="empty-desktop" id="empty-desktop" hidden>
+            <span>◇</span>
+            <p>No windows are open. Open a tool from either side panel.</p>
+          </div>
+        </div>
+      </section>
+
+      <aside class="side-panel right-panel" aria-label="Focus and settings panel">
+        <div class="panel-heading">
+          <span class="panel-kicker">SYSTEM</span>
+          <h2>Focus &amp; data</h2>
+        </div>
+        <div class="focus-card">
+          <span class="field-label">Focused window</span>
+          <strong id="focus-name">No window selected</strong>
+          <span id="focus-group">Select a window or workspace tab.</span>
+        </div>
+        <label class="field-label" for="sign-select">Operation sign system</label>
+        <select id="sign-select" disabled></select>
+        <p class="sign-description" id="sign-description">Operation signs are loaded from JSON.</p>
+        <div class="operation-keys" id="operation-keys" aria-label="Calculator operations"></div>
+        <button type="button" class="equals-key" id="equals-key" disabled>= &nbsp; Calculate</button>
+        <div class="extended-signs" id="extended-signs"></div>
+        <div class="app-launcher">
+          <div class="launcher-heading">
+            <span class="panel-kicker">WINBOX APPS</span>
+            <h3>Open a window</h3>
+          </div>
+          <button type="button" data-open-app="parity" disabled>◐ &nbsp; Parity</button>
+          <button type="button" data-open-app="divisibility" disabled>⅓ &nbsp; Divisibility</button>
+          <button type="button" data-open-app="number-facts" disabled>∑ &nbsp; Number facts</button>
+        </div>
+        <p class="focus-help">Windows stay visible across groups. Select a group or window to raise its whole group.</p>
+      </aside>
+      <div class="window-layer" id="window-layer" aria-label="Open windows"></div>
+      <div class="window-dock" id="window-dock" aria-label="Minimized windows"></div>
+    </section>
+    <footer class="os-footer">
+      <span>LaGOS Alpha 1</span>
+      <span><a href="./README.md">Iteration notes</a> · <a href="../DataRfx/laegna.json">Keyboard data</a></span>
+    </footer>
+  </main>
+</body>
+</html>

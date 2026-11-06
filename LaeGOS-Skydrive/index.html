@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LaGOS Skydrive: Alpha 1">
+  <title>LaGOS Skydrive: Alpha 1</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, sans-serif;
+      background: #0b1018;
+      color: #f1f5fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+      background:
+        linear-gradient(180deg, #080d14d9, #080d14 92%),
+        url("./LaGOS-Hypothetical-Logo.png") center 35% / min(78vw, 740px) auto no-repeat,
+        #0b1018;
+    }
+    main { width: min(58rem, 100%); text-align: center; }
+    .logo { width: min(14rem, 50vw); height: auto; filter: drop-shadow(0 1rem 2rem #000); }
+    h1 { margin: 1rem 0 .4rem; font-size: clamp(2rem, 6vw, 4rem); }
+    .text-logo { color: #b8d5eb; font-size: clamp(2.5rem, 9vw, 6rem); line-height: 1; }
+    p { color: #c4cfda; }
+    nav { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; margin-top: 2rem; }
+    a {
+      padding: .8rem 1.1rem;
+      border: 1px solid #738aa1;
+      border-radius: .7rem;
+      color: #f1f5fb;
+      background: #152337d9;
+      text-decoration: none;
+    }
+    a:hover, a:focus-visible { background: #243b56; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="./LaGOS-Hypothetical-Logo.png" alt="LaGOS hypothetical logo">
+    <h1>LaGOS Skydrive: Alpha 1</h1>
+    <div class="text-logo" aria-label="text logo">📟</div>
+    <p>Laegna Mathematical Operating System — first interactive alpha.</p>
+    <nav aria-label="Skydrive links">
+      <a href="./DataCode/index.html">Open LaGOS OS</a>
+      <a href="https://github.com/tambetvali/LaeGOS-Alpha/tree/main/LaeGOS-Skydrive">Browse Skydrive files</a>
+      <a href="../index.html">LaeGOS main folder</a>
+    </nav>
+  </main>
+</body>
+</html>

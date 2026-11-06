@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LaeGOS-Alpha main folder and interactive OS entry point.">
+  <title>LaeGOS main folder</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, sans-serif;
+      background: #101725;
+      color: #eef4ff;
+    }
+
+    body {
+      box-sizing: border-box;
+      min-height: 100vh;
+      margin: 0;
+      padding: clamp(1.5rem, 6vw, 5rem);
+      background:
+        radial-gradient(ellipse at 85% 12%, #274469 0, transparent 38%),
+        linear-gradient(145deg, #101725, #15243a);
+    }
+
+    main {
+      width: min(58rem, 100%);
+      margin: 0 auto;
+    }
+
+    h1 { margin-bottom: .35rem; font-size: clamp(2rem, 5vw, 3.5rem); }
+    a { color: #9ce5d0; }
+    .path { color: #b6c8df; overflow-wrap: anywhere; }
+    .card {
+      margin-top: 1.5rem;
+      padding: 1.2rem;
+      border: 1px solid #49617e;
+      border-radius: 1rem;
+      background: #17243ad9;
+    }
+    .links { display: flex; flex-wrap: wrap; gap: .75rem; }
+    .links a {
+      display: inline-block;
+      padding: .7rem 1rem;
+      border: 1px solid #53718f;
+      border-radius: .65rem;
+      text-decoration: none;
+    }
+    .links a:hover, .links a:focus-visible { background: #253953; }
+    code { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>LaeGOS main folder</h1>
+    <p class="path">Path: <span id="current-path">/</span></p>
+
+    <section class="card" aria-labelledby="addresses-title">
+      <h2 id="addresses-title">Project addresses</h2>
+      <p>Web: <a id="web-address" href="https://spireason.neocities.org/">https://spireason.neocities.org/</a></p>
+      <p>Repository: <a id="repository-address" href="https://github.com/tambetvali/LaeGOS-Alpha">https://github.com/tambetvali/LaeGOS-Alpha</a></p>
+      <p id="address-note">The addresses follow this page's path.</p>
+    </section>
+
+    <section class="card" aria-labelledby="contents-title">
+      <h2 id="contents-title">LaeGOS-Alpha</h2>
+      <p>The main interactive OS is in LaeGOS-Skydrive.</p>
+      <nav class="links" aria-label="Project links">
+        <a href="./LaeGOS-Skydrive/index.html">Open LaeGOS-Skydrive</a>
+        <a href="./LaeGOS-Skydrive/DataCode/index.html">Open LaGOS OS</a>
+        <a href="https://github.com/tambetvali/LaeGOS-Alpha/archive/refs/heads/main.zip">Download repository ZIP</a>
+      </nav>
+    </section>
+  </main>
+  <script>
+    (() => {
+      const websiteRoot = "https://spireason.neocities.org/";
+      const repositoryRoot = "https://github.com/tambetvali/LaeGOS-Alpha";
+      const segments = window.location.pathname
+        .split("/")
+        .filter(Boolean)
+        .filter((part) => part.toLowerCase() !== "index.html")
+        .map((part) => decodeURIComponent(part));
+      const path = segments.length ? `/${segments.join("/")}/` : "/";
+      const webUrl = `${websiteRoot}${segments.map(encodeURIComponent).join("/")}${segments.length ? "/" : ""}`;
+      const repoUrl = segments.length
+        ? `${repositoryRoot}/tree/main/${segments.map(encodeURIComponent).join("/")}`
+        : repositoryRoot;
+
+      document.getElementById("current-path").textContent = path;
+      const webLink = document.getElementById("web-address");
+      webLink.href = webUrl;
+      webLink.textContent = webUrl;
+      const repositoryLink = document.getElementById("repository-address");
+      repositoryLink.href = repoUrl;
+      repositoryLink.textContent = repoUrl;
+      document.getElementById("address-note").textContent = segments.length
+        ? "The repository URL adds /tree/main/ and this page's path."
+        : "At the repository root, no /tree/main/ path is added.";
+    })();
+  </script>
+</body>
+</html>

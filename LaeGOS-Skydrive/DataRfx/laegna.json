@@ -193,6 +193,7 @@
       "name": "Laegna Binary",
       "base": 2,
       "digits": ["O", "A"],
+      "binary": [[0], [1]],
       "digits-values": ["False", "True"],
       "digits-values-alt": ["Negative", "Positive"],
       "digits-meanings": ["Bad", "Good"],
@@ -220,9 +221,10 @@
       "description": "Two-state number system. Foundation of logic, computation, and duality."
     },
     {
-      "id": "signs-2",
+      "id": "signs2",
       "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/PlusMinus/SignsOfSystems.png",
       "signs": ["-", "+"],
+      "binary": [[0], [1]],
       "utf8": ["❤️", "💚"],
       "digits-values": ["Below Zero", "Above Zero"],
       "digits-values-alt": ["Negative", "Positive"],
@@ -297,9 +299,10 @@
       "utf8-digits_ext": ["🟨", "🔘", "🟦"]
     },
     {
-      "id": "signs-4",
+      "id": "signs4",
       "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/PlusMinus/SignsOfSystems.png",
       "signs": ["÷", "-", "+", "×"],
+      "binary": [[0, 0], [0, 1], [1, 0], [1, 1]],
       "digits-values": ["Negotion", "Negation", "Position", "Posetion"],
       "digits-values-lin": ["Negotive", "Negative", "Positive", "Posetive"],
       "digits-values-sign": ["Divide", "Minus", "Plus", "Times"],
@@ -317,7 +320,7 @@
       "udigits-values-percents": ["±0%", "±∞%"]
     },
     {
-      "id": "signs-8",
+      "id": "signs8",
       "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/PlusMinus/SignsOfSystems.png",
       "signs": ["÷", "-", "+", "×", "⊘", "⊖", "⊕", "⊗"],
       "help": "High values can be same values backwards in function draw, or otherwards.",
@@ -350,6 +353,7 @@
       "digits-values-alt1": ["Negative", "False Negative", "Positive", "False Positive"],
       "digits-meanings": ["Bad in bad", "Good in bad", "Bad in good", "Good in good"],
       "digits": ["I", "O", "A", "E"],
+      "binary": [[0, 0], [0, 1], [1, 0], [1, 1]],
       "digits-names": [
         "Negative Collapse", ["Work", "Adventure"], ["Party", "Vacation"], "Positive Collapse"
       ],
@@ -372,7 +376,7 @@
       "description": "Four-state system. Can map naturally to Laegna four-value logic."
     },
     {
-      "id": "colors-4",
+      "id": "colors4",
       "image": "https://github.com/tambetvali/LaegnaBaseAlphabet/blob/main/NumberSystems/LaegnaDao.png",
       "colors": ["Yellow", "Red", "Green", "Blue"],
       "utf8-o1": ["🟨", "🟥", "🟩", "🟦"],
