@@ -1,3 +1,9 @@
+![Cover](Gfx/Curvature.png)
+
+<br>
+
+---
+
 # Curvature
 
 First it appears in number structure:
