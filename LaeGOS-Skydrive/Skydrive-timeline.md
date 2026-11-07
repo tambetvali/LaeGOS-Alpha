@@ -7,7 +7,7 @@ Essential of Skydrive operating system:
 ## Running the function
 
 Number functional form:
-- $scalar^mantissa unit^mantissa$
+- $scalar^{mantissa}$ $unit^{mantissa}$
 
 Alternative forms:
 - Have R and T defined as projection:
@@ -67,7 +67,7 @@ We are interested in:
 - Temporal time.
 - Spatial time.
 
-For scalar, vector of matrix the rank changes the mantissa in $scalar^{mantissa} unit^{mantissa}$:
+For scalar, vector of matrix the rank changes the mantissa in $scalar^{mantissa}$ $unit^{mantissa}$:
 - We got three ranks, three levels of curvature.
 
 We have temporal view at basin 0:
