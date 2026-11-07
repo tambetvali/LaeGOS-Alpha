@@ -192,6 +192,31 @@ This is first aspect of strangeness of physical scales, from planck to observabl
 
 Mantissa directly changes how many angles there are at every infinitesimal.
 
+## Linear Ranking throught Zero
+
+Let's say we rank through zero diagonally, through 1/4 in this example:
+- Right side of zero: OOOAOOOAOOOA
+- Left side of zero: AOOOAOOOAOOO
+
+A: there is a point.
+- O: there are no points, this is virtual coordinate.
+
+We can see travelsal is linear.
+
+At point 1:
+- Right side: 000A000A000A
+- Left side: OOAOOOAOOOAO
+
+We can see if each is ranked display which shows where points are, base-4 positioning of digits uniquely creates linear structure with difference of *order*:
+- It's *order* because to read it, we change componentwise order.
+- It's *degree*, because it points at degrees, "Secs", of infinity (for example).
+- It's *rank*, because the new polarity overrides the old one, is stronger.
+- It's *octave*, because it's simplest in music and octave math, associated with auditory thinking.
+  - Octaves: we use auditory psychological automation.
+  - Laegna is geometric: we use visual processors of brain.
+  - Laegna is symbolic: we turn digits to symbols and use traditional materials to form it's basic models.
+  - Laegna is automation: the logic automate knows it's learning and imperfect, able to reflect on this within it's tautologies. It can go on with better solutions to problem, based on it's initial equation, algorithm or formulae / formulation.
+
 ---
 
 Google AI:
