@@ -1,3 +1,9 @@
+![Cover](Gfx/S-Zero.png)
+
+<br>
+
+---
+
 # Even and Odd numbers
 
 *T-even and T-odd*: even and odd on real scale.
