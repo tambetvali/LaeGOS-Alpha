@@ -2,6 +2,16 @@
 
 <br>
 
+This is helpful to know about Four Death Wonders:
+- [4dW](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/TerminalMode/S-kernel.md#1-from-travelling-through-space-to-interacting-with-its-projection)
+
+I am spiritually wondering:
+- Notice the interactions between people, counted in numbers of any system, form circulations which form numeric infinities and zeroes.
+  - For example Love is a higher rank operation, as well as civilization or ethics. Our spirits navigate there and draw infinities like mysteries.
+- If our numeric frameworks do not rank up:
+  - Spiritually, what from higher seems like death - end of signal at specific rank, degree, superoctave, infinity or zero; at there, our imagination scatters data into pieces and the empty, paradox parts between (subsequent V), as well as ranked zeroes in center (U); the waves of our minds dies in infinity but then, our mind is *defined* by infinity - if it dies at some ranked infinity, it has fractal of internal death, metaphor of death, spiritual death, at this rank. The possibility of outer karma kills him.
+  - To understand this physically means to understand ranks in physics - quantum, planck, newton and theory of relativity are ranks I, O, A, E of this.
+
 ---
 
 # About Fol2.png
