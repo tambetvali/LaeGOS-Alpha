@@ -6,7 +6,7 @@ First it appears in number structure:
 - This means spaces with curvatures 1 (complexity 1) and 3 (complexity 4) are not invariant in terms of geometries.
 
 Look at one way to express Laegna full accelerative number structure:
-- $scalar^{mantissa} unit^{mantissa}$
+- $scalar^{mantissa}$ $unit^{mantissa}$
 
 Scalar:
 - This is the number, whose growth is decided by curvature.
