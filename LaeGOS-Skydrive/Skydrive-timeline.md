@@ -1,3 +1,9 @@
+![Cover](DataGfx/Skydrive-timeline.png)
+
+<br>
+
+---
+
 # Skydrive timeline
 
 Essential of Skydrive operating system:
