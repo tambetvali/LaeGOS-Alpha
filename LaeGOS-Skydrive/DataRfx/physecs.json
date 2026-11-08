@@ -1,0 +1,366 @@
+{
+  "schema": {
+    "version": "1.0",
+    "description": "Laegna Physical Alphabet. Associates the six physical letters I, O, A, E, U and V with Planck units, modern physics concepts, scale theory, and Laegna interpretations.",
+    "author": "Tambet Väli / Laegna & Spireason interpretation",
+    "domain": "Physics, Mathematics, Symbolic Systems",
+    "base-system": "IOAE + UV",
+    "notes": [
+      "Physical associations are descriptive and symbolic unless explicitly identified as standard physics.",
+      "Planck units are standard scientific units.",
+      "Laegna interpretations are conceptual mappings."
+    ]
+  },
+
+  "laegnaPhysicalAlphabet": {
+    "id": "IOAEUV",
+    "name": "Laegna Physical Alphabet",
+    "digits": ["I", "O", "A", "E"],
+    "udigits": ["U", "V"],
+
+    "binary": [
+      [0, 0],
+      [0, 1],
+      [1, 0],
+      [1, 1]
+    ],
+
+    "utf8-digits": [
+      "🟨",
+      "🟥",
+      "🟩",
+      "🟦"
+    ],
+
+    "utf8-udigits": [
+      "⬛",
+      "⬜"
+    ],
+
+    "colors": [
+      "Yellow",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+
+    "ucolors": [
+      "Black",
+      "White"
+    ],
+
+    "letters-values": [
+      "Contraction",
+      "Geometry",
+      "Causality",
+      "Potential"
+    ],
+
+    "uletters-values": [
+      "Space-Time Bridge",
+      "Energy-Mass Bridge"
+    ],
+
+    "description": "Six-letter physical extension of the Laegna base-4 system. The four primary letters correspond to four Planck-scale corner units, while U and V represent geometric mean bridge states."
+  },
+
+  "laegnaPhysicalLetters": [
+    {
+      "symbol": "I",
+      "utf8": "🟨",
+      "color": "Yellow",
+      "name": "Mass",
+      "alt-name": "Realization",
+      "physical-unit": "Planck Mass",
+      "physical-symbol": "m_p",
+      "physical-value": "2.176434e-8 kg",
+
+      "rank": -2,
+      "axis": "Space",
+      "direction": "Contraction",
+
+      "classical-associations": [
+        "Mass",
+        "Inertia",
+        "Matter",
+        "Gravitational source"
+      ],
+
+      "laegna-associations": [
+        "Realization",
+        "Accumulated history",
+        "Contraction",
+        "Completed possibility"
+      ],
+
+      "physics-relations": [
+        "E = mc²",
+        "Mass curves spacetime",
+        "Planck mass is near the quantum-gravity transition scale"
+      ],
+
+      "visualization": [
+        "Sphere",
+        "Condensation",
+        "Mountain",
+        "Black hole seed"
+      ],
+
+      "help": "I represents realized structure. It is what remains after possibilities collapse into a definite state."
+    },
+
+    {
+      "symbol": "O",
+      "utf8": "🟥",
+      "color": "Red",
+      "name": "Length",
+      "alt-name": "Geometry",
+      "physical-unit": "Planck Length",
+      "physical-symbol": "l_p",
+      "physical-value": "1.616255e-35 m",
+
+      "rank": -1,
+      "axis": "Space",
+      "direction": "Local",
+
+      "classical-associations": [
+        "Distance",
+        "Geometry",
+        "Position",
+        "Location"
+      ],
+
+      "laegna-associations": [
+        "Local reality",
+        "Spatial adjacency",
+        "Coordinate",
+        "Position"
+      ],
+
+      "physics-relations": [
+        "c = l_p / t_p",
+        "Defines Planck geometry",
+        "Appears in quantum gravity discussions"
+      ],
+
+      "visualization": [
+        "Point",
+        "Pixel",
+        "Node",
+        "Coordinate"
+      ],
+
+      "help": "O is the spatial unit. Geometry is measured through it."
+    },
+
+    {
+      "symbol": "A",
+      "utf8": "🟩",
+      "color": "Green",
+      "name": "Time",
+      "alt-name": "Causality",
+      "physical-unit": "Planck Time",
+      "physical-symbol": "t_p",
+      "physical-value": "5.391247e-44 s",
+
+      "rank": 1,
+      "axis": "Time",
+      "direction": "Sequential",
+
+      "classical-associations": [
+        "Time",
+        "Order of events",
+        "Sequence",
+        "Causation"
+      ],
+
+      "laegna-associations": [
+        "Flow",
+        "Becoming",
+        "Transition",
+        "Process"
+      ],
+
+      "physics-relations": [
+        "t_p = l_p / c",
+        "Shortest meaningful timescale in current physics"
+      ],
+
+      "visualization": [
+        "Arrow",
+        "River",
+        "Stream",
+        "Path"
+      ],
+
+      "help": "A represents transitions and causal ordering."
+    },
+
+    {
+      "symbol": "E",
+      "utf8": "🟦",
+      "color": "Blue",
+      "name": "Energy",
+      "alt-name": "Potential",
+      "physical-unit": "Planck Energy",
+      "physical-symbol": "E_p",
+      "physical-value": "1.956e9 J",
+
+      "rank": 2,
+      "axis": "Time",
+      "direction": "Expansion",
+
+      "classical-associations": [
+        "Energy",
+        "Work",
+        "Radiation",
+        "Frequency"
+      ],
+
+      "laegna-associations": [
+        "Potential",
+        "Goal",
+        "Future realization",
+        "Possibility"
+      ],
+
+      "physics-relations": [
+        "E = mc²",
+        "E = hf",
+        "E = ℏω"
+      ],
+
+      "visualization": [
+        "Wave",
+        "Radiance",
+        "Light",
+        "Expansion"
+      ],
+
+      "help": "E represents unrealized possibilities and future directions available to a system."
+    },
+
+    {
+      "symbol": "U",
+      "utf8": "⬛",
+      "color": "Black",
+      "name": "Space-Time Mean",
+      "alt-name": "Lower Bridge",
+
+      "physical-definition": "sqrt(t_p * l_p)",
+      "physical-value": "9.33e-40 sqrt(m*s)",
+
+      "rank": 0,
+
+      "classical-associations": [
+        "Geometric mean",
+        "Midpoint",
+        "Interpolation"
+      ],
+
+      "laegna-associations": [
+        "Unknown",
+        "Bridge",
+        "Transition",
+        "Neutral causality"
+      ],
+
+      "connects": [
+        "O",
+        "A"
+      ],
+
+      "visualization": [
+        "Bridge",
+        "Arch",
+        "Threshold",
+        "Event horizon"
+      ],
+
+      "help": "U is not space and not time. It is the logarithmic bridge between both."
+    },
+
+    {
+      "symbol": "V",
+      "utf8": "⬜",
+      "color": "White",
+      "name": "Energy-Mass Mean",
+      "alt-name": "Upper Bridge",
+
+      "physical-definition": "sqrt(E_p * m_p)",
+      "physical-value": "6.52 kg^(1/2) J^(1/2)",
+
+      "rank": 0,
+
+      "classical-associations": [
+        "Transformation",
+        "Equivalence",
+        "Balance"
+      ],
+
+      "laegna-associations": [
+        "Known unknown",
+        "Resolution",
+        "Bridge of potential and realization"
+      ],
+
+      "connects": [
+        "I",
+        "E"
+      ],
+
+      "visualization": [
+        "Spiral",
+        "Conversion",
+        "Transformer",
+        "Lens"
+      ],
+
+      "help": "V is the midpoint between mass and energy. It symbolically occupies the region where structure becomes possibility and possibility becomes structure."
+    }
+  ],
+
+  "laegnaPhysicalRelations": {
+    "space-time": {
+      "formula": "c = O / A",
+      "meaning": "Planck length divided by Planck time equals light speed.",
+      "laegna": "Geometry divided by causality yields propagation."
+    },
+
+    "mass-energy": {
+      "formula": "E = I * c^2",
+      "meaning": "Mass and energy are equivalent.",
+      "laegna": "Realization transforms into potential and potential into realization."
+    },
+
+    "bridges": {
+      "U": "sqrt(O * A)",
+      "V": "sqrt(I * E)"
+    }
+  },
+
+  "laegnaPhysicalDiagram": {
+    "tree": [
+      "E = Potential",
+      "A = Process",
+      "U = Space-Time Bridge",
+      "V = Energy-Mass Bridge",
+      "O = Geometry",
+      "I = Realization"
+    ],
+
+    "ascii": [
+      "        E",
+      "        |",
+      "        A",
+      "        |",
+      "        U",
+      "--------0--------",
+      "        V",
+      "        |",
+      "        O",
+      "        |",
+      "        I"
+    ]
+  }
+}
