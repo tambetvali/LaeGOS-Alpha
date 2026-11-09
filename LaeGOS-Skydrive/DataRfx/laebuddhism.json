@@ -7,7 +7,7 @@
     "base-system": "IOAE-ZXY",
     "related": [
       "laegna.json",
-      "physecs.json",
+      "laeching.json",
       "lacustics.json"
     ]
   },
@@ -420,4 +420,44 @@
   "laegnaMappings": {
     "earth-below": ["Q", "P", "O"],
     "air-below": ["R"],
-    "water-
+    "water-above": ["C"],
+    "earth-above": ["B"],
+    "air-above": ["A"],
+    "fire-above": ["D"],
+
+    "infer-spirit": ["L"],
+    "exter-spirit": ["G"],
+
+    "legs": ["K", "J", "I"],
+    "body": ["Q", "P", "O", "R"],
+    "head": ["C", "B", "A", "D"],
+    "arms": ["G", "F", "E", "H"]
+  },
+
+  "laegnaTheory": {
+    "note": "In Laegna Buddhism, 4 = 5 through continuity. The pelvic realm acts as bridge between lower and upper body mappings.",
+
+    "three-realms": [
+      "Infer",
+      "Earth",
+      "Heaven"
+    ],
+
+    "seven-centers": [
+      "Root",
+      "Emotion",
+      "Solar Plexus",
+      "Heart",
+      "Throat",
+      "Third Eye",
+      "Crown"
+    ],
+
+    "sixteen-centers": [
+      "K","J","I","L",
+      "Q","P","O","R",
+      "C","B","A","D",
+      "G","F","E","H"
+    ]
+  }
+}
