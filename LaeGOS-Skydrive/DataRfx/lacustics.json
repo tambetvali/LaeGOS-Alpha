@@ -1,0 +1,363 @@
+{
+  "schema": {
+    "version": "1.0",
+    "description": "Laegna Acoustics and Musical Number Systems",
+    "author": "Tambet Väli / Laegna & Spireason",
+    "domain": "Music, Acoustics, Mathematics, Symbolic Systems",
+    "base-system": "IOAE",
+    "notes": [
+      "Maps musical durations, octaves, frequencies and values into Laegna number systems.",
+      "Combines standard music theory with Laegna symbolic counting methods.",
+      "Frequency, octave and value are distinct but mutually transformable representations."
+    ]
+  },
+
+  "laegnaAcoustics": {
+    "id": "LACUSTICS",
+    "name": "Laegna Acoustics",
+    "digits": ["I", "O", "A", "E"],
+    "scdigits": ["i", "o", "a", "e"],
+
+    "utf8-digits": [
+      "🟨",
+      "🟥",
+      "🟩",
+      "🟦"
+    ],
+
+    "duration-axis": [
+      "1/16",
+      "1/8",
+      "1/4",
+      "1/2",
+      "1"
+    ],
+
+    "description": "Musical interpretation of Laegna counting systems."
+  },
+
+  "laegnaHexadecimalMusic": {
+    "horizontal": [
+      "KJIL",
+      "QPOR",
+      "CBAD",
+      "GFEH"
+    ],
+
+    "horizontal-values": [
+      [1,2,3,4],
+      [5,6,7,8],
+      [9,10,11,12],
+      [13,14,15,16]
+    ],
+
+    "diagonal": [
+      "HGFE",
+      "CDAB",
+      "ROPQ",
+      "ILKJ"
+    ],
+
+    "description": "Horizontal system counts balanced squares, diagonal system counts outside-in."
+  },
+
+  "laegnaParadigms": [
+    {
+      "symbol": "E",
+      "name": "Top-down",
+      "direction": "Top-down"
+    },
+    {
+      "symbol": "A",
+      "name": "Outside-in",
+      "direction": "External-in"
+    },
+    {
+      "symbol": "U",
+      "name": "Dao",
+      "direction": "Balanced"
+    },
+    {
+      "symbol": "O",
+      "name": "Inside-out",
+      "direction": "Middle-out"
+    },
+    {
+      "symbol": "I",
+      "name": "Bottom-up",
+      "direction": "Bottom-up"
+    },
+    {
+      "symbol": "∩",
+      "name": "Tao",
+      "direction": "Balanced vertical"
+    },
+    {
+      "symbol": "◉",
+      "name": "Universal Flow",
+      "direction": "Any"
+    }
+  ],
+
+  "laegnaRests": [
+    {
+      "id": 1,
+      "name": "Whole Rest",
+      "duration": "1",
+      "fraction": "4/4",
+
+      "latin-rank": 5,
+
+      "laegna-b4-topdown": "E",
+      "laegna-b4-bottomup": "EE",
+
+      "laegna-b5": [
+        "E+",
+        "5"
+      ],
+
+      "zxy": "Y",
+      "laegna-sign": "E+",
+      "frequency-rank": 0,
+
+      "description": "Full measure in 4/4."
+    },
+
+    {
+      "id": 2,
+      "name": "Half Rest",
+      "duration": "1/2",
+
+      "latin-rank": 4,
+
+      "laegna-b4-topdown": "A",
+      "laegna-b4-bottomup": "E",
+
+      "laegna-b5": [
+        "E-",
+        "A+",
+        "4"
+      ],
+
+      "zxy": "A",
+      "laegna-sign": "A+",
+
+      "description": "Half measure."
+    },
+
+    {
+      "id": 3,
+      "name": "Quarter Rest",
+      "duration": "1/4",
+
+      "latin-rank": 3,
+
+      "laegna-b4-topdown": "O",
+      "laegna-b4-bottomup": "A",
+
+      "laegna-b5": [
+        "A-",
+        "O+",
+        "3"
+      ],
+
+      "zxy": "X",
+      "laegna-sign": "O+",
+
+      "description": "Quarter measure."
+    },
+
+    {
+      "id": 4,
+      "name": "Eighth Rest",
+      "duration": "1/8",
+
+      "latin-rank": 2,
+
+      "laegna-b4-topdown": "I",
+      "laegna-b4-bottomup": "O",
+
+      "laegna-b5": [
+        "O-",
+        "I+",
+        "2"
+      ],
+
+      "zxy": "O",
+      "laegna-sign": "I+",
+
+      "description": "Eighth measure."
+    },
+
+    {
+      "id": 5,
+      "name": "Sixteenth Rest",
+      "duration": "1/16",
+
+      "latin-rank": 1,
+
+      "laegna-b4-topdown": "II",
+      "laegna-b4-bottomup": "I",
+
+      "laegna-b5": [
+        "I-",
+        "0"
+      ],
+
+      "zxy": "Z",
+      "laegna-sign": "I-",
+
+      "description": "Sixteenth measure."
+    }
+  ],
+
+  "laegnaDurationScales": {
+    "basin0.5": [
+      {
+        "symbol": "Z",
+        "formula": "Value^0",
+        "meaning": "Value"
+      },
+      {
+        "symbol": "X",
+        "formula": "Value^1",
+        "meaning": "Frequency"
+      },
+      {
+        "symbol": "Y",
+        "formula": "Value^2",
+        "meaning": "Octave"
+      }
+    ],
+
+    "lengths": [
+      {
+        "duration": "1/16",
+        "laegna": "I-",
+        "scope": "Z",
+        "octave": -4
+      },
+      {
+        "duration": "1/8",
+        "laegna": "O-",
+        "scope": "O",
+        "octave": -3
+      },
+      {
+        "duration": "1/4",
+        "laegna": "A-",
+        "scope": "X",
+        "octave": -2
+      },
+      {
+        "duration": "1/2",
+        "laegna": "E-",
+        "scope": "A",
+        "octave": -1
+      },
+      {
+        "duration": "1",
+        "laegna": "E+",
+        "scope": "Y",
+        "octave": 0
+      }
+    ]
+  },
+
+  "laegnaNotes": {
+    "western": {
+      "system": "12-TET",
+      "formula": "frequency = reference * 2^(n/12)",
+      "half-octave": "sqrt(2)"
+    },
+
+    "laegna-zxy": [
+      {
+        "symbol": "Z",
+        "meaning": "Value"
+      },
+      {
+        "symbol": "X",
+        "meaning": "Frequency"
+      },
+      {
+        "symbol": "Y",
+        "meaning": "Octave"
+      }
+    ]
+  },
+
+  "laegna440": {
+    "reference-frequency": 440,
+
+    "binary": {
+      "A": "440 exists",
+      "O": "440 absent"
+    },
+
+    "vertical": {
+      "E": 440,
+      "A": 400,
+      "O": 40,
+      "I": 0
+    },
+
+    "horizontal": {
+      "E": 440,
+      "A": 110,
+      "O": 88,
+      "I": 8
+    }
+  },
+
+  "laegnaScoreSystems": {
+    "zxy-order": [
+      "zI",
+      "zO",
+      "zA",
+      "zE",
+      "xI",
+      "xO",
+      "xA",
+      "xE",
+      "yI",
+      "yO",
+      "yA",
+      "yE"
+    ],
+
+    "ioae-order": [
+      "Iz",
+      "Ix",
+      "Iy",
+      "Oz",
+      "Ox",
+      "Oy",
+      "Az",
+      "Ax",
+      "Ay",
+      "Ez",
+      "Ex",
+      "Ey"
+    ],
+
+    "linearized-octave-order": [
+      "II",
+      "IO",
+      "IA",
+      "IE",
+      "OI",
+      "OO",
+      "OA",
+      "OE",
+      "AI",
+      "AO",
+      "AA",
+      "AE",
+      "EI",
+      "EO",
+      "EA",
+      "EE"
+    ]
+  }
+}
