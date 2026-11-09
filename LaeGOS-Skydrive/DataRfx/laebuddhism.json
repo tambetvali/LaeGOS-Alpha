@@ -1,0 +1,423 @@
+{
+  "schema": {
+    "version": "1.0",
+    "description": "Laegna Buddhism, Daoism, Viking and Multiparadigm Symbolic Systems",
+    "author": "Tambet Väli / Laegna & Spireason",
+    "domain": "Spirituality, Cognition, Body Maps, Symbolic Systems",
+    "base-system": "IOAE-ZXY",
+    "related": [
+      "laegna.json",
+      "physecs.json",
+      "lacustics.json"
+    ]
+  },
+
+  "laegnaBuddhism": {
+    "id": "LAEBUDDHISM",
+    "name": "Laegna Buddhism",
+    "description": "Correspondence system between body, spirituality, cognition, elements, chakras, paradigms and Laegna symbolic systems."
+  },
+
+  "laegnaChakra16": [
+    {
+      "id": 16,
+      "lae16": "H",
+      "lae8": 8,
+      "spiritual": "Accelerate",
+      "material": "Hand",
+      "name": "Working",
+      "element": "Heaven",
+      "buddhist": "Crown",
+      "viking": "Crown"
+    },
+    {
+      "id": 15,
+      "lae16": "E",
+      "lae8": 8,
+      "spiritual": "Stabilize",
+      "material": "Forearm",
+      "name": "Feeling",
+      "element": "Earth"
+    },
+    {
+      "id": 14,
+      "lae16": "F",
+      "lae8": 8,
+      "spiritual": "Hand posture",
+      "material": "Upper Arm",
+      "name": "Sides Of Uniqueness",
+      "element": "Infer"
+    },
+    {
+      "id": 13,
+      "lae16": "G",
+      "lae8": 9,
+      "spiritual": "Strength",
+      "material": "Shoulder",
+      "name": "Harmonizing Uniqueness",
+      "element": "Exter Spirit",
+      "dao": "U"
+    },
+
+    {
+      "id": 12,
+      "lae16": "D",
+      "lae8": 8,
+      "spiritual": "Rise",
+      "material": "Virtually Above",
+      "name": "Metaphysics / Integration",
+      "hindu": "Crown",
+      "element": "Fire Above",
+      "paradigm": "Mythical / Epic",
+      "lae7-yang": "YY",
+      "lae7-yin": "ee",
+      "lae7-dao": "E"
+    },
+    {
+      "id": 11,
+      "lae16": "A",
+      "lae8": 7,
+      "spiritual": "Integrate",
+      "material": "Abstract Brain",
+      "name": "Abstraction",
+      "buddhist": "Crown",
+      "element": "Air Above",
+      "paradigm": "Abstract / Schema",
+      "lae7-yang": "Y",
+      "lae7-yin": "e",
+      "lae7-dao": "A"
+    },
+    {
+      "id": 10,
+      "lae16": "B",
+      "lae8": 6,
+      "spiritual": "Envision",
+      "material": "Visual Cortex",
+      "name": "Visual Processing",
+      "hindu": "Third Eye",
+      "buddhist": "Third Eye",
+      "element": "Earth Above",
+      "paradigm": "Visual Thinking",
+      "lae7-yang": "X",
+      "lae7-yin": "y",
+      "lae7-dao": "O"
+    },
+    {
+      "id": 9,
+      "lae16": "C",
+      "lae8": 5,
+      "spiritual": "Science",
+      "material": "Auditory Cortex",
+      "name": "Auditory Processing",
+      "hindu": "Throat",
+      "buddhist": "Throat",
+      "element": "Water Above",
+      "paradigm": "Auditory Thinking",
+      "lae7-yang": "Z",
+      "lae7-yin": "a",
+      "lae7-dao": "I"
+    },
+
+    {
+      "id": 8,
+      "lae16": "R",
+      "lae8": 4,
+      "spiritual": "Myriad",
+      "material": "Heart Surroundings",
+      "name": "Harmony Of Uniqueness",
+      "hindu": "Heart",
+      "buddhist": "Heart",
+      "element": "Air Below",
+      "paradigm": "Vibration, Heat",
+      "lae7-yang": "E",
+      "lae7-yin": "x",
+      "lae7-dao": "e"
+    },
+    {
+      "id": 7,
+      "lae16": "O",
+      "lae8": 3,
+      "spiritual": "Units",
+      "material": "Solar Plexus",
+      "name": "Uniqueness",
+      "hindu": "Solar Plexus",
+      "buddhist": "Solar Plexus",
+      "element": "Fire Below",
+      "paradigm": "Taste, Objects, Ownership",
+      "lae7-yang": "A",
+      "lae7-yin": "o",
+      "lae7-dao": "a"
+    },
+    {
+      "id": 6,
+      "lae16": "P",
+      "lae8": 2,
+      "spiritual": "External",
+      "material": "Stomach",
+      "name": "Emotion",
+      "hindu": "Emotion",
+      "buddhist": "Emotion",
+      "element": "Water Below",
+      "paradigm": "Smell, Topology, Statistics",
+      "lae7-yang": "O",
+      "lae7-yin": "z",
+      "lae7-dao": "o"
+    },
+    {
+      "id": 5,
+      "lae16": "Q",
+      "lae8": 1,
+      "spiritual": "Internal",
+      "material": "Hips",
+      "name": "Tradition, Repetition, Habit",
+      "hindu": "Root",
+      "buddhist": "Root",
+      "element": "Earth Below",
+      "paradigm": "Touch, Substance, Material",
+      "lae7-yang": "I",
+      "lae7-yin": "i",
+      "lae7-dao": "i"
+    },
+
+    {
+      "id": 4,
+      "lae16": "L",
+      "lae8": 0,
+      "spiritual": "Map",
+      "material": "Pelvic Region",
+      "name": "Harmony Of Movement",
+      "element": "Infer Spirit",
+      "dao": "u"
+    },
+    {
+      "id": 3,
+      "lae16": "I",
+      "spiritual": "Direction",
+      "material": "Thigh",
+      "name": "Movement Itself"
+    },
+    {
+      "id": 2,
+      "lae16": "J",
+      "spiritual": "Stability",
+      "material": "Lower Leg",
+      "name": "Grounding Abstraction"
+    },
+    {
+      "id": 1,
+      "lae16": "K",
+      "spiritual": "Velocity",
+      "material": "Foot",
+      "name": "Metaphysics Of Matter"
+    }
+  ],
+
+  "laegnaBuddhistVikingDaoist": [
+    {
+      "id": 16,
+      "principle": "Yang",
+      "body": "Arms",
+      "element": "Heaven",
+      "lae8": 8,
+      "lae16": "H",
+      "buddhist": "Crown",
+      "viking": "Crown"
+    },
+    {
+      "id": 15,
+      "principle": "Dao",
+      "body": "Body",
+      "element": "Earth",
+      "lae8": 4,
+      "lae16": "A",
+      "buddhist": "Solar Plexus",
+      "viking": "Trunk"
+    },
+    {
+      "id": 14,
+      "principle": "Yin",
+      "body": "Legs",
+      "element": "Infer",
+      "lae8": 2,
+      "lae16": "K",
+      "buddhist": "Root",
+      "viking": "Roots"
+    }
+  ],
+
+  "laegnaBaseSystems": {
+    "base1": {
+      "digits": ["A"],
+      "description": "Odd center. Unity."
+    },
+
+    "base2": {
+      "digits": ["O", "A"],
+      "description": "Primary polarity."
+    },
+
+    "base3": {
+      "digits": ["Z", "X", "Y"],
+      "description": "Odd division. Left center right."
+    },
+
+    "base4": {
+      "digits": ["I", "O", "A", "E"],
+      "description": "Double binary integrated to quaternary."
+    },
+
+    "base5": {
+      "digits": ["I", "O", "U", "A", "E"],
+      "description": "Centered quaternary."
+    },
+
+    "base6": {
+      "digits": ["z", "x", "y", "Z", "X", "Y"],
+      "description": "Dual ternary."
+    },
+
+    "base7": {
+      "yang": ["I", "O", "A", "E", "Z", "X", "Y"],
+      "dao": ["I", "Z", "O", "X", "A", "Y", "E"],
+      "description": "Sevenfold odd-even decomposition."
+    }
+  },
+
+  "laegnaParadigms7": {
+    "yang": ["I", "O", "A", "E", "Z", "X", "Y"],
+    "yin": ["i", "z", "o", "x", "a", "y", "e"],
+    "dao": ["i", "o", "a", "e", "I", "O", "A", "E"]
+  },
+
+  "laegnaThinkingAttitudes": [
+    {
+      "symbol": "∩",
+      "name": "Abstract Thinking",
+      "domain": "Topology",
+      "orientation": "Upwards",
+      "examples": [
+        "Spirit Reasoning",
+        "Laegna Abstract Processing",
+        "Meta-frameworks",
+        "Generalization"
+      ]
+    },
+
+    {
+      "symbol": "E",
+      "name": "Visual Thinking",
+      "domain": "Space",
+      "examples": [
+        "Geometry",
+        "Shapes",
+        "Colors",
+        "Structures"
+      ]
+    },
+
+    {
+      "symbol": "A",
+      "name": "Auditory Thinking",
+      "domain": "Time",
+      "examples": [
+        "Music",
+        "Rhythm",
+        "Oscillation",
+        "Frequency"
+      ]
+    },
+
+    {
+      "symbol": "O",
+      "name": "Topology Thinking",
+      "domain": "External Fields",
+      "examples": [
+        "Smell",
+        "Topology",
+        "Statistics",
+        "Relations"
+      ]
+    },
+
+    {
+      "symbol": "I",
+      "name": "Material Thinking",
+      "domain": "Substance",
+      "examples": [
+        "Touch",
+        "Matter",
+        "Construction",
+        "Concrete Reality"
+      ]
+    }
+  ],
+
+  "laegnaProcessingAttitudes": [
+    {
+      "symbol": "A",
+      "name": "Flow-Based Processing",
+      "description": "Higher-order structural optimization.",
+      "examples": [
+        "Deep Learning",
+        "Tensor Optimization",
+        "Flow Fields"
+      ]
+    },
+
+    {
+      "symbol": "O",
+      "name": "Rule-Based Processing",
+      "description": "Instruction and theorem processing.",
+      "examples": [
+        "Prolog",
+        "Inference Engines",
+        "Formal Systems"
+      ]
+    },
+
+    {
+      "symbol": "I",
+      "name": "Algorithmic Processing",
+      "description": "Classical computation.",
+      "examples": [
+        "Programs",
+        "Algorithms",
+        "First-Order Logic"
+      ]
+    }
+  ],
+
+  "laegnaBodyRealms": {
+    "lower": [
+      "Foot",
+      "Lower Leg",
+      "Thigh",
+      "Pelvic Region",
+      "Hips"
+    ],
+
+    "middle": [
+      "Stomach",
+      "Solar Plexus",
+      "Heart"
+    ],
+
+    "upper": [
+      "Auditory Cortex",
+      "Visual Cortex",
+      "Abstract Brain",
+      "Above Head"
+    ],
+
+    "higher": [
+      "Shoulder",
+      "Upper Arm",
+      "Forearm",
+      "Hand"
+    ]
+  },
+
+  "laegnaMappings": {
+    "earth-below": ["Q", "P", "O"],
+    "air-below": ["R"],
+    "water-
