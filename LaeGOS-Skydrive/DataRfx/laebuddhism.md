@@ -1,5 +1,13 @@
 # Laegna Buddhist Notations
 
+Laegna has unique understanding of Buddhist Chakra System:
+- 7 corresponds to 8 as 3 to 4;
+  - 7 to 4 creates external combinator, while 3 to 4 is half precision of it.
+  - 8 is third-rank, spiritually able combinator of Laegna: 8 is rank 3, 3 is itself 3, and 7 is 3 projected to doubled external precision, where this precision-thing goes kind of backwards there (in exponent-linearized $H_ext$).
+  - Laegna mathematically corresponds, that logic of number 7 in normal Laegna ordering, used as base, corresponds to this:
+    - So base-7 is simply IZOXAYE or IOAEZXY ordering.
+    - I have proposed some number-only (lacking the coordinate letters) numbering, for example laegna digits could be masked, like A#OA means "count only I, O, A => to A" and OA is number with digits in this range; multidigits can be established and lower rank set by setting zero, such as pythonlike min:zero:max or min:max - but this is another topic, yet worth introducing here, because it interestingly relates to problem of spirituality.
+
 | No. | Spiritual | Material               | Name                                                     | Hinduism     | Buddhism     | Element      | Lae8 | Lae16 | Paradigm, modus of thinking, power            | Lae7Yang | Lae7Yin | Lae7Dao  | Lae8 |
 |-----|-----------|------------------------|----------------------------------------------------------|--------------|--------------|--------------|------|-------|-----------------------------------------------|----------|---------|----------|------|
 | 16  | Accelerate| Hand                   | -1. Working                                              |              |              |              |      | H     |                                               |          |         |          |      |
