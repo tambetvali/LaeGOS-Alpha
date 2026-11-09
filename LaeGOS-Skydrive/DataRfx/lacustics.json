@@ -359,5 +359,548 @@
       "EA",
       "EE"
     ]
+  },
+
+  "laegnaNotes12": [
+
+    {
+      "id": 1,
+      "classic-note": "C",
+      "hex": "R",
+
+      "linearized": "OI",
+      "ioae-zxy": "Iz",
+      "zxy-ioae": "zI",
+
+      "group": "O",
+      "fraction": 0.000000,
+
+      "name": "Emergence",
+      "alt-name": "Opening Unit",
+
+      "description": "First manifested note after the reflection octave. Beginning of the O-domain."
+    },
+
+    {
+      "id": 2,
+      "classic-note": "C♯ / D♭",
+      "hex": "O",
+
+      "linearized": "OO",
+      "ioae-zxy": "Ix",
+      "zxy-ioae": "zO",
+
+      "group": "O",
+      "fraction": 0.083333,
+
+      "name": "Localization",
+      "alt-name": "Inner Position",
+
+      "description": "Local resonance and stabilization of the first emergence."
+    },
+
+    {
+      "id": 3,
+      "classic-note": "D",
+      "hex": "P",
+
+      "linearized": "OA",
+      "ioae-zxy": "Iy",
+      "zxy-ioae": "zA",
+
+      "group": "O",
+      "fraction": 0.166667,
+
+      "name": "Activation",
+      "alt-name": "Directed Motion",
+
+      "description": "The first active movement inside the O-domain."
+    },
+
+    {
+      "id": 4,
+      "classic-note": "D♯ / E♭",
+      "hex": "Q",
+
+      "linearized": "OE",
+      "ioae-zxy": "Oz",
+      "zxy-ioae": "zE",
+
+      "group": "O",
+      "fraction": 0.250000,
+
+      "name": "Potential Gate",
+      "alt-name": "Transfer Point",
+
+      "description": "Boundary between O-domain and A-domain."
+    },
+
+
+
+    {
+      "id": 5,
+      "classic-note": "E",
+      "hex": "D",
+
+      "linearized": "AI",
+      "ioae-zxy": "Ox",
+      "zxy-ioae": "xI",
+
+      "group": "A",
+      "fraction": 0.333333,
+
+      "name": "Process Origin",
+      "alt-name": "Temporal Birth",
+
+      "description": "Entry into the A-domain. Beginning of process and flow."
+    },
+
+    {
+      "id": 6,
+      "classic-note": "F",
+      "hex": "A",
+
+      "linearized": "AO",
+      "ioae-zxy": "Oy",
+      "zxy-ioae": "xO",
+
+      "group": "A",
+      "fraction": 0.416667,
+
+      "name": "Flow",
+      "alt-name": "Movement",
+
+      "description": "Stable continuity and musical movement."
+    },
+
+    {
+      "id": 7,
+      "classic-note": "F♯ / G♭",
+      "hex": "B",
+
+      "linearized": "AA",
+      "ioae-zxy": "Az",
+      "zxy-ioae": "xA",
+
+      "group": "A",
+      "fraction": 0.500000,
+
+      "name": "Balance",
+      "alt-name": "Middle Tone",
+
+      "description": "Exact midpoint of the octave cycle."
+    },
+
+    {
+      "id": 8,
+      "classic-note": "G",
+      "hex": "C",
+
+      "linearized": "AE",
+      "ioae-zxy": "Ax",
+      "zxy-ioae": "xE",
+
+      "group": "A",
+      "fraction": 0.583333,
+
+      "name": "Expansion",
+      "alt-name": "Acceleration",
+
+      "description": "Growth and expansion toward the harmonic region."
+    },
+
+
+
+    {
+      "id": 9,
+      "classic-note": "G♯ / A♭",
+      "hex": "H",
+
+      "linearized": "EI",
+      "ioae-zxy": "Ay",
+      "zxy-ioae": "yI",
+
+      "group": "E",
+      "fraction": 0.666667,
+
+      "name": "Elevation",
+      "alt-name": "Upper Initiation",
+
+      "description": "Entry into the E-domain and higher harmonic structures."
+    },
+
+    {
+      "id": 10,
+      "classic-note": "A",
+      "hex": "E",
+
+      "linearized": "EO",
+      "ioae-zxy": "Ez",
+      "zxy-ioae": "yO",
+
+      "group": "E",
+      "fraction": 0.750000,
+
+      "name": "Resonance",
+      "alt-name": "Harmonic Reinforcement",
+
+      "description": "Strong resonance and octave attraction."
+    },
+
+    {
+      "id": 11,
+      "classic-note": "A♯ / B♭",
+      "hex": "F",
+
+      "linearized": "EA",
+      "ioae-zxy": "Ex",
+      "zxy-ioae": "yA",
+
+      "group": "E",
+      "fraction": 0.833333,
+
+      "name": "Harmonic Completion",
+      "alt-name": "Approaching Closure",
+
+      "description": "Last stable harmonic stage before octave completion."
+    },
+
+    {
+      "id": 12,
+      "classic-note": "B",
+      "hex": "G",
+
+      "linearized": "EE",
+      "ioae-zxy": "Ey",
+      "zxy-ioae": "yE",
+
+      "group": "E",
+      "fraction": 1.000000,
+
+      "name": "Octave Completion",
+      "alt-name": "Harmonic Closure",
+
+      "description": "Completion of the octave and source of the next octave."
+    }
+  ],
+
+  "laegnaNotes12-orderings": {
+
+    "classic-order": [
+      "C",
+      "C♯/D♭",
+      "D",
+      "D♯/E♭",
+      "E",
+      "F",
+      "F♯/G♭",
+      "G",
+      "G♯/A♭",
+      "A",
+      "A♯/B♭",
+      "B"
+    ],
+
+    "linearized-order": [
+      "OI",
+      "OO",
+      "OA",
+      "OE",
+      "AI",
+      "AO",
+      "AA",
+      "AE",
+      "EI",
+      "EO",
+      "EA",
+      "EE"
+    ],
+
+    "ioae-zxy-order": [
+      "Iz",
+      "Ix",
+      "Iy",
+      "Oz",
+      "Ox",
+      "Oy",
+      "Az",
+      "Ax",
+      "Ay",
+      "Ez",
+      "Ex",
+      "Ey"
+    ],
+
+    "zxy-ioae-order": [
+      "zI",
+      "zO",
+      "zA",
+      "zE",
+      "xI",
+      "xO",
+      "xA",
+      "xE",
+      "yI",
+      "yO",
+      "yA",
+      "yE"
+    ],
+
+    "hex-order": [
+      "R",
+      "O",
+      "P",
+      "Q",
+      "D",
+      "A",
+      "B",
+      "C",
+      "H",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+
+  "laegnaNotesSub4": [
+
+    {
+      "id": -4,
+      "hex": "L",
+
+      "linearized": "II",
+
+      "reference-note": "OI",
+      "classic-reference": "C",
+
+      "fraction": -0.250000,
+      "octave": -1,
+
+      "group": "Reflection",
+
+      "name": "Absolute Reflection",
+      "alt-name": "Subzero Origin",
+
+      "description":
+        "Complete compression of the previous octave. Represents the hidden octave root before OI emerges."
+    },
+
+    {
+      "id": -3,
+      "hex": "I",
+
+      "linearized": "IO",
+
+      "reference-note": "OO",
+      "classic-reference": "C♯ / D♭",
+
+      "fraction": -0.187500,
+      "octave": -1,
+
+      "group": "Reflection",
+
+      "name": "First Reflection",
+      "alt-name": "Hidden Localization",
+
+      "description":
+        "Reflection corresponding to OO in the octave above. The positional aspect exists before becoming audible."
+    },
+
+    {
+      "id": -2,
+      "hex": "J",
+
+      "linearized": "IA",
+
+      "reference-note": "OA",
+      "classic-reference": "D",
+
+      "fraction": -0.125000,
+      "octave": -1,
+
+      "group": "Reflection",
+
+      "name": "Middle Reflection",
+      "alt-name": "Hidden Activation",
+
+      "description":
+        "Reflection corresponding to OA. Direction exists in potential form before manifestation."
+    },
+
+    {
+      "id": -1,
+      "hex": "K",
+
+      "linearized": "IE",
+
+      "reference-note": "OE",
+      "classic-reference": "D♯ / E♭",
+
+      "fraction": -0.062500,
+      "octave": -1,
+
+      "group": "Reflection",
+
+      "name": "Last Reflection",
+      "alt-name": "Hidden Threshold",
+
+      "description":
+        "Final reflected state before the octave becomes explicit at OI."
+    }
+  ],
+
+
+
+  "laegnaNotesSub4-orderings": {
+
+    "linearized-order": [
+      "II",
+      "IO",
+      "IA",
+      "IE"
+    ],
+
+    "hex-order": [
+      "L",
+      "I",
+      "J",
+      "K"
+    ],
+
+    "reference-order": [
+      "OI",
+      "OO",
+      "OA",
+      "OE"
+    ],
+
+    "classic-reference-order": [
+      "C",
+      "C♯/D♭",
+      "D",
+      "D♯/E♭"
+    ]
+  },
+
+
+
+  "laegnaNotesSub4-map": {
+
+    "II": {
+      "hex": "L",
+      "references": "OI",
+      "classic": "C"
+    },
+
+    "IO": {
+      "hex": "I",
+      "references": "OO",
+      "classic": "C♯/D♭"
+    },
+
+    "IA": {
+      "hex": "J",
+      "references": "OA",
+      "classic": "D"
+    },
+
+    "IE": {
+      "hex": "K",
+      "references": "OE",
+      "classic": "D♯/E♭"
+    }
+  },
+
+  "laegnaNotesComplete16-order": {
+
+    "hexadecimal": [
+      "L",
+      "I",
+      "J",
+      "K",
+
+      "R",
+      "O",
+      "P",
+      "Q",
+
+      "D",
+      "A",
+      "B",
+      "C",
+
+      "H",
+      "E",
+      "F",
+      "G"
+    ],
+
+    "linearized": [
+      "II",
+      "IO",
+      "IA",
+      "IE",
+
+      "OI",
+      "OO",
+      "OA",
+      "OE",
+
+      "AI",
+      "AO",
+      "AA",
+      "AE",
+
+      "EI",
+      "EO",
+      "EA",
+      "EE"
+    ]
+  },
+
+  "laegnaNotesComplete16-groups": {
+
+    "reflection": [
+      "II",
+      "IO",
+      "IA",
+      "IE"
+    ],
+
+    "o-domain": [
+      "OI",
+      "OO",
+      "OA",
+      "OE"
+    ],
+
+    "a-domain": [
+      "AI",
+      "AO",
+      "AA",
+      "AE"
+    ],
+
+    "e-domain": [
+      "EI",
+      "EO",
+      "EA",
+      "EE"
+    ]
+  },
+
+  "laegnaNotesSub4-theory": {
+
+    "purpose":
+      "These four notes are not additional audible notes. They are the reflected representation of the previous octave, allowing octave transitions to be represented continuously.",
+
+    "relationship":
+      "II→IE behaves to OI→OE similarly as logarithmic reflection behaves to explicit manifestation.",
+
+    "hexadecimal-role":
+      "Together with the 12 primary musical notes they complete the full Laegna hexadecimal 16-state musical space.",
+
+    "hologram-role":
+      "The reflected band provides continuity below octave origin and allows traversal through octave zero in linearized musical coordinates."
   }
 }
