@@ -1,6 +1,6 @@
 # Laegna acoustics / acústica
 
-## Rests
+## Rests and lengths
 
 | Rest Name | What the Rest Looks Like | What the Note Looks Like | Relative Duration |
 | :--- | :--- | :--- | :--- |
@@ -56,10 +56,132 @@ Paradigms:
 
 Horizontal system counts squares in balanced way; diagonal system counts outside-in
 
-| Rest Name | Laegna Base44 | Relative Duration |
+| Rest Name | Laegna 5-Basin | Relative Duration |
 | :--- | :--- | :--- |
-| **Whole Rest** | E | **1** (Full measure in 4/4) |
-| **Half Rest** | A | **1/2** |
-| **Quarter Rest** | A squiggly line (often compared to a stylized 'Z' or a lightning bolt) | A filled-in oval with a vertical stem | **1/4** |
-| **Eighth Rest** | A slash with one flag/branch curving out to the left | A filled-in oval with a stem and one flag | **1/8** |
-| **Sixteenth Rest**| A slash with two flags/branches curving to the left | A filled-in oval with a stem and two flags | **1/16** |
+| **Whole Rest** | E+ / 5 | **1** (Full measure in 4/4) |
+| **Half Rest** | E- / A+ / 4 | **1/2** |
+| **Quarter Rest** | A- / O+ / 3 | **1/4** |
+| **Eighth Rest** | O- / I+ / 2 | **1/8** |
+| **Sixteenth Rest**| I- / 0 | **1/16** |
+
+## Laegna Rest and Length Table
+
+This gives that we have the following table:
+
+| Rest Name | Laegna B4 Top-Down | Laegna B4 Bottom-Up | Laegna B5 Decimal Compability | Relative Duration |
+| :--- | :--- | :--- | :--- | :--- |
+| **Whole Rest** | E | EE | E+ / 5 | **4/4** |
+| **Half Rest** | A | E | E- / A+ / 4 | **1/2** |
+| **Quarter Rest** | O | A | | A- / O+ / 3 | **1/4** |
+| **Eighth Rest** | I | O | | O- / I+ / 2 | **1/8** |
+| **Sixteenth Rest** | II | I | | I- | **1/16** |
+
+Notice to use "$E$" for $4/4$ to set $4/4$ as central is most trivial thing to do with key $4/4$, which is also highly compatible for using $EE$ as it equals $E^E$ (Laegna) or $E^2$ (Laegna signed) / $E^4$ (Laegna unsigned).
+
+# Laegna Notes
+
+## AI assisted theory
+
+Western music standardizes tuning using **12-Tone Equal Temperament (12-TET)**. This means an octave is split into **12 equal steps (semitones)**. Because human hearing perceives pitch logarithmically rather than linearly, you cannot simply add numbers to change pitches; you must **multiply** them.
+
+---
+
+Google AI:
+
+> These terms—**frequency, octave, and value**—*form the backbone of **how sound, music, and digital audio math interact***.
+> 
+> Here is what they mean and how the formulas tie them together.
+> 
+> ## 1. The Core Definitions
+> *   **Frequency:** The physical measurement of a sound wave. It is measured in **Hertz (Hz)**, which counts how many times a sound wave vibrates per second. Higher frequency sounds like a whistle; lower frequency sounds like a bass guitar.
+> *   **Octave:** The fundamental musical interval representing a **doubling or halving of a frequency**. If Note A is at $440\text{ Hz}$, the note an octave above is exactly $880\text{ Hz}$ ($440 \times 2$), and the octave below is $220\text{ Hz}$ ($440 \div 2$).
+> *   **Value:** In this context, "value" refers either to the **calculated pitch frequency (Hz)** or the **specific multiplier** used to calculate notes.
+> 
+> ## 2. Deconstructing the Formulas
+> Western music standardizes tuning using **12-Tone Equal Temperament (12-TET)**. This means an octave is split into **12 equal steps (semitones)**. Because human hearing perceives pitch logarithmically rather than linearly, you cannot simply add numbers to change pitches; you must **multiply** them.
+> 
+> #### The $n/12$ Formula (Semitone Math)
+> To find the exact frequency of a note, the foundational formula is:
+> 
+> $$\text{Frequency} = \text{Reference Frequency} \times 2^{(n/12)}$$
+> 
+> *   **$n$ (The Value):** The number of semitones (or piano keys) away from your starting reference note.
+> *   **$n/12$:** The fractional portion of an octave you are moving.
+> *   **$2^{(1/12)}$ ($\approx 1.059463$):** This is the **12th root of 2**. It is the magical step value. If you multiply any note's frequency by $1.059463$, you get the exact frequency of the very next note up. Doing this 12 times in a row multiplies the starting frequency by exactly $2$—completing **one full octave**.
+
+> #### What about $\sqrt{o}$ or $\sqrt{n/12}$?
+> When you see square roots ($\sqrt{}$) in audio engineering or DSP (Digital Signal Processing), it typically represents a **half-step mapping** or a **bandwidth constraint**:
+> 
+> *   **Moving Half an Octave:** Mathematically, $2^{(6/12)}$ simplifies to $2^{(1/2)}$, which is the **square root of 2** ($\sqrt{2} \approx 1.414$). Moving up exactly half an octave (a musical tritone interval) means multiplying the frequency by $\sqrt{2}$.
+> *   **Audio Filters and Crossovers:** In acoustic engineering, formulas like $\sqrt{f_1 \cdot f_2}$ are used to find the "geometric center frequency" of an **octave band filter**.
+> 
+> ## Summary Table
+> 
+> | **Term** | **What it is** | **Math Context** |
+> |---|---|---|
+> | **Frequency** | Physical speed of pitch vibrations (Hz) | The resulting output of the equation |
+> | **Octave** | Sound doubling interval | Represented by the base number **$2$** in the exponential equation |
+> | **$n$ or Value** | Number of semitone steps moved | The input variable changing the final pitch exponent |
+
+---
+
+# Laegna Octaves, Frequencies and Values
+
+Normally, we count them this way:
+- Octave is counted in full steps such as 1=440Hz, 2=880Hz etc.
+  - Octaves in frequencies look like this: 1=A, 2=E, 3=EE, 4=EEEE, 5=EEEE EEEE.
+  - Octaves in octaves look like this: 1=A, 2=E, 3=EA, 4=EE, 5=EAA, 6=EAE, 7=EEA, 8=EEE, 9=EAAA:
+    - Octave is space, while frequency is time:
+      - Space is time squared, thus it's expression is converting number length into it's digit value - in Laegna we call this "one octave down" most normally, in most standard octaves (because if you change the math, you often end up in same digits).
+
+- Frequency is counted in precision substeps such as 1=440, 13 or 17 (number after last) = 880.
+  - Frequencies in frequencies look like this: 1=A, 2=E, 3=EE, 4=EEEE, 5=EEEE EEEE.
+  - Frequencies in octaves look like this (here, octave is divided into 4): 1=Ai, 2=Ao, 3=Aa, 4=Ae; if number is converted to spatial expression, the temporal one (the remaining part of full number) remains after comma - Ai to Ae is basically A.0 to A.(9), equal to A to E, thus depending on format after comma, octave is divided to pieces.
+
+Frequency, most normally if 1 / value - frequency 2 gives value 0.5, frequency 4 gives value 0.25. This is the repeating length.
+
+In Laegna this is not so trivial:
+- Instead, we have numbers counting from up or down:
+  - Top-down numbers count from up, spiritually in Yang:
+    - E=100% (4); A=75% (3), O=25% or 50% (2), I = 0% or 25% (1).
+      - Notice we might omit 0.5, or make numbers linear either in basin0 or basin1 (basin0 - I to E is 0 to 3, basin1 - I to E is 1 to 4).
+    - Counting from top to bottom in topdown model "basin0":
+      - Means that new digits come *inwards* - if first digit is 25% to 100%, then previous digit is 400% to the same 100%, so EE is 400% and the same 100% inside, makes 300% + 100%, makes 16; BUT: to make it COMPLETELY top-down, we can have it in percentage: EE% is 100%, because the 16 is divided by 4 - equivalently to Ee, first digit is the wholes digit and next digit approximate inwards. This is what **value** means in Laegna - indeed, it's one octave down or two, from frequencies.
+  - Bottom up numbers count from bottom, materially in Yin:
+    - E=4, A=3, O=2, I=1; or in basin-0 from 3 to 0, or in basin0.5 not having 3, counting from 1, 2, 4, 5.
+    - Notice if we add digits here, EE is 16, and completely 16:
+      - As this grows upwards, we count *octaves* here.
+
+This is the whole Laegna conception except:
+- Frequencies are often used to count numbers, not repetitions. As above so below - as you can see Laegna *does not* make value minus and frequency plus, but it decides to be higher rank than this minus and plus - each of three, at least opposed normally, are same-directional, which makes use of this language:
+  - Z: *value*.
+  - X: ***frequency***.
+  - Y: **octave**.
+  - In Laegna: Z, X, Y are completely playable, so while this three is etalon symmetry, you can construct all kinds of other things.
+
+What is below 1:
+- In decimal system, unless you use mantissa for unit, the sub-1 precision is always equal and by this, you cannot easily count real numbers.
+- In Laegna, precision grows with equal speed in two ways:
+  - Over 1, with 1 digit precision is 2, with 2 digits 4 etc.
+  - Under 1, with 1 digit precision is ||0.5||, with 2 digits ||0.25|| etc. - use "||" for vector or 2nd-rank absolute, where absolute is not addition-subtraction distance from 0, but multiplication-division distance from 1.
+
+This whole thing was discrete, but it can be continuous:
+- Value: a number. unit.
+- Frequency: $2^{number}$, $4^{number}$ - basin-A and basin-E, 1 or 2 band octaves.
+- Octave: ${number}^2$, ${number}^4$ - basin-A and basin-E, 1 or 2 band octaves.
+- Notice that this writing in Laegna number digits is so symmetric and linear in conversion to operations as given before, that it's used almost interchangeably in language - basically, because you need to convert units to Basin-0 for the previous, more linear writing, or Basin-1 from this one of higher math; first and second order octaves are these two types of numbers whose mathematics can be different.
+
+Basin 0.5:
+- *Z*: ${Value}^0$ - this is the value which is always "1".
+- ***X***: ${Value}^1$ - this is the frequency which is growing linearly.
+- **Y**: ${Value}^2$ - this is the octave which is growing "exponentially".
+- Value is always 1 is acceptable because:
+  - This is the form ${scalar}^{mantissa}$ ${unit}^{mantissa}$
+    - Value 0, 1 or 2 goes to mantissa.
+    - Unit decides the internal (*Z*) curvature underthreshold, while mantissa decides the directional (**X**) curvature linear, and value decides the actual 2nd order or external curvature in relation to 1st order curvature - as you make it bigger, you come closer to *external* end in logarithmic speed.
+
+These three representations which all convert to Z, X, Y are basin for Laegna Musical Theory:
+- Laegna is based on visual and auditory thinking.
+- Some people see my words "frequencies", "octaves" as referring to some kind of symbolical magic or fake science, because some people "use these in random places":
+  - For real, for auditory thinking to understand relations of these things, and how they model the world, is exactly the same as use of images, symbols and visual relations for visual, or semantics, expressions and syntax for abstract thinkers. I am studied to utilize each modus.
+
