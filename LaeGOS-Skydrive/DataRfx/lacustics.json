@@ -902,5 +902,339 @@
 
     "hologram-role":
       "The reflected band provides continuity below octave origin and allows traversal through octave zero in linearized musical coordinates."
+  },
+
+  "laegnaNoteMap": {
+
+    "OI": 1,
+    "OO": 2,
+    "OA": 3,
+    "OE": 4,
+
+    "AI": 5,
+    "AO": 6,
+    "AA": 7,
+    "AE": 8,
+
+    "EI": 9,
+    "EO": 10,
+    "EA": 11,
+    "EE": 12,
+
+    "Iz": 1,
+    "Ix": 2,
+    "Iy": 3,
+    "Oz": 4,
+
+    "Ox": 5,
+    "Oy": 6,
+    "Az": 7,
+    "Ax": 8,
+
+    "Ay": 9,
+    "Ez": 10,
+    "Ex": 11,
+    "Ey": 12,
+
+    "zI": 1,
+    "zO": 2,
+    "zA": 3,
+    "zE": 4,
+
+    "xI": 5,
+    "xO": 6,
+    "xA": 7,
+    "xE": 8,
+
+    "yI": 9,
+    "yO": 10,
+    "yA": 11,
+    "yE": 12
+  },
+
+  "laegnaHexadecimalMusicMap": {
+
+    "L": "II",
+    "I": "IO",
+    "J": "IA",
+    "K": "IE",
+
+    "R": "OI",
+    "O": "OO",
+    "P": "OA",
+    "Q": "OE",
+
+    "D": "AI",
+    "A": "AO",
+    "B": "AA",
+    "C": "AE",
+
+    "H": "EI",
+    "E": "EO",
+    "F": "EA",
+    "G": "EE"
+  },
+
+  "laegnaOctaveFlow": {
+
+    "previous-octave": [
+      "II",
+      "IO",
+      "IA",
+      "IE"
+    ],
+
+    "current-octave": [
+      "OI",
+      "OO",
+      "OA",
+      "OE",
+      "AI",
+      "AO",
+      "AA",
+      "AE",
+      "EI",
+      "EO",
+      "EA",
+      "EE"
+    ],
+
+    "next-octave-root": "OI",
+
+    "flow": [
+      "II",
+      "IO",
+      "IA",
+      "IE",
+      "OI",
+      "OO",
+      "OA",
+      "OE",
+      "AI",
+      "AO",
+      "AA",
+      "AE",
+      "EI",
+      "EO",
+      "EA",
+      "EE",
+      "OI"
+    ]
+  },
+
+  "laegnaMusicalCoordinates": {
+
+    "II": { "domain": -1, "position": 0 },
+    "IO": { "domain": -1, "position": 1 },
+    "IA": { "domain": -1, "position": 2 },
+    "IE": { "domain": -1, "position": 3 },
+
+    "OI": { "domain": 0, "position": 0 },
+    "OO": { "domain": 0, "position": 1 },
+    "OA": { "domain": 0, "position": 2 },
+    "OE": { "domain": 0, "position": 3 },
+
+    "AI": { "domain": 1, "position": 0 },
+    "AO": { "domain": 1, "position": 1 },
+    "AA": { "domain": 1, "position": 2 },
+    "AE": { "domain": 1, "position": 3 },
+
+    "EI": { "domain": 2, "position": 0 },
+    "EO": { "domain": 2, "position": 1 },
+    "EA": { "domain": 2, "position": 2 },
+    "EE": { "domain": 2, "position": 3 }
+  },
+
+  "laegnaMusicalRelations": {
+
+    "II": {
+      "previous": "IE",
+      "next": "IO",
+      "reference": "OI",
+      "hex": "L"
+    },
+
+    "IO": {
+      "previous": "II",
+      "next": "IA",
+      "reference": "OO",
+      "hex": "I"
+    },
+
+    "IA": {
+      "previous": "IO",
+      "next": "IE",
+      "reference": "OA",
+      "hex": "J"
+    },
+
+    "IE": {
+      "previous": "IA",
+      "next": "OI",
+      "reference": "OE",
+      "hex": "K"
+    },
+
+    "OI": {
+      "previous": "IE",
+      "next": "OO",
+      "reflection": "II",
+      "hex": "R"
+    },
+
+    "OO": {
+      "previous": "OI",
+      "next": "OA",
+      "reflection": "IO",
+      "hex": "O"
+    },
+
+    "OA": {
+      "previous": "OO",
+      "next": "OE",
+      "reflection": "IA",
+      "hex": "P"
+    },
+
+    "OE": {
+      "previous": "OA",
+      "next": "AI",
+      "reflection": "IE",
+      "hex": "Q"
+    },
+
+    "AI": {
+      "previous": "OE",
+      "next": "AO",
+      "hex": "D"
+    },
+
+    "AO": {
+      "previous": "AI",
+      "next": "AA",
+      "hex": "A"
+    },
+
+    "AA": {
+      "previous": "AO",
+      "next": "AE",
+      "hex": "B"
+    },
+
+    "AE": {
+      "previous": "AA",
+      "next": "EI",
+      "hex": "C"
+    },
+
+    "EI": {
+      "previous": "AE",
+      "next": "EO",
+      "hex": "H"
+    },
+
+    "EO": {
+      "previous": "EI",
+      "next": "EA",
+      "hex": "E"
+    },
+
+    "EA": {
+      "previous": "EO",
+      "next": "EE",
+      "hex": "F"
+    },
+
+    "EE": {
+      "previous": "EA",
+      "next": "OI",
+      "hex": "G"
+    }
+  },
+
+  "laegnaMusicalMatrix": [
+    ["L", "I", "J", "K"],
+    ["R", "O", "P", "Q"],
+    ["D", "A", "B", "C"],
+    ["H", "E", "F", "G"]
+  ],
+
+  "laegnaMusicalMatrixLinearized": [
+    ["II", "IO", "IA", "IE"],
+    ["OI", "OO", "OA", "OE"],
+    ["AI", "AO", "AA", "AE"],
+    ["EI", "EO", "EA", "EE"]
+  ],
+
+  "laegnaMusicalMatrixIOAEZXY": [
+    ["Ii", "Io", "Ia", "Ie"],
+    ["Iz", "Ix", "Iy", "Oz"],
+    ["Ox", "Oy", "Az", "Ax"],
+    ["Ay", "Ez", "Ex", "Ey"]
+  ],
+
+  "laegnaMusicalMatrixZXYIOAE": [
+    ["iI", "iO", "iA", "iE"],
+    ["zI", "zO", "zA", "zE"],
+    ["xI", "xO", "xA", "xE"],
+    ["yI", "yO", "yA", "yE"]
+  ],
+
+  "laegnaMusicalDomains": {
+
+    "reflection": {
+      "symbol": "I",
+      "notes": ["II", "IO", "IA", "IE"],
+      "hex": ["L", "I", "J", "K"]
+    },
+
+    "o-domain": {
+      "symbol": "O",
+      "notes": ["OI", "OO", "OA", "OE"],
+      "hex": ["R", "O", "P", "Q"]
+    },
+
+    "a-domain": {
+      "symbol": "A",
+      "notes": ["AI", "AO", "AA", "AE"],
+      "hex": ["D", "A", "B", "C"]
+    },
+
+    "e-domain": {
+      "symbol": "E",
+      "notes": ["EI", "EO", "EA", "EE"],
+      "hex": ["H", "E", "F", "G"]
+    }
+  },
+
+  "laegnaMusicalForms": {
+
+    "linearized": [
+      "II","IO","IA","IE",
+      "OI","OO","OA","OE",
+      "AI","AO","AA","AE",
+      "EI","EO","EA","EE"
+    ],
+
+    "hexadecimal": [
+      "L","I","J","K",
+      "R","O","P","Q",
+      "D","A","B","C",
+      "H","E","F","G"
+    ],
+
+    "ioae-zxy": [
+      "Ii","Io","Ia","Ie",
+      "Iz","Ix","Iy","Oz",
+      "Ox","Oy","Az","Ax",
+      "Ay","Ez","Ex","Ey"
+    ],
+
+    "zxy-ioae": [
+      "iI","iO","iA","iE",
+      "zI","zO","zA","zE",
+      "xI","xO","xA","xE",
+      "yI","yO","yA","yE"
+    ]
   }
 }
