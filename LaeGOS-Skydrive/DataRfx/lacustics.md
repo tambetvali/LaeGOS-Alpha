@@ -185,3 +185,151 @@ These three representations which all convert to Z, X, Y are basin for Laegna Mu
 - Some people see my words "frequencies", "octaves" as referring to some kind of symbolical magic or fake science, because some people "use these in random places":
   - For real, for auditory thinking to understand relations of these things, and how they model the world, is exactly the same as use of images, symbols and visual relations for visual, or semantics, expressions and syntax for abstract thinkers. I am studied to utilize each modus.
 
+# 440 - the Laegna interpretation.
+
+We have various Laegna Rank Theories around which state:
+- External ranks are counted in trailing zeroes:
+  - Order 1 (Life-close) linear for:
+    - Unit of years and other units: 1 = Animal; 10 = Human; 100 = Family / Tradition; 1000 = Civilization.
+      - 1, 0.1, 0.01, 0.001 - such relation can compare $H_int$ and $H_ext$, so if number is scaled down to it's vector opposite the original scale might become external scale - this is often visible in ranked decimal numbers.
+      - This is hidden complexity: changing unit to those degrees changes hidden complexity.
+      - 1, 2, 3, 4: a linear count which occurs at Octave 0.
+        - Multiplied by 1, 2, 3, 4 or 1, 2, 4, 8 etc for 2-based channel.
+  - Order 2 (Observable Universe):
+    - Unit of light years and other units:
+      - Light year vs. year raises the internal complexity.
+      - 0=1, 1=10, 2=1 00 00, 3=1 000 000 000, 4=1 0000 0000 0000 0000
+      - This is multiplied with binary-same order:
+        - 0=1, 1=2, 2=4, 3=16, 4=64, 256 or other.
+  - Order 3 (Non Observable Universe):
+    - Unit of 10 ^ 16, multiplied by 1, 16 or other number, of light years for example. Except, that it's not really an unit - 1o, where o is order 3 unit, is 10^16 ly; o * o, now replaces o + o; o + o or 2o is octave normally, but o * o is octave now - in higher rank operation, the internal complexity gets the plus above, into multiplication below, so that if it grows linearly, the unit component is not completely internal, but it *grows exponentially then like a lower channel*.
+      - In visible, if f is order 2 unit, and o is order 3 unit, in terms of themselves they have same numbers for 5 orders.
+        - Really, while the binary might repeat as lower channel which *still* might count as original order 1, 2, 4 etc., the exponent part outside looks the same (1, 10, 10000 etc. for 0, 1, 2), but what it really is:
+          - 1, 00 00, 00 00, 00 00, 00 00 - 16 zeroes are first grouped like this. For next steps, length of each group is multiplied by two, and number of groups is multiplied by two: if order 2 is 10^(f\*f), where f is the rank of frequency, then order 4 starts from 1 rank up and becomes 10^(f\*f\*f\*f). Rank 1 might or might not start from zero, but counts 10^(f).
+
+We can see this:
+- Ranks 1, 2, 3 of growth with complexities 1, 2, 4 (how many v's and f's and o's are multiplied).
+  - We measure it with certain rank of octaves.
+  - Frequently, different growth ratios are mixed.
+- This growth is spatial, already, because adding zeroes roughly grows R even in decimal system and gives many rank compabilities:
+  - 1, 10, 100 - these do not count like 1, 2, 3, which grow temporarly, but each adds whole new scope of values, or dimension, for which we can use each digit now, and thus grows spatially like a domain and not like it's member.
+    - Thus, the spatial part is number of components in it's mantissa multiplication, which decides *external* dimensions because the mantissa itself is exponent-linearized by nature and already; so multiplying it's count by 2, spatially grows into *next power of it's dimension*, around number 3 and 0 as ranks. We see that scoped 3 or 4 dimensions (number of zeroes) and 3 or 4 superdimensions (number of their multiplications) give us *externally* a quite linear number, worth two dimensions - thus, we can use single Laegna Hex number to write any of these most important ranks of 4\*4 or 5\*5 digits in base-4 of laegna or compound base-5 of decimal / basin-5 of laegna (let's use word "basin" to express, that it's completely the externness of 5).
+      - Now we see working back from logarithms and exponents, we get 2-dimensional, actually 2-band externality-linear measure, a spatial attitude.
+     
+- (0), 1, 2, 4, (8), 16: grow normally as they are temporal, and each doubling counts an octave.
+
+Now what is 4.4 and 440?
+
+In Laegna, they are composed like this:
+- 4.4 has basin unit 10, which makes up two bands - 10 and 0.1.
+  - 4 itself is 2*2, external basin for this system.
+  - We can see two channels 10 = IE and 0.1 = OA are configured, both assigned "4":
+    - 4 is value E, 4, in unsigned laegna numbers: 40 and 400 both are *full* ranges.
+    - 4 is value E, 2, in signed laegna numbers: 40 and 400 both are *half* ranges.
+
+- 440:
+  - 10 is spatial 2nd rank with 4 being temporal 2nd;
+    - 100 is spatial 3rd rank with 4 being temporal 2nd;
+      - Two metaoctaves must have same amplitude, same frequency - octaves d10 and d100 (d means base-dec, base-10); both have frequency 4 which is either four, or doubled 2.
+     
+Theory:
+- [Doubling of 2](https://github.com/tambetvali/LaeArve/blob/main/Books/ClassicTraditions/LeonorPlusAndMinus.md) - why 4 might mean 2 for 1st-order spaces, such as 1, 10, 100 and 1000 in linear (Z or X) ranks.
+- [Algorithm Consciousness](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/TerminalMode/AlgorithmConsciousness.md) - there are several texts with this name around Laegna; each gives you the basic reasoning about basic ranks in various systems; to understand basics of these counters in Physics, second order spatiality, one can read more or less any of them; or this specific one.
+
+## Laegna Number Systems for 440
+
+If we use O and A:
+- A - there is 440 Hz sound.
+- O - there is no 440 Hz sound.
+
+If we use I, O, A, E for two channels:
+- Vertically silence-up:
+  - E: 400 + 40 = 440.
+  - A: 400 = 400.
+  - O: 40 = 40.
+  - I: silence = silence.
+- Horizontally between-bands:
+  - E: 400 + 40 = 440.
+  - A: 100 + 10 = 110.
+  - O: 4 + 40 = 88.
+  - I: 4 + 4 = 8.
+
+What is the reason for division by 2?
+- 440 is full frequency;
+  - 220 is actually already previous octave not half of this frequency - but exact zero;
+    - Thus, that it spans 220, 200 + 20, and half octaves spans 100 + 10, is more realistic.
+    - If 220, 200 + 20, is the center, then *it itself* counts 100 + 100 and 10 + 10 into plus and minus from center.
+
+Combined number is hexadecimal:
+- Of hex number:
+  - First band decides the spatiality, whether 100 or 10 is there for two spatial bands.
+  - Second band decides the temporality, whether 100 or 4 in one, 10 or 4 in other are there.
+
+There is one more hexadecimal presentation:
+- We have Laegna way of dividing spatial growth to 2.5 parts to achieve decimal emulation;
+  - This takes 1 b4 digit for whole 20 span 5+5+5+5 deciding which 5, and 1 digit for every subspan to differentiate 4 in the group;
+    - 1 digit is efficiently free.
+    - This counts through 20's and *knows the major bit of this 2 which was divided by two*:
+      - 2 as component, initial four, now has one bit and we add one bit to make it countable like 1, 2, 3, 4 in every octave.
+- This means the note in the score is very perfectly fourier-decomposed here in spatial and temporal aspect, and Laegna can express the major two-octave-spanning temporarly and spatially, notes on music score.
+
+Why a note should span 2 actual octaves itself?
+
+Because zero is one - it can instead of single spot, track for a harmonic effect of two suboctaves, spatially and temporarly; 2\*2 table of spatiality and value, each of four cells 0 or 1, gives one hex number able to express this thing minimally; two hex numbers express it in it's own and internal precision.
+
+## Scores
+
+First naming:
+- zI 1
+- zO 2
+- zA 3
+- zE 4
+- xI 5
+- xO 6
+- xA 7
+- xE 8
+- yI 9
+- yO 10
+- yA 11
+- yE 12
+
+Second naming:
+- Iz 1
+- Ix 2
+- Iy 3
+- Oz 4
+- Ox 5
+- Oy 6
+- Az 7
+- Ax 8
+- Ay 9
+- Ez 10
+- Ex 11
+- Ey 12
+
+Third naming:
+- Linearized zone at beginning as I:
+  - II - 0.0
+    - One smallcase precision digit can be added to go precise with previous octave.
+  - IO - 0.25
+  - IA - 0.5
+  - IE - 0.75
+- OI 1
+- OO 2
+- OA 3
+- OE 4
+- AI 5
+- AO 6
+- AA 7
+- AE 8
+- EI 9
+- EO 10
+- EA 11
+- EE 12
+
+In third naming, I gives previous octave:
+- Octaves, here, can be linearized to rank them through zero at given precision.
+- On Hologram, the logarithm-linearized dimension below does what I told about linearizing of space under 1; it makes them travellable with equal precision. We can see *this actually meets the view inside octave, giving another parallel*, and that *when plus and minus become higher-rank sign, we travel over this*, and that *in Laegna, zone below 1 can have different growth ratio, which is now logarithm-linearized*.
+  - With every R, changed octave and frequency, zero moves around - it's either unreachable, or becomes ranked digit and overcomable.
+
+This allows the construction of Laegna musical score in numbers.
