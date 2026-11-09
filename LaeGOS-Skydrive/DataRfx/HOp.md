@@ -1084,11 +1084,7 @@ Its multiplication naturally relates a previous scale to the next one.
 Use the matrix:
 
 $$
-M=
-\begin{pmatrix}
-0&1\\
-1&1
-\end{pmatrix}
+M=\begin{pmatrix} 0&1\\ 1&1 \end{pmatrix}
 $$
 
 Repeated multiplication produces Fibonacci growth.
@@ -1096,42 +1092,15 @@ Repeated multiplication produces Fibonacci growth.
 For example:
 
 $$
-M
-\begin{pmatrix}
-1\\
-1
-\end{pmatrix}
-=
-\begin{pmatrix}
-1\\
-2
-\end{pmatrix}
+M\begin{pmatrix} 1\\ 1 \end{pmatrix} = \begin{pmatrix} 1\\ 2 \end{pmatrix}
 $$
 
 $$
-M
-\begin{pmatrix}
-1\\
-2
-\end{pmatrix}
-=
-\begin{pmatrix}
-2\\
-3
-\end{pmatrix}
+M\begin{pmatrix} 1\\ 2 \end{pmatrix} = \begin{pmatrix} 2\\ 3 \end{pmatrix}
 $$
 
 $$
-M
-\begin{pmatrix}
-2\\
-3
-\end{pmatrix}
-=
-\begin{pmatrix}
-3\\
-5
-\end{pmatrix}
+M \begin{pmatrix} 2\\ 3 \end{pmatrix} = \begin{pmatrix} 3\\ 5 \end{pmatrix}
 $$
 
 And subsequently:
