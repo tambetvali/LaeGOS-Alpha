@@ -138,3 +138,36 @@ Normally, i is either +0 (infinitesimal, planck unit) or +1 (one, newtonian star
 - -1: subcontiinum rank **z**. You can also call it rank -1.
 - +0: continuous rank **x**. You can also call it rank 0.
 - +1: discrete rank **y**. You can also call it rank 1.
+
+---
+
+Theory of Relativity.
+
+Laegna number is like:
+- Light starting from zero;
+  - Or mass compressing space to zero.
+
+Bits coming inside is entropy - same happens on $H_ext$ is spacetime hologram expansion?
+
+Now, each digit is under next digit:
+- E - E is digit. Adding small-caps precision digits goes to infinity inside.
+- II / AI - but this is signed or unsigned next number after boundary E, EE, EEE - and this next number is infinitesimal of size of last number, it's how it appears from *outwards* - 0=1, but not it's projection, in this structural sense.
+
+So we can project digit passing or space collapsing, and measuring the curvature growth - directional, or outside-in.
+
+The number is function of t and s:
+- 1^n(t=2) cm^2 - assign t, spatial growth. Speed of Light.
+- 1^n(s=2) cm^2 - assign s, spatial collapse. Speed of Darkness, Gravity.
+- 1^n(2) number in planck units at least, equal to both - each given parameter uses the normalization, but separating s or t is informative; depending on units - normally, number units are planck-type in their own logic.
+
+This curvature is passing from zero further:
+- But one can pass backwards.
+
+Now:
+- In Laegna, because infinities and zeroes are numeric linearities;
+  - We just give two numbers and measure the curvature, and for example both as observer and observed.
+    - Observer and observed curvatures in Laegna units - just opposites, like +a and -a.
+    - Other things make them even more symmetric in every sense.
+
+From curvature backwards:
+- We can look, from side, how number ranks below zero, and how linearity continues at each frequency (scale). This reasons for example, why +1 in degrees shows up as 0..1, which needs to be quadratic log-linearized dimension for precision; but -1 in degrees becomes whole -0 to -4, because the negation of truth gives many lies - just 2\*2 in regards to 1. Same way, negative length is way longer, one 2nd rank rank worth.
