@@ -1,3 +1,7 @@
+![StoryModulus](Imagery/StoryModulus.png)
+
+<br>
+
 I asked CoPilot, that as I updated lacustics.md, I also need some back-up in this longer article (as you see I use "human-readable" names for these, so you can mentally filter them out if looking for plain data and it's minimal docs available in simple-filenamed files):
 
 > In what is below, I added top-down and bottom-up dimensions, and explanations of visual vs. auditory thinking and how both are full-power modes in converible quality and scope, one in time and other in space. I used to be more of visual, but now I am more balanced as I understand the flow of these realms more. Can you give an md code block article, explain it all, and also the hologram of half-scoped and how this relates to physical sound wave vs. light wave or other waves, either in virtualization or in some of their real relations or property-relations, which is rather virtual?
@@ -210,6 +214,8 @@ Both can represent the same informational complexity.
 ---
 
 # The Hologram Principle
+
+![StoryMathecs](Imagery/StoryMathecs.png)
 
 In a hologram:
 
