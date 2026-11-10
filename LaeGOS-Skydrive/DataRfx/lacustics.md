@@ -279,6 +279,69 @@ Because zero is one - it can instead of single spot, track for a harmonic effect
 
 ## Scores
 
+The scores have two naming mechanisms:
+- One puts the threes to higher, fours to lower position:
+  - Counting like this is top-down vision, where external is projected to higher band.
+- One puts the fours to higher, threes to lower position:
+  - Counting like this is bottom-up vision, where imagination of exponent might appear in logarithmic head of actor of such Universe;
+    - i.e. if you put the three *inside*, then as three is symmetric to space as odd domain, while four is even domain - odd and even domains are straight one in every second, other in ones between, integral or differential.
+
+What this changes?
+- It's transposing the higher and lower band of *spatiality*, because frequency-octave measures in Laegna are first half-spatial, other full-spatial; but like classic music theory, both are measured in octave-linear single space, and octavian projection of both is more common in this tradition which we can often follow.
+
+Number itself is channel-transposed of IOAE becomes OIEA, which makes it a diagonal number instantly.
+- Matrix becomes diagonal matrix this way.
+- Because digit is Laegna "world model", to traversal the worlds we often change digits, but we do this conventionally - 2, 4, 16 based, rank based and internal-external-symmetric projections are still quite critical if one wants to take an aggregator to decide their world object's general value.
+
+Naturally, this space-transaction is based on idea that these conversions *project* into this as imaginary-real, and real-imaginary switch;
+- Laegna, is able to describe space curvature as rotation between those channels in every temporal, second-order octave;
+  - While the rotation then, is next-order parallel to normal wave in spatial, first-order spaces of waves themselves not just the curvature of space they travel.
+- This in turn, to see this rotation clearly, is a strong reason to believe that one wants these basic two types of numbers interchangeably and co-usably, in different form; trivially, having these as opposition angulars, one can project whole circle, for example because Laegna Digit Space is known in terms of affine transformations and such things, it's first order members and their natural zeroes, infinities, and coordinates. They can yet, rotate around each other in various ways.
+
+Most common rotation:
+- Imagine a Sphere.
+- Project Laegna numbers on Sphere: [laGEOsis](https://github.com/tambetvali/laGEOsis).
+- At north and south pole, there are I and E, in their diagonal space, perfectly vertical in alignment;
+  - Traversal from I to E, exactly at half, splits to O and A to left and right, twice longer of I/E distance in this lower-octave reality.
+  - Noticing this, one constructs base-16, $base_{4_{4}}$ symmetries:
+    - O and A as there are four-fold positions for these two letters, in this higher octave, are added one layer of complexity outwards, so that it becomes 8 in step of 2. This is equator.
+    - I and E, the poles, split it to two in two-fold traversal of shortest line from south to north pole:
+      - This is 2; we divide it into four equal parts as well so we got 2 made of four halves, 0.5's.
+    - Now divide the spatial complexity by two to make it planarly-projectible, at least to our little bit idealized geometry:
+      - 2 becomes 1, which is one rank down or one octave down 2.
+      - 0.5 becomes 1, which is one rank down it's negative complexity.
+      - 8 becomes 4.
+      - We got ranked zero of matrix here - downwards complexity, if it's only twice (square unit, such as $0.25 {cm}^2$), so at 0.25 instead of 0.5, it *still just turned downwards in matrix, in vector relation to it's zero*.
+      - 0.5 becomes 0.25.
+     - Results:
+       - I, O, A, E: base-4 only keeps the higher band;
+         - Or one can take averages of two high-band, two low-band bits in each case, and form base-4 two band complexity-reduced number (reducing band complexity is equal to reducing dimensional complexity, i.e. dimensional reduction and expansion, but in channel space and not dimension space - one exists in time, other in space).
+       - Base-8 hase:
+         - 1, 2, 3, 4, 5, 6, 7, 8
+         - 0, 0.25, 0.5, 0.75, 1, 2, 3, 4.
+         - Or: 0.25, 0.5, 0.75, 1, 1, 2, 3, 4.
+           - This appears more naturally and this is why I say 14 means from 1 to 4, but 48 means from 5 to 8 - because the first zero is actually *proper number*, and the last eight is *square of it*, but 5 becomes *something irrational which looks like infinitesimal*, so I cannot just vocally put those letters together, actually from my auditory thinking - it's impossible to associate sound of 58, with anything, even the shape; while 48 is half eight and full eight - what is (1 + 1/4) / 2 of 8 is 5, and saying 58 *I make long chain of ugly calculus to understand it at all*, while 48 is simply 2^2 and 2^3, and 8 divides by two giving 4 - and in all this, equally numeric "1".
+           - But in this example I made 1 become 0, actually meaning plus infinitesimal, which is continuous shape of the same thing.
+
+And repeating the idea:
+- Maybe, sound is normal wave in space in this phase, at integrals somewhere between ranked signs, where:
+  - $H_int$ is halved by it's size, then $H_ext$ is projected to it's higher half in exponent-linearized fashion; new $H_ext$ now is magnitude larger.
+  - The resulting wave shape is normal hologram, in terms of having internal-external window halved and thus, capability of virtualization to a degree.
+    - This makes it sound.
+
+What to do if it's not so?
+- But we can use this projection and it's compatible with this *information complexity* of separating two wave forms, and virtually still having 3 *inside* the commonly used system, which is actually not typical with physical systems - 3, as a number, is most easy to map to *scales* or *spatial dimensions on linear scale*, but very hard to it's complexity itself.
+  - For sound, the $H_ext$ of the new system is long-term, intermeditate-term and short-term projection of the same sound wave, whose unitary dimension needs window into it's changes in future and past; where in sound, major scales are dimensions - they map exactly, like complex number to exponent $e^x$ or logarithm $log(x)$, in various ways, and also to 2D space; $H_ext$ - this is more or less a dimension, which appears anyway.
+  - Sound is also a hologram of space:
+    - If we move our hears through various points, and can recover spatial information in each point, as we don't carry the wave with us:
+      - We can see all these points correspond to spatial and temporal information, and have sound memory (echoes, vibrational synchronicities and dissynchronicities which exist in lasting moment, rather than point of space).
+        - This internal int and ext absorbs the parallels from it's higher-scope int and ext.
+
+I Laegna I promise you: this all gets just linear.
+- Laegna number is *not aware* whether it's projecting scalars or dimensions, in it's essential operations, altough conventionally one uses Z, X, Y for ranked scales and X, Y, Z in classic way for 3D dimensions;
+  - What I mean by "not aware":
+    - Any differences in visible operations are not defined, so only an unit can express that.
+
 First naming:
 - zI 1
 - zO 2
