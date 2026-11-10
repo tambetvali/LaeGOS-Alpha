@@ -1,3 +1,50 @@
+Planned use of this folder and it's content:
+- This folder is used ARAP, not necessarily in every part of the application.
+- LaeChing with 64 hexagrams and other symbols are symbolic data which is hard to collect and organize:
+  - The script will most definitely use either laegna.json file for this purpose, and/or tables copied from this file.
+- Keyboards, on the other hand, are very systematic with various parameters:
+  - Just reading numbered digit values from laegna.json is not always very efficient;
+  - Rather, which is efficient, is reading the file once the keyboards are there, and utilizing colors, symbols, etc.
+  - Json also then-allows custom addition of tags, which are easily accessible in script.
+
+What is the secondary but main purpose of files in this folder are:
+- Users can collect systematic, minimalist information of Laegna numerical basin while they need to develop apps to the OS etc.:
+  - They do not lack essential information, and once they add it, they can make it available for everyone in standard format.
+- Programs can load the json data directly.
+- Last but far from least:
+  - CoPilot and other AI's just arranged simple sequence I, O, A, E into nonsense initially, as if it was random pattern;
+    - After adding number data jsons, they suddenly and all understood the letters even without repo link: altough they are not trained meanwhile, but they are somehow up to date inside those terms.
+    - So, adding these basic files helps to keep one repository, which can be added to your document collection or uploaded to AI each time you discuss topic in this specific file.
+
+---
+
+The hardest to remember and recollect part of these files is thereby brough also here - it's the binary order of I Ching, because 64 symbols (a lot) are ordered in *non-binary order* in I Ching, with major holographic oppositions first, symbols with little differences last. Altough he describes the binary logic and has trigrams, indeed, arranged exactly in their binary order, which makes them easier to implement - but they are still brought here as second table. Purpose of table is simple copy-paste.
+
+Add and multiply 4*4 squares.
+
+|    | 💙 Multiply ×              | 💚 Add +                  | ❤️ Subtract -            | 💛 Divide ÷                |
+|----|----------------------------|----------------------------|---------------------------|----------------------------|
+| 🔵 | 🟦䷀ ‖ 🟩䷫ ‖ 🟥䷌ ‖ 🟨䷠ | 🟦䷍ ‖ 🟩䷱ ‖ 🟥䷝ ‖ 🟨䷷ | 🟦䷪ ‖ 🟩䷛ ‖ 🟥䷰ ‖ 🟨䷞ | 🟦䷡ ‖ 🟩䷟ ‖ 🟥䷶ ‖ 🟨䷽ |
+| 🟢 | 🟦䷉ ‖ 🟩䷅ ‖ 🟥䷘ ‖ 🟨䷋ | 🟦䷥ ‖ 🟩䷿ ‖ 🟥䷔ ‖ 🟨䷢ | 🟦䷹ ‖ 🟩䷮ ‖ 🟥䷐ ‖ 🟨䷬ | 🟦䷵ ‖ 🟩䷧ ‖ 🟥䷲ ‖ 🟨䷏ |
+| 🔴 | 🟦䷈ ‖ 🟩䷸ ‖ 🟥䷤ ‖ 🟨䷴ | 🟦䷙ ‖ 🟩䷑ ‖ 🟥䷕ ‖ 🟨䷳ | 🟦䷄ ‖ 🟩䷯ ‖ 🟥䷾ ‖ 🟨䷦ | 🟦䷊ ‖ 🟩䷭ ‖ 🟥䷣ ‖ 🟨䷎ |
+| 🟡 | 🟦䷼ ‖ 🟩䷺ ‖ 🟥䷩ ‖ 🟨䷓ | 🟦䷨ ‖ 🟩䷃ ‖ 🟥䷚ ‖ 🟨䷖ | 🟦䷻ ‖ 🟩䷜ ‖ 🟥䷂ ‖ 🟨䷇ | 🟦䷒ ‖ 🟩䷆ ‖ 🟥䷗ ‖ 🟨䷁ |
+
+|            | Trigram | Orig.   | Original Bagua position |
+|------------|---------|---------|-------------------------|
+| 🟦Heaven   | ☰       | Qián 乾 | Northwest               |
+| 🟩Wind     | ☴       | Xùn 巽  | Southeast               |
+| 🟥Fire     | ☲       | Lí 離   | South                   |
+| 🟨Mountain | ☶       | Gèn 艮  | Northeast               |
+| 🔵Lake     | ☱       | Duì 兌  | West                    |
+| 🟢Water    | ☵       | Kǎn 坎  | North                   |
+| 🔴Thunder  | ☳       | Zhèn 震 | East                    |
+| 🟡Earth    | ☷       | Kūn 坤  | Southwest               |
+
+These tables continue:
+- [I Ching](iching.md)
+
+---
+
 This folder is for abstract data files.
 
 If `DataGfx` stands for **Graphics Data** (Visuals/Images), then a `DataRfx` folder containing JSON files with numeric data represents **Render Effects**, **Radars/Radio**, or **Statistical Reference data** depending on your specific field.
