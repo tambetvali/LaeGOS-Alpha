@@ -189,13 +189,54 @@ This was the documentation. What follows is the actual digit tables.
 *Base-1*, ***Base-2***, **base-4**, ***base-8***, ***base-16***
 
 ```
-[KQCG][JPBF][I[OA]E][LRDH]
-[kqcg][jpbf][i[oa]e][lrdh]
+[KQCG] [JPBF] [I[OA]E] [LRDH]
+[kqcg] [jpbf] [i[oa]e] [lrdh]
 ```
 
 ## Laegna diagonal
 
 I will analyze this table.
+
+Base-2.
+
+```
+O]A[
+```
+
+Base-4.
+
+```
+]O[IE]A[
+
+or:
+
+{]O[I} {E]A[}
+```
+
+Base-16.
+
+```
+{FGH\]E\[} {CB\]A\[D} {R\]O\[PQ} {\]I\[LKJ}
+```
+
+Here, `{}` is diagonal group and `][` is external-open, external-linearized projection where such digit is *external center*.
+
+Combinatorically, all digits could be still a single string if groups are associated properly, but here we can see several layers of combinatorics need to be integrated.
+
+### Diagonal extern frequency
+
+```
+MN]S]T[[
+```
+
+This just scales out, and equals to use of IE, OA, TR - some binary system to complement base-4 with base-2:
+- Then, base-2 has positional encoding with complexity 2.
+
+A frequency in this sense:
+- Doubling or halving the sampling rate;
+  - Creates spaces which, when interpolated each separately;
+    - Project to different set of numbers - halved or doubled length array does not *directly* make numbers inside positionally equal, but rather:
+      - Alters the curvature, where you can see it.
 
 ## Laegna odd
 
@@ -209,8 +250,8 @@ zxy
 
 Base-3-3:
 ```
-012345678]9[
-123456789]0[
+012345678 ]9[
+123456789 ]0[
 ```
 
 You can see either 9 or 0 is excluded:
