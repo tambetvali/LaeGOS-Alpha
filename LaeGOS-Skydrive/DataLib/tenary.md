@@ -258,3 +258,41 @@ You can see either 9 or 0 is excluded:
 - We meet the externality twice, not once, if it's the square projection of IOAE *both* having U and V units, so that rank down they give an octave - odd system has *one* rank division for *two* slices, creating top-down symmetry of *one* octave equalling *two* rank divisions.
   - This means our digit-wise symmetry is non-symmetric and chaotic as dukkha or metasin;
     - but this orderless nature will be walker and flyer of the orderless nature, as within so without - just around, without any math at all. It simply equals itself.
+
+# Laegna Base
+
+Finally, as we have the complete number system, now let's rank the basin themselves - we get oriented about frequencies now and here.
+
+| System | Basinbase | Rank | Complexity | Frequency | Requency |              |
+|--------|-----------|------|------------|-----------|----------|--------------|
+| yU     | Base-1    | 0    | 1          | 0.5       | 1 / +3   | Sumerian     |
+| YI     | Base-2    | 1    | 2          | 1         | 2 / +3   | Laegna       |
+| YO     | Base-4    | 2    | 4          | 1         | 2 / +3   | Laegna       |
+| YA     | Base-8    | 2.5  | 8          | 1         | 2 / +3   | Laegna       |
+| YE     | Base-16   | 3    | 16         | 1         | 2 / +3   | Laegna       |
+| xu     | Base-1D   |      |            | 1.25      | 3 / +3   | Lagex        |
+| xo     | Base-4D   |      |            | 1.5       | 4 / +4   | Lagex        |
+| xa     | Base-16D  |      |            | 1.5       | 4 / -4   | Lagex        |
+| x∩     | Base-8D   |      |            | 1.75      | 5 / -3   | Lagex        |
+| ZI     | Base-1    |      |            | 2         | 6 / -2   | Mesopotamian |
+| ZO     | Base-3    |      |            | 2         | 6 / -2   | Laegna       |
+| ZA     | Base-5    |      |            | 2         | 6 / -2   | SpiReason    |
+| ZE     | Base-9    |      |            | 2         | 6 / -2   | SpiReason    |
+| Z⋂     | Base-5    |      |            | 4         | 8 / -1   | SpiReason    |
+
+I Ching adds 1, 2, 3 or 6 yinyang change lines;
+- For single hexagram, it's in 1D octave.
+  - Every line is 1 bit: O or A, False or True.
+- For change (two hexagrams), it's in 2D octave.
+  - Every line is 2 bits: I, O, A, E, Negotion, Negation, Position or Posetion - O and A are equal, but in next frequential complexity; I and E are accelerations, where it's relative diagonal point rather than absolute strict - I is relation of True/2 (0.5) - False/2 (-0.5) = -1, E is opposite relation False/2 + True/2 = 1.
+  - I, O, A, E of I Ching are *external*. One can map first two before, last two after, and encode them as xv (pron. xev), xi, xe and xw (pron. scew).
+
+# Conclusion
+
+We have:
+- Systematized number systems clearly.
+- Systematized values and letters in each system.
+
+This means:
+- Our Calculator is robust and stupid, just as one has to be, lacking any philosophy!
+  - Philosophycally, remember, we would use King Wen order of I Ching, and music to express chakras instead of utf-8 codes.
