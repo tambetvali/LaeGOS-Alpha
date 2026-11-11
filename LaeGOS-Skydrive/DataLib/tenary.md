@@ -296,3 +296,20 @@ We have:
 This means:
 - Our Calculator is robust and stupid, just as one has to be, lacking any philosophy!
   - Philosophycally, remember, we would use King Wen order of I Ching, and music to express chakras instead of utf-8 codes.
+
+# Appendix
+
+Notice the systems are either R or T:
+- R means one uses this enumering for digit positions;
+  - Typically, we use *unsigned variant of same base system* for simple digit posigonal, or we use signed positionals for signed and unsigned positionals for unsigned numbers and types.
+  - Sometimes, we use posigonal 1, but it projects like base-1 or base-2:
+    - They are positional themselves, so it projects posigonal to how the length relates to 1 digit, the 100%, *outwards positionally*. One cannot escape number nature by changing it's format.
+  - More often than not, we can use positional encoding of 1, 2 or 4 positions as 100% - these are simplest curvatures on their own, for any number system, suitable for aggregation and head-calculus of Laegna, as well as intutive thinking coordinate systems. If internal and external exist, 1, 2 or 4 digits might be added to 4 for external combinations. 64 digits is the universe-scale number, and anything beyond is high-complexity and when envisioned externally, does not make up a band - for example, 256 becomes 64 also if it leaves 1 external digit of 4 values open to contain all the internal combinator, making safe the two-magnitude-system, with internal and external magnitude, also *enmodels two magnitudes number structurally*. If 256 is used instead, 256 needs to be used for internal system as well and all combinations calculated into 65536, which means: keeping the least significiant bit of two for every positional encoding of opposing pairs of minus and plus magnitudes.
+    - 65536, for computer, can be convenient, and for rocket scientist or combinator:
+      - It's the structural, close up metapositioning where internal systems, whole combinators, are first and most generously / symmetrically seen as *wholes in space*; i.e. single 2*2 combinator of 4 combinations of 2 positions, in 65536 space, is already seen as part of 16-map of whole-combinatorics, and the metadimension of this 16-map already rotates hyperdimensionally in way that every single local combinatoric is only *an aspect of symmetry of supersystem*, able to enumerate combinatoric systems in how they relate to simple combinatoric of two numbers with magnitudes halved and volumes combined, which is the median-rank operation which becomes standard mathematical operations rank down or two, or matrix-double-vector space rank up or two.
+- T means we enumerate values:
+  - As the examples given, this means base system.
+ 
+For example, I Ching hexagram:
+- Used as T, means a digit has value of one of hexagrams.
+- Used as R, means that the digit has *position* at that position (notice how a can become the - it's now positionally known digit by nature).
