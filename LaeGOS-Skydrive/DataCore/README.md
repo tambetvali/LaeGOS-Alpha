@@ -466,6 +466,10 @@ From this viewpoint, the relativistic contraction from $2\,m$ to $1\,m$ naturall
 
 ---
 
+![2MInSize2](Cfx/2MInSize2.png)
+
+<br>
+
 This was interesting, but I had to clarify into one more task:
 
 > Can you write one:​‌
