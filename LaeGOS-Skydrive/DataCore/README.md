@@ -463,3 +463,236 @@ $$
 $$
 
 From this viewpoint, the relativistic contraction from $2\,m$ to $1\,m$ naturally produces the same structure as a one-octave geometric transition. The value $\sqrt2$ is not an arbitrary midpoint but the exact scale-symmetric bridge connecting the two ends of the octave.
+
+---
+
+This was interesting, but I had to clarify into one more task:
+
+> Can you write one:​‌
+> - Show that observer position is here and now.​‌
+> - One travels that far that depth is now square root of two, from 2.​‌
+> - One sets observer's position here.​‌
+> - They travel further, so that it happens again.​‌
+> - What is the depth from original observer's position now?
+
+# Repeated Geometric Contraction and Nested Observer Frames
+
+## Initial Observer
+
+Let the original observer define the reference frame as "here and now".
+
+The object initially has depth:
+
+<br>
+
+$$
+D_0 = 2\,m
+$$
+
+We now travel until the observed depth becomes the geometric midpoint between $2$ and $1$:
+
+<br>
+
+$$
+D_1 = \frac{2}{\sqrt2} = \sqrt2 \approx 1.41421356237\,m
+$$
+
+So the first contraction step is:
+
+<br>
+
+$$
+2 \rightarrow \sqrt2
+$$
+
+---
+
+## New Observer Position
+
+We now declare the new location and moment to be the new "here and now".
+
+This observer sees the object depth as:
+
+<br>
+
+$$
+D'_0 = \sqrt2
+$$
+
+The previous history is ignored, just as each inertial observer naturally considers their own frame to be the present reference frame.
+
+---
+
+## Second Contraction
+
+The new observer performs exactly the same operation again.
+
+Depth contracts by the same geometric factor:
+
+<br>
+
+$$
+D'_1 = \frac{\sqrt2}{\sqrt2} = 1
+$$
+
+Thus the second observer sees:
+
+<br>
+
+$$
+\sqrt2 \rightarrow 1
+$$
+
+---
+
+## Combined Transformation
+
+From the original observer's perspective, both contraction steps occurred.
+
+Therefore:
+
+<br>
+
+$$
+D_0 = 2
+$$
+
+<br>
+
+$$
+D_1 = \frac{2}{\sqrt2}
+$$
+
+<br>
+
+$$
+D_2 = \frac{2}{\sqrt2 \cdot \sqrt2}
+$$
+
+Since:
+
+<br>
+
+$$
+\sqrt2 \cdot \sqrt2 = 2
+$$
+
+we obtain:
+
+<br>
+
+$$
+D_2 = \frac{2}{2} = 1
+$$
+
+---
+
+## Result
+
+The original observer measures:
+
+<br>
+
+$$
+2 \rightarrow \sqrt2 \rightarrow 1
+$$
+
+The first contraction creates the halfway octave point.
+
+The second contraction completes the octave.
+
+The final depth observed from the original frame is:
+
+<br>
+
+$$
+D_2 = 1\,m
+$$
+
+---
+
+## Power Representation
+
+The sequence is clearer when written as powers of two:
+
+<br>
+
+$$
+2^1 \rightarrow 2^{1/2} \rightarrow 2^0
+$$
+
+Every step removes half an exponent:
+
+<br>
+
+$$
+1 \rightarrow \frac12 \rightarrow 0
+$$
+
+The first observer sees two quarter-octave steps combining into one complete octave compression.
+
+---
+
+## Internal–External Interpretation
+
+Using the symbolic interpretation:
+
+<br>
+
+$$
+2 \leftrightarrow \text{External}
+$$
+
+<br>
+
+$$
+\sqrt2 \leftrightarrow \text{Boundary}
+$$
+
+<br>
+
+$$
+1 \leftrightarrow \text{Internal}
+$$
+
+the process becomes:
+
+<br>
+
+$$
+\text{External}
+\rightarrow
+\text{Boundary}
+\rightarrow
+\text{Internal}
+$$
+
+The remarkable feature is that each observer believes they begin at the center of their own world.
+
+Yet the composition of observer-centered transformations produces a larger structure that is visible only from the original frame.
+
+Thus:
+
+<br>
+
+$$
+\frac{2}{\sqrt2} \times \frac{1}{\sqrt2} = \frac{1}{2}
+$$
+
+and two identical geometric contractions combine into a full octave:
+
+<br>
+
+$$
+2 \rightarrow 1
+$$
+
+with
+
+<br>
+
+$$
+\sqrt2
+$$
+
+appearing as the unique intermediate horizon between the two ends.
