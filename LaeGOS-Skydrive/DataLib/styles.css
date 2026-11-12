@@ -58,6 +58,16 @@ button:focus-visible, select:focus-visible, a:focus-visible {
 }
 h1 { margin: .45rem 0; font-size: clamp(2rem, 6vw, 3.6rem); letter-spacing: -.04em; }
 .intro > p:not(.eyebrow) { max-width: 54rem; color: #b6c8c8; line-height: 1.65; }
+.test-link {
+  display: inline-block;
+  padding: .5rem .8rem;
+  border: 1px solid #496266;
+  border-radius: .45rem;
+  color: var(--mint);
+  background: #0d191d;
+  text-decoration: none;
+}
+.test-link:hover { background: #1b3435; }
 .type-picker { display: flex; width: min(22rem, 100%); align-items: center; gap: .75rem; margin-top: 1.3rem; }
 .type-picker span { color: var(--muted); font-size: .8rem; white-space: nowrap; }
 select {
