@@ -19,8 +19,8 @@
 
     <section class="intro">
       <p class="eyebrow">SCREEN + KEYBOARD FOUNDATION</p>
-      <h1>Number workspace</h1>
-      <p>Standalone library sandbox. The screen coordinator and keyboard/type classes can be connected to the main app later.</p>
+      <h1>Laegna number systems</h1>
+      <p>Explore the screens and keyboards in the page first. Open any block as a movable window, or use the launch buttons to open it directly.</p>
       <p><a class="test-link" href="./unittest.html">Run DataLib unit tests</a></p>
       <label class="type-picker" for="number-type">
         <span>Number type</span>
@@ -32,7 +32,7 @@
       <div class="desktop-heading">
         <div>
           <p class="eyebrow">WINBOX DESKTOP</p>
-          <h2>Open a library window</h2>
+          <h2>Library screens and keyboards</h2>
         </div>
         <p id="library-status" role="status" aria-live="polite">Loading Laegna number systems…</p>
       </div>
@@ -43,7 +43,11 @@
         </button>
         <button type="button" class="window-launcher" data-window="digits">
           <span class="launcher-symbol">⌨</span><strong>Digit keyboard</strong>
-          <small>Digits · unknowns · clear</small>
+          <small>Digits · clear</small>
+        </button>
+        <button type="button" class="window-launcher" data-window="unknowns">
+          <span class="launcher-symbol">◇</span><strong>Unknown keyboard</strong>
+          <small>Known · unknown · zero · infinity</small>
         </button>
         <button type="button" class="window-launcher" data-window="operators">
           <span class="launcher-symbol">±</span><strong>Operator keyboard</strong>
@@ -58,8 +62,9 @@
           <small>Example digit mapping</small>
         </button>
       </div>
+      <div class="window-blocks" id="window-blocks" aria-label="Screens and keyboards in page content"></div>
       <div class="fallback-windows" id="fallback-windows" aria-label="Open library windows"></div>
-      <p class="desktop-note">Open windows are independent of the main calculator. Hover a key to preview its effect; click to apply it.</p>
+      <p class="desktop-note">The page blocks remain available while their contents are open as windows. Hover a key to preview its effect; click to apply it.</p>
     </section>
     <footer><span>LaeGOS Alpha · DataLib</span><a href="./Task1.md">Task brief</a></footer>
   </main>

@@ -82,7 +82,10 @@ select {
 select:disabled { opacity: .6; }
 
 .desktop {
+  position: relative;
+  isolation: isolate;
   min-height: 24rem;
+  overflow: auto;
   padding: clamp(1rem, 3vw, 1.8rem);
   border: 1px solid #354c50;
   border-radius: .9rem;
@@ -121,6 +124,16 @@ select:disabled { opacity: .6; }
 .launcher-symbol { color: var(--mint); font-size: 1.5rem; }
 .window-launcher small { color: var(--muted); }
 .desktop-note { margin: 1.4rem 0 0; color: var(--muted); font-size: .75rem; line-height: 1.5; }
+
+.window-blocks { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: .8rem; margin-top: 1rem; }
+.window-block { min-width: 0; overflow: hidden; border: 1px solid #476165; border-radius: .55rem; background: #101d22; box-shadow: 0 .6rem 1.6rem #0003; }
+.window-block-title { width: 100%; min-height: 2.5rem; padding: .5rem .7rem; border: 0; border-bottom: 1px solid var(--line); color: #e4efed; background: #1a2c31; text-align: left; font-weight: 700; cursor: pointer; }
+.window-block-title:hover { color: var(--mint); background: #243b3d; }
+.window-block-content { padding: .8rem; }
+.window-block-placeholder { margin: .2rem; color: var(--muted); font-size: .75rem; }
+.symbol-keyboard { display: grid; gap: .35rem; padding: .5rem; border: 1px solid #40585c; border-radius: .5rem; background: #0c171c; }
+.symbol-keyboard h3 { margin: 0; color: var(--muted); font-size: .68rem; font-weight: 600; }
+.symbol-key-grid { width: min(100%, 14rem); }
 
 .fallback-windows { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: .8rem; margin-top: 1.2rem; }
 .fallback-window { min-width: 0; overflow: hidden; border: 1px solid #476165; border-radius: .55rem; background: #101d22; box-shadow: 0 .6rem 1.6rem #0005; }

@@ -4,11 +4,15 @@ Library for Laegna Data supports Laegna numeric conversions.
 
 ## Standalone screen and keyboard demo
 
-Open `index.html` from a static web server (not directly as `file://`) to use the standalone WinBox demonstration. It reads ordered digit definitions from `../DataRfx/laegna.json`; `Examples` is learning/reference material and is not loaded by the app or library. The browser tests may compare against those reference examples, but they are not runtime inputs. The page uses the requested `/static/js/winbox.bundle.min.js` path when that asset is available, and provides in-page windows when it is not.
+Open `index.html` from a static web server (not directly as `file://`) to use the standalone WinBox demonstration. It reads ordered digit definitions from `../DataRfx/laegna.json`; `Examples` is a conversion reference and is not loaded at runtime. The screen, digit keys, unknown/special keys, operator keys, sign setter, and wave/bit view are all present as page-content blocks at startup. Clicking a block title or its launcher opens the same block as a window inside the desktop. Closing a window returns its block to the page. The page uses the requested `/static/js/winbox.bundle.min.js` path when available and provides in-page windows otherwise.
 
-Use the **Run DataLib unit tests** link on the page to open `unittest.html`. The test page checks generated number ranges, driver/unknown handling, waveform round trips, and optional comparisons with the example data.
+Use the **Run DataLib unit tests** link on the page to open `unittest.html`. The test page checks generated number ranges, driver/unknown handling, base-4 and base-16 waveform round trips, and comparisons with the example data.
 
-The demo has an Answer / Question / Oracle screen coordinator, digit and operator keyboard classes, a current-entry sign setter, and number types for the Laegna base-2, base-4, base-8, and base-16 digit orders. Encoded digits use the Examples' one-based ordinal value convention (`digits as base-B indices + 1`; `W` represents zero). Base-16 keeps its 4×4 keypad shape. The base-4 waveform type uses the Examples' previous-digit permutation in both directions. Its inverse selects each digit using the already-decoded previous waveform digit, so conversion back produces the matching waveform shape. B16D encodes binary digits as A/O; its driver arrays preserve U (unknown) and · (unset) positions, including the base-4 U and ∩ patterns.
+The demo has an Answer / Question / Oracle screen coordinator, digit and operator keyboard classes, a separate 2×2 unknown/special keyboard, a current-entry sign setter, and standard and waveform number types. Encoded capital values follow the examples: a width-R sequence is its ordered base-B digit indices plus one. For example, base-4 `IOOA` (indices `[0, 1, 1, 2]`) is 23 in `Examples/numbers.json`; `I` is a real digit, not positional zero. `W` and the empty screen (`U`) both have value zero, but are different displayed states.
+
+Visible number displays use only their Laegna symbols. The internal driver sequence starts with a class such as `B4` and then stores binary positions as `O`/`A`; `V` is a known omitted bit position and `U` is an unknown bit. Base-4 `U` and `∩` encode as `B4,V,U` and `B4,U,V` respectively, but that internal encoding is never displayed instead of the entered symbol.
+
+Base-4 waveform conversion follows `Examples/decoder.py`'s `WaveweaverValueBase4` and applies its reversible per-digit permutation in both directions. Base-16 waveform conversion applies the same transform independently to its two base-4 axes. These are alternative representations of the standard types, not ordinary positional binary or decimal interpretations. B16D encodes binary digits as O/A and retains U/V state in its driver positions.
 
 This is a single-user, in-memory sandbox. `DataCode` imports the same classes through `../DataLib/number-types.js`; the library is not copied into that app. Symbolic unknown arithmetic, mixed-base free-entry semantics, conversion masks, and the full origin-preserving bit model remain extension points rather than being implied as implemented.
 
@@ -16,13 +20,8 @@ This is going to support two operational modes:
 - Fixed base formats:
   - Number systems on screen and in processing in fixed base format.
   - If digits were originally entered in different base, it will do the best it can:
-    - Delete number of least significant bits from number, reaching another form.
-    - When different base is selected, such as base-16, than where numbers were entered, such as base-4, for example 3 digit number is shown as 2 digit number in base-hex, because two bits of added padding in the beginning resolves this.
-      - Because Laegna normally avoids zero:
-        - V-equivalent replacement character is used for padding, i.e. "known".
-        - If sign established convention, this is used:
-          - For base-2 sign such as - and +, for numbers above zero, A is added as preceding padding and for numbers below it, O is added;
-            - If first number is basically sign, deciding either in base-2 whether the following is plus or minus, above or below median; the padding digit would ensure the number does not change it's relation in major regions where signs appear - if four digits are used, also four base-4 digits, for example, could pad it internally, and the missing half of base-16 digit is replaced with such padding.
+    - Keep the value and choose a target width that preserves bit capacity: `ceil(source width × source bits per digit ÷ target bits per digit)`.
+    - For example, three base-4 positions become two base-16 positions. Do not remove least-significant positions or treat `I` as a user-visible zero digit; width padding during value conversion is an internal rank-preserving operation.
   - Fixed base formats are useful for base system conversions, very typical operation in Laegna:
     - Initially it supports T change of basin, such that new base system is selected and *value* of number remains constant, i.e. equivalent numeric value is shown in new base.
     - For T is temporal, value based operation, causative logic;

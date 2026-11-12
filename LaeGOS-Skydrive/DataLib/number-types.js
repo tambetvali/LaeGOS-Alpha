@@ -33,8 +33,18 @@ export class NumberType {
     this.positions = Array.from({ length: this.bitsPerDigit }, (_, index) => index);
   }
 
+  convertWidthTo(width, targetType) {
+    if (!Number.isInteger(width) || width < 0 || !(targetType instanceof NumberType)) {
+      throw new TypeError("Width conversion requires a non-negative width and a NumberType.");
+    }
+    return width === 0
+      ? 0
+      : Math.ceil(width * this.bitsPerDigit / targetType.bitsPerDigit);
+  }
+
   isArithmeticEntry(digits) {
-    return digits.every((digit) => typeof digit === "number" || digit === "W");
+    return digits.every((digit) => typeof digit === "number")
+      || (digits.length > 0 && digits.every((digit) => digit === "W"));
   }
 
   toValue(digits) {
@@ -107,22 +117,34 @@ export class NumberType {
   }
 
   encodeDigits(digits) {
-    return [this.driver, ...digits.map((digit) => (
-      typeof digit === "number" ? this.digits[digit] : digit
-    ))];
+    return [this.driver, ...digits.flatMap((digit) => this.encodeDigit(digit))];
   }
 
   encodeUnknownSymbol(symbol) {
-    if (this.id === "base4" && symbol === "U") return [this.driver, "·", "U"];
-    if (this.id === "base4" && symbol === "∩") return [this.driver, "U", "·"];
     if (!this.unknowns.includes(symbol) && !this.specialSymbols.includes(symbol)) {
       throw new RangeError(`Unknown symbol ${symbol} is not part of ${this.id}.`);
     }
+    if (this.id === "base4" && symbol === "U") return [this.driver, "V", "U"];
+    if (this.id === "base4" && symbol === "∩") return [this.driver, "U", "V"];
     return [this.driver, symbol];
   }
 
   toDriverNumber(digits) {
     return new DriverNumber(this.encodeDigits(digits));
+  }
+
+  encodeDigit(digit) {
+    if (typeof digit !== "number") {
+      if (digit === "U" || digit === "∩") return this.encodeUnknownSymbol(digit).slice(1);
+      if (this.unknowns.includes(digit) || this.specialSymbols.includes(digit)) return [digit];
+      throw new RangeError(`Symbol ${digit} is not part of ${this.id}.`);
+    }
+    if (!Number.isInteger(digit) || digit < 0 || digit >= this.base) {
+      throw new RangeError(`Digit index ${digit} is not valid for ${this.id}.`);
+    }
+    return Array.from({ length: this.bitsPerDigit }, (_, bit) => (
+      digit & (1 << (this.bitsPerDigit - bit - 1)) ? "A" : "O"
+    ));
   }
 }
 
@@ -133,9 +155,9 @@ export class BinaryDriverType extends NumberType {
       name: "Base-16 Diagonal · binary driver",
       base: 2,
       digits: ["O", "A"],
-      unknowns: ["U"],
+      unknowns: ["V", "U"],
       layout: "linear",
-      description: "B16D stores each bit as O (0) or A (1); U is unknown and · is unset.",
+      description: "B16D stores each bit as O (0) or A (1); U is unknown and V omits a known bit position.",
       offset: 0,
       driver: "B16D"
     });
@@ -160,8 +182,8 @@ export class DriverNumber {
     return this.digits.map((digit) => {
       if (digit === "A") return "1";
       if (digit === "O") return "0";
-      if (digit === "U" || digit === "·") return digit;
-      throw new RangeError(`${digit} is not an O/A/U/· binary digit.`);
+      if (["U", "V", "W", "∩"].includes(digit)) return digit;
+      throw new RangeError(`${digit} is not an O/A/U/V binary digit.`);
     }).join("");
   }
 
@@ -173,8 +195,8 @@ export class DriverNumber {
 
 export class WaveNumberType extends NumberType {
   constructor(sourceType) {
-    if (!(sourceType instanceof NumberType) || sourceType.base !== 4) {
-      throw new TypeError("Laegna waveform conversion requires a base-4 number type.");
+    if (!(sourceType instanceof NumberType) || ![4, 16].includes(sourceType.base)) {
+      throw new TypeError("Laegna waveform conversion requires a base-4 or base-16 number type.");
     }
     super({
       id: `${sourceType.id}-wave`,
@@ -183,7 +205,9 @@ export class WaveNumberType extends NumberType {
       digits: sourceType.digits,
       unknowns: sourceType.unknowns,
       layout: sourceType.layout,
-      description: "Waveform digits use the previous source digit to select a reversible base-4 permutation."
+      description: sourceType.base === 4
+        ? "Waveform digits use the previous source digit to select a reversible base-4 permutation."
+        : "Waveform digits apply the base-4 permutation independently to both axes of each base-16 digit."
     });
     this.sourceType = sourceType;
   }
@@ -201,37 +225,56 @@ export class WaveNumberType extends NumberType {
   }
 
   waveformToRankDigits(digits) {
-    return digits.map((digit, index) => {
-      if (!Number.isInteger(digit) || digit < 0 || digit >= this.base) {
-        throw new RangeError(`Digit index ${digit} is not valid for ${this.id}.`);
-      }
-      if (index === 0 || ![1, 2].includes(digits[index - 1])) return digit;
-      return WAVE_TO_RANK[digit];
+    const previousWaveAxes = [];
+    return digits.map((digit) => {
+      const axes = this.getAxes(digit);
+      const rankAxes = axes.map((axis, position) => (
+        previousWaveAxes[position] && [1, 2].includes(previousWaveAxes[position])
+          ? WAVE_TO_RANK[axis]
+          : axis
+      ));
+      previousWaveAxes.splice(0, axes.length, ...axes);
+      return this.fromAxes(rankAxes);
     });
   }
 
   rankToWaveformDigits(rankDigits) {
-    const waveformDigits = [];
-    for (const rankDigit of rankDigits) {
-      if (!Number.isInteger(rankDigit) || rankDigit < 0 || rankDigit >= this.base) {
-        throw new RangeError(`Digit index ${rankDigit} is not valid for ${this.id}.`);
-      }
-      const previousWaveDigit = waveformDigits.at(-1);
-      waveformDigits.push([1, 2].includes(previousWaveDigit)
-        ? RANK_TO_WAVE[rankDigit]
-        : rankDigit);
+    const previousWaveAxes = [];
+    return rankDigits.map((rankDigit) => {
+      const rankAxes = this.getAxes(rankDigit);
+      const waveAxes = rankAxes.map((axis, position) => (
+        previousWaveAxes[position] && [1, 2].includes(previousWaveAxes[position])
+          ? RANK_TO_WAVE[axis]
+          : axis
+      ));
+      previousWaveAxes.splice(0, waveAxes.length, ...waveAxes);
+      return this.fromAxes(waveAxes);
+    });
+  }
+
+  getAxes(digit) {
+    if (!Number.isInteger(digit) || digit < 0 || digit >= this.base) {
+      throw new RangeError(`Digit index ${digit} is not valid for ${this.id}.`);
     }
-    return waveformDigits;
+    return this.base === 4
+      ? [digit]
+      : [3 - Math.floor(digit / 4), digit % 4];
+  }
+
+  fromAxes(axes) {
+    return this.base === 4
+      ? axes[0]
+      : (3 - axes[0]) * 4 + axes[1];
   }
 
   toSourceDigits(waveformDigits) {
     const value = this.toValue(waveformDigits);
-    return this.sourceType.fromValue(value);
+    return this.sourceType.fromValue(value, waveformDigits.length);
   }
 
   fromSourceDigits(sourceDigits) {
     const value = this.sourceType.toValue(sourceDigits);
-    return this.fromValue(value);
+    return this.fromValue(value, sourceDigits.length);
   }
 }
 
@@ -263,7 +306,7 @@ export function numberTypesFromData(data) {
     layout: "linear",
     description: "Base-16 digit order displayed as a linear keyboard."
   });
-  return [...entries, base44, new WaveNumberType(base4), new BinaryDriverType()];
+  return [...entries, base44, new WaveNumberType(base4), new WaveNumberType(base16), new BinaryDriverType()];
 }
 
 export function* generateCapitalNumbers(numberType, width) {

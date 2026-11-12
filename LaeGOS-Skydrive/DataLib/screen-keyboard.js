@@ -9,10 +9,6 @@ export class ScreenCoordinator {
     if (!this.numberType.specialSymbols.includes(symbol)) {
       throw new RangeError(`Special symbol ${symbol} is not part of ${this.numberType.id}.`);
     }
-    if (symbol === "∩") {
-      this.enterUnknown(symbol);
-      return;
-    }
     this.currentDigits = [symbol];
     this.negative = false;
     this.message = `${symbol} entered as a special number value.`;
@@ -21,6 +17,7 @@ export class ScreenCoordinator {
 
   reset() {
     this.answer = null;
+    this.answerWidth = 0;
     this.currentDigits = [];
     this.pendingOperator = null;
     this.negative = false;
@@ -29,13 +26,16 @@ export class ScreenCoordinator {
   }
 
   setNumberType(numberType) {
+    const previousType = this.numberType;
+    const width = previousType.convertWidthTo(this.currentDigits.length, numberType);
+    this.answerWidth = previousType.convertWidthTo(this.answerWidth, numberType);
     const previousValue = this.currentDigits.length && numberType.isArithmeticEntry(this.currentDigits)
       ? this.getSignedCurrentValue()
       : null;
     this.numberType = numberType;
     if (previousValue !== null) {
       this.negative = previousValue < 0n;
-      this.currentDigits = numberType.fromValue(previousValue);
+      this.currentDigits = numberType.fromValue(previousValue, width);
     }
     this.emit();
   }
@@ -56,13 +56,11 @@ export class ScreenCoordinator {
   }
 
   enterUnknown(symbol) {
-    const encoded = this.numberType.encodeUnknownSymbol(symbol).slice(1);
-    if (this.numberType.id === "base4" && ["U", "∩"].includes(symbol)) {
-      this.currentDigits = encoded;
-    } else {
-      if (this.currentDigits.length === 1 && this.currentDigits[0] === "W") this.currentDigits = [];
-      this.currentDigits.push(...encoded);
+    if (!this.numberType.unknowns.includes(symbol)) {
+      throw new RangeError(`Unknown symbol ${symbol} is not part of ${this.numberType.id}.`);
     }
+    if (this.currentDigits.length === 1 && this.currentDigits[0] === "W") this.currentDigits = [];
+    this.currentDigits.push(symbol);
     this.message = `${symbol} entered as a symbolic unknown (not an arithmetic digit).`;
     this.emit();
   }
@@ -94,8 +92,10 @@ export class ScreenCoordinator {
     const current = this.getSignedCurrentValue();
     if (this.answer !== null && this.pendingOperator && this.currentDigits.length) {
       this.answer = this.calculate(this.answer, current, this.pendingOperator);
+      this.answerWidth = Math.max(this.answerWidth, this.currentDigits.length);
     } else if (this.currentDigits.length) {
       this.answer = current;
+      this.answerWidth = this.currentDigits.length;
     }
     if (this.answer === null) {
       this.message = "Enter a number before choosing an operation.";
@@ -120,6 +120,7 @@ export class ScreenCoordinator {
     }
     const result = this.calculate(this.answer, this.getSignedCurrentValue(), this.pendingOperator);
     this.answer = result;
+    this.answerWidth = Math.max(this.answerWidth, this.currentDigits.length);
     this.pendingOperator = null;
     this.currentDigits = [];
     this.negative = false;
@@ -148,7 +149,7 @@ export class ScreenCoordinator {
     const currentNumeric = this.numberType.isArithmeticEntry(this.currentDigits);
     const currentValue = currentNumeric ? this.getSignedCurrentValue() : null;
     return {
-      answer: this.answer === null ? "—" : this.formatValue(this.answer),
+      answer: this.answer === null ? "—" : this.formatValue(this.answer, this.answerWidth),
       question: this.formatCurrent(),
       oracle: this.getOracleValue(),
       operation: this.pendingOperator ?? "—",
@@ -159,8 +160,8 @@ export class ScreenCoordinator {
     };
   }
 
-  formatValue(value) {
-    const digits = this.numberType.fromValue(value);
+  formatValue(value, width = this.currentDigits.length) {
+    const digits = this.numberType.fromValue(value, width);
     return this.numberType.format(digits, value < 0n);
   }
 
@@ -169,9 +170,6 @@ export class ScreenCoordinator {
   }
 
   formatDigits(digits, negative = false) {
-    if (!this.numberType.isArithmeticEntry(digits)) {
-      return JSON.stringify(this.numberType.encodeDigits(digits));
-    }
     return this.numberType.format(digits, negative);
   }
 
@@ -183,7 +181,7 @@ export class ScreenCoordinator {
     const current = this.getSignedCurrentValue();
     if (this.pendingOperator && this.answer !== null) {
       try {
-        return this.formatValue(this.calculate(this.answer, current, this.pendingOperator));
+        return this.formatValue(this.calculate(this.answer, current, this.pendingOperator), Math.max(this.answerWidth, this.currentDigits.length));
       } catch (error) {
         return error instanceof Error ? error.message : "preview unavailable";
       }
@@ -212,15 +210,13 @@ export class ScreenCoordinator {
         preview.oracle = "symbolic input";
       }
     } else if (actionKind === "unknown") {
-      const encoded = this.numberType.encodeUnknownSymbol(action.value).slice(1);
-      const next = this.numberType.id === "base4" && action.value === "U"
-        ? encoded
-        : [...this.currentDigits, ...encoded];
+      const next = this.currentDigits.length === 1 && this.currentDigits[0] === "W"
+        ? [action.value]
+        : [...this.currentDigits, action.value];
       preview.question = this.formatDigits(next, this.negative);
       preview.oracle = "symbolic input";
     } else if (actionKind === "special") {
-      const encoded = this.numberType.encodeUnknownSymbol(action.value).slice(1);
-      const next = action.value === "∩" && this.numberType.id === "base4" ? encoded : [action.value];
+      const next = [action.value];
       preview.question = this.formatDigits(next);
       preview.oracle = this.numberType.isArithmeticEntry(next)
         ? this.numberType.formatValue(this.numberType.toValue(next))
@@ -247,7 +243,7 @@ export class ScreenCoordinator {
   getPreviewValue(currentValue) {
     if (this.pendingOperator && this.answer !== null) {
       try {
-        return this.formatValue(this.calculate(this.answer, currentValue, this.pendingOperator));
+        return this.formatValue(this.calculate(this.answer, currentValue, this.pendingOperator), Math.max(this.answerWidth, this.currentDigits.length));
       } catch (error) {
         return error instanceof Error ? error.message : "preview unavailable";
       }
@@ -279,44 +275,45 @@ export class Keyboard {
     const title = document.createElement("strong");
     title.textContent = this.name;
     const count = document.createElement("span");
-    count.textContent = `${this.digits.length} digits`;
+    count.textContent = this.digits.length
+      ? `${this.digits.length} digits`
+      : `${this.unknowns.length + this.specials.length} symbols`;
     caption.append(title, count);
     container.append(caption);
 
-    const digitGrid = document.createElement("div");
-    digitGrid.className = "key-grid";
-    digitGrid.style.setProperty("--columns", String(this.columns));
-    for (const digit of this.digits) {
-      digitGrid.append(this.createKey(digit.label, {
-        kind: "digit",
-        detail: `${digit.label} · digit value ${digit.value}`,
-        value: digit.value,
-        added: digit.label
-      }, () => this.onPress("digit", digit.value)));
+    if (this.digits.length) {
+      const digitGrid = document.createElement("div");
+      digitGrid.className = "key-grid";
+      digitGrid.style.setProperty("--columns", String(this.columns));
+      for (const digit of this.digits) {
+        digitGrid.append(this.createKey(digit.label, {
+          kind: "digit",
+          detail: `${digit.label} · digit value ${digit.value}`,
+          value: digit.value,
+          added: digit.label
+        }, () => this.onPress("digit", digit.value)));
+      }
+      container.append(digitGrid);
     }
-    container.append(digitGrid);
 
-    if (this.unknowns.length) {
-      const unknownGrid = document.createElement("div");
-      unknownGrid.className = "key-grid";
-      unknownGrid.style.setProperty("--columns", String(this.columns));
+    if (this.unknowns.length || this.specials.length) {
+      const symbolSection = document.createElement("section");
+      symbolSection.className = "symbol-keyboard";
+      const symbolHeading = document.createElement("h3");
+      symbolHeading.textContent = "Unknowns and special values";
+      const symbolGrid = document.createElement("div");
+      symbolGrid.className = "key-grid symbol-key-grid";
+      symbolGrid.style.setProperty("--columns", "2");
       for (const symbol of this.unknowns) {
-        unknownGrid.append(this.createKey(symbol, {
+        symbolGrid.append(this.createKey(symbol, {
           kind: "unknown",
           detail: `${symbol} · symbolic unknown`,
           value: symbol,
           added: symbol
         }, () => this.onPress("unknown", symbol)));
       }
-      container.append(unknownGrid);
-    }
-
-    if (this.specials.length) {
-      const specialGrid = document.createElement("div");
-      specialGrid.className = "key-grid";
-      specialGrid.style.setProperty("--columns", String(Math.min(this.columns, this.specials.length)));
       for (const symbol of this.specials) {
-        specialGrid.append(this.createKey(symbol, {
+        symbolGrid.append(this.createKey(symbol, {
           kind: "special",
           action: "special",
           detail: `${symbol} · special number symbol`,
@@ -324,7 +321,8 @@ export class Keyboard {
           added: symbol
         }, () => this.onPress("special", symbol)));
       }
-      container.append(specialGrid);
+      symbolSection.append(symbolHeading, symbolGrid);
+      container.append(symbolSection);
     }
 
     const actions = document.createElement("div");

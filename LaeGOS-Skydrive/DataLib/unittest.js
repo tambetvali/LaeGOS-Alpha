@@ -73,6 +73,7 @@ async function run() {
     const base16 = types.find((type) => type.id === "base16");
     const base16d = types.find((type) => type.id === "base16d");
     const wave4 = types.find((type) => type.id === "base4-wave");
+    const base16wave = types.find((type) => type.id === "base16-wave");
 
     test("capital-only generation round-trips base-2 values", () => {
       for (const number of generateCapitalNumbers(base2, 4)) {
@@ -87,8 +88,13 @@ async function run() {
         assert(number.value === positionalValue(number.digits, 4, 1), `Unexpected b4 value ${number.value}`);
         deepEqual(number.roundTrip, number.digits, "b4 digit sequence changed");
       }
-      assert(base4.encodeUnknownSymbol("U").join(",") === "B4,·,U", "Base-4 U must keep first digit unset and second unknown.");
-      assert(base4.encodeUnknownSymbol("∩").join(",") === "B4,U,·", "Base-4 ∩ must keep first digit unknown and second unset.");
+      assert(base4.toValue([0, 1, 1, 2]) === 23n, "Base-4 IOOA must match the Examples value 23.");
+      deepEqual(base4.fromValue(23n, 4), [0, 1, 1, 2], "Base-4 value 23 must retain the four-place IOOA representation.");
+      assert(base4.convertWidthTo(3, base16) === 2, "Three base-4 positions should convert to two base-16 positions.");
+      assert(base16.toValue(base16.fromValue(23n, base4.convertWidthTo(4, base16))) === 23n, "Base conversion must retain the same number value.");
+      deepEqual(base4.encodeDigits([0, 1, 2, 3]), ["B4", "O", "O", "O", "A", "A", "O", "A", "A"], "Base-4 driver bits must use Laegna O/A digits.");
+      deepEqual(base4.encodeUnknownSymbol("U"), ["B4", "V", "U"], "Base-4 U must use V for the omitted known bit.");
+      deepEqual(base4.encodeUnknownSymbol("∩"), ["B4", "U", "V"], "Base-4 ∩ must reverse the unknown and known-omitted bit positions.");
     });
 
     test("capital-only generation round-trips base-8 values", () => {
@@ -109,12 +115,12 @@ async function run() {
     test("B16D maps A/O bits and retains unknown versus unset positions", () => {
       const known = new DriverNumber(["B16D", "A", "A", "O"]);
       const unknown = new DriverNumber(["B16D", "A", "U", "O"]);
-      deepEqual(base16d.unknowns, ["U"], "B16D should expose U, not the other unknown symbols.");
+      deepEqual(base16d.unknowns, ["V", "U"], "B16D should expose known-omitted and unknown bit keys.");
       assert(known.toBinaryString() === "110", "B16D A/A/O should encode binary 110.");
       assert(known.toBinaryValue() === 6n, "B16D 110 should have value 6.");
       assert(unknown.toBinaryString() === "1U0", "B16D must retain an unknown at its position.");
       assert(unknown.toBinaryValue() === null, "Unknown bits must not produce a known numeric value.");
-      assert(new DriverNumber(["B16D", "A", "·", "O"]).toBinaryString() === "1·0", "Unset bits must remain distinct from unknown bits.");
+      assert(new DriverNumber(["B16D", "A", "V", "O"]).toBinaryString() === "1V0", "Known omitted bits must remain distinct from unknown bits.");
       const binaryNumber = [...generateCapitalNumbers(base16d, 3)].find((number) => number.value === 6n);
       deepEqual(binaryNumber.encoded, ["B16D", "A", "A", "O"], "Generated B16D value 6 should be A/A/O.");
     });
@@ -128,14 +134,35 @@ async function run() {
 
       const base4Screen = new ScreenCoordinator(base4);
       base4Screen.enterUnknown("U");
-      deepEqual(base4Screen.getDisplaySnapshot().driverEntry, ["B4", "·", "U"], "Base-4 U should leave the first digit unset.");
+      deepEqual(base4Screen.getDisplaySnapshot().driverEntry, ["B4", "V", "U"], "Base-4 U should leave the first bit known but omitted.");
+      assert(base4Screen.getDisplaySnapshot().question === "U", "The screen should show U, not its internal driver encoding.");
       base4Screen.enterSpecial("∩");
-      deepEqual(base4Screen.getDisplaySnapshot().driverEntry, ["B4", "U", "·"], "Base-4 ∩ should leave the second digit unset.");
+      deepEqual(base4Screen.getDisplaySnapshot().driverEntry, ["B4", "U", "V"], "Base-4 ∩ should leave the second bit known but omitted.");
+      assert(base4Screen.getDisplaySnapshot().question === "∩", "The screen should show ∩, not its internal driver encoding.");
 
       const emptyAfterZero = new ScreenCoordinator(base16d);
       emptyAfterZero.enterSpecial("W");
       emptyAfterZero.enterUnknown("U");
       deepEqual(emptyAfterZero.getDisplaySnapshot().driverEntry, ["B16D", "U"], "Unknown input after W should not retain W as a binary bit.");
+    });
+
+    test("base changes preserve values and scale current and answer widths", () => {
+      const screen = new ScreenCoordinator(base4);
+      for (const digit of [0, 1, 1, 2]) screen.enterDigit(digit);
+      screen.applyOperator("+");
+      for (const digit of [1, 2]) screen.enterDigit(digit);
+
+      screen.setNumberType(base16);
+      assert(screen.getCurrentValue() === 7n, "Changing base should preserve the current value.");
+      assert(screen.currentDigits.length === 1, "Two base-4 positions should convert to one base-16 position.");
+      assert(screen.answerWidth === 2, "Four base-4 answer positions should convert to two base-16 positions.");
+      assert(screen.getDisplaySnapshot().answer === base16.format(base16.fromValue(23n, 2)), "The stored answer should retain its value and converted width.");
+
+      screen.setNumberType(base4);
+      assert(screen.getCurrentValue() === 7n, "Changing back should preserve the current value.");
+      assert(screen.currentDigits.length === 2, "One base-16 position should convert back to two base-4 positions.");
+      assert(screen.answerWidth === 4, "The stored answer width should convert back to four base-4 positions.");
+      assert(screen.getDisplaySnapshot().answer === "IOOA", "The stored base-4 answer should retain its four-position representation.");
     });
 
     test("base-4 waveform inverse uses the previous decoded waveform digit", () => {
@@ -145,6 +172,18 @@ async function run() {
       for (let width = 1; width <= 4; width += 1) {
         for (const number of generateCapitalNumbers(wave4, width)) {
           deepEqual(number.roundTrip, number.digits, `Waveform digits changed at width ${width}.`);
+        }
+      }
+    });
+
+    test("base-16 waveform applies the base-4 transform on both digit axes", () => {
+      const standard = base16.fromValue(23n, 2);
+      const waveform = base16wave.fromValue(23n, 2);
+      assert(base16wave.toValue(waveform) === 23n, "Base-16 waveform axes must round-trip the standard value.");
+      deepEqual(base16wave.toSourceDigits(waveform), standard, "Base-16 waveform inverse must retain both axes.");
+      for (let width = 1; width <= 2; width += 1) {
+        for (const number of generateCapitalNumbers(base16wave, width)) {
+          deepEqual(number.roundTrip, number.digits, `Base-16 waveform digits changed at width ${width}.`);
         }
       }
     });

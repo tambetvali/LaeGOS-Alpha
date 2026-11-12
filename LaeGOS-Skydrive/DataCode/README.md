@@ -1,28 +1,31 @@
 # LaGOS Alpha 1 — DataCode iteration
 
-This folder contains the static, runnable OS interface. Open `index.html` from a static web server or the deployed site; the JavaScript loader fetches `../DataRfx/laegna.json`. Browsers generally block this fetch when the page is opened directly as a `file://` URL, so serve the repository root (for example with `python -m http.server`) for local testing.
+This folder contains the static LaGOS interface. Open `index.html` from a static web server; the app fetches `../DataRfx/laegna.json`. Browsers generally block that request when the page is opened directly as a `file://` URL.
 
 ## Entry points and address behavior
 
-- Repository root `index.html` links to this app directly and through the Skydrive landing page.
-- `../index.html` is the Skydrive landing page; its “Open LaGOS OS” link opens this folder's `index.html`.
-- The root page derives a path relative to its configurable `data-website-root` from `location.pathname`. Its web link starts at `https://spireason.neocities.org/LaeGOS-Alpha/`. Its configurable `data-repository-root` defaults to `https://github.com/tambetvali/LaeGOS-Alpha/`; with no relative path it links directly to the repository, and only nonempty paths append `tree/main/` plus the encoded path.
+- The repository root links to this app directly and through the Skydrive landing page.
+- `../index.html` is the Skydrive landing page and links to both DataCode and the DataLib development sandbox.
+- The root page derives a path relative to its configurable `data-website-root` from `location.pathname`. Its web link starts at `https://spireason.neocities.org/LaeGOS-Alpha/`; the configurable repository root defaults to `https://github.com/tambetvali/LaeGOS-Alpha/`.
 - The Skydrive page uses the repository's `LaGOS-Hypothetical-Logo.png` as its background and displayed logo. The 📟 text logo is a literal UTF-8 character.
 
-## Current interaction and implementation choices
+## Desktop and window behavior
 
-- The top calculator screen spans the complete app width. Below it, the shared desktop contains a left keyboard panel, centered workspace, and right focus/settings panel.
-- Workspace 1, 2, and 3 have distinct wallpaper colors. The group-count selector exposes two or three tabs. All open windows remain visible when a tab changes; selecting a tab raises its whole window group, while selecting a window changes to and raises that window's group.
-- Winbox windows can be dragged and resized, minimized to the desktop dock, restored from the dock, closed, and reopened from the app launcher. Closing removes only that window; minimizing preserves it.
-- The initial windows show parity, divisibility by three, and other number facts. They update from the current number. The shared screen treats an empty `U` as zero.
-- Keyboard layouts and operation signs are loaded from `laegna.json`, not hard-coded as digit arrays. Base-2, base-4, base-8, and base-16 use each JSON object's digit order. A digit's array index is its ordinal component; DataLib applies the Examples' one-based full-number value rule, so an entered digit at index zero represents one and `W` represents zero.
-- `base44` is read from the `alt-id` on the JSON `base16` entry. It uses the same sixteen glyphs in a linear layout (not a 4×4 keypad); both the Base-16 entry and its JSON-declared Base-44 alias appear in the selector.
-- The operation controls map the JSON `digits-values-sign` names to the four arithmetic operations: divide, minus, plus, and times. The default is `signs4`; `signs8` is selectable and its four additional symbols are shown as variants, not extra arithmetic operations. The two-sign `signs2` remains in the JSON but is not offered as a four-operation system.
-- The screen imports number types from `../DataLib/number-types.js`; DataLib remains separate and is not copied into DataCode. The app supplies `../DataRfx/laegna.json` digit definitions to DataLib and uses the one-based ordinal encoding (`digits as base-B indices + 1`; `W` represents zero), including the reversible base-4 waveform type. `../Examples` is learning/reference material only and is not loaded by the app.
-- The selector also exposes DataLib's base-4 waveform and B16D types. B16D uses O/A for binary 0/1 and retains U as unknown and · as unset in driven entries; symbolic entries are displayed with their driver array and are not arithmetic operands.
-- Arithmetic uses arbitrary-precision integers. Division truncates toward zero, and division by zero is reported in the screen status. The input is capped at 256 digits per entry.
+- The top calculator screen spans the complete app width. Below it, the desktop contains the number keyboard, a center area with app tabs and content blocks, and a focus/settings panel.
+- The three implemented apps are fixed: **Parity**, **Divisibility**, and **Number facts**. Their named tabs select and open/raise that app; there is no user-selectable app count or workspace grouping.
+- All three app blocks are visible in the desktop content at startup. Clicking a block or selecting its tab opens the block as a movable window inside the desktop. Closing a window returns its block to the page content; minimizing/restoring uses the desktop dock.
+- Windows can be dragged, resized, minimized, restored, closed, and reopened. Other app blocks remain available while a block is open as a window.
+
+## Number representation
+
+- Keyboard glyphs and operation signs come from `../DataRfx/laegna.json`; `DataCode` imports the number types from `../DataLib/number-types.js`.
+- The app uses the example files as the conversion reference. For a fixed-width base-B sequence, the value is its ordered digit indices interpreted in base B, plus one. Thus base-4 `IOOA` (indices `[0, 1, 1, 2]`, width four) is value 23 in `Examples/numbers.json`; it is not Latin decimal digit input. `W` denotes zero, while an empty screen displays `U` and evaluates to zero.
+- A selected base conversion preserves bit capacity: for example, three base-4 positions become two base-16 positions. Number text shown to users is the selected Laegna glyph sequence; the internal driver format is not shown as a substitute for the number.
+- Internal bit-driver entries begin with the system class (`B4`, for example), followed by Laegna binary symbols `O`/`A`. `V` marks a known omitted bit position and `U` marks an unknown bit. The unknown/special keypad is separate from the digit keys and uses a 2×2 layout for V, U, W, and ∩.
+- Standard base-4 and base-16 systems and their waveform alternatives are separate types. Base-4 waveform conversion follows `Examples/decoder.py`'s `WaveweaverValueBase4` permutation. Base-16 waveform conversion applies that permutation independently to both axes of a base-16 digit. Base-2 waveform conversion is not implemented.
+- Arithmetic uses arbitrary-precision integer values from the Laegna conversion. Division truncates toward zero, and division by zero is reported in the screen status. The input is capped at 256 positions per entry.
 - The loader validates required JSON entries and reports fetch, schema, and calculation errors in the screen status rather than silently substituting a keyboard.
 
 ## Source notes
 
-The interface was shaped by `Task1.md` and `Task1Special1.md` in this folder, the number-system/sign records in `../DataRfx/laegna.json`, and the read-only number references in `../Examples`. This iteration implements the initial calculator registers, DataLib-backed base selection, keyboard clear/delete, side panels, shared winbox, workspace groups, and number-inspection windows. Advanced I Ching, animation, history, scientific operations, and future number bases remain out of scope for this first working iteration.
+The interface is informed by `Task1.md` and `Task1Special1.md`, the number-system/sign records in `../DataRfx/laegna.json`, and the read-only number references and generator in `../Examples`. Do not reinterpret O/A as Latin 0/1 glyphs in visible number strings or treat the internal driver sequence as user-facing content.

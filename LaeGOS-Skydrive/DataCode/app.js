@@ -15,11 +15,7 @@
     Plus: (left, right) => left + right,
     Times: (left, right) => left * right
   };
-  const GROUPS = [
-    { id: "one", label: "Workspace 1", wallpaper: "one" },
-    { id: "two", label: "Workspace 2", wallpaper: "two" },
-    { id: "three", label: "Workspace 3", wallpaper: "three" }
-  ];
+  const APP_ORDER = ["parity", "divisibility", "number-facts"];
   const APP_DEFINITIONS = {
     parity: { title: "Parity", heading: "Even or odd", icon: "◐" },
     divisibility: { title: "Divisibility", heading: "Divisibility by three", icon: "⅓" },
@@ -39,20 +35,19 @@
     clear: document.getElementById("clear-key"),
     delete: document.getElementById("delete-key"),
     tabs: document.getElementById("tabs"),
-    tabStrip: document.querySelector(".tab-strip"),
-    tabCount: document.getElementById("tab-count"),
     desktop: document.querySelector(".desktop"),
     centerPanel: document.querySelector(".center-panel"),
     stage: document.getElementById("center-stage"),
+    appCatalog: document.getElementById("app-catalog"),
     windowLayer: document.getElementById("window-layer"),
     dock: document.getElementById("window-dock"),
-    activeGroupName: document.getElementById("active-group-name"),
-    emptyDesktop: document.getElementById("empty-desktop"),
+    activeAppName: document.getElementById("active-app-name"),
     focusName: document.getElementById("focus-name"),
     focusGroup: document.getElementById("focus-group"),
     signSelect: document.getElementById("sign-select"),
     signDescription: document.getElementById("sign-description"),
     operationKeys: document.getElementById("operation-keys"),
+    unknownKeyboard: document.getElementById("unknown-keyboard"),
     equals: document.getElementById("equals-key"),
     extendedSigns: document.getElementById("extended-signs"),
     launchButtons: Array.from(document.querySelectorAll("[data-open-app]"))
@@ -66,13 +61,15 @@
     base: null,
     baseMode: DEFAULT_BASE,
     signSystem: null,
-    activeGroup: "one",
-    tabCount: 3,
+    activeApp: "parity",
     currentDigits: [],
     negative: false,
     total: null,
+    totalWidth: 0,
     pendingOperation: null,
     windows: new Map(),
+    appSlots: new Map(),
+    appContents: new Map(),
     zIndex: 10,
     nextWindowId: 1,
     drag: null,
@@ -135,14 +132,11 @@
       initializeControls();
       renderKeyboard();
       renderSigns();
+      renderAppBlocks();
       renderTabs();
-      addWindow("parity", "one", 20, 54);
-      addWindow("divisibility", "two", 76, 80);
-      addWindow("number-facts", "three", 132, 106);
-      setActiveGroup("one");
       renderAll();
       enableControls();
-      setStatus("Loaded laegna.json — choose digits or an operation.");
+      setStatus("Loaded laegna.json — apps are available as desktop content.");
     } catch (error) {
       setStatus(error instanceof Error ? error.message : "Unable to initialize the LaGOS interface.", "error");
       elements.baseDescription.textContent = "The number-system data could not be loaded.";
@@ -197,16 +191,6 @@
       renderSigns();
       setStatus(`Operation signs loaded from ${selected.id}.`);
     });
-    elements.tabCount.addEventListener("change", () => {
-      state.tabCount = Number(elements.tabCount.value);
-      if (![2, 3].includes(state.tabCount)) {
-        state.tabCount = 3;
-        elements.tabCount.value = "3";
-      }
-      renderTabs();
-      if (state.tabCount === 2 && state.activeGroup === "three") setActiveGroup("one");
-      setStatus(`${state.tabCount} workspace tabs are available; windows remain in the shared desktop.`);
-    });
     elements.clear.addEventListener("click", clearScreen);
     elements.delete.addEventListener("click", deleteDigit);
     elements.equals.addEventListener("click", calculate);
@@ -218,7 +202,6 @@
   function enableControls() {
     elements.baseSelect.disabled = false;
     elements.signSelect.disabled = false;
-    elements.tabCount.disabled = false;
     elements.clear.disabled = false;
     elements.delete.disabled = false;
     elements.equals.disabled = false;
@@ -240,41 +223,52 @@
     return type;
   }
 
-  function convertToDigits(value, base) {
+  function convertToDigits(value, base, width = 0) {
     const typeId = base.id === state.base?.id ? state.baseMode : base.id;
-    return getNumberType(typeId).fromValue(value);
+    return getNumberType(typeId).fromValue(value, width);
   }
 
-  function formatValue(value, base = state.base) {
+  function formatValue(value, base = state.base, width = state.currentDigits.length) {
     if (!base) return value.toString();
     const typeId = base.id === state.base?.id ? state.baseMode : base.id;
-    return getNumberType(typeId).formatValue(value);
+    const type = getNumberType(typeId);
+    return type.format(type.fromValue(value, width), value < 0n);
   }
 
   function currentDisplayValue() {
     if (!state.numberType) return "U";
-    if (!state.numberType.isArithmeticEntry(state.currentDigits)) {
-      return JSON.stringify(state.numberType.encodeDigits(state.currentDigits));
-    }
     return state.numberType.format(state.currentDigits, state.negative);
   }
 
   function renderKeyboard() {
     if (!state.base || !state.numberType) return;
     elements.keyboard.replaceChildren();
-    state.numberType.getKeyboardKeys().forEach((key) => {
+    const keys = state.numberType.getKeyboardKeys();
+    keys.filter((key) => key.kind === "digit").forEach((key) => {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "digit-key";
       button.textContent = key.label;
       button.dataset.keyKind = key.kind;
       button.setAttribute("aria-label", key.kind === "digit" ? `Digit ${key.value}: ${key.label}` : key.label);
-      button.addEventListener("click", () => {
-        if (key.kind === "digit") enterDigit(key.value);
-        else enterSpecial(key.value);
-      });
+      button.addEventListener("click", () => enterDigit(key.value));
       elements.keyboard.append(button);
     });
+    elements.unknownKeyboard.replaceChildren();
+    const symbols = document.createElement("div");
+    symbols.className = "symbol-key-grid";
+    symbols.setAttribute("aria-label", "Known, unknown, zero, and infinity keys");
+    keys.filter((key) => key.kind !== "digit").forEach((key) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "digit-key";
+      button.textContent = key.label;
+      button.dataset.keyKind = key.kind;
+      button.setAttribute("aria-label", key.label);
+      button.addEventListener("click", () => enterSpecial(key.value));
+      symbols.append(button);
+    });
+    elements.unknownKeyboard.append(symbols);
     const isBase44 = state.baseMode === "base44";
     elements.keyboardLayout.textContent = isBase44
       ? "Linear · base44 alias"
@@ -338,6 +332,8 @@
       setStatus(`Unknown number base: ${requestedId}`, "error");
       return;
     }
+    const previousType = state.numberType;
+    const currentWidth = state.currentDigits.length;
     let previousCurrent = null;
     if (state.currentDigits.length) {
       try {
@@ -352,10 +348,14 @@
     state.base = selected;
     state.numberType = getNumberType(state.baseMode);
     if (previousCurrent !== null) {
-      state.currentDigits = convertToDigits(previousCurrent, selected);
+      const targetWidth = previousType.convertWidthTo(currentWidth, state.numberType);
+      state.currentDigits = convertToDigits(previousCurrent, selected, targetWidth);
       state.negative = previousCurrent < 0n;
     }
-    if (previousTotal !== null) state.total = previousTotal;
+    if (previousTotal !== null) {
+      state.total = previousTotal;
+      state.totalWidth = previousType.convertWidthTo(state.totalWidth, state.numberType);
+    }
     renderKeyboard();
     renderAll();
     setStatus(selected.id === "base16"
@@ -384,17 +384,8 @@
 
   function enterSpecial(symbol) {
     state.negative = false;
-    if (symbol === "W") {
-      state.currentDigits = [symbol];
-    } else {
-      const encoded = state.numberType.encodeUnknownSymbol(symbol).slice(1);
-      if (state.numberType.id === "base4" && ["U", "∩"].includes(symbol)) {
-        state.currentDigits = encoded;
-      } else {
-        if (state.currentDigits.length === 1 && state.currentDigits[0] === "W") state.currentDigits = [];
-        state.currentDigits.push(...encoded);
-      }
-    }
+    state.numberType.encodeUnknownSymbol(symbol);
+    state.currentDigits = [symbol];
     renderAll();
     const message = symbol === "W"
       ? "Entered the example zero symbol."
@@ -408,6 +399,7 @@
     state.currentDigits = [];
     state.negative = false;
     state.total = null;
+    state.totalWidth = 0;
     state.pendingOperation = null;
     renderAll();
     setStatus("Screen cleared. U is treated as zero.");
@@ -426,6 +418,7 @@
       return;
     }
     if (state.currentDigits.length) {
+      const currentWidth = state.currentDigits.length;
       let current;
       try {
         current = getCurrentValue();
@@ -436,17 +429,20 @@
       if (state.total !== null && state.pendingOperation) {
         try {
           state.total = OPERATION_FUNCTIONS[state.pendingOperation](state.total, current);
+          state.totalWidth = Math.max(state.totalWidth, currentWidth);
         } catch (error) {
           setStatus(error instanceof Error ? error.message : "The operation failed.", "error");
           return;
         }
       } else {
         state.total = current;
+        state.totalWidth = currentWidth;
       }
       state.currentDigits = [];
       state.negative = false;
     } else if (state.total === null) {
       state.total = 0n;
+      state.totalWidth = 0;
     }
     state.pendingOperation = operation;
     renderAll();
@@ -459,8 +455,9 @@
     try {
       const result = OPERATION_FUNCTIONS[operation](state.total, getCurrentValue());
       state.negative = result < 0n;
-      state.currentDigits = convertToDigits(result, state.base);
+      state.currentDigits = convertToDigits(result, state.base, state.currentDigits.length);
       state.total = null;
+      state.totalWidth = 0;
       state.pendingOperation = null;
       renderAll();
       setStatus(`${operation} complete${operation === "Divide" ? " (integer division)" : ""}.`);
@@ -471,7 +468,7 @@
 
   function renderScreen() {
     if (!state.base) return;
-    elements.total.textContent = state.total === null ? "—" : formatValue(state.total);
+    elements.total.textContent = state.total === null ? "—" : formatValue(state.total, state.base, state.totalWidth);
     elements.operator.textContent = state.pendingOperation
       ? getOperationSymbol(state.pendingOperation)
       : "—";
@@ -497,39 +494,64 @@
 
   function renderTabs() {
     elements.tabs.replaceChildren();
-    for (const group of GROUPS.slice(0, state.tabCount)) {
+    for (const appId of APP_ORDER) {
+      const definition = APP_DEFINITIONS[appId];
       const button = document.createElement("button");
       button.type = "button";
-      button.className = "workspace-tab";
-      button.id = `tab-${group.id}`;
+      button.className = "app-tab";
+      button.id = `tab-${appId}`;
       button.setAttribute("role", "tab");
-      button.setAttribute("aria-selected", String(state.activeGroup === group.id));
-      button.textContent = group.label;
-      button.addEventListener("click", () => setActiveGroup(group.id));
+      button.setAttribute("aria-selected", String(state.activeApp === appId));
+      button.textContent = definition.title;
+      button.addEventListener("click", () => openApp(appId));
       elements.tabs.append(button);
     }
   }
 
-  function setActiveGroup(groupId) {
-    const group = GROUPS.find((item) => item.id === groupId);
-    if (!group || (group.id === "three" && state.tabCount < 3)) return;
-    state.activeGroup = groupId;
-    elements.stage.dataset.wallpaper = groupId;
-    elements.activeGroupName.textContent = group.label;
+  function setActiveApp(appId) {
+    const definition = APP_DEFINITIONS[appId];
+    if (!definition) return;
+    state.activeApp = appId;
+    elements.activeAppName.textContent = definition.title;
     elements.tabs.querySelectorAll('[role="tab"]').forEach((tab) => {
-      tab.setAttribute("aria-selected", String(tab.id === `tab-${groupId}`));
+      tab.setAttribute("aria-selected", String(tab.id === `tab-${appId}`));
     });
-    const groupWindows = Array.from(state.windows.values())
-      .filter((win) => win.groupId === groupId && !win.closed)
-      .sort((left, right) => left.zIndex - right.zIndex);
-    groupWindows.forEach((win) => setWindowZ(win, ++state.zIndex));
-    elements.focusGroup.textContent = `${group.label} selected · its open windows are raised.`;
+    elements.focusGroup.textContent = `${definition.title} app selected.`;
   }
 
-  function addWindow(appId, groupId, offsetX = 0, offsetY = 0) {
+  function renderAppBlocks() {
+    elements.appCatalog.replaceChildren();
+    for (const appId of APP_ORDER) {
+      const definition = APP_DEFINITIONS[appId];
+      const block = document.createElement("article");
+      block.className = "app-block";
+      block.dataset.appBlock = appId;
+      const open = document.createElement("button");
+      open.type = "button";
+      open.className = "app-block-title";
+      open.textContent = `${definition.icon} ${definition.title}`;
+      open.setAttribute("aria-label", `Open ${definition.title} as a window`);
+      open.addEventListener("click", () => openApp(appId));
+      const slot = document.createElement("div");
+      slot.className = "app-content-slot";
+      const content = document.createElement("div");
+      content.className = "app-content";
+      slot.append(content);
+      block.append(open, slot);
+      block.addEventListener("click", (event) => {
+        if (!event.target.closest("button")) openApp(appId);
+      });
+      elements.appCatalog.append(block);
+      state.appSlots.set(appId, slot);
+      state.appContents.set(appId, content);
+    }
+  }
+
+  function addWindow(appId, offsetX = 0, offsetY = 0) {
     const definition = APP_DEFINITIONS[appId];
-    const group = GROUPS.find((item) => item.id === groupId);
-    if (!definition || !group) return null;
+    const content = state.appContents.get(appId);
+    const slot = state.appSlots.get(appId);
+    if (!definition || !content || !slot) return null;
     const windowId = `window-${state.nextWindowId++}`;
     const windowElement = document.createElement("section");
     const desktopBounds = elements.desktop.getBoundingClientRect();
@@ -541,7 +563,7 @@
     windowElement.dataset.windowId = windowId;
     windowElement.dataset.appId = appId;
     windowElement.style.left = `${panelLeft + Math.max(0, (panelBounds.width - initialWidth) / 2) + offsetX}px`;
-    windowElement.style.top = `${panelTop + elements.tabStrip.offsetHeight + 16 + offsetY}px`;
+    windowElement.style.top = `${panelTop + 54 + offsetY}px`;
     windowElement.style.zIndex = String(++state.zIndex);
 
     const titlebar = document.createElement("header");
@@ -566,14 +588,19 @@
 
     const body = document.createElement("div");
     body.className = "window-body";
+    body.append(content);
     windowElement.append(titlebar, body);
+    slot.replaceChildren(Object.assign(document.createElement("p"), {
+      className: "app-block-placeholder",
+      textContent: `${definition.title} is open as a window.`
+    }));
     elements.windowLayer.append(windowElement);
     const windowState = {
       id: windowId,
       appId,
-      groupId,
       element: windowElement,
       body,
+      content,
       title: definition.title,
       zIndex: state.zIndex,
       minimized: false,
@@ -604,13 +631,12 @@
 
   function focusWindow(win) {
     if (win.closed) return;
-    if (state.activeGroup !== win.groupId) setActiveGroup(win.groupId);
+    setActiveApp(win.appId);
     if (win.minimized) restoreWindow(win);
     setWindowZ(win, ++state.zIndex);
     state.focusedWindow = win.id;
     elements.focusName.textContent = win.title;
-    const group = GROUPS.find((item) => item.id === win.groupId);
-    elements.focusGroup.textContent = `${group.label} · window raised`;
+    elements.focusGroup.textContent = `${APP_DEFINITIONS[win.appId].title} app · window raised`;
     renderDock();
   }
 
@@ -619,7 +645,6 @@
     win.minimized = true;
     win.element.hidden = true;
     renderDock();
-    updateEmptyDesktop();
     if (state.focusedWindow === win.id) {
       state.focusedWindow = null;
       elements.focusName.textContent = "No window selected";
@@ -632,20 +657,19 @@
     win.minimized = false;
     win.element.hidden = false;
     renderDock();
-    updateEmptyDesktop();
   }
 
   function closeWindow(win) {
     if (win.closed) return;
     win.closed = true;
+    state.appSlots.get(win.appId)?.replaceChildren(win.content);
     win.element.remove();
     if (state.focusedWindow === win.id) {
       state.focusedWindow = null;
       elements.focusName.textContent = "No window selected";
-      elements.focusGroup.textContent = "Closed windows can be reopened from Winbox apps.";
+      elements.focusGroup.textContent = "Closed apps remain available in desktop content.";
     }
     renderDock();
-    updateEmptyDesktop();
   }
 
   function renderDock() {
@@ -655,9 +679,9 @@
       const button = document.createElement("button");
       button.type = "button";
       button.className = "dock-item";
-      button.textContent = `${APP_DEFINITIONS[win.appId].icon} ${win.title} · ${GROUPS.find((group) => group.id === win.groupId).label}`;
+      button.textContent = `${APP_DEFINITIONS[win.appId].icon} ${win.title}`;
       button.addEventListener("click", () => {
-        setActiveGroup(win.groupId);
+        setActiveApp(win.appId);
         restoreWindow(win);
         focusWindow(win);
       });
@@ -665,27 +689,21 @@
     }
   }
 
-  function updateEmptyDesktop() {
-    const hasVisibleWindow = Array.from(state.windows.values()).some((win) => !win.closed && !win.minimized);
-    elements.emptyDesktop.hidden = hasVisibleWindow;
-  }
-
   function openApp(appId) {
     if (!APP_DEFINITIONS[appId]) {
       setStatus(`Unknown app: ${appId}`, "error");
       return;
     }
-    const existing = Array.from(state.windows.values()).find((win) => win.appId === appId && win.groupId === state.activeGroup && !win.closed);
+    setActiveApp(appId);
+    const existing = Array.from(state.windows.values()).find((win) => win.appId === appId && !win.closed);
     if (existing) {
-      setActiveGroup(existing.groupId);
       restoreWindow(existing);
       focusWindow(existing);
       return;
     }
-    const count = Array.from(state.windows.values()).filter((win) => win.groupId === state.activeGroup && !win.closed).length;
-    addWindow(appId, state.activeGroup, 28 * (count % 4), 28 * (count % 5));
-    setStatus(`${APP_DEFINITIONS[appId].title} opened in ${GROUPS.find((group) => group.id === state.activeGroup).label}.`);
-    updateEmptyDesktop();
+    const count = state.windows.size;
+    addWindow(appId, 28 * (count % 4), 28 * (count % 5));
+    setStatus(`${APP_DEFINITIONS[appId].title} opened as a window.`);
   }
 
   function startDrag(event, win) {
@@ -727,62 +745,62 @@
     if (event.key === "Enter" && event.target === elements.current) calculate();
   });
 
-  function updateWindow(win) {
-    if (win.closed) return;
+  function renderAppContent(appId, content) {
     if (!state.numberType.isArithmeticEntry(state.currentDigits)) {
-      win.body.replaceChildren();
+      content.replaceChildren();
       const heading = document.createElement("h3");
-      heading.textContent = APP_DEFINITIONS[win.appId].heading;
+      heading.textContent = APP_DEFINITIONS[appId].heading;
       const message = document.createElement("p");
       message.textContent = `${currentDisplayValue()} is a symbolic entry; numeric observations are unavailable.`;
-      win.body.append(heading, message);
+      content.append(heading, message);
       return;
     }
     const value = getCurrentValue();
     const absolute = value < 0n ? -value : value;
     const remainder3 = ((value % 3n) + 3n) % 3n;
     const parity = absolute % 2n === 0n ? "Even" : "Odd";
-    const parityDetail = absolute === 0n ? "Zero is even." : `${formatValue(absolute)} is ${parity.toLowerCase()} in the selected base.`;
+    const parityDetail = absolute === 0n ? "Zero is even." : `${formatValue(absolute)} is ${parity.toLowerCase()} in the selected system.`;
     let title;
     let lines = [];
-    if (win.appId === "parity") {
+    if (appId === "parity") {
       title = APP_DEFINITIONS.parity.heading;
       lines = [parity, parityDetail, `Value: ${formatValue(value)}`];
-    } else if (win.appId === "divisibility") {
+    } else if (appId === "divisibility") {
       title = APP_DEFINITIONS.divisibility.heading;
       const divisible = remainder3 === 0n;
       lines = [
         divisible ? "Divisible by 3" : "Not divisible by 3",
-        `Remainder: ${remainder3.toString()}`,
-        `Integer value: ${value.toString(10)}`
+        `Remainder: ${formatValue(remainder3)}`
       ];
     } else {
       title = APP_DEFINITIONS["number-facts"].heading;
-      const bitCount = absolute.toString(2).replace(/0/g, "").length;
       lines = [
         `Base ${state.base.base} · ${formatValue(value)}`,
-        `Decimal: ${value.toString(10)}`,
-        `Binary ones: ${bitCount} · digits entered: ${state.currentDigits.length}`,
+        `Entry positions: ${state.currentDigits.length}`,
         `Sign system: ${state.signSystem.id}`
       ];
     }
-    win.body.replaceChildren();
+    content.replaceChildren();
     const heading = document.createElement("h3");
     heading.textContent = title;
     const valueLine = document.createElement("p");
     valueLine.className = "fact-value";
     valueLine.textContent = lines[0];
-    win.body.append(heading, valueLine);
+    content.append(heading, valueLine);
     lines.slice(1).forEach((text, index) => {
       const paragraph = document.createElement("p");
       paragraph.className = index === lines.length - 2 ? "subtle" : "";
       paragraph.textContent = text;
-      win.body.append(paragraph);
+      content.append(paragraph);
     });
   }
 
+  function updateWindow(win) {
+    if (!win.closed) renderAppContent(win.appId, win.content);
+  }
+
   function updateWindowContent() {
-    state.windows.forEach(updateWindow);
+    state.appContents.forEach((content, appId) => renderAppContent(appId, content));
   }
 
   function start() {

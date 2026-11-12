@@ -37,3 +37,11 @@ Every digit can be capital or small case:
 # Each digit length restarts counting
 
 At each digit length, counting restarts.
+
+## Conversion rules used by the current screens
+
+- For the standard systems represented by `Examples/numbers.json`, a fixed-width sequence has the rank of its ordered base-B digit indices, plus one. Each width is a separate rank range; do not strip a leading `I` as if it were positional zero. In base 4, `IOOA` has indices `[0, 1, 1, 2]` and value 23 in the R=4 examples.
+- `W` is the explicit zero value. An empty screen is displayed as `U` and also evaluates to zero; this does not make an entered unknown `U` an arithmetic digit.
+- `O` and `A` have no universal visible-value interpretation. They are Laegna binary bit symbols internally (O/A), while signed and unsigned digit interpretations are separate modes. Do not substitute Latin/decimal values or a signed interpretation for the standard example conversion.
+- Wave numbers are alternative representations, not a second positional base. Base-4 wave conversion follows `WaveweaverValueBase4` and `WaveweaverDigitsBase4` in `Examples/decoder.py`; the preceding wave digit selects the permutation. Base-16 wave conversion applies that transform to both base-4 axes. Base-2 wave conversion is not part of this implementation.
+- Internal driver arrays are not user-facing number text. For example, B4 is followed by O/A bit positions; V is a known omitted position and U an unknown. Render the entered Laegna symbol in the screen and keep the driver form internal.

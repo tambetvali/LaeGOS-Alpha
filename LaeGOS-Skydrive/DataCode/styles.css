@@ -147,6 +147,19 @@ select:disabled { opacity: .65; }
 .digit-key:hover { border-color: #9bd8bd; background: #2a4544; }
 .digit-key:active, .key-action:active { transform: translateY(1px); }
 .digit-key:disabled, .key-action:disabled, .app-launcher button:disabled { opacity: .45; cursor: not-allowed; }
+.symbol-keyboard {
+  display: grid;
+  gap: .45rem;
+  margin-top: .75rem;
+  padding: .55rem;
+  border: 1px solid #40585c;
+  border-radius: .5rem;
+  background: #0c171c;
+}
+.symbol-keyboard h3 { margin: 0; color: var(--muted); font-size: .68rem; }
+.unknown-keyboard { display: grid; }
+.symbol-key-grid { display: grid; grid-template-columns: repeat(2, minmax(2.4rem, 1fr)); gap: .35rem; }
+.symbol-key-grid .digit-key { min-width: 0; }
 .keyboard-actions { display: grid; grid-template-columns: 1fr 1fr; gap: .4rem; margin-top: .55rem; }
 .key-action, .app-launcher button {
   min-height: 2.3rem;
@@ -181,7 +194,7 @@ select:disabled { opacity: .65; }
   background: #142126;
 }
 .tabs { display: flex; flex-wrap: wrap; justify-content: center; gap: .35rem; }
-.workspace-tab {
+.app-tab {
   padding: .55rem .85rem;
   border: 1px solid transparent;
   border-radius: .5rem;
@@ -189,9 +202,7 @@ select:disabled { opacity: .65; }
   background: transparent;
   cursor: pointer;
 }
-.workspace-tab[aria-selected="true"] { border-color: #4a7468; color: #c7f5d9; background: #203b38; }
-.tab-count-control { display: inline-flex; align-items: center; gap: .3rem; color: var(--muted); font-size: .72rem; white-space: nowrap; }
-.tab-count-control select { width: 3.5rem; min-height: 2rem; padding: .2rem .4rem; }
+.app-tab[aria-selected="true"] { border-color: #4a7468; color: #c7f5d9; background: #203b38; }
 
 .center-stage {
   position: relative;
@@ -203,16 +214,6 @@ select:disabled { opacity: .65; }
     radial-gradient(ellipse at 52% 38%, #37615a70, transparent 52%),
     linear-gradient(135deg, #183136, #17242c 55%, #202c33);
   transition: background .25s ease;
-}
-.center-stage[data-wallpaper="two"] {
-  background-image:
-    radial-gradient(ellipse at 25% 80%, #7a573e66, transparent 50%),
-    linear-gradient(135deg, #362b24, #1d292d 58%, #302923);
-}
-.center-stage[data-wallpaper="three"] {
-  background-image:
-    radial-gradient(ellipse at 85% 18%, #51457a70, transparent 49%),
-    linear-gradient(145deg, #26263d, #17232e 58%, #27273a);
 }
 .stage-label {
   position: absolute;
@@ -226,6 +227,41 @@ select:disabled { opacity: .65; }
   font-size: .58rem;
   pointer-events: none;
 }
+.app-catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: .7rem;
+  padding: 2.4rem .8rem 3.8rem;
+}
+.app-block {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #476165;
+  border-radius: .55rem;
+  background: #101d22e8;
+  box-shadow: 0 .6rem 1.6rem #0004;
+  cursor: pointer;
+}
+.app-block-title {
+  width: 100%;
+  min-height: 2.5rem;
+  padding: .5rem .7rem;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  color: #e4efed;
+  background: #1a2c31;
+  text-align: left;
+  font-weight: 700;
+  cursor: pointer;
+}
+.app-block-title:hover { color: var(--mint); background: #243b3d; }
+.app-content-slot { min-height: 8rem; }
+.app-content { padding: .65rem .8rem .8rem; }
+.app-content h3 { margin: 0 0 .45rem; color: #bfe9d0; font-size: .9rem; }
+.app-content p { margin: .35rem 0; color: #d3ddda; font-size: .78rem; line-height: 1.5; }
+.app-content .fact-value { color: #eaf7ed; font-size: 1.15rem; font-weight: 700; }
+.app-content .subtle { color: var(--muted); font-size: .7rem; }
+.app-block-placeholder { margin: .7rem; color: var(--muted); font-size: .75rem; }
 .window-layer {
   position: absolute;
   z-index: 3;
@@ -304,19 +340,6 @@ select:disabled { opacity: .65; }
   pointer-events: auto;
   font-size: .72rem;
 }
-.empty-desktop {
-  position: absolute;
-  z-index: 1;
-  inset: 0;
-  display: grid;
-  align-content: center;
-  justify-items: center;
-  color: #c4d5ce;
-  text-align: center;
-  pointer-events: none;
-}
-.empty-desktop[hidden] { display: none; }
-.empty-desktop span { color: #97d8b7; font-size: 3rem; }
 
 .focus-card {
   display: grid;
@@ -412,7 +435,7 @@ select:disabled { opacity: .65; }
   .center-panel { min-height: 580px; }
   .center-stage { min-height: 32rem; }
   .tab-strip { justify-content: space-between; }
-  .workspace-tab { padding-inline: .5rem; font-size: .75rem; }
+  .app-tab { padding-inline: .5rem; font-size: .75rem; }
   .winbox-window { width: min(310px, calc(100% - 12px)); }
   .os-footer { font-size: .61rem; }
 }

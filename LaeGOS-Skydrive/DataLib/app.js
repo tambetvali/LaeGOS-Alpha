@@ -6,6 +6,7 @@ const OPERATORS = ["÷", "−", "+", "×"];
 const WINDOW_DEFINITIONS = {
   screen: { title: "Answer · Question · Oracle", width: 700, height: 270 },
   digits: { title: "Digit keyboard", width: 390, height: 440 },
+  unknowns: { title: "Unknown keyboard", width: 300, height: 300 },
   operators: { title: "Operator keyboard", width: 320, height: 270 },
   sign: { title: "Sign setter", width: 300, height: 220 },
   wave: { title: "Wave / bit view", width: 440, height: 360 }
@@ -14,7 +15,9 @@ const WINDOW_DEFINITIONS = {
 const elements = {
   status: document.getElementById("library-status"),
   typeSelect: document.getElementById("number-type"),
+  desktop: document.querySelector(".desktop"),
   launchers: document.getElementById("window-launchers"),
+  blocks: document.getElementById("window-blocks"),
   fallbackWindows: document.getElementById("fallback-windows")
 };
 
@@ -23,6 +26,8 @@ const state = {
   numberType: null,
   coordinator: null,
   windows: new Map(),
+  blockSlots: new Map(),
+  blockContents: new Map(),
   preview: null,
   mode: "conversion"
 };
@@ -48,8 +53,9 @@ function initialize(data) {
   elements.launchers.querySelectorAll("[data-window]").forEach((button) => {
     button.addEventListener("click", () => openWindow(button.dataset.window));
   });
+  renderWindowBlocks();
   renderScreens();
-  setStatus("Loaded laegna.json. Open a window to begin.");
+  setStatus("Loaded laegna.json. All screens and keyboards are available in page content.");
 }
 
 function changeType() {
@@ -62,6 +68,7 @@ function changeType() {
   state.preview = null;
   state.coordinator.setNumberType(selected);
   updateWindow("digits");
+  updateWindow("unknowns");
   updateWindow("wave");
   setStatus(`${selected.name} selected. The current numeric value is converted to the new base.`);
 }
@@ -131,9 +138,23 @@ function digitKeyboardContent() {
   const keyboard = new Keyboard({
     name: `${state.numberType.name} · ${state.numberType.layout}`,
     digits: state.numberType.digits.map((label, value) => ({ label, value })),
+    unknowns: [],
+    specials: [],
+    columns: state.numberType.layout === "grid" ? 4 : Math.min(6, state.numberType.digits.length),
+    onPress: handleDigitAction,
+    onPreview: showPreview
+  });
+  keyboard.render(wrapper);
+  return wrapper;
+}
+
+function unknownKeyboardContent() {
+  const wrapper = document.createElement("div");
+  const keyboard = new Keyboard({
+    name: "Unknowns · known bits · special values",
     unknowns: state.numberType.unknowns,
     specials: state.numberType.specialSymbols,
-    columns: state.numberType.layout === "grid" ? 4 : Math.min(6, state.numberType.digits.length),
+    columns: 2,
     onPress: handleDigitAction,
     onPreview: showPreview
   });
@@ -309,11 +330,43 @@ function createWindowContent(id) {
   switch (id) {
     case "screen": return screenContent();
     case "digits": return digitKeyboardContent();
+    case "unknowns": return unknownKeyboardContent();
     case "operators": return operatorKeyboardContent();
     case "sign": return signKeyboardContent();
     case "wave": return waveContent();
     default: throw new RangeError(`Unknown window: ${id}`);
   }
+}
+
+function renderWindowBlocks() {
+  for (const [id, definition] of Object.entries(WINDOW_DEFINITIONS)) {
+    const block = document.createElement("article");
+    block.className = "window-block";
+    block.dataset.windowBlock = id;
+    const title = document.createElement("button");
+    title.type = "button";
+    title.className = "window-block-title";
+    title.dataset.window = id;
+    title.textContent = definition.title;
+    title.addEventListener("click", () => openWindow(id));
+    const slot = document.createElement("div");
+    slot.className = "window-block-content";
+    const content = createWindowContent(id);
+    slot.append(content);
+    block.append(title, slot);
+    block.addEventListener("click", (event) => {
+      if (!event.target.closest("button")) openWindow(id);
+    });
+    elements.blocks.append(block);
+    state.blockSlots.set(id, slot);
+    state.blockContents.set(id, content);
+  }
+}
+
+function restoreWindowBlock(id) {
+  const slot = state.blockSlots.get(id);
+  const content = state.blockContents.get(id);
+  if (slot && content) slot.replaceChildren(content);
 }
 
 function openWindow(id) {
@@ -326,7 +379,12 @@ function openWindow(id) {
     setStatus(`Unknown window: ${id}`, "error");
     return;
   }
-  const content = createWindowContent(id);
+  const content = state.blockContents.get(id) ?? createWindowContent(id);
+  const slot = state.blockSlots.get(id);
+  slot?.replaceChildren(Object.assign(document.createElement("p"), {
+    className: "window-block-placeholder",
+    textContent: `${definition.title} is open as a window.`
+  }));
   if (typeof window.WinBox === "function") {
     const winbox = new window.WinBox({
       title: definition.title,
@@ -334,9 +392,11 @@ function openWindow(id) {
       y: 80 + state.windows.size * 28,
       width: definition.width,
       height: definition.height,
+      root: elements.desktop,
       mount: content,
       onclose: () => {
         state.windows.delete(id);
+        restoreWindowBlock(id);
       }
     });
     state.windows.set(id, winbox);
@@ -355,6 +415,7 @@ function openWindow(id) {
     close.addEventListener("click", () => {
       section.remove();
       state.windows.delete(id);
+      restoreWindowBlock(id);
     });
     bar.append(title, close);
     const body = document.createElement("div");
@@ -369,12 +430,17 @@ function openWindow(id) {
 }
 
 function updateWindow(id) {
+  const content = createWindowContent(id);
+  state.blockContents.set(id, content);
   const current = state.windows.get(id);
-  if (!current) return;
+  if (!current) {
+    state.blockSlots.get(id)?.replaceChildren(content);
+    return;
+  }
   if (typeof window.WinBox === "function" && current instanceof window.WinBox) {
-    current.mount(createWindowContent(id));
+    current.mount(content);
   } else if (current.element) {
-    current.element.querySelector(".fallback-content").replaceChildren(createWindowContent(id));
+    current.element.querySelector(".fallback-content").replaceChildren(content);
   }
 }
 

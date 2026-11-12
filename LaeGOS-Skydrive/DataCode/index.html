@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101820">
-  <meta name="description" content="LaGOS interactive Laegna number-system workspace.">
+  <meta name="description" content="LaGOS interactive Laegna number-system desktop.">
   <title>LaGOS — Laegna OS Alpha</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./app.js" defer></script>
@@ -47,6 +47,10 @@
           <span id="digit-count">—</span>
         </div>
         <div class="digit-keyboard" id="digit-keyboard" aria-label="Number keys"></div>
+        <section class="symbol-keyboard">
+          <h3>Known, unknown, and special values</h3>
+          <div class="unknown-keyboard" id="unknown-keyboard" aria-label="Known, unknown, zero, and infinity keys"></div>
+        </section>
         <div class="keyboard-actions">
           <button type="button" class="key-action clear-key" id="clear-key" disabled>C&nbsp; Clear</button>
           <button type="button" class="key-action" id="delete-key" disabled>←&nbsp; Delete</button>
@@ -54,26 +58,16 @@
         <p class="key-help">Keyboard keys and their order are read from <code>laegna.json</code>.</p>
       </aside>
 
-      <section class="center-panel" aria-label="Window workspace">
+      <section class="center-panel" aria-label="Applications and window desktop">
         <div class="tab-strip">
-          <div class="tabs" id="tabs" role="tablist" aria-label="Window groups"></div>
-          <label class="tab-count-control" for="tab-count">
-            Groups
-            <select id="tab-count" aria-label="Number of window groups" disabled>
-              <option value="2">2</option>
-              <option value="3" selected>3</option>
-            </select>
-          </label>
+          <div class="tabs" id="tabs" role="tablist" aria-label="Applications"></div>
         </div>
         <div class="center-stage" id="center-stage">
           <div class="stage-label">
             <span>WINBOX DESKTOP</span>
-            <span id="active-group-name">Workspace 1</span>
+            <span id="active-app-name">Parity</span>
           </div>
-          <div class="empty-desktop" id="empty-desktop" hidden>
-            <span>◇</span>
-            <p>No windows are open. Open a tool from either side panel.</p>
-          </div>
+          <div class="app-catalog" id="app-catalog" aria-label="Applications in desktop content"></div>
         </div>
       </section>
 
@@ -85,7 +79,7 @@
         <div class="focus-card">
           <span class="field-label">Focused window</span>
           <strong id="focus-name">No window selected</strong>
-          <span id="focus-group">Select a window or workspace tab.</span>
+          <span id="focus-group">Select an app tab or open an app block.</span>
         </div>
         <label class="field-label" for="sign-select">Operation sign system</label>
         <select id="sign-select" disabled></select>
@@ -102,7 +96,7 @@
           <button type="button" data-open-app="divisibility" disabled>⅓ &nbsp; Divisibility</button>
           <button type="button" data-open-app="number-facts" disabled>∑ &nbsp; Number facts</button>
         </div>
-        <p class="focus-help">Windows stay visible across groups. Select a group or window to raise its whole group.</p>
+        <p class="focus-help">Apps remain available as desktop content. Select an app tab or click a block to open its window.</p>
       </aside>
       <div class="window-layer" id="window-layer" aria-label="Open windows"></div>
       <div class="window-dock" id="window-dock" aria-label="Minimized windows"></div>
