@@ -676,3 +676,486 @@ Likewise, approximation is not necessarily error.
 It is a change of observation depth.
 
 A calculator built on these principles would therefore operate less like a machine manipulating values and more like a viewer navigating a hierarchy of curvatures, revealing or concealing detail according to octave, while retaining enough hidden structure to reverse many operations that conventional arithmetic permanently forgets.
+
+---
+
+![SecondOrderOctaves](Cfx/SecondOrderOctaves.png)
+
+<br>
+
+# Second-Order Octaves and Dimensional Curvature
+
+The previous discussion introduced a reversible interpretation of precision:
+
+> Digits do not necessarily disappear; they may simply move to another octave.
+
+However, there is a second interpretation of octaves within Laegna Calculus that is equally important.
+
+The first octave system describes how an existing curvature is observed at different scales:
+
+```text
+Y ← X → Z
+```
+
+The second octave system instead derives octave structure from the number itself.
+
+Rather than asking:
+
+```text
+How large is the curvature?
+```
+
+it asks:
+
+```text
+How many positions does the curvature contain?
+```
+
+This transforms dimensionality into a calculable property.
+
+---
+
+# The Length Becomes the Curvature
+
+Consider:
+
+```text
+AA
+```
+
+as octave:
+
+```text
+X
+```
+
+Its visible length is:
+
+```text
+2
+```
+
+In the second-order interpretation, the length itself becomes a value.
+
+Using the Laegna correspondence:
+
+```text
+2 → E
+```
+
+we obtain:
+
+```text
+Y = E
+```
+
+Notice what happened:
+
+The original symbol:
+
+```text
+AA
+```
+
+is no longer interpreted as content.
+
+It is interpreted as dimensional information.
+
+The object is measured by the number of positions it occupies.
+
+---
+
+# Creating the Boundary
+
+The dimensional value:
+
+```text
+E
+```
+
+can now create its own octave boundary:
+
+```text
+EE
+```
+
+Yet the original object remained:
+
+```text
+AA
+```
+
+The visible replacement therefore becomes:
+
+```text
+Ee
+```
+
+where:
+
+```text
+E
+```
+
+represents the dimensional boundary and:
+
+```text
+e
+```
+
+becomes the precision remainder.
+
+Exactly as before, the omitted information has not disappeared.
+
+Its position remains known.
+
+---
+
+# From Content to Container
+
+The first-order octave system may be viewed as:
+
+```text
+Curvature
+→
+Higher Curvature
+→
+Lower Curvature
+```
+
+The second-order octave system instead performs:
+
+```text
+Curvature
+→
+Dimension Count
+→
+Dimensional Boundary
+```
+
+Thus:
+
+```text
+AA
+```
+
+may become:
+
+```text
+EE
+```
+
+not because the value changed mathematically, but because the frame of interpretation changed.
+
+The system begins measuring the container rather than the content.
+
+---
+
+# Why Every Two-Digit Object Becomes EEEE
+
+Suppose:
+
+```text
+AA
+```
+
+occupies two positions.
+
+If:
+
+```text
+A = 1
+```
+
+and an octave expansion is performed such that:
+
+```text
+1 + A = 3
+```
+
+leading to:
+
+```text
+4
+```
+
+as the resulting dimensional requirement, then the corresponding octave becomes:
+
+```text
+EEEE
+```
+
+Therefore:
+
+```text
+AA
+```
+
+produces:
+
+```text
+EEEE
+```
+
+not because AA equals EEEE numerically, but because the dimensional interpretation requires four positions.
+
+Likewise:
+
+```text
+AO
+AE
+OA
+EI
+EE
+```
+
+and many other curvature combinations can collapse into the same dimensional boundary:
+
+```text
+EEEE
+```
+
+because only dimensional information is being observed.
+
+The internal coordinates are no longer visible.
+
+---
+
+# Coordinates Before Values
+
+This suggests a useful interpretation:
+
+Ordinary mathematics tends to store:
+
+```text
+Value
+first
+```
+
+and derive position later.
+
+Second-order octave mathematics often does the opposite:
+
+```text
+Dimension
+first
+Position
+second
+```
+
+A structure therefore becomes:
+
+```text
+EEEE
+```
+
+followed by coordinates that describe where inside the dimensional space the object resides.
+
+Conceptually this resembles:
+
+```text
+Space
+→
+Location
+```
+
+rather than:
+
+```text
+Object
+→
+Space
+```
+
+---
+
+# T and R as Dual Operations
+
+The more these examples are examined, the more T and R appear to form a dual pair.
+
+T-calculus primarily answers:
+
+```text
+How does this curvature appear
+at another octave?
+```
+
+or:
+
+```text
+Keep object.
+Change observation.
+```
+
+R-calculus instead answers:
+
+```text
+How should this visible object
+be interpreted?
+```
+
+or:
+
+```text
+Keep observation.
+Change meaning.
+```
+
+Thus:
+
+```text
+AA
+```
+
+under T may become:
+
+```text
+A
+AA
+AAAA
+```
+
+depending on octave.
+
+Under R it may become:
+
+```text
+frequency
+dimension
+coordinate
+boundary
+logic state
+```
+
+while remaining visibly:
+
+```text
+AA
+```
+
+throughout.
+
+---
+
+# Visual Computation
+
+An interesting consequence follows.
+
+Most mathematical systems are symbolic first and visual second.
+
+Laegna octaves often appear reversed.
+
+Many transformations can be seen almost immediately as geometric manipulations:
+
+```text
+Stretch
+Compress
+Repeat
+Fold
+Project
+Expand
+```
+
+The resulting calculation often resembles image processing more than arithmetic.
+
+The original observation that:
+
+```text
+AAAA
+```
+
+can be generated by treating:
+
+```text
+AA
+```
+
+like a one-dimensional image and scaling it is therefore not merely an analogy.
+
+It may actually describe the computational mechanism.
+
+The curvature is transformed visually before it is interpreted numerically.
+
+---
+
+# Curvature of Curvature
+
+At this stage a deeper pattern emerges.
+
+First-order octaves act upon a number:
+
+```text
+AA
+→
+AAAA
+```
+
+Second-order octaves act upon the structure of that number:
+
+```text
+AA
+→
+(length = 2)
+→
+E
+→
+EE
+→
+EEEE
+```
+
+Thus the system is no longer calculating merely a curvature.
+
+It is calculating:
+
+> The curvature of a curvature.
+
+Or equivalently:
+
+> The dimensional structure generated by another dimensional structure.
+
+---
+
+# Toward a Fully Reversible Octave Machine
+
+Combining all previous sections, a Laegna calculator begins to look less like a conventional calculator and more like an octave engine.
+
+Each state contains:
+
+```text
+Visible Curvature
++
+Hidden Precision
++
+Octave Position
++
+Dimensional Boundary
++
+Interpretive Frame
+```
+
+A calculation may therefore change:
+
+- scale,
+- dimensionality,
+- interpretation,
+- precision,
+- visibility,
+
+without necessarily destroying information.
+
+The calculator becomes a navigation system through curvature-space.
+
+Numbers cease to be static quantities.
+
+They become structured objects whose appearance depends on octave, whose meaning depends on interpretation, and whose hidden precision remains recoverable until an explicit collapse such as:
+
+```text
+CA
+```
+
+accepts the current view as the final reality.
+
+Within that perspective, a Laegna number is not merely a value.
+
+It is a reversible curvature carrying both its visible form and the pathways by which that form can be expanded, compressed, reinterpreted, or reconstructed across multiple octave orders.
