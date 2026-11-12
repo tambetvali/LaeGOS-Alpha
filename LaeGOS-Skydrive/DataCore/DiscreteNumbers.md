@@ -94,6 +94,42 @@ Also there is R calculus:
 
 ---
 
+The other mode of octaves:
+
+The *second order octaves*:
+
+Take this as ***X***:
+
+```
+AA
+```
+
+Length of this is 2, which is that Y is:
+
+```
+E
+```
+
+When we create boundary with this length, it becomes EE, but it was AA - we can see precision digit is also E:
+
+```
+Ee
+```
+
+Now take X, and whose value is A = 1 + A = 3 => 4, thus it has to be 4-digit number; we got to ***Z***:
+
+```
+EEEE
+```
+
+Any number from "AA" to "EE", or "II" to "EE" if we also allow I and O, becomes "EEEE", but we can see it has 4 digits:
+- We actually write the dimensional part first, then coordinates inside, or do other compressions like this.
+
+This octave logic is what I use freely, but in Laegna number system:
+- Complex octave can be calculated by R => T or T => R, which is rather *visual* way to calculate them.
+
+---
+
 ![TypicallyDiscrete](Cfx/TypicallyDiscrete.png)
 
 <br>
