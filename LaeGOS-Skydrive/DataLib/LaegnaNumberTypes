@@ -1,0 +1,39 @@
+# Some differences of Laegna number types of normal ones
+
+Each digit is analyzed mathematically and can contain:
+- Multiple bands
+- Multiple dimensions
+
+Yet, digit bits are also ordered and thus, there is also the full-number value which might not use those specifications. These two modes are highly compatible.
+
+Counting in decimals involves positional zero:
+```
+-2
+-1
+0
++1
++2
+...
+10 - 10 also, contains zero, thus zero is positional.
+```
+
+Laegna numbers have non-positional zero:
+```
+Unsigned zero:
+U - 0
+I - 1
+O - 2
+A - 3
+E - 4; with all positional values, I, O, A, E, none of them contains "U".
+```
+
+"U" is basically what needs to be displayed on empty screen in this version. If user adds explicit U's, we process them later, right now the full values.
+
+# Capital and small case
+
+Every digit can be capital or small case:
+- Currently, let's just calculate the full number as if all where capital.
+
+# Each digit length restarts counting
+
+At each digit length, counting restarts.

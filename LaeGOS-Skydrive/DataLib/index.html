@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Standalone LaeGOS screen and keyboard library demo.">
+  <title>LaeGOS Data Library — Screen &amp; Keyboard</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/winbox@0.2.82/dist/css/winbox.min.css">
+  <script src="/static/js/winbox.bundle.min.js"></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <main class="library-shell">
+    <header class="topbar">
+      <a class="brand" href="../index.html">LaeGOS <span>/ Data Library</span></a>
+      <span class="user-badge">Single-user demo · local state only</span>
+    </header>
+
+    <section class="intro">
+      <p class="eyebrow">SCREEN + KEYBOARD FOUNDATION</p>
+      <h1>Number workspace</h1>
+      <p>Standalone library sandbox. The screen coordinator and keyboard/type classes can be connected to the main app later.</p>
+      <label class="type-picker" for="number-type">
+        <span>Number type</span>
+        <select id="number-type" aria-label="Number type"></select>
+      </label>
+    </section>
+
+    <section class="desktop" aria-label="Window desktop">
+      <div class="desktop-heading">
+        <div>
+          <p class="eyebrow">WINBOX DESKTOP</p>
+          <h2>Open a library window</h2>
+        </div>
+        <p id="library-status" role="status" aria-live="polite">Loading Laegna number systems…</p>
+      </div>
+      <div class="window-launchers" id="window-launchers" aria-label="Available windows">
+        <button type="button" class="window-launcher" data-window="screen">
+          <span class="launcher-symbol">▤</span><strong>Three-screen display</strong>
+          <small>Answer · Question · Oracle</small>
+        </button>
+        <button type="button" class="window-launcher" data-window="digits">
+          <span class="launcher-symbol">⌨</span><strong>Digit keyboard</strong>
+          <small>Digits · unknowns · clear</small>
+        </button>
+        <button type="button" class="window-launcher" data-window="operators">
+          <span class="launcher-symbol">±</span><strong>Operator keyboard</strong>
+          <small>Arithmetic · equals</small>
+        </button>
+        <button type="button" class="window-launcher" data-window="sign">
+          <span class="launcher-symbol">＋</span><strong>Sign setter</strong>
+          <small>Positive · negative</small>
+        </button>
+        <button type="button" class="window-launcher" data-window="wave">
+          <span class="launcher-symbol">≈</span><strong>Wave / bit view</strong>
+          <small>Example digit mapping</small>
+        </button>
+      </div>
+      <div class="fallback-windows" id="fallback-windows" aria-label="Open library windows"></div>
+      <p class="desktop-note">Open windows are independent of the main calculator. Hover a key to preview its effect; click to apply it.</p>
+    </section>
+    <footer><span>LaeGOS Alpha · DataLib</span><a href="./Task1.md">Task brief</a></footer>
+  </main>
+</body>
+</html>

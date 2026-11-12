@@ -1,5 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="en"
+  data-website-root="https://spireason.neocities.org/LaeGOS-Alpha/"
+  data-repository-root="https://github.com/tambetvali/LaeGOS-Alpha/">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,8 +59,8 @@
 
     <section class="card" aria-labelledby="addresses-title">
       <h2 id="addresses-title">Project addresses</h2>
-      <p>Web: <a id="web-address" href="https://spireason.neocities.org/">https://spireason.neocities.org/</a></p>
-      <p>Repository: <a id="repository-address" href="https://github.com/tambetvali/LaeGOS-Alpha">https://github.com/tambetvali/LaeGOS-Alpha</a></p>
+      <p>Web: <a id="web-address" href="https://spireason.neocities.org/LaeGOS-Alpha/">https://spireason.neocities.org/LaeGOS-Alpha/</a></p>
+      <p>Repository: <a id="repository-address" href="https://github.com/tambetvali/LaeGOS-Alpha/">https://github.com/tambetvali/LaeGOS-Alpha/</a></p>
       <p id="address-note">The addresses follow this page's path.</p>
     </section>
 
@@ -74,9 +76,16 @@
   </main>
   <script>
     (() => {
-      const websiteRoot = "https://spireason.neocities.org/";
-      const repositoryRoot = "https://github.com/tambetvali/LaeGOS-Alpha";
-      const segments = window.location.pathname
+      const websiteRootUrl = new URL(document.documentElement.dataset.websiteRoot);
+      const websiteRoot = `${websiteRootUrl.href.replace(/\/+$/, "")}/`;
+      const repositoryRootUrl = new URL(document.documentElement.dataset.repositoryRoot);
+      const repositoryRoot = `${repositoryRootUrl.href.replace(/\/+$/, "")}/`;
+      const websiteRootPath = `${websiteRootUrl.pathname.replace(/\/+$/, "")}/`;
+      const pathname = window.location.pathname;
+      const relativePath = pathname.startsWith(websiteRootPath)
+        ? pathname.slice(websiteRootPath.length)
+        : pathname.replace(/^\/+/, "");
+      const segments = relativePath
         .split("/")
         .filter(Boolean)
         .filter((part) => part.toLowerCase() !== "index.html")
@@ -84,7 +93,7 @@
       const path = segments.length ? `/${segments.join("/")}/` : "/";
       const webUrl = `${websiteRoot}${segments.map(encodeURIComponent).join("/")}${segments.length ? "/" : ""}`;
       const repoUrl = segments.length
-        ? `${repositoryRoot}/tree/main/${segments.map(encodeURIComponent).join("/")}`
+        ? `${repositoryRoot}tree/main/${segments.map(encodeURIComponent).join("/")}`
         : repositoryRoot;
 
       document.getElementById("current-path").textContent = path;

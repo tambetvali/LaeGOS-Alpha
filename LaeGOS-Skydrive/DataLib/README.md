@@ -2,6 +2,14 @@
 
 Library for Laegna Data supports Laegna numeric conversions.
 
+## Standalone screen and keyboard demo
+
+Open `index.html` from a static web server (not directly as `file://`) to use the standalone WinBox demonstration. It reads ordered digit definitions from `../DataRfx/laegna.json`; `Examples` is learning/reference material and is not loaded by the app or library. The browser tests may compare against those reference examples, but they are not runtime inputs. The page uses the requested `/static/js/winbox.bundle.min.js` path when that asset is available, and provides in-page windows when it is not.
+
+The demo has an Answer / Question / Oracle screen coordinator, digit and operator keyboard classes, a current-entry sign setter, and number types for the Laegna base-2, base-4, base-8, and base-16 digit orders. Encoded digits use the Examples' one-based ordinal value convention (`digits as base-B indices + 1`; `W` represents zero). Base-16 keeps its 4×4 keypad shape. The base-4 waveform type uses the Examples' previous-digit permutation in both directions. Its inverse selects each digit using the already-decoded previous waveform digit, so conversion back produces the matching waveform shape. B16D encodes binary digits as A/O; its driver arrays preserve U (unknown) and · (unset) positions, including the base-4 U and ∩ patterns.
+
+This is a single-user, in-memory sandbox. `DataCode` imports the same classes through `../DataLib/number-types.js`; the library is not copied into that app. Symbolic unknown arithmetic, mixed-base free-entry semantics, conversion masks, and the full origin-preserving bit model remain extension points rather than being implied as implemented.
+
 This is going to support two operational modes:
 - Fixed base formats:
   - Number systems on screen and in processing in fixed base format.

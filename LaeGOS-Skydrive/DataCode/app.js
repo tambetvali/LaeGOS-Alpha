@@ -60,6 +60,8 @@
 
   const state = {
     systems: [],
+    numberTypes: [],
+    numberType: null,
     signSystems: [],
     base: null,
     baseMode: DEFAULT_BASE,
@@ -123,7 +125,11 @@
       if (!response.ok) throw new Error(`Could not load ${JSON_URL} (HTTP ${response.status}).`);
       const data = await response.json();
       state.systems = validateData(data);
+      const { numberTypesFromData } = await import("../DataLib/number-types.js");
+      state.numberTypes = numberTypesFromData(data);
       state.base = getById(state.systems, DEFAULT_BASE);
+      state.baseMode = DEFAULT_BASE;
+      state.numberType = getNumberType(DEFAULT_BASE);
       state.signSystems = state.systems.filter((item) => item && ["signs4", "signs8"].includes(item.id));
       state.signSystem = getById(state.signSystems, DEFAULT_SIGN_SYSTEM);
       initializeControls();
@@ -158,6 +164,13 @@
       option.textContent = `${system["alt-name"] || system.name || system["alt-id"]} · ${system["alt-id"]} (linear)`;
       elements.baseSelect.append(option);
     });
+    for (const type of state.numberTypes) {
+      if (["base2", "base4", "base8", "base16", "base44"].includes(type.id)) continue;
+      const option = document.createElement("option");
+      option.value = type.id;
+      option.textContent = type.name;
+      elements.baseSelect.append(option);
+    }
     const sign2 = getById(state.systems, "signs2");
     for (const system of state.signSystems) {
       const option = document.createElement("option");
@@ -213,51 +226,53 @@
   }
 
   function getCurrentValue() {
-    if (!state.base) return 0n;
-    let value = 0n;
-    const base = BigInt(state.base.base);
-    for (const digit of state.currentDigits) value = value * base + BigInt(digit);
+    if (!state.base || !state.numberType) return 0n;
+    if (!state.numberType.isArithmeticEntry(state.currentDigits)) {
+      throw new Error("Symbolic unknowns cannot be used in arithmetic.");
+    }
+    let value = state.numberType.toValue(state.currentDigits);
     return state.negative ? -value : value;
   }
 
+  function getNumberType(id = state.baseMode) {
+    const type = state.numberTypes.find((numberType) => numberType.id === id);
+    if (!type) throw new Error(`DataLib has no number type for ${id}.`);
+    return type;
+  }
+
   function convertToDigits(value, base) {
-    const digits = [];
-    let remainder = value < 0n ? -value : value;
-    const radix = BigInt(base.base);
-    if (remainder === 0n) return [0];
-    while (remainder > 0n) {
-      digits.unshift(Number(remainder % radix));
-      remainder /= radix;
-    }
-    return digits;
+    const typeId = base.id === state.base?.id ? state.baseMode : base.id;
+    return getNumberType(typeId).fromValue(value);
   }
 
   function formatValue(value, base = state.base) {
     if (!base) return value.toString();
-    const symbols = base.digits;
-    const digitIndexes = convertToDigits(value, base);
-    const glyphs = digitIndexes.map((index) => symbols[index] ?? String(index)).join("");
-    return value < 0n ? `−${glyphs}` : glyphs;
+    const typeId = base.id === state.base?.id ? state.baseMode : base.id;
+    return getNumberType(typeId).formatValue(value);
   }
 
   function currentDisplayValue() {
-    if (!state.currentDigits.length) {
-      const empty = state.base && Array.isArray(state.base.udigits) ? state.base.udigits[0] : null;
-      return empty || "U";
+    if (!state.numberType) return "U";
+    if (!state.numberType.isArithmeticEntry(state.currentDigits)) {
+      return JSON.stringify(state.numberType.encodeDigits(state.currentDigits));
     }
-    return `${state.negative ? "−" : ""}${state.currentDigits.map((index) => state.base.digits[index]).join("")}`;
+    return state.numberType.format(state.currentDigits, state.negative);
   }
 
   function renderKeyboard() {
-    if (!state.base) return;
+    if (!state.base || !state.numberType) return;
     elements.keyboard.replaceChildren();
-    state.base.digits.forEach((glyph, index) => {
+    state.numberType.getKeyboardKeys().forEach((key) => {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "digit-key";
-      button.textContent = glyph;
-      button.setAttribute("aria-label", `Digit ${index}: ${glyph}`);
-      button.addEventListener("click", () => enterDigit(index));
+      button.textContent = key.label;
+      button.dataset.keyKind = key.kind;
+      button.setAttribute("aria-label", key.kind === "digit" ? `Digit ${key.value}: ${key.label}` : key.label);
+      button.addEventListener("click", () => {
+        if (key.kind === "digit") enterDigit(key.value);
+        else enterSpecial(key.value);
+      });
       elements.keyboard.append(button);
     });
     const isBase44 = state.baseMode === "base44";
@@ -309,16 +324,33 @@
 
   function changeBase() {
     const requestedId = elements.baseSelect.value;
+    const numberType = state.numberTypes.find((type) => type.id === requestedId);
     const selected = getById(state.systems, requestedId)
-      || state.systems.find((system) => system && system["alt-id"] === requestedId);
+      || state.systems.find((system) => system && system["alt-id"] === requestedId)
+      || (numberType && {
+        id: numberType.id,
+        name: numberType.name,
+        base: numberType.base,
+        digits: numberType.digits,
+        description: numberType.description
+      });
     if (!selected || !Array.isArray(selected.digits)) {
       setStatus(`Unknown number base: ${requestedId}`, "error");
       return;
     }
-    const previousCurrent = state.currentDigits.length ? getCurrentValue() : null;
+    let previousCurrent = null;
+    if (state.currentDigits.length) {
+      try {
+        previousCurrent = getCurrentValue();
+      } catch (error) {
+        setStatus(error instanceof Error ? error.message : "The current entry cannot be converted.", "error");
+        return;
+      }
+    }
     const previousTotal = state.total;
-    state.baseMode = requestedId !== selected.id ? requestedId : selected.id;
+    state.baseMode = requestedId;
     state.base = selected;
+    state.numberType = getNumberType(state.baseMode);
     if (previousCurrent !== null) {
       state.currentDigits = convertToDigits(previousCurrent, selected);
       state.negative = previousCurrent < 0n;
@@ -328,7 +360,9 @@
     renderAll();
     setStatus(selected.id === "base16"
       ? `Loaded ${state.baseMode === "base44" ? "Base-44 (linear alias)" : "Base-16"} from laegna.json.`
-      : `Loaded ${selected.id} from laegna.json.`);
+      : numberType && !getById(state.systems, requestedId)
+        ? `Loaded ${selected.name} from DataLib.`
+        : `Loaded ${selected.id} from laegna.json.`);
   }
 
   function enterDigit(index) {
@@ -341,10 +375,33 @@
       setStatus("Number entry is limited to 256 digits for this iteration.", "error");
       return;
     }
+    if (state.currentDigits.length === 1 && state.currentDigits[0] === "W") state.currentDigits = [];
     if (state.currentDigits.length === 0) state.negative = false;
     state.currentDigits.push(index);
     renderAll();
     setStatus(`Entered ${state.base.digits[index]}.`);
+  }
+
+  function enterSpecial(symbol) {
+    state.negative = false;
+    if (symbol === "W") {
+      state.currentDigits = [symbol];
+    } else {
+      const encoded = state.numberType.encodeUnknownSymbol(symbol).slice(1);
+      if (state.numberType.id === "base4" && ["U", "∩"].includes(symbol)) {
+        state.currentDigits = encoded;
+      } else {
+        if (state.currentDigits.length === 1 && state.currentDigits[0] === "W") state.currentDigits = [];
+        state.currentDigits.push(...encoded);
+      }
+    }
+    renderAll();
+    const message = symbol === "W"
+      ? "Entered the example zero symbol."
+      : symbol === "∩"
+        ? "Entered infinity; this symbolic value is not an arithmetic operand."
+        : `Entered symbolic unknown ${symbol}; arithmetic is unavailable for unknowns.`;
+    setStatus(message, symbol === "W" ? "info" : "error");
   }
 
   function clearScreen() {
@@ -369,7 +426,13 @@
       return;
     }
     if (state.currentDigits.length) {
-      const current = getCurrentValue();
+      let current;
+      try {
+        current = getCurrentValue();
+      } catch (error) {
+        setStatus(error instanceof Error ? error.message : "The current entry cannot be used in arithmetic.", "error");
+        return;
+      }
       if (state.total !== null && state.pendingOperation) {
         try {
           state.total = OPERATION_FUNCTIONS[state.pendingOperation](state.total, current);
@@ -666,6 +729,15 @@
 
   function updateWindow(win) {
     if (win.closed) return;
+    if (!state.numberType.isArithmeticEntry(state.currentDigits)) {
+      win.body.replaceChildren();
+      const heading = document.createElement("h3");
+      heading.textContent = APP_DEFINITIONS[win.appId].heading;
+      const message = document.createElement("p");
+      message.textContent = `${currentDisplayValue()} is a symbolic entry; numeric observations are unavailable.`;
+      win.body.append(heading, message);
+      return;
+    }
     const value = getCurrentValue();
     const absolute = value < 0n ? -value : value;
     const remainder3 = ((value % 3n) + 3n) % 3n;
