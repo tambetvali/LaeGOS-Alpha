@@ -192,6 +192,8 @@ This is theoretical physics, measuring wavelights.
 
 ---
 
+![2MInSize](Cfx/2MInSize.png)
+
 CoPilot:
 
 # Relativistic Geometric Mean and the Internal–External Octave
