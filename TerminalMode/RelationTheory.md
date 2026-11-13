@@ -327,6 +327,368 @@ This is the band symmetry. We have now removed any kind of misunderstanding abou
   - it's rather a number relation - this relation is not absolute in physics, but quite linear way to represent it in decimals.
     - decimal system is human invention: important to understand what is *science* here - is *math*, in what follows as well, but it gets interesting now as we continue with relations and relativity..
 
+---
+
+CoPilot:
+
+# Laegna Theory of Relativity
+## Invariants Through Transformation
+
+One of the strongest aspects of the Laegna project is not any particular number, but the attempt to identify what remains invariant when representations change.
+
+If we strip away the symbolic language and restate the idea in the language of mathematics, geometry, physics, and information theory, the core proposal becomes:
+
+> A number, object, wave, geometry, or physical system may appear differently under rescaling, reprojection, rank changes, octave changes, dimensional changes, or coordinate changes, while preserving an underlying structural invariant.
+
+This principle resembles the historical pattern of every mature theory of relativity.
+
+| Framework | Relative Component | Invariant Component |
+|------------|------------|------------|
+| Galileo | Velocity | Laws of mechanics |
+| Einstein | Space and time | Spacetime interval |
+| Projective Geometry | Coordinates | Incidence relations |
+| Group Theory | Representation | Group structure |
+| Information Theory | Encoding | Information content |
+| Laegna (proposed) | Rank, band, projection, scale | Holographic structure |
+
+The interesting observation is that Laegna repeatedly arrives at this same idea from multiple directions.
+
+---
+
+# The External Zero
+
+Perhaps the most important unanswered question is not the role of 44.1.
+
+It is:
+
+> What is External Zero?
+
+Several values repeatedly appear throughout the framework:
+
+- 24
+- 28
+- 32
+- 36
+- 320
+- 360
+
+These values appear unusually stable under transformations.
+
+Why?
+
+Mathematically, they are highly symmetric and highly divisible structures.
+
+## 24
+
+$$
+24 = 2^3 \times 3
+$$
+
+Divisors:
+
+$$
+1,2,3,4,6,8,12,24
+$$
+
+This makes 24 extremely useful for subdivision.
+
+Examples:
+
+- 24-hour clock
+- 24-cell polytope
+- Calendars
+- Musical organizations
+
+24 is not physically fundamental.
+
+It is geometrically convenient.
+
+---
+
+## 360
+
+$$
+360 = 2^3 \times 3^2 \times 5
+$$
+
+A very large divisor count allows flexible subdivision:
+
+$$
+1,2,3,4,5,6,8,9,10,12,\dots
+$$
+
+This makes it ideal for circles.
+
+360 degrees is not a discovered law of nature.
+
+It is a particularly useful coordinate system.
+
+---
+
+## 320
+
+$$
+320 = 2^6 \times 5
+$$
+
+For systems emphasizing powers of two and four, 320 is often structurally simpler than 360.
+
+This may explain why Laegna repeatedly encounters it as a stable attractor.
+
+---
+
+## 28
+
+28 is one of the classical perfect numbers.
+
+$$
+28 = 1 + 2 + 4 + 7 + 14
+$$
+
+Its proper divisors add exactly to itself.
+
+Because of this, mathematicians regarded it as structurally complete long before modern mathematics.
+
+---
+
+# Why 44.1 Keeps Reappearing
+
+The strongest mathematical observation is perhaps not:
+
+> 44.1 is fundamental.
+
+but rather:
+
+> 44.1 is unusually stable under decimal reprojection.
+
+Notice:
+
+$$
+44.1
+$$
+
+$$
+441
+$$
+
+$$
+4410
+$$
+
+$$
+44100
+$$
+
+all preserve:
+
+$$
+441 = 21^2
+$$
+
+and
+
+$$
+44100 = 210^2
+$$
+
+Therefore:
+
+$$
+44.1 = \frac{21^2}{10}
+$$
+
+retains its visual structure across scales.
+
+This is relatively uncommon.
+
+Many numbers lose recognizable form when shifted by powers of ten.
+
+44.1 repeatedly reveals:
+
+$$
+21^2
+$$
+
+This makes it behave somewhat like a holographic number candidate.
+
+---
+
+# The Planck-Phi Relation
+
+The relation
+
+$$
+\ell_\phi=\frac{\ell_P}{\phi}
+$$
+
+is mathematically valid.
+
+However, physics does not currently derive this quantity as a fundamental constant.
+
+Instead, it functions as a rescaling.
+
+Nevertheless, it highlights an existing Planck duality:
+
+$$
+\ell_P \propto \sqrt G
+$$
+
+$$
+m_P \propto \frac{1}{\sqrt G}
+$$
+
+and therefore:
+
+$$
+\ell_P m_P
+=
+\frac{\hbar}{c}
+$$
+
+remains invariant.
+
+This resembles the kind of reciprocal structure sought by Laegna:
+
+- one quantity grows,
+- another shrinks,
+- invariant product remains.
+
+That portion belongs to established physics.
+
+The phi-transformation is presently a mathematical extension layered upon it.
+
+---
+
+# Where Holography Really Appears
+
+The strongest established analogy may not involve 44.1 at all.
+
+It is:
+
+$$
+\lambda_C r_s = 2 \ell_P^2
+$$
+
+where:
+
+- Compton wavelength decreases with mass,
+- Schwarzschild radius increases with mass,
+
+yet:
+
+$$
+\lambda_C r_s
+=
+\text{constant}
+$$
+
+This creates a remarkably Laegna-like structure:
+
+| Quantity | Direction |
+|-----------|-----------|
+| Compton wavelength | inward |
+| Schwarzschild radius | outward |
+| Product | invariant |
+
+Pattern:
+
+$$
+\text{small}
+\times
+\text{large}
+=
+\text{constant}
+$$
+
+This form appears repeatedly throughout physics.
+
+---
+
+# Interpreting U and V
+
+A useful interpretation is that U and V are not numbers.
+
+They behave more like boundaries.
+
+| Symbol | Possible Role |
+|----------|----------|
+| U | Internal reference horizon |
+| V | External reference horizon |
+
+Then:
+
+- IOAE describe states inside a horizon.
+- U and V describe transitions between horizons.
+
+This explains why they repeatedly emerge near:
+
+- zero,
+- infinity,
+- rank transitions,
+- octave transitions.
+
+These are precisely the regions where ordinary coordinates begin to lose stability.
+
+---
+
+# The Strongest Laegna Statement
+
+The entire framework can perhaps be summarized as:
+
+> The Laegna Theory of Relativity proposes that numbers, geometries, scales, and physical quantities may be transformed between internal and external representations while preserving a deeper holographic invariant structure.
+
+This is a mathematically respectable proposition.
+
+It does not require claims such as:
+
+- 44.1 is a universal constant.
+- Phi determines gravity.
+- Planck units secretly encode music.
+
+Instead, it suggests something subtler:
+
+> Certain numerical and geometrical forms survive reprojection better than others, and these persistent forms may reveal invariants hidden by ordinary representation systems.
+
+---
+
+# Toward a Formal Theory
+
+The next step may not be searching for more constants.
+
+Instead, it may be defining a formal holographic operator:
+
+$$
+\mathcal{H}
+:
+\text{representation}
+\rightarrow
+\text{holographic representation}
+$$
+
+The important question becomes:
+
+What properties does this operator preserve?
+
+Possible candidates:
+
+- Prime structure
+- Rank structure
+- Parity
+- Curvature
+- Octave relations
+- IOAE balance
+- Internal/external symmetry
+
+Once these invariants are formally defined and proven, Laegna Relativity begins to move from symbolic correspondence toward a genuine mathematical framework.
+
+In that sense, the project's deepest direction is likely not the discovery of new constants, but the construction of a rigorous transformation system that preserves structure across scales.
+
+That is where the concept of a Laegna hologram becomes mathematically interesting.
+
+---
+
+(I added CoPilot's part, while this was originally after the "EE.ii" part, numerically close to $44.1$)
+
 > **Original question — self-reflection**
 >
 > What happens with the tesimal, and what is the reprojection of tesimal symmetric to?
