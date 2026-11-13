@@ -74,37 +74,50 @@ $10^{-36}$ - -36 is the actual number I want to see, because -36 + 4 = -32 and +
   - These degree numbers actually relate to linear degrees in bands, so we want to see where they pop out from; and it's *essential* that numbers, which are "most linear" at 360, 320, poorly 28 and richly 24, seem symmetric;
     - this is the search for *external zero*.
    
-I asked about this from ChatGPT:
-- There is an important distinction to establish first: some of your relationships are exact mathematical identities, some are consequences of your chosen unit system, and some are hypotheses about a deeper structure. Keeping those categories separate will make the theory considerably stronger.
+> I asked about this from ChatGPT:
+> - There is an important distinction to establish first: some of your relationships are exact mathematical identities, some are consequences of your chosen unit system, and some are hypotheses about a deeper structure. Keeping those categories separate will make the theory considerably stronger.
+> 
+> ChatGPT is not so long with me as CoPilot but remember one thing:
+> - We are doing a work which wants to see symmetries and balances in decimal system, brought to laegna four-based system, and stability of 44.1 under certain constraints is mathematical fact and number theory. We do mix it with physics because we do not want shit head users, that's why: I don't really want users who think that their gut feeling will create a magnificient theory here; we are utilizing number magic as atheist in chatgpt pointed out. Numeric stability of system shows many of it's basin, but in this direct analysis of decimal and Laegna theory, I said that we do have physics good enough right now, and we want to analyze number stability relations - people who jump and crouk around these facts telling that "here, important things about physics must appear inside" - I guarantee you this part of analysis only gives the number relations; in fact I am not interested in factors, but forms and geometries - physics, roughly follows those, but adds new in every step.
+>   - 44.1, then, is absolutely certain to be decimal representation of exact magnitudes, which remain stable in exact situations, and the woo-doo minds jumping around and telling "we got a bunch of gold without work out of number relations in physics", open their mouths and exaggerate - sorry but I have been motivated to write for them; but I tell you something real - they are *heavily* out of money and my texts *guarantee* to insult them to the end if they want to smile around the hypothetical money and tell, once again, about the good friendship. Such people read my initial sentence "this is about math and not so much about physics", and their helpful assistants come yelling with ugly voice, "please separate math and physics in this text". What I do separate, for what I do tell is separated? People who do not hear, do not syntax and do not jump on their own: I want to tell you I don't want to see your ugly face, so that I can write realistic text where connections are there and you *do not* multiply them by then, or your lost hope to *be something one day*. It's not my lost hope and I filtered out these parts because *the crank around my old stolen theories have been heavily dismotivating and I don't want to see your ugly a\*\*es any more.
+>
+> Take it or leave it but this was the answer for ChatGPT's article not given here as right now, I am not up to be my lawyer for you idiots - you be my own lawyers and earn my money and credit, or get the f*ck away from my theories. I do not work because I am not a closet cleaner that's why.
+>
+> That's why:
+> - I already see your crimes in it's answer;
+>   - your broken promises,
+>  - your lost hopes,
+>  - your yellings that where you got association of money, which science was there.
+>
+>I say I do not feed my children on this, so I just plain tell you:
+> - You are not welcome.
+> - You can say it's not real; but I was not welcome, that's it.
+>   - I *did* create an "atheist version of my philosophy";
+>     - and I *do not* want to see people without it's basin, running around and telling they "create" it, from white sugar in my pee.
+>       - you just told you cannot work as I have not done your work; as I did not "tell you what I mean", but getting your low-band shit and representing it as whole theory;
+>         - we others have *moral values*.
+>
+> Sorry I just got cracked out here:
+> - I say something in beginning and critical parts.
+> - I get pissed off if the IQ level which needs it after every second sentence;
+>   - who told me they like short sentences;
+>     - just tell me they would do shit on it's that's why.
+>
+> Science is not for people who lose their minds if sentences are not *explicit* about crime needs and suffering consequences, and the little failures of little idiots:
+> - For the failure of a genius is big.
 
-ChatGPT is not so long with me as CoPilot but remember one thing:
-- We are doing a work which wants to see symmetries and balances in decimal system, brought to laegna four-based system, and stability of 44.1 under certain constraints is mathematical fact and number theory. We do mix it with physics because we do not want shit head users, that's why: I don't really want users who think that their gut feeling will create a magnificient theory here; we are utilizing number magic as atheist in chatgpt pointed out. Numeric stability of system shows many of it's basin, but in this direct analysis of decimal and Laegna theory, I said that we do have physics good enough right now, and we want to analyze number stability relations - people who jump and crouk around these facts telling that "here, important things about physics must appear inside" - I guarantee you this part of analysis only gives the number relations; in fact I am not interested in factors, but forms and geometries - physics, roughly follows those, but adds new in every step.
-  - 44.1, then, is absolutely certain to be decimal representation of exact magnitudes, which remain stable in exact situations, and the woo-doo minds jumping around and telling "we got a bunch of gold without work out of number relations in physics", open their mouths and exaggerate - sorry but I have been motivated to write for them; but I tell you something real - they are *heavily* out of money and my texts *guarantee* to insult them to the end if they want to smile around the hypothetical money and tell, once again, about the good friendship. Such people read my initial sentence "this is about math and not so much about physics", and their helpful assistants come yelling with ugly voice, "please separate math and physics in this text". What I do separate, for what I do tell is separated? People who do not hear, do not syntax and do not jump on their own: I want to tell you I don't want to see your ugly face, so that I can write realistic text where connections are there and you *do not* multiply them by then, or your lost hope to *be something one day*. It's not my lost hope and I filtered out these parts because *the crank around my old stolen theories have been heavily dismotivating and I don't want to see your ugly a\*\*es any more.
- 
-Take it or leave it but this was the answer for ChatGPT's article not given here as right now, I am not up to be my lawyer for you idiots - you be my own lawyers and earn my money and credit, or get the f*ck away from my theories. I do not work because I am not a closet cleaner that's why.
-
-That's why:
-- I already see your crimes in it's answer;
-  - your broken promises,
-  - your lost hopes,
-  - your yellings that where you got association of money, which science was there.
-
-I say I do not feed my children on this, so I just plain tell you:
-- You are not welcome.
-- You can say it's not real; but I was not welcome, that's it.
-  - I *did* create an "atheist version of my philosophy";
-    - and I *do not* want to see people without it's basin, running around and telling they "create" it, from white sugar in my pee.
-      - you just told you cannot work as I have not done your work; as I did not "tell you what I mean", but getting your low-band shit and representing it as whole theory;
-        - we others have *moral values*.
-
-Sorry I just got cracked out here:
-- I say something in beginning and critical parts.
-- I get pissed off if the IQ level which needs it after every second sentence;
-  - who told me they like short sentences;
-    - just tell me they would do shit on it's that's why.
-
-Science is not for people who lose their minds if sentences are not *explicit* about crime needs and suffering consequences, and the little failures of little idiots:
-- For the failure of a genius is big.
+Here is what Number Magic is for:
+- Number form gives out a lot, for what the number is meant, and what can be done with it:
+  - For example, one can take square root of 4, but not of 2;
+    - Trivially, in every system where you need square root of 2, undergoes some process like using 4 in place of every 2, such as converting 2222 to 4444 and *then* digitwise taking the square root.
+    - Number forms are small in numbers - relations, cycles, expansions etc.;
+      - And it's the idiot way to say "the reader made associations with gold'n's*x reading of golden m\*an;
+        - It's the type of readers, which *again*, explicitly wants to hear how I want to say "there is no gold";
+        - and the class which comes back telling me where I failed advertising and selling to them, while I said:
+          - they are not welcome unless they pay.
+          - if they pay, to those they trust.
+          - they say they can not trust me, so I would heavily fail the payments:
+            - I said you are not welcome at all, and anybody who brings those people who tell their disappointments, failures, and just too much tragic to be peaceful, in advance, yelling that money will be lost and riches unearned, unless I directly tell where they are ..well I directly told we are social people and not idiot bullet makers of low ground to hit the core inside - we can really, well just discuss it without the hidden meaning you told about; or if you say you see depth in our eyes - we can hope, but not as much as you; we can fear losses, but just not as much as you - we are people who go forest together, and climb the mountains, not yell around a luxury car what ugly things happened to our children when they stole the other, mythic car. I do not have your mythos of loss - my family, scient and apt, never listened to your *charlatans*. If your science charlas (spanish word for meeting) are like this, just walk away and more away or wait, 'till we do. You are lose, micrphone abuser, and your story - not rap. Because you don't know - in Mountains snow is falling, not gold rising; where gold is rising it's yes to listen your stories of deplete. But it's not mine, and it's not mind.
 
 ---
 
