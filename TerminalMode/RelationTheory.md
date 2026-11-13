@@ -133,7 +133,28 @@ It is the relative difference between two numerical scales:
 - The Planck coefficient.
 - The golden ratio.
 
+---
 
+I chose this answer:
+
+The difference is approximately:
+
+$$
+\Delta C=C_\phi-C_E
+$$
+
+$$
+\boxed{\Delta C\approx44.110\ \mathrm{km}}
+$$
+
+This is numerically close to $44.1$.
+
+This means: EE.ii.
+
+This is the band symmetry. We have now removed any kind of misunderstanding about planck-meter numeromagical relation:
+- Notice this is not established physical constant or measurement;
+  - it's rather a number relation - this relation is not absolute in physics, but quite linear way to represent it in decimals.
+    - decimal system is human invention: important to understand what is *science* here - is *math*, in what follows as well, but it gets interesting now as we continue with relations and relativity..
 
 > **Original question — self-reflection**
 >
