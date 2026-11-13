@@ -148,6 +148,36 @@ What we do in regards to diagonals:
   - This transpose perfectly understands it's hologram pattern and can be used either directly or indirectly.
 - O, P, Q, E, I, O, A, E also map to 1, 2, 3, 4, 5, 6, 7, 8. A, E, I, O, O, P, Q, R sets 1..2 as linear, human scale with it's own plus and minus (-1 to +1, 1 octave; or -2 to +1 to dispatch the ranking, angular through-zero scale which needs to dispach even and odd into odd and even, i.e. the 4 or 8 steps for a few ranks is reasoned by transpose of higher and lower band, which also happens in laGEOsis at equator); I and O is from 1 light years to 16 billion light years, while O and P are from that point to distance where, in it's own scale, spacetime cooldown *happens now*, or if it's neverwhere - a relative scaling factor which is known. Then, Q and R are the final infinity, why ´R, R with upwards accent or two, typically means extreme infinity in Laegna: zero is symmetric to that, and we need to project the external zero for high-rank infinity. We move to signed numbers, but *still* reach two higher digits through Í and Ó projected after A and E, À and È before I and O, so that it double-reverses I and O outwards and A and E inwards, and projects externality.
 
+So, what happened:
+
+A and E, now, are Laegna exponent-linearized numbers.
+
+Each number is degree, each slice of 1 worth 90 degrees:
+- 180 degrees is 2 in unsigned, 0 in signed mode.
+
+We can see in exponent-linearized projection:
+- a and b = 90 and 90.
+- a + b = 180.
+- 90` - 90 projection: exponent-linearization removed after setting this, it equals 0.25 = I.
+- 180` - 360 projection: exponent-linearization, if number is 2, projects to 4: it equals 1.0 = E.
+
+We can see 1 + 1 = 4, because 2^1 + 2^1 = 2^4.
+
+Here, we can see:
+- How 90 degrees, A's, see the curvature factor sqrt(2) on both bands;
+  - So it does 90 degrees, passes U, then does 90 degrees.
+- But in totality, it has done not 180, but 360 degrees:
+  - Because 1 is exponent of 1, so the exponential 1 added to exponential 1 equals 1 added to 1.
+  - But 4 is exponent of 2, so the resulting number has projected value 4 for internal value 2.
+
+This creates conception of U and V:
+- Zero and Infinity, even Zero and One on next rank:
+  - Encompass the exponent-linearized structural stability of it's own linear operations for exponent-linearized space;
+    - while the space is reordered.
+
+At planck scale:
+- The equations, where numbers are degrees, still hold equally.
+
 ---
 
 What follows are constants close enough to pay interest; relativity part is kind of over in it's new essentials:
