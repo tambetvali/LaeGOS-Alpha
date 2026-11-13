@@ -1835,10 +1835,7 @@ $$
 Substituting:
 
 $$
-\sqrt{\frac{\hbar G_\phi}{c^3}}
-=
-\frac{1}{\phi}
-\sqrt{\frac{\hbar G}{c^3}}
+\sqrt{\frac{\hbar G_\phi}{c^3}} = \frac{1}{\phi} \sqrt{\frac{\hbar G}{c^3}}
 $$
 
 Squaring both sides gives:
@@ -1872,11 +1869,7 @@ $$
 Their product remains invariant:
 
 $$
-\ell_\phi m_{P,\phi}
-=
-\ell_Pm_P
-=
-\frac{\hbar}{c}
+\ell_\phi m_{P,\phi} = \ell_Pm_P = \frac{\hbar}{c}
 $$
 
 ### Interpretation
