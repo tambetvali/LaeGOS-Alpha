@@ -9,7 +9,148 @@ Just like the word "Ring" in mathematics, jewelry, and boxing shares a core symb
 [Phi](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/LaeGOS-Skydrive/DataGfx/Description/Phi.md), the Golden Ratio, is the start:
 - Let's see a number based on it's band-wise hologram projection, utilizing it's basic transformations like scaling (roughly equal to multiplication and division).
 
+## Relation - what this means in Laegna?
 
+Decimal system uses True and False basin Negative and Positive. In Laegna, False-False is Negotion, where false is doing; False-True is Negation, where false is doing none; True-True is Position, where true is doing; and True-True is Posetion, where true is not doing. Doing and not doing go in order, while their meaning goes in reverse - as you see -2 and +2 are in special position and turn this to linear square matrix.
+
+ReL or Rel in Laegna means Right connected through "e", a proper square infinity (because double-positioning is time, single-positioning is space, and as a connection space becomes true / square: exp, and True where as measure it would be false / not square / square root: lin or log, but False - False-X follows where X=True for Lin and False for Log; exp gets one Y - True-Y, where Y=True for *external*, Y=False for *internal*).
+
+Based on this, Relae from English or "Relee" from Estonian, or relaé from lae-gna, which almost means re-lae or re-lae*gna* in short. So it draws associations and e, a positive infinity connection, would relate left and right wing - so, relaé gets this infinity-accelerated ending:
+- Laegna number can be written on bin 2 or qua 4 lines OA or IOAE, or hex or any number.
+- Using ` and ´, or bouble `` and ´´, means the most significant non-zero / non-unset digit is at that line; or that the gravity center of linear frequencies in laegna max octave (lets say max octave for high-pitch, second order octaves / zero-infinity scale relative, min octave for low-pitch, first order octaves / music relative).
+  É means the most significant E-projecting digit, whose step integral -1..1, -2..2, -4..4 for ranks 1..3; 1..4; 1..8; 1..16 for ranks 0, 1, 2. Actually by 0, 1, 2, I mean mostly higher not lower ranks now but I want to get you used to hologram reprojection of number density, so 0=>2 is exterior-symmetric, while 1=>3 is interior-symmetric, and this is basin-0 and basin-1; usually *opposite*, but ask why we got those Z, X, Y, 3-divisibility of 12 notes in music *inside* the hologram cell; maybe music is just external-symmetric wave then?
+
+---
+
+# Physical scopes
+
+Let's calculate Physical Scopes in Laegna to one unified framework.
+
+We have [Diagonal Number Bases](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/LaeGOS-Skydrive/DataRfx/diagonalnumberbases.md).
+
+```
+FGHE
+CBAD
+ROPQ
+ILKJ
+```
+
+We turn all diagonals into diagonal number, reversing outwards and inwards and their diagonals in Laegna:
+
+```
+BCDA
+GFEH
+LIJK
+ORQP
+```
+
+After this, it's completely transposed in each direction.
+
+| Unit | Role |
+|------------|-------------------------|
+| **Y²**; ***Y-True*** | ***Y²***, **×Y**, YY, YX, **YY** scope; s = Heaven; t = Future; role = Ethalon, Ethos, Ideal, crown |
+| ×A ≃ ***10^36*** ≅ **10^32** | ×B ≈ 10^35, ×C ≈ 10^34, ×D ≈ 10^33, ×A ≈ 10^32 |
+| ×E ≃ ***10^32*** ≅ **10^28** | ×G ≈ 10^31, ×F ≈ 10^30, ×E ≈ 10^29, ×H ≈ 10^28 |
+| ×I ≃ ***10^28*** ≅ **10^24** | ×L ≈ 10^27, ×I ≈ 10^26, ×J ≈ 10^25, ×K ≈ 10^24 |
+| ×O ≃ ***10^24*** ≅ **10^20** | ×O ≈ 10^23, ×R ≈ 10^22, ×Q ≈ 10^21, ×P ≈ 10^20 |
+| **Y¹**; ***Y-False**** | ***Y¹***, **+Y**, Y, YZ, **YZ** scope; s = Terran; t = High; role = Future, third eye |
+| +A ≃ ***10^20*** ≅ **10^16** | +B ≈ 10^19, +C ≈ 10^18, +D ≈ 10^17, +A ≈ 10^16 |
+| +E ≃ ***10^16*** ≅ **10^12** | +G ≈ 10^15, +F ≈ 10^14, +E ≈ 10^13, +H ≈ 10^12 |
+| +I ≃ ***10^12*** ≅ **10^8** | +L ≈ 10^11, +I ≈ 10^10, +J ≈ 10^9, +K ≈ 10^8 |
+| +O ≃ ***10^8*** ≅ **10^4** | +O ≈ 10^7, +R ≈ 10^6, +Q ≈ 10^5, +P ≈ 10^4 |
+| **X⁰**; ***X-Known*** | ***X⁰***, ·X, **X** scope; s = Mediterrian; t = Medievial; role = Human, unit, solar plexus, trunk |
+| ·A ≃ ***10^4*** ≅ **10^5** | ·B ≈ 10^4.25, ·C ≈ 10^4.5, ·D ≈ 10^4.75, ·A ≈ 10^5 |
+| ·E ≃ ***10^3*** ≅ **10^4** | ·G ≈ 10^3.25, ·F ≈ 10^3.5, ·E ≈ 10^3.75, ·H ≈ 10^4 |
+| ·I ≃ ***10^2*** ≅ **10^3** | ·L ≈ 10^2.25, ·I ≈ 10^2.5, ·J ≈ 10^2.75, ·K ≈ 10^3 |
+| ·O ≃ ***10^1*** ≅ **10^2** | ·O ≈ 10^1.25, ·R ≈ 10^1.5, ·Q ≈ 10^1.75, ·P ≈ 10^2 |
+| **Z¹**; ***Z-True*** | ***Z¹***, **+Z**, Z, ZY, **ZY** scope; s = Myrran; t = Low; role = Mythos, gene, emotion, dao |
+| -A ≃ ***10^1*** ≅ **10^-2** | -B ≈ 10^-1.25, -C ≈ 10^-1.5, -D ≈ 10^-1.75, -A ≈ 10^-2 |
+| -E ≃ ***10^-2*** ≅ **10^-4** | -G ≈ 10^-2.5, -F ≈ 10^-3, -E ≈ 10^-3.5, -H ≈ 10^-4 |
+| -I ≃ ***10^-4*** ≅ **10^-8** | -L ≈ 10^-5, -I ≈ 10^-6, -J ≈ 10^-7, -K ≈ 10^-8 |
+| -O ≃ ***10^-8*** ≅ **10^-12** | -O ≈ 10^-9, -R ≈ 10^-10, -Q ≈ 10^-11, -P ≈ 10^-12 |
+| **Z²**; ***Z-False**** | ***Z²***, **÷Z**, ZZ, *ZX*, **ZZ** scope; s = Hell; t = Past; role = Archetype, root |  |
+| ÷A ≃ ***10^-12*** ≅ **10^-16** | ÷B ≈ 10^-13, ÷C ≈ 10^-14, ÷D ≈ 10^-15, ÷A ≈ 10^-16 |
+| ÷E ≃ ***10^-16*** ≅ **10^-20** | ÷G ≈ 10^-17, ÷F ≈ 10^-18, ÷E ≈ 10^-19, ÷H ≈ 10^-20 |
+| ÷I ≃ ***10^-20*** ≅ **10^-24** | ÷L ≈ 10^-21, ÷I ≈ 10^-22, ÷J ≈ 10^-23, ÷K ≈ 10^-24 |
+| ÷O ≃ ***10^-24*** ≅ **10^-28** | ÷O ≈ 10^-25, ÷R ≈ 10^-26, ÷Q ≈ 10^-27, ÷P ≈ 10^-28 |
+
+**X⁰** vs. X: 1/3 or 1 - (simply X as unit is it's three times magnified copy which includes Z, X, Y, as linearly three-scaled X from center; and which could use 3-precision otherwise when mixed with X's with accents and powers), +Y scope.
+
+Hexademic mixture:
+- In the middle, one can see ranking through zero is huge.
+
+We can do this:
+- Plus side +1 to +4.
+- Minus side +0 to +1 projects to -4 to +1, by hologram rule of frequential rescaling.
+  - What remains *correct*, is curvature and it's numeric value. Not necessarily synchronization, so one might need two bands and complex logic.
+  - We see minus is *ranked* where plus is *linear*.
+  - This is the factor by which, now, space gets multidimensional while time remains linear.
+    - At opposite end, near infinity, we use *half less* ranks to do the opposite conversion.
+- This interpolates all that kind of rescaling:
+
+What leads here?
+
+Imagine Laegna hologram number and how it behaves at zero.
+
+```
+We call this higher band of upside-down U, let's call it V here.
+I = -2; focal point is -2.
+O = -1; focal point is -0.
+We call this U.
+A = 1; focal point is +0.
+E = 2; focal point is +2.
+We call this lower band of upside-down U, let's call it V here.
+```
+
+We can see that inside each digit, inwards, we project new values easily.
+- But we leave outwards free.
+
+What is our imagination of V and U?
+
+> We have our angles from 0 to 360 degrees, where five units 0, 90, 180, 270 and 360 are enough to be edges of letters.
+>
+> By Laegna theorem, each group also counts outwards-unit, which is also to be calculated on past and future, but also resonant to local number because it's *it's own mathematical past and future*.
+
+Here is the basic calculus of Laegna Relativity:
+
+[Half of internal + half of external octaves](https://github.com/tambetvali/LaeGOS-Alpha/tree/main/LaeGOS-Skydrive/DataCore#one-internalexternal-octave) equals plus.
+
+One can see:
+- Set observer position: Laegna observer position is zero, so state $s_1 = 0$. Remember object's depth is 2 width.
+- Travel so far that depth becomes $\sqrt(2)$, so state $s_1 = this$ $far$, while state $s_2 = 0$.
+- From here, travel other time the *same angle-proportional amount*, which from your repeated viewpoint is equal.
+- At internal geometry, one does the same, which equals another half.
+- As result, we can see that we start from 2, to geometric midpoint of 2 and 1, the $\sqrt(2)$.
+  - In base-4 system, we have travelled unit I=0.25 if IOAE=4/4.
+- But we do this second time:
+  - We arrive at E, which is full unit 1.0.
+
+We have diagonal laegna system which counts in order O, I, E, A.
+
+We say that:
+- We add O + O = A; in Laegna 1 + 1 = 2. But this is binary system and does not expect I and E.
+  - We added I and E downwards, which is called band transpose, to form diagonal number system.
+
+We can see this number system is binary O, A linear to relativity. We can say f = 2 and g = 2, to state that f halves the usual precision 4, and g adds acceleration 2.
+
+[Diagonal Number Bases](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/LaeGOS-Skydrive/DataRfx/diagonalnumberbases.md) defines two special cases, while here I merged them as promised at that document. It explains special merging in this hologram shift from plus to minus:
+- Plus count is 0 to 1, where positive density of 1 unit wise, is below positive units - we count to four; in decimals we agree it's worth one 10, going from 1 to 0 it does normally 4 scalings.
+- Ironic is that negative system has negative precision, and to map this we reach 2, 4, 8, 16.
+- 5 which is left is 3D depth, or 3B bandwidth.
+
+What we do in regards to diagonals:
+- Low band maps 1, then divides reaching 0.75, 0.5, 0.25.
+  - We linearize it by diagonal logarithmic transpose, reaching 1, 2, 3, 4 - we say it *grows inwards*, so we linearize the logarithm; we assign it to hex Q, P, O, R, the lower band which centers at $O=-1,-1$.
+- High band maps 2, then multiplies reaching 2, 4, 8, 16.
+  - We linearize it by diagonal exponent transpose, reaching 1, 2, 3, 4 - we say it *grows outwards*, so we linearize the exponent. We assign it to hex I, O, A, E, which centers at $A=1,1$.
+- The interpolator can:
+  - Rearranging these values, interpolate various symmetric views of this section, each compatible with it's holoram structure.
+  - This transpose perfectly understands it's hologram pattern and can be used either directly or indirectly.
+- O, P, Q, E, I, O, A, E also map to 1, 2, 3, 4, 5, 6, 7, 8. A, E, I, O, O, P, Q, R sets 1..2 as linear, human scale with it's own plus and minus (-1 to +1, 1 octave; or -2 to +1 to dispatch the ranking, angular through-zero scale which needs to dispach even and odd into odd and even, i.e. the 4 or 8 steps for a few ranks is reasoned by transpose of higher and lower band, which also happens in laGEOsis at equator); I and O is from 1 light years to 16 billion light years, while O and P are from that point to distance where, in it's own scale, spacetime cooldown *happens now*, or if it's neverwhere - a relative scaling factor which is known. Then, Q and R are the final infinity, why ´R, R with upwards accent or two, typically means extreme infinity in Laegna: zero is symmetric to that, and we need to project the external zero for high-rank infinity. We move to signed numbers, but *still* reach two higher digits through Í and Ó projected after A and E, À and È before I and O, so that it double-reverses I and O outwards and A and E inwards, and projects externality.
+
+---
+
+What follows are constants close enough to pay interest; relativity part is kind of over in it's new essentials:
 
 ## Laegna Relative Associations
 
