@@ -329,7 +329,7 @@ This is the band symmetry. We have now removed any kind of misunderstanding abou
 
 ---
 
-![LaegnaRelativity](TerminalMode/Gfx/LaegnaRelativity.png)
+![LaegnaRelativity](Gfx/LaegnaRelativity.png)
 
 CoPilot:
 
@@ -542,9 +542,7 @@ $$
 and therefore:
 
 $$
-\ell_P m_P
-=
-\frac{\hbar}{c}
+\ell_P m_P = \frac{\hbar}{c}
 $$
 
 remains invariant.
@@ -579,9 +577,7 @@ where:
 yet:
 
 $$
-\lambda_C r_s
-=
-\text{constant}
+\lambda_C r_s = \text{constant}
 $$
 
 This creates a remarkably Laegna-like structure:
@@ -595,11 +591,7 @@ This creates a remarkably Laegna-like structure:
 Pattern:
 
 $$
-\text{small}
-\times
-\text{large}
-=
-\text{constant}
+\text{small} \times \text{large} = \text{constant}
 $$
 
 This form appears repeatedly throughout physics.
