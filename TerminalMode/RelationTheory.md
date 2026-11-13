@@ -97,9 +97,18 @@ I say I do not feed my children on this, so I just plain tell you:
       - you just told you cannot work as I have not done your work; as I did not "tell you what I mean", but getting your low-band shit and representing it as whole theory;
         - we others have *moral values*.
 
+Sorry I just got cracked out here:
+- I say something in beginning and critical parts.
+- I get pissed off if the IQ level which needs it after every second sentence;
+  - who told me they like short sentences;
+    - just tell me they would do shit on it's that's why.
 
+Science is not for people who lose their minds if sentences are not *explicit* about crime needs and suffering consequences, and the little failures of little idiots:
+- For the failure of a genius is big.
 
+---
 
+Real part continues.. I go to morning cigarette and relax, from the next idiot who came to tell me I did not tell it strong enough, what I told, because "the Man" was coming to listen, and "the Man" went mad yelling maybe they make a shitty robbery or proof or little money out of their box.
 
 
 ---
