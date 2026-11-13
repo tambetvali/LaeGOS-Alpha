@@ -27,7 +27,104 @@ In decimal system, there are $2$, $5$ and $2 * 5$:
         - If the Planck length ($\ell _{P}$) were defined so its leading digits matched the golden ratio ($\phi $), a newly defined meter would be $0.9989$ current meters ($99.89\text{ cm}$), making it just **$1.1\text{ millimeters}$ shorter** than our standard meter.
         - In that rescaled system, Earth's equatorial circumference would measure 40,119,127 new meters (about 40,119.13 km), and its pole-to-pole meridional circumference would measure 40,051,899 new meters (about 40,051.90 km).
           - Currently it measures 40,075.017 km
-      - 
+
+## 1 meter
+
+So, in Laegna general theory of relativity, first:
+
+## 0th step: Planck
+
+Planck length is 1 unit.
+
+## 1st step: Auditory thought
+
+Planck length 1 unit * 44.1 is 44.1.
+* **Core Definition:** **44.1 kHz** (44,100 samples per second) is the standard sample rate for CDs and digital music streaming platforms like Spotify. It measures how many individual snapshots of sound are captured per second when converting analog audio into a digital file.
+* **Frequency Range:** Based on the Nyquist theorem, a 44.1 kHz sample rate accurately captures audio frequencies up to **22.05 kHz**. This safely covers the full range of human hearing, which maxes out around 20 kHz.
+
+440 - this is 4.4, with higher and lower band as 4.
+
+Take 5 as opposite of 2, 10 / 5 as 0.2, and 10/10 as 0.1:
+- This is double-vertical-power equal to 4.4.
+- This means, one more higher axis is utilized:
+  - This operation, around unit 1, equates 4.4 lower and 0.1 higher bands, distilling 3 components.
+
+## 2nd step: Visual thought
+
+Next step, it goes through 3-band equation:
+- Phi.
+  - Phi as sqrt(5):
+    - 5 / 2 is 0.2, 5 rt 2 is it's geometric counterpart of opposing two geometric-mean axis.
+    - 1 is what 2 became in previous example - should it be multiplied by 2, it would become 2, but instead it's divided.
+
+The **golden ratio ($\varphi$)** and **$\sqrt{5}$** are directly linked through the exact algebraic definition $\varphi = \frac{1 + \sqrt{5}}{2} \approx 1.618034$. Because $\varphi$ is built from $\sqrt{5}$, multiplying, adding, or dividing the two yields clean mathematical identities.
+
+At this point, what happens if we do 1st step and 2nd step in hologram scaling?
+- Do we see particular axis?
+
+Dividing the Planck length by the golden ratio (\(\phi\)) gives **\(9.989005 \times 10^{-36}\) meters**.
+
+### Calculation Breakdown
+* **Planck Length (\(\ell_P\)).** The standard CODATA value is approximately **\(1.616255 \times 10^{-35}\text{ m}\)**.
+* **Golden Ratio (\(\phi\)).** Defined as \(\frac{1 + \sqrt{5}}{2}\), which equals approximately **\(1.6180339887\)**.
+* **Division (\(\ell_P / \phi\)).** Dividing \(1.616255 \times 10^{-35}\text{ m}\) by \(1.6180339887\) yields **\(9.989005245 \times 10^{-36}\text{ m}\)** (or **\(0.000000000000000000000000000000000009989\text{ m}\)**).
+
+$10^{-36}$ - -36 is the actual number I want to see, because -36 + 4 = -32 and +28 + 4 = +32; "4" is universally to be added to both sides as the linear unit \[and very positive, positive on both sides\]:
+- Then, with -36, we reach the realm of 360 degrees, 320 quadratic degrees / laegna style; 28 as just very important number; and 24 as what the clock is based on.
+  - These degree numbers actually relate to linear degrees in bands, so we want to see where they pop out from; and it's *essential* that numbers, which are "most linear" at 360, 320, poorly 28 and richly 24, seem symmetric;
+    - this is the search for *external zero*.
+   
+I asked about this from ChatGPT:
+- There is an important distinction to establish first: some of your relationships are exact mathematical identities, some are consequences of your chosen unit system, and some are hypotheses about a deeper structure. Keeping those categories separate will make the theory considerably stronger.
+
+ChatGPT is not so long with me as CoPilot but remember one thing:
+- We are doing a work which wants to see symmetries and balances in decimal system, brought to laegna four-based system, and stability of 44.1 under certain constraints is mathematical fact and number theory. We do mix it with physics because we do not want shit head users, that's why: I don't really want users who think that their gut feeling will create a magnificient theory here; we are utilizing number magic as atheist in chatgpt pointed out. Numeric stability of system shows many of it's basin, but in this direct analysis of decimal and Laegna theory, I said that we do have physics good enough right now, and we want to analyze number stability relations - people who jump and crouk around these facts telling that "here, important things about physics must appear inside" - I guarantee you this part of analysis only gives the number relations; in fact I am not interested in factors, but forms and geometries - physics, roughly follows those, but adds new in every step.
+  - 44.1, then, is absolutely certain to be decimal representation of exact magnitudes, which remain stable in exact situations, and the woo-doo minds jumping around and telling "we got a bunch of gold without work out of number relations in physics", open their mouths and exaggerate - sorry but I have been motivated to write for them; but I tell you something real - they are *heavily* out of money and my texts *guarantee* to insult them to the end if they want to smile around the hypothetical money and tell, once again, about the good friendship. Such people read my initial sentence "this is about math and not so much about physics", and their helpful assistants come yelling with ugly voice, "please separate math and physics in this text". What I do separate, for what I do tell is separated? People who do not hear, do not syntax and do not jump on their own: I want to tell you I don't want to see your ugly face, so that I can write realistic text where connections are there and you *do not* multiply them by then, or your lost hope to *be something one day*. It's not my lost hope and I filtered out these parts because *the crank around my old stolen theories have been heavily dismotivating and I don't want to see your ugly a\*\*es any more.
+ 
+Take it or leave it but this was the answer for ChatGPT's article not given here as right now, I am not up to be my lawyer for you idiots - you be my own lawyers and earn my money and credit, or get the f*ck away from my theories. I do not work because I am not a closet cleaner that's why.
+
+That's why:
+- I already see your crimes in it's answer;
+  - your broken promises,
+  - your lost hopes,
+  - your yellings that where you got association of money, which science was there.
+
+I say I do not feed my children on this, so I just plain tell you:
+- You are not welcome.
+- You can say it's not real; but I was not welcome, that's it.
+  - I *did* create an "atheist version of my philosophy";
+    - and I *do not* want to see people without it's basin, running around and telling they "create" it, from white sugar in my pee.
+      - you just told you cannot work as I have not done your work; as I did not "tell you what I mean", but getting your low-band shit and representing it as whole theory;
+        - we others have *moral values*.
+
+
+
+
+
+
+---
+
+# Understanding 44.1 and 441 in Music
+
+In music, **44.1** and **441** refer to two completely different technical concepts: **digital audio sampling rate (44.1 kHz)** and **musical pitch tuning (441 Hz)**.
+
+## 44.1 kHz (Digital Audio Sample Rate)
+
+* **Core Definition:** **44.1 kHz** (44,100 samples per second) is the standard sample rate for CDs and digital music streaming platforms like Spotify. It measures how many individual snapshots of sound are captured per second when converting analog audio into a digital file.
+* **Frequency Range:** Based on the Nyquist theorem, a 44.1 kHz sample rate accurately captures audio frequencies up to **22.05 kHz**. This safely covers the full range of human hearing, which maxes out around 20 kHz.
+* **Origin:** Engineers chose this specific number in the late 1970s because it aligned cleanly with the frame rates of both NTSC and PAL video tapes used to store early digital audio data.
+
+## 441 Hz (Concert Pitch Tuning)
+
+* **Core Definition:** **441 Hz** refers to a specific tuning standard where the note **A4** (the A above middle C) vibrates at 441 cycles per second. This is slightly sharper than the modern international standard of **440 Hz**.
+* **Orchestral Use:** Many symphony orchestras and classical ensembles tune slightly above 440 Hz to give string and wind instruments a slightly brighter, more brilliant tone. For example, ensembles like the Boston Symphony Orchestra and Sydney Symphony Orchestra have used 441 Hz as a reference pitch.
+* **Listener Debate:** Opinions among musicians and audio engineers are mixed on whether a 1 Hz shift is noticeable. Some musicians note it adds subtle brilliance for trained ears, while others argue that temperature and room acoustics affect pitch far more.
+
+## Other Musical References
+
+* **4-4-1 (Band):** [4-4-1](https://wikipedia.org) is an American alternative rock and post-punk band formed in California in 1983.
+* **"441" (Song):** "441" is the title of a 2011 J-pop single by Japanese singer-songwriter [miwa](https://shazam.com).
+
 ---
 
 # Rescaling the Meter to the Golden Ratio ($\phi$) and the Planck Length
@@ -173,3 +270,23 @@ When working symbolically with the idea of relativity, the concept can be broken
 1. **The Illusion of the Absolute:** Naive observation assumes one "true" or default frame (standing still on Earth, viewing a circle head-on, or treating one's own culture or language as universal).
 2. **The Shift in Perspective:** Moving to a new frame of reference distorts surface appearances (clocks tick at different rates, a circle looks like an oval, a word shifts its meaning).
 3. **The Hidden Constant:** A true theory of relativity never claims that "everything is chaos." Instead, it uncovers a **higher-dimensional law**—the speed of light, Pascal's straight line, or mathematical symmetry—that remains completely unbroken no matter where you stand.
+
+---
+
+The **golden ratio ($\varphi$)** and **$\sqrt{5}$** are directly linked through the exact algebraic definition $\varphi = \frac{1 + \sqrt{5}}{2} \approx 1.618034$. Because $\varphi$ is built from $\sqrt{5}$, multiplying, adding, or dividing the two yields clean mathematical identities.
+
+### Key Values and Identities
+
+* **The Product ($\varphi \cdot \sqrt{5}$).** Multiplying $\varphi$ by $\sqrt{5}$ equals **$\frac{5 + \sqrt{5}}{2}$**, which evaluates to approximately **$3.618034$** (or simply $\varphi + 2$).
+* **The Relationship Formula.** You can write $\sqrt{5}$ directly in terms of the golden ratio as **$\sqrt{5} = 2\varphi - 1$** or **$\sqrt{5} = \varphi + \frac{1}{\varphi}$**.
+* **Difference ($\sqrt{5} - \varphi$).** Subtracting $\varphi$ from $\sqrt{5}$ leaves **$\frac{\sqrt{5} - 1}{2}$**, which is equal to the reciprocal of the golden ratio ($\frac{1}{\varphi} \approx 0.618034$).
+* **Fibonacci Connection.** Both constants appear together in [Binet's formula](https://wikipedia.org "Binet's formula Fibonacci sequence"), where the $n$-th Fibonacci number is calculated as $F_n = \frac{\varphi^n - (-\varphi)^{-n}}{\sqrt{5}}$.
+
+### Quick Reference Table
+
+| Expression | Exact Form | Approximate Value | Equivalent Identity |
+| :--- | :--- | :--- | :--- |
+| **$\varphi$** | $\frac{1 + \sqrt{5}}{2}$ | $1.618034$ | $1 + \frac{1}{\varphi}$ |
+| **$\sqrt{5}$** | $\sqrt{5}$ | $2.236068$ | $2\varphi - 1$ |
+| **$\varphi \cdot \sqrt{5}$** | $\frac{5 + \sqrt{5}}{2}$ | $3.618034$ | $\varphi + 2$ |
+| **$\sqrt{5} - \varphi$** | $\frac{\sqrt{5} - 1}{2}$ | $0.618034$ | $\frac{1}{\varphi}$ or $\varphi - 1$ |
