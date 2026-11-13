@@ -110,6 +110,13 @@ Science is not for people who lose their minds if sentences are not *explicit* a
 
 Real part continues.. I go to morning cigarette and relax, from the next idiot who came to tell me I did not tell it strong enough, what I told, because "the Man" was coming to listen, and "the Man" went mad yelling maybe they make a shitty robbery or proof or little money out of their box.
 
+And why?
+- I want to make one implication, give one relation.
+- Fool is faster than me, implying their pockets, little sex and useless civilized qualities for me;
+  - but they are not up to pay, up to pay credit, and up to give me this very same critics positively - a few hundred euros for me to hire people who can do this business.
+
+It's much more convenient:
+- Instead of telling all those rules to me, follow them yourself.
 
 ---
 
