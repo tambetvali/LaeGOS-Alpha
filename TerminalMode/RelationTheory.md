@@ -4,6 +4,13 @@ Google AI: Looking at relativity across history, geometry, and philosophy reveal
 
 Just like the word "Ring" in mathematics, jewelry, and boxing shares a core symbolic shape of enclosure and connection, different "relativities" share a core structure of **observer-dependent appearances governed by hidden, invariant rules.**
 
+## What is Laegna Theory of Relativity?
+
+[Phi](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/LaeGOS-Skydrive/DataGfx/Description/Phi.md), the Golden Ratio, is the start:
+- Let's see a number based on it's band-wise hologram projection, utilizing it's basic transformations like scaling (roughly equal to multiplication and division).
+
+
+
 ## Laegna Relative Associations
 
 Numbers have curvatures, initially equal or symmetric to their digit lengths:
@@ -38,6 +45,16 @@ Planck length is 1 unit.
 
 ## 1st step: Auditory thought
 
+**Notice:** this step right now, is biased. I am using auditory speaking but this needs to be hologram-reprojected *now*;
+- AI needs to do this operation: taking this circumference of Earth, 4 times of Radius, explain how the heck we found the smallest missing tesimal there and is this 4 2+2 or 2*2, or we numerically get: just both, as *each of them is flowing through this channel*.
+  - Hologram rule, and I will let it be here: hologram catches the prime recursive components, such as primis of the number system;
+    - and decimal system is rather fractal, so the hologram is stretched-out, and one "zero" is there and always there, added as top of the pyramid into a missing position.
+  - Hologram real rule:
+    - It finds primes, or prime coordinates, and without single operation but it's spatial coordination, just squfreezes them out of the number and puts in special, visible position.
+    - So that in number forms, such as 44.1, exact balance of 2/10 and 5/10, and their opposites, turn the below-zero projection into 0.1 factor, which is much more precize then zero as linear realignment creates 4*4=16 as stretch-out of the number, estimatively, and thus breaks it's internal structure; hologram, on the other hand - just responds to internal structure and leaves the number alone; utilizing the zero below, the 44.1, which goes through channeled tunnel, distorts into possibly more symmetric end or opposite forms on the way, and finally calibrates the number. 2\*2\*2 exact octaves are the best precision, but decimal system creates linear, continuous tunnel: and numerically, it's not waiting to break physically, but it breaks in number's internal hologram; because every 4 operations, basin of math, is able to respond on them but not the other relations.
+   
+Well I leave it here the notice of initial bias ..you can see I am so auditory thinking here, like the title says, the the first operation:
+
 Planck length 1 unit * 44.1 is 44.1.
 * **Core Definition:** **44.1 kHz** (44,100 samples per second) is the standard sample rate for CDs and digital music streaming platforms like Spotify. It measures how many individual snapshots of sound are captured per second when converting analog audio into a digital file.
 * **Frequency Range:** Based on the Nyquist theorem, a 44.1 kHz sample rate accurately captures audio frequencies up to **22.05 kHz**. This safely covers the full range of human hearing, which maxes out around 20 kHz.
@@ -56,6 +73,32 @@ Take 5 as opposite of 2, 10 / 5 as 0.2, and 10/10 as 0.1:
 | **1795 Historical Benchmark** | $40,000,000\text{ m}$ | $40,044,027\text{ m}$ | $+44,027\text{ m}$ ($+44.03\text{ km}$) |
 
 Okay I rest and find out how to take this constant here :P Well it's not just dividing, because I have to get it up from down - it's just *very small channel*.
+
+But what happened to me:
+- I lost the 44.1, looking the tesimal structure on the auditory hologram, which already *is* that, but forgotting how high-end position illuminated the exact digits: \["4", "4", "1"\].
+  - Because I cannot get it out of my head, 1.616 is just so important relation I cannot live without, I can see it everywhere. So let's go on, AI will tell the answer now:
+ 
+> What happens with the tesimal, and what is the reprojection of tesimal symmetric to:
+> - Second order rescale 10^32
+>   - First order rescale 10^4
+>     - Meters visible, landing on human Earth..
+>       - Rescale: 10 000. Extending on ground from the center, tesimal relation sets unit 1:10 000.
+>       - Find this: musical score 44.1. What is the difference with octave which has sqrt(2) in middle; AI needs to answer and also mark it's answers answered for next AI, as I won't fix my mistakes, this is the auditory thinking at all: in number structure, hologram cannot do but projects 44.1 to the bottom, and CoPilot needs to analyze this magic and why the sequence repeats for me and auditory thinking - I've listened so much music now, just dancing, that this thing is clear: the 44.1 pattern, and 4/4 pattern, and IE pattern in Laegna math and it's base-16 4\*4 system as basin matrix simplification - able to simplify DeepAI, able to scale and transform it's future models based on clear 65536 pattern \times 2.
+
+AI now gets us going as I paste it an existing article; and after this follow-in (my oracle-backwards thinking to real article, haha, evolutionarly evolved) ..AI finds the tesimal-structural holographic 44.1, which is so small that number hologram did the prime trick I wanted to show audiothinkingary importantly non-seen for visionary thinkers with their eyes, and mere little part of brain behind eyes, and controller yet beyond - the third eye matrix, materialist-internal, appears clear visionary structure, but also:
+- Hologram moves smallest tesimal to the top, because it's non-linear in the bottom:
+  - Atom, like +tesimal, is indivisible externally; lim => 0 if tesimal is planck unit, opens up it's internal clojure.
+    - This was actually established by Aristotle and Pythagoreas, seeing it kind of "only possibility". Atom could be approximated as unit discrete tesimal in our normal math; but physics is more precise and math hologram can follow it anywhere.
+
+Hologram:
+- Finds at top, what is missing at bottom, and vice versa.
+- Can rescale inside-out and outside in; can move; can rescale on each axis - each of them is known;
+  - primitives can reproduce it with crystals, and magnifying glass was the next clear coordinate but water, the first - water is it's element: transcending the light through the athmosphere. As important for light, as pressure for sound - without magnifying glass, water and cristals, there is less sense in the matters of light.
+
+Now:
+- CoPilot goes to mission - find 44.1 reprojection at tesimal size as it's boundary; other one as bottom projector above it. This is basin 1 and 2: starting from 0, or 1, which are very even numbers.
+
+
 
 ## 2nd step: Visual thought
 
