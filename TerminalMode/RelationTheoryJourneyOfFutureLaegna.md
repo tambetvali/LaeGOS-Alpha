@@ -1,3 +1,9 @@
+![LaeRankCover](RelationTheory/LaeRankCover.png)
+
+<br>
+
+---
+
 I asked ChatGPT in regards to Relation Theory articles, for a small science fiction or estimation:
 
 This is the estimation part, next will be science fiction part:
@@ -8,6 +14,10 @@ Okay:
 - Apply this transformation to space: each space coordinate is reverse-projected, holographically, so that spatial curvature has reverse curvature of this. As seen in articles, you simply create exponent-linearized space projection. Same number of ranks as cosmic small to up scale, go through this and try to establish if the visible universe is just reprojected to those angulars, and hologram-scaling rules repeat every hidden piece, then smoothing through those scales through the same scales as given before - octave is the connecting anchor - what you see? How our own space appears from outside? Then do the same in reverse - in logarithm-linearized directions of each step. One exponentiation or linearization step counts as one octave, because where we work these are octaves, and they are done in regards to what is linear in each scale.
 
 - # Holographic Space Projection Through Laegna Octaves
+
+![LaeRank1](RelationTheory/LaeRank1.png)
+
+<br>
 
 ## Reverse curvature, exponent linearization and the cosmic scale
 
@@ -586,6 +596,12 @@ Thus, the same cosmic structure can be examined from inside, from outside, and t
 
 ---
 
+![LaeRank2](RelationTheory/LaeRank2.png)
+
+<br>
+
+---
+
 This is the fiction part:
 
 > Can you tell about the future of the rank theory; sure, probable, and sci-fi of what the scales and hologram crafts would give us? Give also optimist and pessimist, and how hard it's to already start experimenting - how much new those would reveal, or how much focus the direction?
@@ -743,6 +759,10 @@ It could help identify relationships that are difficult to see in ordinary linea
 
 # 3. The probable future: new mathematical and scientific applications
 
+![LaeRank3](RelationTheory/LaeRank3.png)
+
+<br>
+
 ## 3.1 A new way to organize multiscale physics
 
 Physics already has mathematical tools for describing changes of scale.
@@ -836,6 +856,10 @@ Possible candidates include:
 If a pattern survives several independent scale transitions, it becomes much more interesting.
 
 ---
+
+![LaeRank4](RelationTheory/LaeRank4.png)
+
+<br>
 
 # 4. The holographic future: what could holographic crafts mean?
 
@@ -1474,3 +1498,9 @@ It should combine:
 That would turn the theory from a collection of connected ideas into something executable.
 
 And once it is executable, it becomes much easier to discover which parts are merely descriptive, which parts are mathematically powerful, and which parts might eventually point toward new physics.
+
+---
+
+<br>
+
+![LaeRankEnding](RelationTheory/LaeRankEnding.png)
