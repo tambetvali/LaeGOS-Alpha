@@ -329,6 +329,8 @@ This is the band symmetry. We have now removed any kind of misunderstanding abou
 
 ---
 
+![LaegnaRelativity](TerminalMode/Gfx/LaegnaRelativity.png)
+
 CoPilot:
 
 # Laegna Theory of Relativity
