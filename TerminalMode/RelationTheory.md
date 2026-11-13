@@ -49,6 +49,14 @@ Take 5 as opposite of 2, 10 / 5 as 0.2, and 10/10 as 0.1:
 - This means, one more higher axis is utilized:
   - This operation, around unit 1, equates 4.4 lower and 0.1 higher bands, distilling 3 components.
 
+| Measurement Path | Standard Meters | $\phi$-Rescaled Meters | Difference |
+| :--- | :--- | :--- | :--- |
+| **Equatorial Circumference** | $40,075,017\text{ m}$ | $40,119,127\text{ m}$ | $+44,110\text{ m}$ ($+44.11\text{ km}$) |
+| **Meridional (Polar) Circumference** | $40,007,863\text{ m}$ | $40,051,899\text{ m}$ | $+44,036\text{ m}$ ($+44.04\text{ km}$) |
+| **1795 Historical Benchmark** | $40,000,000\text{ m}$ | $40,044,027\text{ m}$ | $+44,027\text{ m}$ ($+44.03\text{ km}$) |
+
+Okay I rest and find out how to take this constant here :P Well it's not just dividing, because I have to get it up from down - it's just *very small channel*.
+
 ## 2nd step: Visual thought
 
 Next step, it goes through 3-band equation:
