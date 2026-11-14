@@ -1,3 +1,7 @@
+![LaeRelae](RelationTheory/LaeRelae.png)
+
+<br>
+
 # Let's define some functions
 
 Let's define some functions:
@@ -48,6 +52,8 @@ Numbers (O ⇒ F ⟹ Octave ⇒ Frequency; V - value):
 # Rel continued
 
 ![APlusAIsE](RelationTheory/APlusAIsE.png)
+
+<br>
 
 Now let's define the Relations in Theory of Relativity:
 
@@ -627,3 +633,618 @@ A hierarchy of spaces.
 Not merely a number line.
 
 A living geometry of scale, curvature, frequency, and observation.
+
+---
+
+# Laegna Relativity
+
+## Overview
+
+This illustration presents a unified view of:
+
+- Observer-relative geometry
+- Curvature
+- Space and time
+- Internal and external holograms
+- Linear and exponential measurement
+- Laegna numbers
+- Fractal self-similarity
+
+The image is not intended as a conventional physics diagram.
+
+Instead, it visualizes the hypothesis that every quantity possesses two simultaneous representations:
+
+- an **internal representation** ($H_{int}$)
+- an **external representation** ($H_{ext}$)
+
+and that observer motion transforms one representation into another while preserving their deeper relation.
+
+---
+
+# The Observer
+
+At the center stands:
+
+$$
+Z'
+$$
+
+the observer.
+
+All measurements originate from the observer.
+
+Curvature is therefore always measured as:
+
+$$
+c(X',y)
+$$
+
+meaning:
+
+> curvature from observer position $X'$ toward observed position $y$.
+
+The observer acts as the origin of the hologram.
+
+Every visible quantity is therefore observer-relative.
+
+---
+
+# Three Realms
+
+Around the observer are three concentric domains.
+
+## Z-Rank
+
+The innermost realm.
+
+Represents:
+
+- averaging
+- collapse
+- compression
+- inward projection
+
+This is where many possibilities converge into one.
+
+Symbolically:
+
+$$
+Z
+\rightarrow
+\text{Average}
+$$
+
+---
+
+## X-Rank
+
+The middle realm.
+
+Represents ordinary experience.
+
+This corresponds to:
+
+- linear measurement
+- distance
+- counting
+- classical arithmetic
+
+Symbolically:
+
+$$
+X
+\rightarrow
+\text{Linear}
+$$
+
+---
+
+## Y-Rank
+
+The outer realm.
+
+Represents:
+
+- exponential growth
+- holographic expansion
+- recursive replication
+
+Symbolically:
+
+$$
+Y
+\rightarrow
+\text{Exponential}
+$$
+
+---
+
+# Central Relativity Example
+
+The central demonstration explains:
+
+$$
+A = 1
+$$
+
+and
+
+$$
+E = 4
+$$
+
+while
+
+$$
+internal(E)=2
+$$
+
+This means:
+
+| Representation | Value |
+|---|---|
+| Internal | 2 |
+| External | 4 |
+
+The relation is:
+
+$$
+2^2=4
+$$
+
+The internal value represents the structure.
+
+The external value represents the completed curvature.
+
+---
+
+# Curvature Closure
+
+The image shows three states.
+
+## A
+
+Quarter turn.
+
+$$
+90^\circ
+$$
+
+Represents:
+
+$$
+A=1
+$$
+
+---
+
+## Internal(E)
+
+Half turn.
+
+$$
+180^\circ
+$$
+
+Represents:
+
+$$
+2
+$$
+
+---
+
+## E
+
+Full turn.
+
+$$
+360^\circ
+$$
+
+Represents:
+
+$$
+E=4
+$$
+
+The visual argument is:
+
+> completion of curvature is more fundamental than counting units.
+
+---
+
+# Why
+
+$$
+1'+1'=4'
+$$
+
+The image does not interpret this as arithmetic.
+
+Instead it interprets it as curvature composition.
+
+Ordinary arithmetic says:
+
+$$
+1+1=2
+$$
+
+Curvature arithmetic says:
+
+$$
+(1+1)^2=4
+$$
+
+The square appears because two curvature segments complete a higher-order cycle.
+
+Thus:
+
+$$
+1'+1'=4'
+$$
+
+becomes a geometric statement.
+
+---
+
+# Internal Hologram
+
+The left side displays:
+
+$$
+H_{int}
+$$
+
+with sequence:
+
+$$
+1
+\rightarrow
+2
+\rightarrow
+4
+\rightarrow
+16
+$$
+
+This represents:
+
+- structural growth
+- internal complexity
+- logarithmic interpretation
+
+Growth appears relatively slow.
+
+---
+
+# External Hologram
+
+The right side displays:
+
+$$
+H_{ext}
+$$
+
+with sequence:
+
+$$
+1
+\rightarrow
+4
+\rightarrow
+16
+\rightarrow
+256
+$$
+
+This represents:
+
+- projected curvature
+- external expansion
+- exponential interpretation
+
+Growth appears much faster.
+
+---
+
+# Internal and External Invariant
+
+The bridges connecting both sides illustrate:
+
+> Internal and external forms differ visually while describing the same object.
+
+An observer may therefore describe reality by:
+
+- structure
+- projection
+
+without changing the underlying entity.
+
+---
+
+# Space Axis
+
+The horizontal axis represents space.
+
+Space is interpreted as:
+
+- directional freedom
+- displacement
+- position
+
+The axis progresses through Laegna states:
+
+$$
+II
+\rightarrow
+IA
+\rightarrow
+IE
+\rightarrow
+UU
+\rightarrow
+VV
+\rightarrow
+AE
+\rightarrow
+EA
+\rightarrow
+EE
+$$
+
+The progression illustrates changing curvature states.
+
+---
+
+# Time Axis
+
+The vertical axis represents time.
+
+Its layers are:
+
+$$
+\text{Collapse}
+$$
+
+↓
+
+$$
+\text{Logarithm}
+$$
+
+↓
+
+$$
+\text{Linear}
+$$
+
+↓
+
+$$
+\text{Exponential}
+$$
+
+↓
+
+$$
+\text{Closure}
+$$
+
+The image therefore suggests:
+
+> time is not merely duration.
+
+Instead it is accumulation of curvature.
+
+---
+
+# Space versus Time
+
+Space is represented by:
+
+$$
++
+$$
+
+and
+
+$$
+-
+$$
+
+Time is represented by:
+
+$$
+\times
+$$
+
+and
+
+$$
+\div
+$$
+
+The reason is that:
+
+- position shifts linearly
+- curvature compounds multiplicatively
+
+Thus:
+
+| Domain | Main Operation |
+|---|---|
+| Space | Addition |
+| Time | Multiplication |
+| Collapse | Averaging |
+
+---
+
+# The Four Symbols
+
+Surrounding the observer are:
+
+$$
+I
+$$
+
+$$
+O
+$$
+
+$$
+A
+$$
+
+$$
+E
+$$
+
+These represent the four primary logical-curvature states of Laegna.
+
+The colors communicate their identity immediately:
+
+| Symbol | Meaning | Color |
+|---|---|---|
+| I | inward negotion | Indigo |
+| O | negation | Crimson |
+| A | position | Emerald |
+| E | posetion | Gold |
+
+---
+
+# U and V
+
+Between the four primary states appear:
+
+$$
+U
+$$
+
+and
+
+$$
+V
+$$
+
+The image interprets them as symmetry centers.
+
+### U
+
+Neutral center.
+
+Neither positive nor negative.
+
+Neither growing nor collapsing.
+
+---
+
+### V
+
+Transition center.
+
+Represents inversion.
+
+Passage from one realm to another.
+
+---
+
+# Lightspeed Coordinate System
+
+In the background the entire coordinate system drifts at lightspeed.
+
+This visualizes the idea:
+
+> rather than moving objects through spacetime, we may move spacetime through itself.
+
+The observer stays central.
+
+The frame changes.
+
+Curvature changes.
+
+Relations remain invariant.
+
+---
+
+# Fractal Hologram
+
+The recursive holographic copies express the final principle:
+
+Every scale contains the same geometry.
+
+Quantum structures.
+
+Human structures.
+
+Planetary structures.
+
+Galactic structures.
+
+Cosmic structures.
+
+All repeat similar curvature patterns.
+
+Symbolically:
+
+$$
+H
+=
+H(H)
+=
+H(H(H))
+$$
+
+---
+
+# The Main Thesis
+
+The entire image can be summarized as:
+
+> Reality possesses internal and external forms.
+>
+> Space measures position.
+>
+> Time measures curvature.
+>
+> Curvature creates closure.
+>
+> Closure creates octave transitions.
+>
+> Observer and hologram remain linked.
+>
+> The same pattern repeats across all scales.
+
+In the language of the diagram:
+
+$$
+H_{int}
+\leftrightarrow
+H_{ext}
+$$
+
+$$
+A
+\rightarrow
+E
+$$
+
+$$
+90^\circ
+\rightarrow
+360^\circ
+$$
+
+$$
+1+1=2
+$$
+
+but
+
+$$
+1'+1'=4'
+$$
+
+because curvature completion is geometric rather than arithmetic.
+
+This is the central visual message of the illustration.
