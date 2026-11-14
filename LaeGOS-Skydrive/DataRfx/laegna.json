@@ -8,15 +8,18 @@
   },
 
   "gen-laegnaBaseAlphabet-simplified": {
-    "symbol": "ABCDEFGHћ̵ℏIJKLMNμ𝜈OPQRST𝜏́UVWՈXYZ𝓩𝓧𝓨Ὦ",
-    "g-symbol": "ABCD EFGH ћ̵ℏ IJKL MN μ𝜈 OPQR ST 𝜏́ UVWՈ XYZ 𝓩𝓧𝓨 Ὦ",
+    "symbol": "ABCDEFGHћ̵ℏIJKLMN𝓂𝓃μ𝜈OPQRST𝜏́UVWՈXYZ𝓩𝓧𝓨Ὦ",
+    "g-symbol": "ABCD EFGH ћ̵ℏ IJKL MN𝓂𝓃 μ𝜈 OPQR ST 𝜏́ UVWՈ XYZ 𝓩𝓧𝓨 Ὦ",
     "url": "https://laegna.notaku.site/laegna-base-alphabet",
     "alt-url": "https://github.com/tambetvali/LaegnaBaseAlphabet",
     "manual": [
       "μ𝜈 - replacement for Laegna mü, nü.",
       "ћ̵ℏ - m and h harmony",
+      "𝓂𝓃 - they should be shaped rather like logo of McDonalds, and 𝓂 is game where 𝓃 is turn; having these two is optional",
       "𝜏́ - taú",
-      "𝓩𝓧𝓨 - `zeta, etha, theta` or for real, `exceeta é group` - Zeta, Exceeta or exzeta, Yeta (or yeyeta or yoyota playing with Japanese-sounding fakery)"
+      "πρς𝜏́ - to close the lonely group of Taú, pi-ro-sigma-Taú sequence can be used, altough pi should not look like pi etc.; pi is very small but accumulative mathematical error, ro is long-term logic basin or balance (like root chakra), taú is logical flip and sigma for taú is like s for t, betraying even the logical flip itself first from bottom-up - taú, in this configuration, helps mnst.",
+      "𝓩𝓧𝓨 - `zeta, etha, theta` or for real, `exceeta é group` - Zeta, Exceeta or exzeta, Yeta (or yeyeta or yoyota playing with Japanese-sounding fakery)",
+      "notice laegna alphabet might have more or less letters, depending on which letters are given significance; letters in manual are each more or less optional"
     ],
     "name": "Uneton"
   },
