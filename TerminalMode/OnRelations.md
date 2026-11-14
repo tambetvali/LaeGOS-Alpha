@@ -1244,3 +1244,343 @@ $$
 because curvature completion is geometric rather than arithmetic.
 
 This is the central visual message of the illustration.
+
+---
+
+## Internal Observer and External Curvature
+
+### Looking Outwards from the Inside
+
+In ordinary geometry, an observer measures curvature externally:
+
+$$
+c(X',y)
+$$
+
+The observer compares positions, lengths, angles, or trajectories.
+
+In the Laegna interpretation, however, an internal observer does not directly measure curvature itself.
+
+Instead, the observer measures the relationship between:
+
+$$
+H_{int}
+$$
+
+and
+
+$$
+H_{ext}.
+$$
+
+This relation naturally behaves more like an exponent or logarithm than a distance.
+
+The observer is not asking:
+
+> How large is the curvature?
+
+The observer is asking:
+
+> How many internal transformations correspond to this external curvature?
+
+---
+
+### A and E Revisited
+
+Suppose:
+
+$$
+H_{int}=A
+$$
+
+and:
+
+$$
+H_{ext}=E.
+$$
+
+Using the previously established interpretation:
+
+$$
+A=1
+$$
+
+$$
+internal(E)=2
+$$
+
+$$
+E=4.
+$$
+
+An external observer sees:
+
+$$
+1 \rightarrow 4.
+$$
+
+An internal observer sees:
+
+$$
+1 \rightarrow 2.
+$$
+
+Thus the same transformation has two simultaneous descriptions.
+
+---
+
+### Curvature as an Exponential Projection
+
+The relation between these descriptions can be written as:
+
+$$
+\log_2(4)=2
+$$
+
+and conversely:
+
+$$
+2^2=4.
+$$
+
+Therefore:
+
+$$
+\text{internal curvature} = \log(\text{external curvature})
+$$
+
+while:
+
+$$
+\text{external curvature} = \exp(\text{internal curvature}).
+$$
+
+The two perspectives are dual descriptions of the same geometric state.
+
+---
+
+### Equal Width and Depth
+
+Consider:
+
+$$
+W=D.
+$$
+
+Then:
+
+$$
+\frac{W}{D}=1
+$$
+
+and:
+
+$$
+\frac{D}{W}=1.
+$$
+
+Externally, perfect symmetry appears.
+
+Nothing changes.
+
+However, if one curvature channel is internal and the other external, then equality of measured dimensions can still correspond to non-trivial curvature transformation across ranks.
+
+For example:
+
+$$
+\frac{E}{A}=4.
+$$
+
+Internally this appears as:
+
+$$
+\log_2(4)=2.
+$$
+
+The observer experiences a doubling:
+
+$$
+1 \rightarrow 2
+$$
+
+while the external space appears quadrupled:
+
+$$
+1 \rightarrow 4.
+$$
+
+---
+
+### The Hidden Middle Curvature
+
+Previously we found that equal width and depth generate a diagonal:
+
+$$
+\sqrt{1^2+1^2} = \sqrt{2}.
+$$
+
+This gives:
+
+$$
+1 < \sqrt2 < 2 < 4.
+$$
+
+Or in Laegna form:
+
+$$
+A < A\sqrt2 < internal(E) < E.
+$$
+
+The square root appears naturally as the bridge between local symmetry and completed curvature.
+
+---
+
+### Angular Interpretation
+
+If:
+
+$$
+A=90^\circ,
+$$
+
+and:
+
+$$
+internal(E)=180^\circ,
+$$
+
+and:
+
+$$
+E=360^\circ,
+$$
+
+then the observer experiences:
+
+$$
+90^\circ
+\rightarrow
+180^\circ
+\rightarrow
+360^\circ.
+$$
+
+Externally, the curvature closes.
+
+Internally, the observer encounters the halfway state first.
+
+The internal observer therefore perceives:
+
+$$
+180^\circ
+$$
+
+before observing:
+
+$$
+360^\circ.
+$$
+
+---
+
+### Geometric Mean Interpretation
+
+An elegant interpretation is that the internal observer naturally measures a geometric mean between local and global curvature.
+
+For example:
+
+$$
+\sqrt{90^\circ \cdot 360^\circ} = 180^\circ.
+$$
+
+The observer's apparent curvature is therefore not the full external closure.
+
+It is the midpoint between local and global description.
+
+This explains why:
+
+$$
+A
+\leftrightarrow
+internal(E)
+\leftrightarrow
+E
+$$
+
+continuously appears throughout the system.
+
+---
+
+### The Relativistic Interpretation
+
+The statement:
+
+$$
+1' + 1' = 4'
+$$
+
+now acquires a different meaning.
+
+It is not ordinary addition.
+
+The observer is not adding lengths.
+
+The observer is comparing curvature states.
+
+The comparison itself behaves exponentially.
+
+Thus:
+
+$$
+c_{int} = \log(c_{ext})
+$$
+
+while:
+
+$$
+c_{ext} = \exp(c_{int}).
+$$
+
+Relativity emerges because different observers may describe the same curvature using different projection spaces.
+
+---
+
+### Philosophical Consequence
+
+This suggests a deeper principle.
+
+An external observer measures what exists.
+
+An internal observer measures what it means.
+
+The external world accumulates through curvature.
+
+The internal world accumulates through interpretation.
+
+The same structure appears repeatedly:
+
+$$
+1
+\rightarrow
+2
+\rightarrow
+4
+$$
+
+or:
+
+$$
+90^\circ
+\rightarrow
+180^\circ
+\rightarrow
+360^\circ.
+$$
+
+The observer never directly experiences the complete curvature.
+
+Instead, the observer experiences successive internalizations of it.
+
+In this view, logarithm and exponent are not merely mathematical operations.
+
+They are complementary perspectives through which reality observes itself.
