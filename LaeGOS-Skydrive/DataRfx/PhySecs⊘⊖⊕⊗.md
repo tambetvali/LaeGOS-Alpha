@@ -673,7 +673,7 @@ What is 216?
 - 4 is made of 2 and 1.
 - 3 is made of 6. 2 can balance 6 like 2 balances 5.
 
-![Physics](TerminalMode/RelationTheory/APlusAIsE.png)
+![Physics](../../TerminalMode/RelationTheory/APlusAIsE.png)
 
 What happens with 6:
 - We have 3 scopes long, short and ultra-short - y, x, and z.
