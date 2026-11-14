@@ -256,6 +256,8 @@ This in Laegna means:
 - Upper trigram, Z, X, Y, local system - internal.
 - Lower trigram, z, x, y, or exceeta e, global system - external.
 
+Hexagram: 2D measure both bottom-up and top-down, combined to balanced measure. Yin and Yang of the scales, scopes, universe - math and ideas.
+
 By this, we match together a sextant:
 - To measure scales, scopes, distances and other things.
 
