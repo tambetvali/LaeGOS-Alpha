@@ -1188,11 +1188,7 @@ All repeat similar curvature patterns.
 Symbolically:
 
 $$
-H
-=
-H(H)
-=
-H(H(H))
+H = H(H) = H(H(H))
 $$
 
 ---
