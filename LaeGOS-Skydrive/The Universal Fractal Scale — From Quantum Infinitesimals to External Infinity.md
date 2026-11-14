@@ -1,6 +1,12 @@
 This is ChatGPT article, based on and contributing to:
 - [PhySecs Laegna](DataRfx/PhySecs⊘⊖⊕⊗.md)
 
+![ScalesIntExt](DataGfx/ScalesIntExt.png)
+
+<br>
+
+---
+
 # The Universal Fractal Scale
 ## From Quantum Infinitesimals to External Infinity
 
