@@ -167,3 +167,33 @@ The latter operation projects higher-order I, O, A, E, which are in same order b
 - If this is specifically focused, we use capitals here and small numbers for other channel;
   - Typically between 3 and 4 is plus-minus center of the linear (UU's); between 6 and 7 the plus-minus center of exponent-linearized, and between 4 and 5 is the center of both two (UUU); between 1 and 2, 3 and 4, 5 and 6, 7 and 8 are lower centers, which in ranked realm might be *four* plus-minus centers.
   - In other cases (ranked, i.e. octave logic), the plus-minus center is between 7 and 8, higher-next center between both is between 4 and 5, and highest-next center between logarithmic collapse and exponential growth is between 2nd and 3rd digit, while between 1st and 2nd there is *outwards-zero* but *depending on projection*.
+
+Notice that while this 1 to 8 hologram is symmetric to decimal counting like 1,2,4,8,16:
+- We can project this to $H_{int}$, lower channel; and projective mean is to rank the space up in reversal of what is ranking 0..1 to -infinity..1; but we rank 7 and 8 in reverse, if we call it ranking 1 and 0 in inverse. This ranked scale can be more stable in intermediate operation and is reverse-symmetric to zero ranking (8 ranks, for example, inside V). This is basically: we hologram-focus to lower channel of 360 degrees we got by adding 90 and 90 degrees, we get all even numbers (I think odd and even number theory for fractionals even exists, probably quite compatible); odd numbers are *coordinates we did not have before* - we call their projection to external ex-zero projection of *V*, the external center, which means logarithm-linearizing / logarithm-expanding the spatial coordinates by one degree exponent; where we found our world linear in between zeroeth and first order - in new system, it's linear between first and second order, transformation we call one octave up.
+  - Now in I Ching we call it lower trigram, that we find $H_{int}$, our lower channel, having projected both previous $H_{int}$ and exponent-linearized $H_ext$ inside; $H_ext$ is empty, but just one octave up the complexity has doubled and we have numbers at $V$ now at $H_ext$. 4 octaves of this scaling fills up real 1..4 scale of our complex number, laehex.
+  - Now in I Ching, we call it higher trigram, that $H_ext$ contains the actual space which is exponent-linearized and *has external collapse*. It looks just so more: like definition of original hilbert's space itself. Well, symmetrically, we can more up or down in octaves in $H_int$ or $H_ext$, then we project internal to external or vice verse, *because hologram middle is not lost and not even*; we project all planar space to even numbers so *hologram has to respond*. In hologram, either we project new coordinates - hologram cells -, or we project new projections - wavelengths, octaves, integral orders, so that every non-projected coordinate has it's default hologram replication. This is symmetric to R=T and R!=T - if we say these are new coordinates of existing hologram, R=T and hologram repeats; if we say they are not we are explicitly stating R!=T in this relation, that we add so many bands to divide the light reflections that we can map new spatial coordinates. In this way, we add *bands between spatial coordinates*, which operate in c^2 square space vs. m square root - looking at e transformations of unit 1.
+
+# Small letters and fractionals
+
+If E is 1 light years from observer at beginning, Ee equal to e means the precision digit, and Ee = E.E, is e - this counts the same number of light years, from travellers perspective where observer is moving all along. If EEEE is 16 billion light years from starting position observer, eeee is travelling this.
+- We can add many precision digits to mix them: EeeeeEEEeeee means we have both 8 billion light years and 1 billion light years positions with internal precision that the full digits *become* something - it's like having digits Eeeee, E, E, Eeeee, where Eeeee is E.EEEE = E, but E.EEEA for example means at 1/16 precision, 1 is substracted from E - this means, E of external space cannot be reached, because it lacks movement *in it's internal coordinates*.
+- This gives up two precisions:
+  - Each digit is full world in it's own precision, what is affected is rescale where it's contributions are symmetric to planck size, then doing sub-planck calculations which project to lower movement; or doing lim => 0 given that this precision is symmetric to planck, and utilizing the appearing space (like Quantum space at Schroedinger where planck = 1, but now planck can be 1 light year and we do symmetric conversion to scale it a bit by logarithm-linearization) - the internal realms are sometimes infinite, and if we achieve this, the precision digits can be mapped even from smaller to higher in some perspectives - this means our conversion space is kind of "Turing-complete", where we can express all relations.
+ 
+Notice Laegna numbers count degrees:
+- To turn it into number, assign "1" to get planck units, or decimal system number.
+
+As relative system, it's well suited:
+- Mapping octaves - normal number cannot be measured in octaves *directly*, but if A and E have 1 octave difference, and A is octave 1 - this is unit perfectly symmetric to angles, because 1 octave is 1/2 angle, internal-external angles.
+  - This is somewhat indirect, but the angles map to octaves if scaling is known; each number maps to spatial coordinate with it's numeric curvature.
+  - So we measure curvatures directly - in each change of numbers, *curvature has to change*, or we can also measure sub-octave linear scales, and the linearity appears on our combinatorics because if we linearize, this is hologram-symmetry to *some linear scale below* **at some frequency**, and frequencies are curvature maps where we can *measure the same frequency and curvature point as if it was another frequency*.
+
+So, we can see Laegna Number System has scaling and main properties to map physics.
+
+Notice:
+- Each rotation of real and imaginary, if mapped from spatial (x^2) to temporal (x) produces equivalence:
+  - Spatial curvature counter becomes simple wave, which also approaches 1:1, 1:2, 1:4 etc., finds meaning for utilizing higher bands and frequencies etc.
+
+Now we can see:
+- Frequencies, octaves, values in Laegna are *generalized*, and we use heavily high orders of them;
+  - Yet every single thing we divide into three, is measureable in Laegna numbers with minor changes in configuration, and assignance of separate unit types, theories and values.
