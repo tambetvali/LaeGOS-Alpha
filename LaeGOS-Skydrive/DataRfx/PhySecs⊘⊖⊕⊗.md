@@ -1,4 +1,4 @@
-![SecCover](SecCover.png)
+![SecCover](Imagery/SecCover.png)
 
 <br>
 
@@ -566,7 +566,7 @@ Laegna PhySecs can be summarized as:
 
 ---
 
-![SecHolographicRankView](SecHolographicRankView.png)
+![SecHolographicRankView](Imagery/SecHolographicRankView.png)
 
 <br>
 
@@ -851,7 +851,7 @@ By this, we match together a sextant:
 
 <br>
 
-![SecSmoothie](SecSmoothie.png)
+![SecSmoothie](Imagery/SecSmoothie.png)
 
 ---
 
@@ -875,7 +875,7 @@ Using your anchors—where **1D** corresponds to the Planck baseline and **3D** 
 
 ---
 
-![SecDetails](SecDetails.png)
+![SecDetails](Imagery/SecDetails.png)
 
 <br>
 
@@ -982,7 +982,7 @@ Standard 3D light speed is `c = 299,792.458 km/s` (`km^1.00 / s`). To express li
 
 ---
 
-![SecScalas](SecScalas.png)
+![SecScalas](Imagery/SecScalas.png)
 
 <br>
 
