@@ -47,6 +47,8 @@ Numbers (O ⇒ F ⟹ Octave ⇒ Frequency; V - value):
 
 # Rel continued
 
+![APlusAIsE](RelationTheory/APlusAIsE.png)
+
 Now let's define the Relations in Theory of Relativity:
 
 Let's say we have this:
