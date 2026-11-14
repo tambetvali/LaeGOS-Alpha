@@ -1043,27 +1043,19 @@ Instead it is accumulation of curvature.
 
 Space is represented by:
 
-$$
-+
-$$
+$+$
 
 and
 
-$$
--
-$$
+$-$
 
 Time is represented by:
 
-$$
-\times
-$$
+$\times$
 
 and
 
-$$
-\div
-$$
+$\div$
 
 The reason is that:
 
