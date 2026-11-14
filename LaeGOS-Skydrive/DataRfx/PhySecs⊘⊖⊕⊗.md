@@ -1,3 +1,9 @@
+![SecCover](SecCover.png)
+
+<br>
+
+---
+
 # Before You Read: What Laegna PhySecs Is Actually Trying To Do
 
 Most mathematical systems treat these as separate things:
@@ -560,6 +566,10 @@ Laegna PhySecs can be summarized as:
 
 ---
 
+![SecHolographicRankView](SecHolographicRankView.png)
+
+<br>
+
 Here my article continues:
 
 # Laegna PhySecs
@@ -839,6 +849,9 @@ By this, we match together a sextant:
 | **4,294,967,296D** | `2^32` | `2,147,483,647.5` | `m^(1 / 2.15e9) ≈ m^4.66e-10` | `s^-2,147,483,647.5` | `c^2.15e9` (`m^0 / s^2.15e9`) |
 | **3.4028e+38 D** | `2^128` | `1.7014e+38` | `m^(1 / 1.70e38) -> m^0.00` | `s^-1.7014e+38` | `c^1.70e38` (`1 / s^1.70e38`) |
 
+<br>
+
+![SecSmoothie](SecSmoothie.png)
 
 ---
 
@@ -861,6 +874,10 @@ Using your anchors—where **1D** corresponds to the Planck baseline and **3D** 
 | **4.0D** | `km^1.50` | `l_P^0.500 * ly^1.000` | `1.20 * 10^-6 km^1.50` | `km^1.50 / s` | `1.64 * 10^8 km^1.50/s` |
 
 ---
+
+![SecDetails](SecDetails.png)
+
+<br>
 
 ### How to Calculate These Numbers
 
@@ -964,6 +981,10 @@ Standard 3D light speed is `c = 299,792.458 km/s` (`km^1.00 / s`). To express li
   `c_3.0 = (299,792.458)^1.00 = 299,792 km / s`
 
 ---
+
+![SecScalas](SecScalas.png)
+
+<br>
 
 ### Short Physical Explanation
 
