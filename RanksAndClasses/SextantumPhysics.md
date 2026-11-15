@@ -840,7 +840,7 @@ Here is a complete article capturing the micro-to-macro projective duality betwe
 # Projective Duality: Bridging `0.000112` to `8.8` Across Dimensional Limits
 
 ## Overview
-In wave mechanics and dimensional metrology, the classical **Planck–Schrödinger limit** ($\hbar \to 0$) collapses quantum wave interference into a localized point at the origin. By inverting this operation and projecting twice toward the macroscopic horizon ($\lim \to \infty$), the micro-fractional phase trim **`0.000112 dec`**—derived as the second post-$\varphi$ correction in 1D cube-root space—maps directly onto the **`8.8`** observable universe diameter coefficient ($8.8 \times 10^{26}\text{ m}$).
+In wave mechanics and dimensional metrology, the classical **Planck–Schrödinger limit** ($\hbar \to 0$) collapses quantum wave interference into a localized point at the origin. By inverting this operation and projecting twice toward the macroscopic horizon ($\lim \to \infty$), the micro-fractional phase trim **`0.000112 dec`**—derived as the second $post-\varphi$ correction in 1D cube-root space—maps directly onto the **`8.8`** observable universe diameter coefficient ($8.8 \times 10^{26}\text{ m}$).
 
 ---
 
@@ -868,7 +868,7 @@ Applying two successive projective steps across the **`000.000 000` (3:9)** posi
 
 ### A. The Reciprocal Mirror ($1 / 0.000112 \approx 8.93 \times 10^3$)
 * Taking the projective reciprocal ($1/x$) of the `0.000112` trim flips the leading digits from **`112`** to **`893`** (**`8.931`**), sitting just **1.48%** above **`8.800`** ($8.931 / 8.800 = 1.0149$).
-* This **1.48% offset** mirrors the exact same **1.41% margin** found in the forward diameter Planck projection of the post-$\varphi$ shift ($\Delta d / l_P = \mathbf{8.678 \times 10^{38}\text{ }l_P}$ vs. $8.800 \times 10^{38}$).
+* This **1.48% offset** mirrors the exact same **1.41% margin** found in the forward diameter Planck projection of the $post-\varphi$ shift ($\Delta d / l_P = \mathbf{8.678 \times 10^{38}\text{ }l_P}$ vs. $8.800 \times 10^{38}$).
 
 ### B. Geometric Mean Equilibrium ($\sqrt{8.678 \times 8.931} = \mathbf{8.803}$)
 * The **forward linear projection** (`8.678`) undershoots `8.8` by **1.4%**, while the **inverse projective limit** (`8.931`) overshoots `8.8` by **1.4%**.
@@ -2311,7 +2311,7 @@ The Möbian closure appears when all three are treated as manifestations of one 
   * This sits **$0.10995\%$** below an exact $10^{-35}\text{ m}$ scale.
 * **Applying the $\varphi$-Shift to Earth's Equatorial Circumference ($40,075\text{ km}$):**
   * **Baseline Excess:** $40,075\text{ km} - 40,000\text{ km} = \mathbf{75.00\text{ km}}$ ($18.75\text{ km}$ per $10,000\text{ km}$ quarter-arc).
-  * **Post-$\varphi$ Shift ($-0.10995\%$):** Reduces $40,075\text{ km}$ by **$44.06\text{ km}$** (or **$11.02\text{ km}$** per quarter-arc), bringing the circumference to **$40,030.94\text{ km}$**.
+  * **$Post-\varphi$ Shift ($-0.10995\%$):** Reduces $40,075\text{ km}$ by **$44.06\text{ km}$** (or **$11.02\text{ km}$** per quarter-arc), bringing the circumference to **$40,030.94\text{ km}$**.
   * **Remaining Gap to Exact $40,000\text{ km}$:** **$30.94\text{ km}$** full circumference (or **$7.73\text{ km}$** per quarter-arc, a **$0.0773\%$** adjustment).
 
 ---
@@ -2322,8 +2322,8 @@ The Möbian closure appears when all three are treated as manifestations of one 
 
 | Measurement Shift | Metric Distance | Exact Planck Units ($l_P$) | Fraction of $10,000\text{ km}$ Baseline |
 | :--- | :--- | :--- | :--- |
-| **Post-$\varphi$ Shift (Full)** | **44.06 km** (44,061.48 m) | **$2.7261 \times 10^{39}\text{ }l_P$** | $0.004406$ ($4.406 \times 10^{-3}$) |
-| **Post-$\varphi$ Shift (1/4 Arc)** | **11.02 km** (11,015.37 m) | **$6.8154 \times 10^{38}\text{ }l_P$** | $0.001102$ ($1.102 \times 10^{-3}$) |
+| **$Post-\varphi$ Shift (Full)** | **44.06 km** (44,061.48 m) | **$2.7261 \times 10^{39}\text{ }l_P$** | $0.004406$ ($4.406 \times 10^{-3}$) |
+| **$Post-\varphi$ Shift (1/4 Arc)** | **11.02 km** (11,015.37 m) | **$6.8154 \times 10^{38}\text{ }l_P$** | $0.001102$ ($1.102 \times 10^{-3}$) |
 | **Remaining Gap to 40,000 km (Full)** | **30.94 km** (30,938.52 m) | **$1.9142 \times 10^{39}\text{ }l_P$** | $0.003094$ ($3.094 \times 10^{-3}$) |
 | **Remaining Gap (30.94 / 4)** | **7.73 km** (7,734.63 m) | **$4.7855 \times 10^{38}\text{ }l_P$** | $0.000773$ ($7.735 \times 10^{-4}$) |
 
@@ -2362,7 +2362,7 @@ In sound and hologram synchronization, **3.094** (and **30.94**) positions itsel
 
 ---
 
-## 4. Measurement Bias & Post-$\varphi$ Modulation
+## 4. Measurement Bias & $Post-\varphi$ Modulation
 
 In wave physics, metrology, and signal processing, introducing a deliberate scaling bias—like dividing by $\varphi$ and leaving a residual trim of **0.3094%** (or **3.094**)—is a recognized engineering trade-off between **structural stability** (preventing interference/resonance) and **absolute precision** (maintaining a locked grid).
 
@@ -2380,9 +2380,9 @@ In wave physics, metrology, and signal processing, introducing a deliberate scal
 
 ### How the Bias Modulates *After* $\varphi$
 1. **Beat-Frequency Modulation (Envelope Wave):**
-   * When a signal running on the post-$\varphi$ grid (**40,030.94** scale) interacts with an unadjusted grid (**40,000** scale), the **0.0773%** difference generates a slow secondary **beat frequency**, oscillating smoothly between constructive alignment and destructive misalignment every **1,293 cycles** ($1 / 0.000773 \approx 1293$).
+   * When a signal running on the $post-\varphi$ grid (**40,030.94** scale) interacts with an unadjusted grid (**40,000** scale), the **0.0773%** difference generates a slow secondary **beat frequency**, oscillating smoothly between constructive alignment and destructive misalignment every **1,293 cycles** ($1 / 0.000773 \approx 1293$).
 2. **Phase-Walk / Vernier Modulation:**
-   * A post-$\varphi$ residual of **3.094 radians** (just shy of $\pi = 3.1416$) rotates a wave's phase by $177.27^\circ$ per step, leaving a **$2.73^\circ$** ($0.0476\text{ rad}$) rotational slip. Over **66 steps**, it completes a full $180^\circ$ phase inversion, dynamically sweeping a sound beam or holographic focal point across space without mechanical movement.
+   * A $post-\varphi$ residual of **3.094 radians** (just shy of $\pi = 3.1416$) rotates a wave's phase by $177.27^\circ$ per step, leaving a **$2.73^\circ$** ($0.0476\text{ rad}$) rotational slip. Over **66 steps**, it completes a full $180^\circ$ phase inversion, dynamically sweeping a sound beam or holographic focal point across space without mechanical movement.
 3. **Recursive $\varphi$-Damping (Continued Fraction Cascade):**
    * Feeding the remainder back into $\varphi$ recursively ($75 \div \varphi \rightarrow 28.65 \div \varphi \rightarrow 10.94 \div \varphi \rightarrow 4.18$) shrinks the measurement bias by **38.2%** ($1 - 1/\varphi$) at every step, dampening the error asymptotically toward zero while preserving non-repeating, interference-free spacing.
 
@@ -3243,7 +3243,7 @@ There are two different four-element progressions that can be combined into a tw
 The first progression is:
 
 $$
-Q = \left\{\frac14,\frac12,\frac34,1\right\}
+Q = \left\\{\frac14,\frac12,\frac34,1\right\\}
 $$
 
 or:
@@ -3579,7 +3579,7 @@ $$
 or:
 
 $$
-\boxed{\epsilon_\varphi\approx0.10995\%}
+\boxed{\epsilon_\varphi\approx0.10995\\%}
 $$
 
 This is the actual relative residual being investigated.
