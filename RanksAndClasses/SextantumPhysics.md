@@ -2582,9 +2582,7 @@ This separation is important because the coefficient can be studied as a number 
 Taking the reciprocal of the internal residue gives:
 
 $$
-\frac{1}{0.000112}
-=
-8928.571428\ldots
+\frac{1}{0.000112} = 8928.571428\ldots
 $$
 
 Compare:
@@ -3753,13 +3751,7 @@ $$
 Taking logarithms gives:
 
 $$
-\log R
-=
-a\log2
-+
-b\log3
-+
-d\log\varphi
+\log R = a\log2 + b\log3 + d\log\varphi
 $$
 
 The multiplicative relationship becomes additive.
@@ -3771,10 +3763,7 @@ Different growth structures can now be compared in one coordinate space.
 A residual can be defined relative to a chosen reference model:
 
 $$
-\epsilon=
-\log R_{\mathrm{observed}}
--
-\log R_{\mathrm{predicted}}
+\epsilon= \log R_{\mathrm{observed}} - \log R_{\mathrm{predicted}}
 $$
 
 This is particularly useful because the residual becomes independent of the original multiplicative scale.
@@ -4327,3 +4316,1024 @@ It is to make every relevant relationship locatable.
 **One structure, multiple projections, preserved relations.**
 
 This is the concluding principle of Sextantum.
+
+---
+
+
+# The Fractional and Additive Hologram
+## How φ, 2 + 2 = 2 × 2, octave symmetry and the 64-rank structure meet
+
+---
+
+# 1. Two descriptions of one structure
+
+There are two fundamental ways to describe a whole made from smaller parts.
+
+**Fractional description:**
+
+A whole is divided into parts whose proportions repeat at different scales.
+
+**Additive description:**
+
+The parts are composed into a whole, and their values sum to the total.
+
+These are not competing models. They describe different aspects of the same relationship.
+
+The golden ratio is especially important because it satisfies both descriptions simultaneously.
+
+Let:
+
+- W = the whole;
+- L = the larger part;
+- S = the smaller part.
+
+The golden division requires:
+
+$$
+\frac{W}{L}=\frac{L}{S}=\varphi
+$$
+
+where:
+
+$$
+\varphi=\frac{1+\sqrt5}{2}
+\approx1.6180339887
+$$
+
+The defining property is not initially addition.
+
+It is the repetition of the same ratio across two levels.
+
+The larger part relates to the whole in the same way that the smaller part relates to the larger part.
+
+This is the essential fractional or recursive property.
+
+---
+
+# 2. The fractional model: self-similarity
+
+Start with:
+
+$$
+W=L+S
+$$
+
+and impose the proportional condition:
+
+$$
+\frac{W}{L}=\frac{L}{S}=\varphi
+$$
+
+From the first ratio:
+
+$$
+L=\frac{W}{\varphi}
+$$
+
+From the second:
+
+$$
+S=\frac{L}{\varphi}
+=\frac{W}{\varphi^2}
+$$
+
+Therefore:
+
+$$
+\boxed{
+W=\frac{W}{\varphi}+\frac{W}{\varphi^2}
+}
+$$
+
+Dividing by W:
+
+$$
+\boxed{
+1=\frac{1}{\varphi}+\frac{1}{\varphi^2}
+}
+$$
+
+This is the fractional identity of the golden ratio.
+
+The whole contains two parts:
+
+- a larger part equal to 1/φ of the whole;
+- a smaller part equal to 1/φ² of the whole.
+
+Their sum reconstructs the whole exactly.
+
+Numerically:
+
+$$
+\frac{1}{\varphi}
+\approx0.6180339887
+$$
+
+$$
+\frac{1}{\varphi^2}
+\approx0.3819660113
+$$
+
+Thus:
+
+$$
+0.6180339887+0.3819660113=1
+$$
+
+The same division can be repeated inside the larger part.
+
+The larger part becomes a new whole, and its own larger part is again 1/φ of it.
+
+Consequently, the ratio survives successive subdivisions.
+
+$$
+W
+\rightarrow
+\frac{W}{\varphi}
+\rightarrow
+\frac{W}{\varphi^2}
+\rightarrow
+\frac{W}{\varphi^3}
+\rightarrow\cdots
+$$
+
+This is a scale-recursive structure.
+
+The parts do not have to be numerically equal to preserve the same organization. What remains invariant is their proportional relationship.
+
+That is the precise mathematical meaning of the golden-ratio holographic analogy.
+
+---
+
+# 3. The additive model: composition of the same proportions
+
+The fractional identity can be rewritten:
+
+$$
+1=\frac{1}{\varphi}+\frac{1}{\varphi^2}
+$$
+
+Multiplying by φ²:
+
+$$
+\varphi^2=\varphi+1
+$$
+
+Or:
+
+$$
+\boxed{\varphi^2=\varphi+1}
+$$
+
+This is the familiar additive identity of the golden ratio.
+
+However, its interpretation should remain connected to the fractional construction.
+
+The equation says:
+
+$$
+\text{larger scale}+\text{smaller scale} = \text{complete scale}
+$$
+
+when the scales are measured in units of the smaller part.
+
+The two descriptions are therefore:
+
+| Fractional description | Additive description |
+|---|---|
+| W/L = φ | W = L + S |
+| L/S = φ | L = φS |
+| W/S = φ² | W = (φ + 1)S |
+| 1 = 1/φ + 1/φ² | φ² = φ + 1 |
+
+The additive identity is not an alternative to the fractional resonance.
+
+It is what the fractional resonance becomes when the parts are expressed as components of a whole.
+
+This distinction matters:
+
+- Division describes proportion.
+- Addition describes composition.
+- Recursion describes persistence of proportion across levels.
+
+Together they define the golden-section structure.
+
+---
+
+# 4. The first major symmetry: 2 + 2 = 2 × 2
+
+Now consider the smallest integer structure that exhibits the same duality of descriptions:
+
+$$
+\boxed{2+2=2\times2=4}
+$$
+
+This is more interesting structurally than it first appears.
+
+There are two different ways to obtain four.
+
+## 4.1 Addition: two pairs become one whole
+
+$$
+2+2=4
+$$
+
+We begin with two groups, each containing two elements.
+
+The groups are joined.
+
+The result is one whole containing four elements.
+
+Conceptually:
+
+    [1, 2] + [1, 2]
+    
+    = [1, 2, 1, 2]
+
+This is a compositional operation.
+
+Two existing structures become one larger structure.
+
+## 4.2 Multiplication: two binary dimensions produce four positions
+
+$$
+2\times2=4
+$$
+
+Now the two factors do not represent two groups being added.
+
+They represent two independent choices or directions.
+
+For example:
+
+- horizontal coordinate: 2 possibilities;
+- vertical coordinate: 2 possibilities.
+
+Their Cartesian product produces:
+
+$$
+2\times2=4
+$$
+
+The four positions are:
+
+    (0,0)  (1,0)
+    (0,1)  (1,1)
+
+This is a two-dimensional binary field.
+
+Each direction has two states, and every state in one direction can combine with every state in the other.
+
+The result is four combinations.
+
+## 4.3 Why the equality matters
+
+The arithmetic equality is elementary:
+
+$$
+2+2=2\times2
+$$
+
+But the structural interpretations are different:
+
+| Addition | Multiplication |
+|---|---|
+| Two groups | Two dimensions |
+| Composition | Combination |
+| Joining | Crossing |
+| Total quantity | Number of possible positions |
+| 1D aggregation | 2D projection |
+
+The value four is the common result.
+
+One construction is additive; the other is multiplicative.
+
+This is the simplest model of a holographic transformation between two descriptions of the same numerical structure.
+
+It does not mean addition and multiplication are generally interchangeable. Their equality here is a special property of the number 2.
+
+---
+
+# 5. The 2 × 2 field and its symmetries
+
+A 2 × 2 field contains four positions:
+
+$$
+\begin{matrix}
+a & b\\
+c & d
+\end{matrix}
+$$
+
+Its two axes can be exchanged.
+
+Its rows and columns can be reversed.
+
+Its diagonals can be exchanged.
+
+The square has the familiar symmetries of a square, including rotations and reflections.
+
+The important point for the hologram is that the four positions can be read in more than one direction.
+
+For example:
+
+**Horizontal reading:**
+
+$$
+2+2=4
+$$
+
+**Vertical reading:**
+
+$$
+2+2=4
+$$
+
+**Dimensional reading:**
+
+$$
+2\times2=4
+$$
+
+**Diagonal reading:**
+
+$$
+(a,d)\leftrightarrow(b,c)
+$$
+
+The same four positions support multiple projections.
+
+The two dimensions are not independent of the complete field: together they define it.
+
+This is a useful elementary model for the Laegna idea of internal and external projections.
+
+---
+
+# 6. From 2 × 2 to the octave ladder
+
+The Laegna octave progression is:
+
+$$
+1\rightarrow2\rightarrow4\rightarrow8\rightarrow16
+$$
+
+Each step doubles the previous value:
+
+$$
+2^0,\quad2^1,\quad2^2,\quad2^3,\quad2^4
+$$
+
+The first four structural levels are:
+
+| Rank | Value | Interpretation |
+|---:|---:|---|
+| 0 | 1 | Identity |
+| 1 | 2 | Duality |
+| 2 | 4 | Two-by-two closure |
+| 3 | 8 | Three binary positions |
+| 4 | 16 | Four binary positions |
+
+The number four is the first point where two binary structures can be combined into a complete square.
+
+The number eight is the next important point.
+
+It can be interpreted as:
+
+$$
+8=2\times2\times2=2^3
+$$
+
+Three binary directions produce eight combinations.
+
+This is the familiar eight-state structure of a trigram.
+
+The progression is therefore:
+
+$$
+2
+\rightarrow
+2^2
+\rightarrow
+2^3
+\rightarrow
+2^4
+$$
+
+or:
+
+$$
+2\rightarrow4\rightarrow8\rightarrow16
+$$
+
+Each additional binary dimension doubles the number of available combinations.
+
+---
+
+# 7. The 64-state closure
+
+The same principle produces the 64-state field.
+
+$$
+64=2^6
+$$
+
+But there are several equivalent factorizations:
+
+$$
+\boxed{
+64=2^6=4^3=8^2
+}
+$$
+
+These are particularly interesting because they express the same number through different structural organizations.
+
+| Expression | Structural reading |
+|---|---|
+| 2⁶ | Six binary positions |
+| 4³ | Three four-state levels |
+| 8² | Two eight-state systems |
+| 8 × 8 | Two trigrams combine |
+| 4 × 4 × 4 | Three four-state dimensions |
+
+The equality:
+
+$$
+8\times8=64
+$$
+
+is the mathematical basis of the 8-by-8 hexagram construction.
+
+Two trigrams combine to produce 64 possible hexagrams.
+
+The same field can also be represented as:
+
+$$
+4\times4\times4=64
+$$
+
+or:
+
+$$
+(2\times2)^3=64
+$$
+
+This reveals the deeper relationship:
+
+The 2 × 2 structure is not merely a square.
+
+It can be repeated across three dimensions or three levels.
+
+Each 2 × 2 field contributes four states.
+
+Three such four-state structures produce:
+
+$$
+4\times4\times4=64
+$$
+
+Thus the smallest additive-multiplicative symmetry expands into a larger rank structure.
+
+---
+
+# 8. The meeting of addition and multiplication at different ranks
+
+The relationship can be summarized as:
+
+$$
+\boxed{2+2=2\times2=4}
+$$
+
+Then:
+
+$$
+4+4=8
+$$
+
+and:
+
+$$
+4\times2=8
+$$
+
+At the next level:
+
+$$
+8\times8=64
+$$
+
+The important distinction is that addition and multiplication generate different kinds of structure.
+
+For example:
+
+$$
+4+4=8
+$$
+
+combines two four-state groups.
+
+But:
+
+$$
+4\times2=8
+$$
+
+combines a four-state system with a binary direction.
+
+And:
+
+$$
+8\times8=64
+$$
+
+combines two independent eight-state systems.
+
+The numerical result alone does not tell us which structure is being represented.
+
+The factorization tells us.
+
+This is why the same number can have multiple useful holographic interpretations.
+
+---
+
+# 9. How φ connects the 1–2–4 structure
+
+The golden ratio contains a square root of five:
+
+$$
+\varphi=\frac{1+\sqrt5}{2}
+$$
+
+And:
+
+$$
+5=1+4
+$$
+
+In the Laegna octave ladder:
+
+$$
+1\rightarrow2\rightarrow4
+$$
+
+the values 1 and 4 are the endpoints of the first nontrivial square-like rank structure.
+
+The number five can therefore be read as:
+
+$$
+5=1+4
+$$
+
+It combines the identity with the completed 2 × 2 field.
+
+The golden ratio then becomes:
+
+$$
+\varphi=\frac{1+\sqrt{1+4}}{2}
+$$
+
+This is a diagonal relation connecting the identity and the four-state structure.
+
+The square root is important.
+
+It does not simply add 1 and 4 as ordinary quantities. It expresses a quadratic relationship between them.
+
+In that sense, φ is neither an octave value nor a four-state value.
+
+It is a bridge between them.
+
+The golden ratio also satisfies:
+
+$$
+\varphi^2=\varphi+1
+$$
+
+So the same number connects:
+
+- the additive composition of 1 and φ;
+- the multiplicative square of φ;
+- the fractional subdivision of a whole;
+- the diagonal relation involving 1 and 4.
+
+This is why φ is a useful candidate for the diagonal connector in the Sextantum structure.
+
+---
+
+# 10. Two kinds of symmetry: additive and fractional
+
+The two main models can now be placed side by side.
+
+## Additive-multiplicative symmetry
+
+$$
+2+2=2\times2=4
+$$
+
+Two pairs can be understood as:
+
+- two groups being joined;
+- two binary dimensions being crossed.
+
+This is a symmetry of construction.
+
+## Fractional-recursive symmetry
+
+$$
+1=\frac{1}{\varphi}+\frac{1}{\varphi^2}
+$$
+
+A whole can be understood as:
+
+- a larger fraction;
+- a smaller fraction;
+- a repeated ratio between successive levels.
+
+This is a symmetry of scale.
+
+The first describes how a field is generated.
+
+The second describes how a field can preserve its proportional organization under subdivision.
+
+The two meet when the same structure is considered both as a collection of parts and as a system of relationships between dimensions.
+
+---
+
+# 11. The 11 ↔ 2 relationship in 112
+
+The number 112 is especially interesting in the existing Sextantum analysis.
+
+Its elementary payload is:
+
+$$
+112=1,\ 1,\ 2
+$$
+
+The two ones can be interpreted as two parallel components:
+
+$$
+1+1=2
+$$
+
+The two parallel components can also be interpreted as two states or directions.
+
+The result is a single value of two.
+
+This is a simple additive closure.
+
+In a two-dimensional representation, the two ones can be placed along one axis, while their combined value is represented along the other.
+
+This gives a useful symbolic correspondence:
+
+$$
+11\leftrightarrow2
+$$
+
+Here, `11` is a representation of two separate unit components, while `2` is their combined numerical value.
+
+It is important to distinguish the symbolic reading from ordinary decimal arithmetic:
+
+- As a decimal integer, 11 is eleven.
+- As a pair of unit symbols, `1,1` represents two ones.
+- Their sum is 2.
+
+The holographic interpretation uses the second reading.
+
+The payload `112` therefore contains the elementary sequence:
+
+$$
+1,\quad1,\quad2
+$$
+
+Identity, identity, duality.
+
+This is compatible with the first octave progression:
+
+$$
+1\rightarrow2
+$$
+
+The relation is structural rather than a claim that the decimal integer 112 equals a binary or geometric quantity.
+
+---
+
+# 12. The complementary 8.8 structure
+
+The other important anchor is:
+
+$$
+8.8
+$$
+
+Repeated division by two produces:
+
+$$
+8.8\rightarrow4.4\rightarrow2.2\rightarrow1.1
+$$
+
+This can be written:
+
+$$
+8.8=2\times4.4
+$$
+
+$$
+4.4=2\times2.2
+$$
+
+$$
+2.2=2\times1.1
+$$
+
+The coefficient follows the octave ladder:
+
+$$
+8\rightarrow4\rightarrow2\rightarrow1
+$$
+
+while the decimal residue remains:
+
+$$
+0.8\rightarrow0.4\rightarrow0.2\rightarrow0.1
+$$
+
+The same operation acts on both parts.
+
+This is a simple example of scale persistence under a repeated transformation.
+
+The number does not become identical at each stage, but its internal organization remains recognizable.
+
+The corresponding small-scale anchor is:
+
+$$
+0.000112
+$$
+
+with its payload:
+
+$$
+112
+$$
+
+The two anchors therefore offer complementary readings:
+
+| Anchor | Structural feature |
+|---|---|
+| 0.000112 | Small-scale payload 112 |
+| 8.8 | Repeated octave projection |
+| φ | Recursive proportional bridge |
+
+These values are not numerically equal.
+
+Their proposed relationship is one of rank-changing projection, not direct equality.
+
+---
+
+# 13. The Planck-to-cosmic direction
+
+The same distinction between internal and external projection appears in the physical-scale discussion.
+
+A Planck length is approximately:
+
+$$
+l_P\approx1.616255\times10^{-35}\ \mathrm{m}
+$$
+
+The observable-universe scale used in this model is approximately:
+
+$$
+R_U\approx8.8\times10^{26}\ \mathrm{m}
+$$
+
+These are enormously different physical scales.
+
+A logarithmic coordinate can place them into a common rank space:
+
+$$
+u=\log_2\left(\frac{L}{l_P}\right)
+$$
+
+Then:
+
+- small physical scales occupy lower logarithmic coordinates;
+- large physical scales occupy higher logarithmic coordinates;
+- multiplicative scale changes become additive coordinate changes.
+
+For example:
+
+$$
+\log_2(2L)=\log_2(L)+1
+$$
+
+This is a crucial connection.
+
+In ordinary space, doubling is multiplicative.
+
+In logarithmic rank space, doubling becomes addition.
+
+Thus:
+
+$$
+\boxed{
+\text{Multiplication in scale}
+\longleftrightarrow
+\text{Addition in logarithmic rank}
+}
+$$
+
+This is another form of the same duality.
+
+It explains why addition and multiplication repeatedly appear together in scale-hologram constructions.
+
+The mathematical transformation is exact.
+
+The physical interpretation of particular rank coordinates still requires a clearly defined measurement model.
+
+---
+
+# 14. The deeper 2 + 2 = 2 × 2 symmetry
+
+We can now express the structure in four layers.
+
+## Layer 1: Unit composition
+
+$$
+1+1=2
+$$
+
+Two units compose a pair.
+
+## Layer 2: Binary crossing
+
+$$
+2\times2=4
+$$
+
+Two binary directions create four combinations.
+
+## Layer 3: Additive-multiplicative equivalence
+
+$$
+2+2=2\times2=4
+$$
+
+Two pairs and two binary dimensions produce the same numerical closure.
+
+## Layer 4: Recursive scale
+
+$$
+1=\frac{1}{\varphi}+\frac{1}{\varphi^2}
+$$
+
+The same whole can be reconstructed from proportionally related parts.
+
+These four layers can be summarized:
+
+| Layer | Operation | Result | Structural meaning |
+|---|---|---:|---|
+| 1 | 1 + 1 | 2 | Duality |
+| 2 | 2 × 2 | 4 | Two-dimensional closure |
+| 3 | 2 + 2 = 2 × 2 | 4 | Composition equals crossing |
+| 4 | 1/φ + 1/φ² | 1 | Recursive proportional closure |
+
+The number four is the meeting point between additive composition and two-dimensional multiplication.
+
+The golden ratio extends this meeting point into a recursive scale relation.
+
+---
+
+# 15. A compact holographic model
+
+The complete structure can be represented as:
+
+    FRACTIONAL / RECURSIVE
+              |
+              v
+       W/L = L/S = φ
+              |
+              v
+       1 = 1/φ + 1/φ²
+              |
+              v
+       φ² = φ + 1
+              |
+              |
+    ADDITIVE / MULTIPLICATIVE
+              |
+              v
+          2 + 2 = 4
+              =
+          2 × 2 = 4
+              |
+              v
+        2 × 2 × 2 = 8
+              |
+              v
+         8 × 8 = 64
+              |
+              v
+       4 × 4 × 4 = 64
+
+The two paths meet at the four-state structure.
+
+One path approaches it through fractional composition and recursive proportions.
+
+The other approaches it through binary dimensions and multiplicative combinations.
+
+The 64-state field is a higher-order closure of the same two-by-two principle.
+
+---
+
+# 16. What is mathematical and what remains a hypothesis?
+
+There are several levels of certainty.
+
+**Exact mathematical identities:**
+
+$$
+\varphi^2=\varphi+1
+$$
+
+$$
+1=\frac{1}{\varphi}+\frac{1}{\varphi^2}
+$$
+
+$$
+2+2=2\times2=4
+$$
+
+$$
+64=2^6=4^3=8^2
+$$
+
+$$
+8\times8=64
+$$
+
+These are established mathematical facts.
+
+**Exact structural interpretations:**
+
+- A 2 × 2 field has four positions.
+- Two binary dimensions produce four combinations.
+- Two trigrams produce 64 possible hexagrams.
+- A logarithm converts multiplication into addition.
+- Golden-section subdivision preserves a fixed ratio across successive levels.
+
+These follow from the definitions and mathematical constructions.
+
+**Research hypotheses:**
+
+- That the values 0.000112, φ and 8.8 form a physically meaningful rank-hologram.
+- That particular Planck-scale and cosmic-scale residuals are consequences of one common projection rule.
+- That the 64-state structure describes a physical field rather than a useful mathematical representation.
+
+These require independent definitions, measurements and predictive tests.
+
+The numerical structures are worth investigating, but a structural analogy alone does not establish a physical law.
+
+---
+
+# 17. Final synthesis
+
+The most important result is that there are two complementary ways to generate and preserve structure.
+
+The additive model builds a whole from parts.
+
+The multiplicative model combines independent directions into a field.
+
+The fractional model preserves proportions between successive scales.
+
+The logarithmic model turns multiplicative scale changes into additive rank changes.
+
+The golden ratio connects the additive and fractional descriptions:
+
+$$
+\boxed{
+\varphi^2=\varphi+1
+}
+$$
+
+The smallest binary hologram connects addition and multiplication:
+
+$$
+\boxed{
+2+2=2\times2=4
+}
+$$
+
+The larger rank structure closes through:
+
+$$
+\boxed{
+64=4^3=8^2=2^6
+}
+$$
+
+Together, these relations suggest a useful organizing principle for Sextantum:
+
+**A holographic structure can be represented by its parts, by the combinations of its dimensions, or by the ratios that persist between its scales.**
+
+The same numerical field may therefore be read additively, multiplicatively, fractionally or logarithmically.
+
+The strongest connection is not that all these operations are interchangeable.
+
+It is that they can describe different projections of one consistently defined structure.
