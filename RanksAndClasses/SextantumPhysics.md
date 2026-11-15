@@ -756,7 +756,7 @@ $$
 | **32D** | $3^{31}=617,673,396,283,947$ | **69,179,420,383.802064** |
 | **64D** | $3^{63}$ | **128,190,862,624,253,799,427,226,366** |
 
-*Numerical correction: $9\times0.000112=0.001008$, rather than 0.001007.*
+*Numerical correction:* $9 \times 0.000112 = 0.001008$, *rather than 0.001007.*
 
 ### The exponential relationship
 
