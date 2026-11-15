@@ -1,3 +1,7 @@
+![SoL Cover](Images/SoLCover.png)
+
+<br>
+
 # SoL - Speed of Light
 
 56 G symbolizes external odd-even position flip: to external coordinates.
@@ -954,6 +958,10 @@ Light provides the propagation reference. Darkness provides the reciprocal scale
 This is a mathematical research framework, with its physical interpretations requiring separate verification.
 
 ---
+
+![SoL Thema](Images/SoLThema.png)
+
+<br>
 
 # Laegna — Tesimal Boundary Projection
 ## Light, Darkness, External Space and Recursive Holographic Coordinates
@@ -2109,3 +2117,9 @@ The strongest conceptual possibility is recursive holographic organization: each
     Exponential progression → Linear rank.
 
     One scale's boundary → Another scale's origin.
+
+---
+
+<br>
+
+![SoL Ending](Images/SoLEnding.png)
