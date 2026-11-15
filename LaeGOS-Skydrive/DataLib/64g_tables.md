@@ -1762,3 +1762,1114 @@ $$
 It makes explicit how a linearized coordinate can become an exponent for a new scale space.
 
 The physical meaning of these transformations still needs to be established independently. The mathematical transformations themselves, however, can be defined and tested without assuming that every coordinate corresponds to a directly measurable physical state.
+
+---
+
+
+# Laegna Scale Physics — Machine-Readable Specification
+## Mathematical definitions, physical scopes, higher orders, velocity ranks and kinematic coordinates
+
+**Suggested canonical filename:** `LaegnaScalePhysics.md`
+
+**Purpose:** A combined human-readable and machine-readable specification of the Laegna scale system. The Markdown explains the model; embedded JSON blocks provide structured data for programs, AI systems, robots, simulations and automated analysis.
+
+---
+
+# 1. Document architecture
+
+The document is divided into independent data domains:
+
+| Domain | Content | JSON identifier |
+|---|---|---|
+| Core definitions | Units, symbols, constants and conventions | `core` |
+| Scale positions | First-order positions and their coordinates | `scale_positions` |
+| Known physical references | Particles, atoms, organisms, planets and cosmos | `physical_anchors` |
+| Higher orders | First through fourth exponential orders | `order_definitions` |
+| Velocity | Abstract velocity ratios and decimal ranks | `velocity` |
+| Acceleration | Derived discrete acceleration | `kinematics` |
+| Dimensional projections | Linear, area, volume and inverse-square scales | `dimensional_scopes` |
+| Interpretation | Physical versus mathematical meanings | `interpretation` |
+
+The JSON blocks are independent objects. A program can extract each block by its JSON identifier or combine them into a single JSON document.
+
+## Recommended extraction rule
+
+Every JSON block must:
+
+- Be valid JSON, without comments or trailing commas.
+- Use explicit field names.
+- Include units for dimensional values.
+- Identify whether a number is measured, calculated, assumed or illustrative.
+- Keep physical measurements separate from mathematical transformations.
+- Avoid using display strings as the only representation of a numerical value.
+
+---
+
+# 2. Core definitions and reference units
+
+The system uses the Planck length and Planck time as the first-order reference coordinates.
+
+The primary scale relation is:
+
+$$
+X_1(n)=2^n
+$$
+
+$$
+L_1(n)=\ell_P2^n
+$$
+
+$$
+T_1(n)=t_P2^n
+$$
+
+The higher-order scale transformations are:
+
+$$
+X_2(n)=2^{X_1(n)}
+$$
+
+$$
+X_3(n)=2^{X_2(n)}
+$$
+
+$$
+X_4(n)=2^{X_3(n)}
+$$
+
+The velocity ratio is:
+
+$$
+\beta=\frac{v}{c}
+$$
+
+The discrete acceleration coordinate is:
+
+$$
+a_{i\to j}=
+\frac{c(\beta_j-\beta_i)}{T_j-T_i}
+$$
+
+The following JSON block defines the core constants and formulas.
+
+```json
+{
+  "id": "core",
+  "schema_version": "1.0.0",
+  "system": "Laegna Scale Physics",
+  "document_type": "mathematical_physical_coordinate_specification",
+  "status": "proposed_model",
+  "reference_units": {
+    "length": {
+      "symbol": "m",
+      "name": "metre",
+      "dimension": "length"
+    },
+    "time": {
+      "symbol": "s",
+      "name": "second",
+      "dimension": "time"
+    },
+    "velocity": {
+      "symbol": "m/s",
+      "name": "metres per second",
+      "dimension": "length_per_time"
+    },
+    "acceleration": {
+      "symbol": "m/s^2",
+      "name": "metres per second squared",
+      "dimension": "length_per_time_squared"
+    }
+  },
+  "constants": {
+    "planck_length": {
+      "symbol": "ell_P",
+      "value": 1.616255e-35,
+      "unit": "m",
+      "name": "Planck length",
+      "status": "reference_value"
+    },
+    "planck_time": {
+      "symbol": "t_P",
+      "value": 5.391247e-44,
+      "unit": "s",
+      "name": "Planck time",
+      "status": "reference_value"
+    },
+    "speed_of_light": {
+      "symbol": "c",
+      "value": 299792458,
+      "unit": "m/s",
+      "name": "speed of light in vacuum",
+      "status": "exact_si_value"
+    },
+    "planck_mass": {
+      "symbol": "m_P",
+      "value": 2.176434e-8,
+      "unit": "kg",
+      "name": "Planck mass",
+      "status": "reference_value"
+    },
+    "planck_energy": {
+      "symbol": "E_P",
+      "value": 1.9561e9,
+      "unit": "J",
+      "name": "Planck energy",
+      "status": "reference_value"
+    }
+  },
+  "symbols": {
+    "I": {
+      "name": "Planck mass reference",
+      "reference": "planck_mass",
+      "dimension": "mass"
+    },
+    "O": {
+      "name": "Planck length reference",
+      "reference": "planck_length",
+      "dimension": "length"
+    },
+    "U": {
+      "name": "neutral space-time coordinate",
+      "dimension": "dimensionless",
+      "definition_status": "requires_explicit_normalization"
+    },
+    "A": {
+      "name": "Planck time reference",
+      "reference": "planck_time",
+      "dimension": "time"
+    },
+    "E": {
+      "name": "Planck energy reference",
+      "reference": "planck_energy",
+      "dimension": "energy"
+    },
+    "V": {
+      "name": "mass-energy transition coordinate",
+      "dimension": "dimensionless",
+      "definition_status": "derived_coordinate_not_unique"
+    }
+  },
+  "formulas": {
+    "first_order_factor": {
+      "id": "octave_factor",
+      "expression": "2^n",
+      "inputs": ["n"],
+      "output_dimension": "dimensionless"
+    },
+    "first_order_length": {
+      "id": "length_first_order",
+      "expression": "planck_length * 2^n",
+      "output_unit": "m"
+    },
+    "first_order_time": {
+      "id": "time_first_order",
+      "expression": "planck_time * 2^n",
+      "output_unit": "s"
+    },
+    "second_order": {
+      "id": "scale_order_2",
+      "expression": "2^(2^n)",
+      "output_dimension": "dimensionless"
+    },
+    "third_order": {
+      "id": "scale_order_3",
+      "expression": "2^(2^(2^n))",
+      "output_dimension": "dimensionless"
+    },
+    "fourth_order": {
+      "id": "scale_order_4",
+      "expression": "2^(2^(2^(2^n)))",
+      "output_dimension": "dimensionless"
+    },
+    "velocity_ratio": {
+      "id": "beta",
+      "expression": "v/c",
+      "output_dimension": "dimensionless"
+    },
+    "velocity_rank": {
+      "id": "decimal_nine_rank",
+      "expression": "4^R",
+      "description": "R is the number of consecutive decimal nines immediately after the decimal point in the absolute displayed velocity ratio."
+    },
+    "discrete_acceleration": {
+      "id": "acceleration_between_positions",
+      "expression": "c*(beta_j-beta_i)/(time_j-time_i)",
+      "output_unit": "m/s^2"
+    }
+  }
+}
+```
+
+**Implementation note:** The Planck mass and Planck energy values are rounded reference values. The speed of light is exact in SI units. The formulas should be evaluated from the stored constants rather than treating rounded reference values as exact.
+
+---
+
+# 3. First-order scale positions
+
+The following dataset preserves the supplied position, length, time and abstract velocity values.
+
+The values in `length_m` and `time_s` are supplied coordinate values. They are not silently recalculated from the rounded Planck constants.
+
+The position zero is intentionally absent. This is a feature of the supplied coordinate table, not an instruction to interpolate a zero position.
+
+The `velocity_ratio` values are abstract dimensionless coordinates.
+
+```json
+{
+  "id": "scale_positions",
+  "schema_version": "1.0.0",
+  "coordinate_order": 1,
+  "position_domain": {
+    "minimum": -16,
+    "maximum": 16,
+    "included_positions": "all_nonzero_integers",
+    "zero_position": "not_defined_in_source_table"
+  },
+  "columns": {
+    "n": "integer position",
+    "octave_factor": "dimensionless first-order scale factor",
+    "length_m": "spatial coordinate in metres",
+    "time_s": "temporal coordinate in seconds",
+    "velocity_ratio": "abstract signed velocity divided by c"
+  },
+  "rows": [
+    {"n":-16,"octave_factor":"1/65536","length_m":2.4662e-40,"time_s":8.2261e-49,"velocity_ratio":-0.9999999999999999},
+    {"n":-15,"octave_factor":"1/32768","length_m":4.9324e-40,"time_s":1.6458e-48,"velocity_ratio":-0.9999999999999998},
+    {"n":-14,"octave_factor":"1/16384","length_m":9.8648e-40,"time_s":3.2906e-48,"velocity_ratio":-0.9999999999999993},
+    {"n":-13,"octave_factor":"1/8192","length_m":1.9730e-39,"time_s":6.5811e-48,"velocity_ratio":-0.9999999999999973},
+    {"n":-12,"octave_factor":"1/4096","length_m":3.9459e-39,"time_s":1.3162e-47,"velocity_ratio":-0.9999999999999893},
+    {"n":-11,"octave_factor":"1/2048","length_m":7.8919e-39,"time_s":2.6324e-47,"velocity_ratio":-0.9999999999999573},
+    {"n":-10,"octave_factor":"1/1024","length_m":1.5784e-38,"time_s":5.2649e-47,"velocity_ratio":-0.9999999999998295},
+    {"n":-9,"octave_factor":"1/512","length_m":3.1567e-38,"time_s":1.0530e-46,"velocity_ratio":-0.9999999999993178},
+    {"n":-8,"octave_factor":"1/256","length_m":6.3135e-38,"time_s":2.1059e-46,"velocity_ratio":-0.9999999999972715},
+    {"n":-7,"octave_factor":"1/128","length_m":1.2627e-37,"time_s":4.2119e-46,"velocity_ratio":-0.9999999999890861},
+    {"n":-6,"octave_factor":"1/64","length_m":2.5254e-37,"time_s":8.4238e-46,"velocity_ratio":-0.999999999956343},
+    {"n":-5,"octave_factor":"1/32","length_m":5.0508e-37,"time_s":1.6848e-45,"velocity_ratio":-0.999999999825373},
+    {"n":-4,"octave_factor":"1/16","length_m":1.0102e-36,"time_s":3.3695e-45,"velocity_ratio":-0.999999999301508},
+    {"n":-3,"octave_factor":"1/8","length_m":2.0203e-36,"time_s":6.7391e-45,"velocity_ratio":-0.999999997206032},
+    {"n":-2,"octave_factor":"1/4","length_m":4.0406e-36,"time_s":1.3478e-44,"velocity_ratio":-0.999999988824129},
+    {"n":-1,"octave_factor":"1/2","length_m":8.0813e-36,"time_s":2.6956e-44,"velocity_ratio":-0.999999955296516},
+    {"n":1,"octave_factor":"2","length_m":3.2325e-35,"time_s":1.0782e-43,"velocity_ratio":0.999999955296516},
+    {"n":2,"octave_factor":"4","length_m":6.4650e-35,"time_s":2.1565e-43,"velocity_ratio":0.999999988824129},
+    {"n":3,"octave_factor":"8","length_m":1.2930e-34,"time_s":4.3130e-43,"velocity_ratio":0.999999997206032},
+    {"n":4,"octave_factor":"16","length_m":2.5860e-34,"time_s":8.6260e-43,"velocity_ratio":0.999999999301508},
+    {"n":5,"octave_factor":"32","length_m":5.1720e-34,"time_s":1.7252e-42,"velocity_ratio":0.999999999825373},
+    {"n":6,"octave_factor":"64","length_m":1.0344e-33,"time_s":3.4504e-42,"velocity_ratio":0.999999999956343},
+    {"n":7,"octave_factor":"128","length_m":2.0688e-33,"time_s":6.9008e-42,"velocity_ratio":0.9999999999890861},
+    {"n":8,"octave_factor":"256","length_m":4.1376e-33,"time_s":1.3802e-41,"velocity_ratio":0.9999999999972715},
+    {"n":9,"octave_factor":"512","length_m":8.2752e-33,"time_s":2.7603e-41,"velocity_ratio":0.9999999999993178},
+    {"n":10,"octave_factor":"1024","length_m":1.6550e-32,"time_s":5.5206e-41,"velocity_ratio":0.9999999999998295},
+    {"n":11,"octave_factor":"2048","length_m":3.3101e-32,"time_s":1.1041e-40,"velocity_ratio":0.9999999999999573},
+    {"n":12,"octave_factor":"4096","length_m":6.6202e-32,"time_s":2.2083e-40,"velocity_ratio":0.9999999999999893},
+    {"n":13,"octave_factor":"8192","length_m":1.3240e-31,"time_s":4.4165e-40,"velocity_ratio":0.9999999999999973},
+    {"n":14,"octave_factor":"16384","length_m":2.6481e-31,"time_s":8.8330e-40,"velocity_ratio":0.9999999999999993},
+    {"n":15,"octave_factor":"32768","length_m":5.2961e-31,"time_s":1.7661e-39,"velocity_ratio":0.9999999999999998},
+    {"n":16,"octave_factor":"65536","length_m":1.0592e-30,"time_s":3.5321e-39,"velocity_ratio":0.9999999999999999}
+  ],
+  "provenance": {
+    "length_and_time": "user_supplied_coordinate_table",
+    "velocity": "user_supplied_abstract_sequence",
+    "rounding": "source_decimal_values_preserved"
+  }
+}
+```
+
+## 3.1 Why the octave factor is stored as a string
+
+The values `1/65536` and `1/32768` are exact rational expressions.
+
+Storing them as strings preserves their exact form. A program can parse the numerator and denominator as integers.
+
+This avoids unnecessary floating-point errors in reciprocal positions.
+
+The physical metre and second columns remain numerical values because they are approximate decimal measurements or coordinate values.
+
+---
+
+# 4. Physical reference anchors
+
+This dataset connects first-order positions to recognizable physical scales.
+
+The position is calculated from:
+
+$$
+n=\log_2\left(\frac{L}{\ell_P}\right)
+$$
+
+The listed positions are approximate because the physical reference sizes are approximate and depend on the definition of the measured dimension.
+
+```json
+{
+  "id": "physical_anchors",
+  "schema_version": "1.0.0",
+  "position_formula": "log2(reference_length_m / planck_length_m)",
+  "anchors": [
+    {
+      "id": "planck_length",
+      "name": "Planck length",
+      "scope": "planck_reference",
+      "length_m": 1.616255e-35,
+      "position_n": 0,
+      "measurement_kind": "natural_unit_reference"
+    },
+    {
+      "id": "proton_diameter",
+      "name": "Proton diameter",
+      "scope": "nuclear",
+      "length_m": 1.7e-15,
+      "position_n": 66.5,
+      "measurement_kind": "approximate_diameter"
+    },
+    {
+      "id": "hydrogen_atom_diameter",
+      "name": "Hydrogen atom representative diameter",
+      "scope": "atomic",
+      "length_m": 1.06e-10,
+      "position_n": 82.4,
+      "measurement_kind": "approximate_atomic_extent"
+    },
+    {
+      "id": "cell_scale",
+      "name": "Representative cell scale",
+      "scope": "biological",
+      "length_m": 1e-5,
+      "position_n": 99.0,
+      "measurement_kind": "illustrative_size"
+    },
+    {
+      "id": "human_height",
+      "name": "Representative human height",
+      "scope": "human",
+      "length_m": 1.7,
+      "position_n": 116.3,
+      "measurement_kind": "illustrative_height"
+    },
+    {
+      "id": "earth_diameter",
+      "name": "Earth diameter",
+      "scope": "planetary",
+      "length_m": 1.2742e7,
+      "position_n": 139.2,
+      "measurement_kind": "mean_diameter_approximation"
+    },
+    {
+      "id": "astronomical_unit",
+      "name": "Astronomical unit",
+      "scope": "solar_system",
+      "length_m": 1.495978707e11,
+      "position_n": 152.7,
+      "measurement_kind": "defined_distance"
+    },
+    {
+      "id": "light_year",
+      "name": "One light-year",
+      "scope": "interstellar",
+      "length_m": 9.4607e15,
+      "position_n": 168.6,
+      "measurement_kind": "distance_unit"
+    },
+    {
+      "id": "milky_way_diameter",
+      "name": "Milky Way representative diameter",
+      "scope": "galactic",
+      "length_m": 1e21,
+      "position_n": 185.3,
+      "measurement_kind": "approximate_galactic_extent"
+    },
+    {
+      "id": "observable_universe_diameter",
+      "name": "Observable universe representative diameter",
+      "scope": "cosmological",
+      "length_m": 8.8e26,
+      "position_n": 205.1,
+      "measurement_kind": "approximate_cosmological_extent"
+    }
+  ],
+  "scope_ranges": [
+    {"name":"Planck reference and formal sub-Planck region","n_min":-1000,"n_max":40},
+    {"name":"Subnuclear region","n_min":40,"n_max":65},
+    {"name":"Nuclear region","n_min":65,"n_max":75},
+    {"name":"Atomic region","n_min":75,"n_max":90},
+    {"name":"Molecular and cellular region","n_min":90,"n_max":105},
+    {"name":"Organism and human region","n_min":105,"n_max":125},
+    {"name":"Planetary region","n_min":125,"n_max":145},
+    {"name":"Solar-system region","n_min":145,"n_max":165},
+    {"name":"Interstellar region","n_min":165,"n_max":180},
+    {"name":"Galactic region","n_min":180,"n_max":195},
+    {"name":"Cosmological region","n_min":195,"n_max":210}
+  ],
+  "warning": "Scope ranges are organizational categories, not strict physical boundaries."
+}
+```
+
+## 4.1 Interpretation
+
+An AI system can use `scope_ranges` to classify a first-order position.
+
+For example:
+
+- Position 70 belongs to the nuclear region.
+- Position 85 belongs to the atomic region.
+- Position 116 belongs to the human region.
+- Position 139 belongs to the planetary region.
+- Position 169 belongs to the interstellar region.
+- Position 205 belongs to the cosmological region.
+
+This provides a simple automated classification layer.
+
+---
+
+# 5. Higher-order scale definitions
+
+The higher-order transformations should be stored as formula definitions, not as enormous decimal values.
+
+```json
+{
+  "id": "order_definitions",
+  "schema_version": "1.0.0",
+  "reference_unit": "planck_length",
+  "orders": [
+    {
+      "order": 1,
+      "name": "First-order octave scale",
+      "factor_expression": "2^n",
+      "length_expression": "planck_length * 2^n",
+      "interpretation": "Direct Planck-normalized spatial scale",
+      "physical_anchor_mapping": true
+    },
+    {
+      "order": 2,
+      "name": "Second-order exponential scale",
+      "factor_expression": "2^(2^n)",
+      "length_expression": "planck_length * 2^(2^n)",
+      "interpretation": "First exponential lift of the linearized scale",
+      "physical_anchor_mapping": "not_established"
+    },
+    {
+      "order": 3,
+      "name": "Third-order exponential scale",
+      "factor_expression": "2^(2^(2^n))",
+      "length_expression": "planck_length * 2^(2^(2^n))",
+      "interpretation": "Second exponential lift",
+      "physical_anchor_mapping": "not_established"
+    },
+    {
+      "order": 4,
+      "name": "Fourth-order exponential scale",
+      "factor_expression": "2^(2^(2^(2^n)))",
+      "length_expression": "planck_length * 2^(2^(2^n))",
+      "interpretation": "Third exponential lift",
+      "physical_anchor_mapping": "not_established"
+    }
+  ],
+  "evaluation_policy": {
+    "prefer_symbolic_expressions": true,
+    "maximum_decimal_expansion": "implementation_defined",
+    "use_logarithmic_representation_for_large_values": true,
+    "preserve_order_of_exponentiation": true
+  }
+}
+```
+
+**Correction for implementation:** The fourth-order `length_expression` must be interpreted as:
+
+`planck_length * 2^(2^(2^(2^n)))`
+
+The explicit expression is repeated here to make the nesting unambiguous.
+
+A robust implementation should store exponent trees or expression nodes rather than rely on string parsing.
+
+---
+
+# 6. Velocity and decimal boundary rank
+
+The velocity values are abstract ratios relative to the speed of light.
+
+The decimal rank is calculated by counting consecutive nines immediately after the decimal point of the absolute velocity ratio.
+
+For example:
+
+$$
+|\beta|=0.999999955296516
+$$
+
+There are seven leading nines:
+
+$$
+R(c)=7
+$$
+
+The velocity rank is:
+
+$$
+Q_c=4^7=16384
+$$
+
+The JSON stores the rank definition and the source sequence. The rank can be recalculated from the decimal representation.
+
+```json
+{
+  "id": "velocity",
+  "schema_version": "1.0.0",
+  "velocity_reference": {
+    "symbol": "c",
+    "value": 299792458,
+    "unit": "m/s",
+    "name": "speed of light in vacuum"
+  },
+  "input_field": "velocity_ratio",
+  "absolute_value_for_rank": true,
+  "rank_definition": {
+    "name": "leading decimal nines",
+    "symbol": "R_c",
+    "algorithm": "count consecutive character '9' immediately after decimal point of absolute decimal representation",
+    "rank_expression": "4^R_c",
+    "sign_handling": "sign is retained separately and does not affect rank"
+  },
+  "precision_policy": {
+    "preserve_source_decimal_text": true,
+    "do_not_reconstruct_from_binary_float": true,
+    "reason": "Binary floating-point conversion may change the number of displayed leading nines."
+  },
+  "examples": [
+    {
+      "decimal_text": "0.999999955296516",
+      "sign": 1,
+      "leading_nines": 7,
+      "rank_expression": "4^7",
+      "rank_value": 16384
+    },
+    {
+      "decimal_text": "0.999999999301508",
+      "sign": 1,
+      "leading_nines": 9,
+      "rank_expression": "4^9",
+      "rank_value": 262144
+    },
+    {
+      "decimal_text": "0.9999999999999999",
+      "sign": 1,
+      "leading_nines": 16,
+      "rank_expression": "4^16",
+      "rank_value": 4294967296
+    }
+  ],
+  "interpretation": "Decimal boundary rank of the supplied abstract velocity coordinate, not a physical invariant."
+}
+```
+
+For a fully reproducible implementation, the velocity values should also be stored as decimal strings, not only as JSON floating-point numbers. The numeric field remains convenient for calculations, while the string preserves the exact source representation.
+
+---
+
+# 7. Acceleration and kinematics
+
+Acceleration is calculated from two positions.
+
+The formula is:
+
+$$
+a_{i\to j}=
+\frac{c(\beta_j-\beta_i)}
+{T_j-T_i}
+$$
+
+The time interval is taken directly from the first-order table.
+
+The program should:
+
+1. Find the two positions.
+2. Read their velocity ratios.
+3. Read their temporal coordinates.
+4. Calculate the velocity difference.
+5. Calculate the temporal difference.
+6. Divide the two differences.
+7. Store the result in metres per second squared.
+
+```json
+{
+  "id": "kinematics",
+  "schema_version": "1.0.0",
+  "acceleration_definition": {
+    "name": "discrete coordinate acceleration",
+    "formula": "c * (beta_j - beta_i) / (time_j - time_i)",
+    "output_unit": "m/s^2",
+    "input_fields": [
+      "velocity_ratio",
+      "time_s"
+    ]
+  },
+  "normalized_acceleration": {
+    "name": "Planck-normalized acceleration coordinate",
+    "symbol": "alpha",
+    "formula": "(beta_j - beta_i) / ((time_j - time_i) / planck_time)",
+    "unit": "dimensionless"
+  },
+  "interval_policy": {
+    "use_actual_time_difference": true,
+    "do_not_assume_uniform_spacing": true,
+    "allow_nonadjacent_positions": true,
+    "zero_position": "not_available_in_source_data",
+    "cross_zero_interval": "calculate_directly_between_minus_one_and_plus_one"
+  },
+  "interpretation": {
+    "status": "derived_coordinate",
+    "physical_measurement": false,
+    "warning": "The supplied velocities are abstract coordinates. The resulting acceleration is not evidence of a measured object's physical acceleration."
+  },
+  "example_interval": {
+    "from_position": -1,
+    "to_position": 1,
+    "velocity_ratio_start": -0.999999955296516,
+    "velocity_ratio_end": 0.999999955296516,
+    "time_start_s": 2.6956e-44,
+    "time_end_s": 1.0782e-43,
+    "note": "The zero position is absent; calculate the interval directly."
+  }
+}
+```
+
+## 7.1 Acceleration precision
+
+The source velocity values have finite decimal precision.
+
+The acceleration calculation is especially sensitive to subtracting two nearly equal values.
+
+Therefore, a production implementation should use decimal arithmetic rather than ordinary binary floating-point arithmetic.
+
+For example, in Python:
+
+```python
+from decimal import Decimal, getcontext
+
+getcontext().prec = 50
+
+c = Decimal("299792458")
+
+beta_a = Decimal("-0.999999955296516")
+beta_b = Decimal("0.999999955296516")
+
+time_a = Decimal("2.6956e-44")
+time_b = Decimal("1.0782e-43")
+
+acceleration = c * (beta_b - beta_a) / (time_b - time_a)
+
+print(acceleration)
+```
+
+The decimal strings should be read directly from the dataset.
+
+---
+
+# 8. Dimensional projections
+
+The linear, two-dimensional and three-dimensional projections are:
+
+$$
+X_{1D}=2^n
+$$
+
+$$
+X_{2D}=4^n
+$$
+
+$$
+X_{3D}=8^n
+$$
+
+The inverse-square scale is:
+
+$$
+K(n)=\frac{1}{L(n)^2}
+$$
+
+```json
+{
+  "id": "dimensional_scopes",
+  "schema_version": "1.0.0",
+  "projections": [
+    {
+      "id": "linear",
+      "name": "One-dimensional linear scale",
+      "formula": "2^n",
+      "dimension": 1,
+      "scope": "length"
+    },
+    {
+      "id": "area",
+      "name": "Two-dimensional area scale",
+      "formula": "4^n",
+      "dimension": 2,
+      "scope": "area"
+    },
+    {
+      "id": "volume",
+      "name": "Three-dimensional volume scale",
+      "formula": "8^n",
+      "dimension": 3,
+      "scope": "volume"
+    },
+    {
+      "id": "inverse_square",
+      "name": "Characteristic inverse-square scale",
+      "formula": "1 / (planck_length * 2^n)^2",
+      "unit": "m^-2",
+      "scope": "inverse_length_squared",
+      "physical_curvature_tensor": false
+    }
+  ],
+  "symmetries": [
+    {
+      "name": "opposite linear positions",
+      "formula": "2^n * 2^(-n) = 1"
+    },
+    {
+      "name": "opposite area positions",
+      "formula": "4^n * 4^(-n) = 1"
+    },
+    {
+      "name": "opposite volume positions",
+      "formula": "8^n * 8^(-n) = 1"
+    }
+  ]
+}
+```
+
+The inverse-square coordinate is a dimensional scale. It must not automatically be identified with the Ricci scalar or another component of spacetime curvature.
+
+---
+
+# 9. Physical and mathematical interpretation
+
+This block gives AI systems and automated agents an interpretation guide.
+
+It prevents a mathematical coordinate from being accidentally described as an established physical measurement.
+
+```json
+{
+  "id": "interpretation",
+  "schema_version": "1.0.0",
+  "model_status": "proposed_mathematical_framework",
+  "categories": {
+    "established_physics": [
+      "Planck reference units",
+      "speed of light in vacuum",
+      "SI metre and second",
+      "physical length and time dimensions",
+      "known approximate physical sizes"
+    ],
+    "mathematical_construction": [
+      "binary octave positions",
+      "reciprocal position symmetry",
+      "two-dimensional factor 4^n",
+      "three-dimensional factor 8^n",
+      "exponential scale orders",
+      "logarithmic scale coordinates"
+    ],
+    "proposed_laegna_coordinates": [
+      "decimal velocity rank",
+      "velocity rank conversion 4^R",
+      "abstract velocity sequence",
+      "discrete acceleration from abstract velocity and Planck-scaled time"
+    ],
+    "open_physical_hypotheses": [
+      "physical interpretation of higher exponential orders",
+      "physical interpretation of the velocity rank",
+      "physical meaning of sub-Planck coordinate positions",
+      "relationship between higher-order scale spaces and spacetime"
+    ]
+  },
+  "agent_instructions": [
+    "Never describe an abstract velocity ratio as a measured object velocity without independent evidence.",
+    "Never describe derived acceleration as a measured physical acceleration.",
+    "Keep first-order physical anchors separate from higher-order mathematical lifts.",
+    "Use explicit units for every dimensional value.",
+    "Use decimal arithmetic for source velocity strings.",
+    "Preserve the missing zero position unless a separate zero definition is supplied.",
+    "Do not interpret inverse-square length as a spacetime curvature tensor.",
+    "Do not infer that higher exponential orders correspond to additional physical dimensions.",
+    "Preserve the original source values and record any recalculation separately."
+  ]
+}
+```
+
+---
+
+# 10. Suggested file structure
+
+For a GitHub repository, I recommend separating the human explanation, data and executable implementation.
+
+```text
+LaegnaScalePhysics/
+│
+├── README.md
+│
+├── LaegnaScalePhysics.md
+│
+├── Data/
+│   ├── LaegnaScaleCore.json
+│   ├── LaegnaScalePositions.json
+│   ├── LaegnaPhysicalAnchors.json
+│   ├── LaegnaScaleOrders.json
+│   ├── LaegnaVelocityRanks.json
+│   ├── LaegnaKinematics.json
+│   ├── LaegnaDimensionalScopes.json
+│   └── LaegnaInterpretation.json
+│
+├── Schemas/
+│   ├── LaegnaScaleSchema.json
+│   ├── LaegnaPositionSchema.json
+│   └── LaegnaKinematicsSchema.json
+│
+├── Algorithms/
+│   ├── scale_orders.py
+│   ├── velocity_rank.py
+│   ├── acceleration.py
+│   ├── physical_position.py
+│   └── dimensional_projection.py
+│
+├── Tests/
+│   ├── test_scale_orders.py
+│   ├── test_velocity_rank.py
+│   ├── test_acceleration.py
+│   └── test_symmetry.py
+│
+└── Examples/
+    ├── LaegnaScaleAnalysis.ipynb
+    └── LaegnaScaleExample.json
+```
+
+## 10.1 Filename purposes
+
+| Filename | Purpose |
+|---|---|
+| `LaegnaScalePhysics.md` | Main human-readable theory and specification |
+| `LaegnaScaleCore.json` | Constants, symbols, units and formulas |
+| `LaegnaScalePositions.json` | The complete first-order position table |
+| `LaegnaPhysicalAnchors.json` | Known physical sizes and their first-order positions |
+| `LaegnaScaleOrders.json` | First through fourth exponential transformations |
+| `LaegnaVelocityRanks.json` | Velocity sequence and decimal rank definitions |
+| `LaegnaKinematics.json` | Acceleration and normalized kinematic definitions |
+| `LaegnaDimensionalScopes.json` | Linear, area, volume and inverse-square projections |
+| `LaegnaInterpretation.json` | Scientific status and AI interpretation rules |
+| `LaegnaScaleSchema.json` | Validation rules for the combined data model |
+
+---
+
+# 11. Combined JSON file for automated systems
+
+For a robot or AI agent, it is often more convenient to load one file rather than eight independent files.
+
+The combined file should use references to the individual data domains.
+
+Suggested filename:
+
+`LaegnaScalePhysics.json`
+
+Its structure can be:
+
+```json
+{
+  "schema_version": "1.0.0",
+  "system": "Laegna Scale Physics",
+  "description": "Machine-readable specification of Laegna first-order scales, higher exponential orders, physical anchors, velocity ranks, acceleration coordinates and dimensional projections.",
+  "modules": {
+    "core": "Data/LaegnaScaleCore.json",
+    "positions": "Data/LaegnaScalePositions.json",
+    "physical_anchors": "Data/LaegnaPhysicalAnchors.json",
+    "scale_orders": "Data/LaegnaScaleOrders.json",
+    "velocity": "Data/LaegnaVelocityRanks.json",
+    "kinematics": "Data/LaegnaKinematics.json",
+    "dimensional_scopes": "Data/LaegnaDimensionalScopes.json",
+    "interpretation": "Data/LaegnaInterpretation.json"
+  },
+  "default_coordinate_order": 1,
+  "default_length_unit": "m",
+  "default_time_unit": "s",
+  "default_velocity_reference": "c",
+  "default_acceleration_unit": "m/s^2",
+  "zero_position": {
+    "status": "undefined_in_source_table",
+    "must_not_be_assumed": true
+  },
+  "calculation_policy": {
+    "preserve_source_data": true,
+    "use_decimal_arithmetic": true,
+    "prefer_symbolic_large_numbers": true,
+    "retain_units": true,
+    "separate_physical_measurements_from_proposed_coordinates": true
+  }
+}
+```
+
+This manifest references external files. It is not a self-contained dataset unless those files are available at the specified paths.
+
+For a completely portable single-file version, merge the contents of all modules into one JSON object.
+
+---
+
+# 12. AI, robot and software interface
+
+A useful automated system should be able to answer questions such as:
+
+- What is the first-order position of a proton?
+- Which physical scope contains position 120?
+- What is the second-order scale at position 8?
+- What is the velocity rank at position 12?
+- What is the acceleration between positions 3 and 4?
+- What is the inverse-square scale at position 16?
+- Which values are established physical references and which are proposed coordinates?
+
+A common interface can expose these operations:
+
+```python
+class LaegnaScale:
+    def first_order(self, n):
+        return 2 ** n
+
+    def higher_order(self, n, order):
+        value = 2 ** n
+
+        for _ in range(order - 1):
+            value = 2 ** value
+
+        return value
+
+    def length(self, n, planck_length):
+        return planck_length * self.first_order(n)
+
+    def time(self, n, planck_time):
+        return planck_time * self.first_order(n)
+
+    def physical_position(self, length_m, planck_length):
+        import math
+        return math.log2(length_m / planck_length)
+
+    def area_factor(self, n):
+        return 4 ** n
+
+    def volume_factor(self, n):
+        return 8 ** n
+
+    def inverse_square_scale(self, length_m):
+        return 1 / (length_m ** 2)
+```
+
+The velocity-rank algorithm should use decimal strings:
+
+```python
+def velocity_rank(decimal_text):
+    value = decimal_text.strip()
+
+    if value.startswith("-"):
+        value = value[1:]
+
+    if value.startswith("+"):
+        value = value[1:]
+
+    if not value.startswith("0."):
+        raise ValueError("Expected a decimal ratio between -1 and 1")
+
+    fraction = value[2:]
+    count = 0
+
+    for character in fraction:
+        if character == "9":
+            count += 1
+        else:
+            break
+
+    return {
+        "leading_nines": count,
+        "rank": 4 ** count
+    }
+```
+
+This function deliberately counts the characters in the source decimal representation. It does not convert the value to a floating-point number first.
+
+For higher-order calculations, use symbolic or arbitrary-precision methods. Ordinary floating-point numbers cannot represent very large exponential towers.
+
+---
+
+# 13. Validation and consistency tests
+
+An automated implementation should test the mathematical relationships rather than merely load the JSON.
+
+| Test | Expected result |
+|---|---|
+| First-order reciprocal | $2^n2^{-n}=1$ |
+| Area reciprocal | $4^n4^{-n}=1$ |
+| Volume reciprocal | $8^n8^{-n}=1$ |
+| Length-time ratio | $L_n/T_n=c$ when generated from the same Planck references |
+| First-order progression | $X_1(n+1)=2X_1(n)$ |
+| Second-order definition | $X_2(n)=2^{X_1(n)}$ |
+| Third-order definition | $X_3(n)=2^{X_2(n)}$ |
+| Fourth-order definition | $X_4(n)=2^{X_3(n)}$ |
+| Velocity sign symmetry | Equal absolute values have equal ranks |
+| Velocity rank | $Q_c=4^{R(c)}$ |
+| Acceleration unit | $\mathrm{m/s^2}$ |
+| Missing zero | No automatic interpolation at $n=0$ |
+| Physical anchors | Positions reproduce from the stated length and Planck reference within rounding tolerance |
+
+A useful additional validation is to compare stored length and time coordinates against the formula-generated values.
+
+Because the source table uses rounded values, the test should use a tolerance rather than require exact equality.
+
+---
+
+# 14. Final data model
+
+The overall system is best understood as a layered model:
+
+| Layer | Data | Main role |
+|---|---|---|
+| 1 | Constants and units | Establish physical references |
+| 2 | First-order positions | Map Planck scale to physical lengths and times |
+| 3 | Physical anchors | Connect coordinates to known objects |
+| 4 | Higher orders | Generate exponential coordinate spaces |
+| 5 | Velocity ranks | Convert decimal boundary precision to base-4 rank |
+| 6 | Kinematics | Derive discrete acceleration coordinates |
+| 7 | Dimensional scopes | Compare linear, area and volume projections |
+| 8 | Interpretation | Keep scientific facts separate from hypotheses |
+
+The main first-order coordinate is:
+
+$$
+L_1(n)=\ell_P2^n
+$$
+
+The higher-order family is:
+
+$$
+L_k(n)=\ell_PX_k(n)
+$$
+
+with:
+
+$$
+X_1=2^n,\quad
+X_2=2^{X_1},\quad
+X_3=2^{X_2},\quad
+X_4=2^{X_3}
+$$
+
+The velocity rank is:
+
+$$
+Q_c=4^{R(c)}
+$$
+
+The discrete acceleration is:
+
+$$
+a_{i\to j} = \frac{c(\beta_j-\beta_i)}{T_j-T_i}
+$$
+
+And the dimensional projections are:
+
+$$
+2^n,\qquad4^n,\qquad8^n
+$$
+
+This structure gives Laegna a reproducible computational specification: a human can read the theory, a parser can extract the data, a program can calculate the coordinates, and an AI agent can interpret the results while preserving the distinction between established physics and proposed mathematical extensions.
