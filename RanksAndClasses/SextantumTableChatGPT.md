@@ -1,4 +1,7 @@
 # Sextantum Master Table
+
+***ChatGPT***
+
 ## Laegna Rank, Scale, Dimension, Reciprocal and Residual Dataset
 
 ---
