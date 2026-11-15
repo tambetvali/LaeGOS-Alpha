@@ -1,3 +1,9 @@
+![SextantumBeginning](Gfx/SextantumBeginning.png)
+
+<br>
+
+---
+
 # Sextantum
 
 Here:
@@ -62,9 +68,7 @@ The surviving microscopic correction.
 ### Bridge
 
 $$
-\varphi
-=
-\frac{1+\sqrt5}{2}
+\varphi = \frac{1+\sqrt5}{2}
 $$
 
 The diagonal connector.
@@ -155,13 +159,7 @@ It is center generation.
 Inside:
 
 $$
-64
-=
-2^6
-=
-4^3
-=
-8\times8
+64 = 2^6 = 4^3 = 8\times8
 $$
 
 there appears a natural midpoint:
@@ -203,17 +201,13 @@ The place where inside and outside exchange.
 Notice:
 
 $$
-26
-=
-32-6
+26 = 32-6
 $$
 
 and:
 
 $$
-36
-=
-32+4.
+36 = 32+4.
 $$
 
 The exact arithmetic is not the important observation.
@@ -310,9 +304,7 @@ This is precisely the number of trigrams.
 Two trigram spaces produce:
 
 $$
-8\times8
-=
-64.
+8\times8 = 64.
 $$
 
 Thus:
@@ -323,11 +315,7 @@ Thus:
 Or:
 
 $$
-H_{int}
-\times
-H_{ext}
-=
-64.
+H_{int} \times H_{ext} = 64.
 $$
 
 The complete field therefore resembles:
@@ -500,9 +488,7 @@ The difference is enormous.
 Yet under logarithmic rank:
 
 $$
-u
-=
-\log_2\left(\frac{L}{l_P}\right)
+u = \log_2\left(\frac{L}{l_P}\right)
 $$
 
 both become finite coordinates.
@@ -518,9 +504,7 @@ It treats them as positions.
 Inside the rank field:
 
 $$
-0.000112
-=
-000.000\ 112.
+0.000112 = 000.000\ 112.
 $$
 
 Two complete rank bands.
@@ -597,6 +581,12 @@ Where:
 
 - \(l_P\) anchors the internal limit,
 - \(c\) anchors the middle 
+
+---
+
+![Sextantum](Gfx/Sextantum.png)
+
+<br>
 
 ---
 
@@ -2297,3 +2287,9 @@ In wave physics, metrology, and signal processing, introducing a deliberate scal
    * A post-$\varphi$ residual of **3.094 radians** (just shy of $\pi = 3.1416$) rotates a wave's phase by $177.27^\circ$ per step, leaving a **$2.73^\circ$** ($0.0476\text{ rad}$) rotational slip. Over **66 steps**, it completes a full $180^\circ$ phase inversion, dynamically sweeping a sound beam or holographic focal point across space without mechanical movement.
 3. **Recursive $\varphi$-Damping (Continued Fraction Cascade):**
    * Feeding the remainder back into $\varphi$ recursively ($75 \div \varphi \rightarrow 28.65 \div \varphi \rightarrow 10.94 \div \varphi \rightarrow 4.18$) shrinks the measurement bias by **38.2%** ($1 - 1/\varphi$) at every step, dampening the error asymptotically toward zero while preserving non-repeating, interference-free spacing.
+
+---
+
+<br>
+
+![SextantumEnding](Gfx/SextantumEnding.png)
