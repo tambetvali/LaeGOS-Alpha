@@ -680,15 +680,15 @@ Observable Universe:
   - Divide by golden ratio: you get $9.897 * 10^-36 m$. dividing by $\varphi$ yields $0.9989005 \times 10^{-35}\text{ m}$ — an offset of 0.10995% (or $1.0995 \times 10^{-38}\text{ m}$). Applying this 0.11% scale factor changes the 40,075 km measurement by 44.06 km.
   - Earth's round-trip is measure 40 075 m, but was intented to be 40 000 m; let's see what happened after div by phi.
     - Shift on the Quarter-Arc (10,018.75 km): Across a single 1/4 arc, the measurement changes by 11.02 km (to 10,007.73 km).
-    - To bring the measurement from its post-$\varphi$ value down to an exact 40,000 km (or 10,000 km per quarter-arc), it must be reduced by an additional 30.94 km (or 7.73 km per quarter-arc), which is a further 0.0773% adjustment.
+    - To bring the measurement from its $post-\varphi$ value down to an exact 40,000 km (or 10,000 km per quarter-arc), it must be reduced by an additional 30.94 km (or 7.73 km per quarter-arc), which is a further 0.0773% adjustment.
     - After dividing by golden ratio, Earth circumference becomes 44.06 km. We see $EE._Y^2$, more or less, in numbers, where 2 means Y at high band of RT of 6, +Y or *Y. We see synchronous ration: 0.06 becomes also an opposite of 0.04, which divided by 4 gives 0.01. We see any vibration in exact base factors is rather resonant here, in external of the two-low band, where higher bands make up 44.1 kind of symmetry - we find the latter in other parts.
     - 30.94, which needs to be added to movement towards 40 000, is worth Y, 0, YY, E. 1 - 0.94 is 0.06 and 30 is 2+1 and 2-2, which makes sense with 1 in exponent-linearized space which is initially linear, because 1 easily becomes 2. 3+0, in this sense, is last and first index of 0, 1, U, 2, 3 - but this naturally follows 1, 2, 3, 4, where we see full EI in 41. 3 and 9 show that *both parts* are here odd and 3-based, while *both parts* of the other number are even and upwards-even.
 
 
 | Measurement Shift | Metric Distance | Exact Planck Units ($l_P$) | Fraction of the 10,000 km Baseline |
 | :--- | :--- | :--- | :--- |
-| **Post-$\varphi$ Shift (Full)** | **44.06 km** (44,061.48 m) | **$2.7261 \times 10^{39}\text{ }l_P$** | $0.004406$ ($4.406 \times 10^{-3}$) |
-| **Post-$\varphi$ Shift (1/4 Arc)** | **11.02 km** (11,015.37 m) | **$6.8154 \times 10^{38}\text{ }l_P$** | $0.001102$ ($1.102 \times 10^{-3}$) |
+| **$Post-\varphi$ Shift (Full)** | **44.06 km** (44,061.48 m) | **$2.7261 \times 10^{39}\text{ }l_P$** | $0.004406$ ($4.406 \times 10^{-3}$) |
+| **$Post-\varphi$ Shift (1/4 Arc)** | **11.02 km** (11,015.37 m) | **$6.8154 \times 10^{38}\text{ }l_P$** | $0.001102$ ($1.102 \times 10^{-3}$) |
 | **Remaining Gap to 40,000 km (Full)** | **30.94 km** (30,938.52 m) | **$1.9142 \times 10^{39}\text{ }l_P$** | $0.003094$ ($3.094 \times 10^{-3}$) |
 | **Remaining Gap (30.94 / 4)** | **7.73 km** (7,734.63 m) | **$4.7855 \times 10^{38}\text{ }l_P$** | $0.000773$ ($7.735 \times 10^{-4}$) |
 
@@ -734,6 +734,104 @@ In Laegna, 30.94 is most commonly also:
 * **How `0.000112` Connects to `8.8`:**
   * **Complementary Inversion:** In base-10 positional symmetry, `112` and `888` are exact **1000-complements** ($112 + 888 = \mathbf{1000}$, or $0.000112 + 0.000888 = \mathbf{0.001000}$, completing Band 2).
   * **Scale Bridge to the Cosmic Horizon ($8.8 \times 10^{26}\text{ m}$):** Dividing `1` by `0.000112` yields **8,928.57** (and dividing by the unrounded `0.00011197` yields **8,931**), sitting within **1.4%** of the **8.8** cosmic diameter coefficient—the exact same **1.4%** margin seen earlier between your diameter Planck delta ($8.68 \times 10^{38}\text{ }l_P$) and $8.8 \times 10^{38}$.
+
+---
+
+## 1. Extended 1:3:9 dimensional harmonic ladder
+
+If we extend the **1 : 3 : 9 harmonic ladder** by multiplying by 3 for every additional dimension, the general rule is:
+
+$$
+R_D=0.000112\times3^{D-1}
+$$
+
+| Dimension | Multiplier | Laegna rank |
+|---:|---:|---:|
+| 1D | $3^0=1$ | 0.000112 |
+| 2D | $3^1=3$ | 0.000336 |
+| 3D | $3^2=9$ | 0.001008 |
+| **4D** | $3^3=27$ | **0.003024** |
+| **8D** | $3^7=2,187$ | **0.244944** |
+| **16D** | $3^{15}=14,348,907$ | **1,607.077584** |
+| **32D** | $3^{31}=617,673,396,283,947$ | **69,179,420,383.802064** |
+| **64D** | $3^{63}$ | **128,190,862,624,253,799,427,226,366** |
+
+*Numerical correction: $9\times0.000112=0.001008$, rather than 0.001007.*
+
+### The exponential relationship
+
+The rank grows exponentially with dimension. Doubling the dimension does not simply double the rank:
+
+$$
+R_{2D}=\frac{R_D^2}{0.000112}
+$$
+
+This follows directly from the exponential rule.
+
+The sequence is a mathematical extrapolation of the proposed rule, not a set of independently established physical measurements.
+
+---
+
+## 2. Does the sequence cycle at 64D?
+
+It does **not** cycle at 64 → 128 → 256. Under the current rule, the dimensional index doubles, but the rank grows exponentially:
+
+$$
+R_D=0.000112\cdot3^{D-1}
+$$
+
+### 64D → 128D → 256D
+
+| Dimension | Rank (scientific notation) |
+|---:|---:|
+| 64D | $1.2819086262\times10^{26}$ |
+| 128D | $4.4016689090\times10^{56}$ |
+| 256D | $5.1896488887\times10^{117}$ |
+
+The relationships are:
+
+$$
+\frac{R_{128}}{R_{64}}=3^{64}
+$$
+
+$$
+\frac{R_{256}}{R_{128}}=3^{128}
+$$
+
+Each doubling of dimensionality introduces a progressively larger multiplication factor.
+
+### An interesting numerical coincidence at 64D
+
+The 64D result can be expressed approximately as:
+
+$$
+R_{64}=0.82841403335\cdot2^{87}
+$$
+
+Compare this with:
+
+$$
+2(\sqrt{2}-1)=0.82842712475
+$$
+
+The difference between the coefficients is approximately 0.00158%.
+
+This is worth investigating in the Laegna framework, particularly because it connects a ternary dimensional progression ($3^D$) with a binary octave progression ($2^n$).
+
+However, numerical proximity alone does not establish a mathematical identity.
+
+### Two parallel coordinates
+
+It may be useful to preserve two parallel coordinates:
+
+- **Dimensional rank:** 1, 2, 3, 4, 8, 16, 32, 64, 128, 256…
+- **Harmonic magnitude:** $0.000112\cdot3^{D-1}$
+
+The first describes the dimensional hierarchy; the second describes its exponential scale.
+
+Their relationship to powers of two may reveal useful cross-base correspondences.
+
+---
 
 Here is a complete article capturing the micro-to-macro projective duality between 0.000112 and 8.8, structured cleanly with all equations, tables, and dimensional mappings.
 
