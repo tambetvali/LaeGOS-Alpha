@@ -3555,19 +3555,13 @@ $$
 The difference is approximately:
 
 $$
-10^{-35}
--
-\frac{l_P}{\varphi}
-\approx1.0995\times10^{-38}\ \mathrm m
+10^{-35} - \frac{l_P}{\varphi} \approx1.0995\times10^{-38}\ \mathrm m
 $$
 
 The relative difference is:
 
 $$
-\epsilon_\varphi
-=
-1-
-\frac{l_P/\varphi}{10^{-35}}
+\epsilon_\varphi = 1- \frac{l_P/\varphi}{10^{-35}}
 $$
 
 Therefore:
@@ -3589,9 +3583,7 @@ This is the actual relative residual being investigated.
 If we apply this relative correction to an Earth circumference of approximately 40,075 km:
 
 $$
-\Delta C_\varphi
-=
-40\,075\times0.0010995
+\Delta C_\varphi = 40\,075\times0.0010995
 $$
 
 we obtain approximately:
