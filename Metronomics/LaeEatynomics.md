@@ -1,5 +1,9 @@
 # Laegna PhySecs Number System
 
+Area of Laegna to study this dimension:
+- *Macronymics*, macronym of number;
+  - This is more precise word than metaphor, and more physical: it maps the macro, based on ranked movement of frequency, in way that each new scope appears parallel in form to others, but locally; in their relation they differ in ranks - unit $u$ becomes $u \time u$ upwards, and $1 \div u$ downwards.
+
 # Eaty
 
 I introduce a new Laegna Mascot:
