@@ -62,3 +62,290 @@ One can see R and G are separate channels rather than Y and B:
 - This is not so literal, as Y associates with inverse of G and B, and becomes projection of yellow into double-precision structure compared to B, in a sense; they form spatial, second order relation in unit $u^2$ in this sense.
 - Red and green *do not mix at all*.
   - Their relation seemed less significant when I was *actually programming this based on [HP artist book](https://www.handprint.com/HP/WCL/color18a.html), as toy for myself in C#; I felt what I needed to compare at the end*.
+
+---
+
+## Color as Mathematical Topology
+
+Laegna Colorics is not merely a visualization system.
+
+It is an attempt to encode different classes of relations into colors that humans already perceive as fundamentally distinct.
+
+The premise is simple:
+
+> If mathematics contains different categories of relation, then graphical representations should expose those categories immediately.
+
+Traditional graphs often encode all information into position.
+
+Laegna extends this idea by encoding information simultaneously into:
+
+- position,
+- curvature,
+- orientation,
+- diffusion,
+- color.
+
+Thus a Laegna number is never merely a value.
+
+It is a structured object whose internal and external relations become visible.
+
+## Two Fundamental Oppositions
+
+Laegna color space is built from two different oppositional systems.
+
+### Red ↔ Green
+
+Represents:
+
+- local ↔ local
+- short term ↔ short term
+- Myrran ↔ Terran
+- achievement ↔ correction
+- temporal progression
+
+This is the linear world.
+
+Events are compared directly.
+
+One movement follows another.
+
+The system behaves much like conventional arithmetic and logic.
+
+A quantity increases.
+
+A quantity decreases.
+
+A state becomes another state.
+
+The relation is forward-moving and sequential.
+
+In this sense the red-green axis behaves as first-order calculus.
+
+### Yellow ↔ Blue
+
+Represents:
+
+- Earth ↔ Heaven
+- local ↔ global
+- finite ↔ extended planning
+- mass ↔ energy
+- necessity ↔ possibility
+
+This is the exponent-linearized world.
+
+Events are no longer simply added.
+
+Relations transform scales.
+
+The movement is structural rather than sequential.
+
+The system behaves more like matrices, holograms, recursion and octave transformations than ordinary arithmetic.
+
+In this sense the blue-yellow axis behaves as second-order calculus.
+
+## Why Red and Green Matter
+
+Human perception treats red-green opposition differently from blue-yellow opposition.
+
+This distinction inspired part of the original implementation experiments.
+
+Red and green behave almost like a direct binary opposition.
+
+They resist coexistence.
+
+A system tends toward one or the other.
+
+This makes them useful for representing:
+
+- increase versus decrease,
+- correction versus assertion,
+- local success versus local failure.
+
+The red-green channel therefore becomes an efficient carrier of immediate information.
+
+It answers:
+
+> What is happening right now?
+
+## Why Yellow and Blue Matter
+
+Blue and yellow possess a different character.
+
+Their interaction feels more structural.
+
+They naturally suggest:
+
+- depth,
+- planning,
+- expansion,
+- hierarchy,
+- perspective.
+
+Consequently they become suitable for representing information that exists beyond immediate local events.
+
+They answer:
+
+> What larger structure is this part of?
+
+Within Laegna, these colors become indicators of exponent-linearized relations.
+
+They show how local events belong to larger systems.
+
+## Internal and External Motion
+
+The same distinction appears inside functions.
+
+Colors can reveal whether movement is occurring:
+
+- externally,
+- internally.
+
+Red-green tends to represent observable progression.
+
+Blue-yellow tends to represent hidden structural progression.
+
+Thus two motions may coexist.
+
+A system may appear stationary externally while reorganizing internally.
+
+Likewise a rapidly changing system may hide a stable underlying structure.
+
+Color allows both dynamics to be displayed simultaneously.
+
+## Holographic Numbers
+
+A conventional number is generally represented as:
+
+```text
+value
+```
+
+A Laegna number may instead be represented as:
+
+```text
+value
++
+projection
++
+curvature
++
+ color relations
+```
+
+The purpose is not decorative complexity.
+
+The purpose is to preserve information normally discarded.
+
+A number can carry:
+
+- local structure,
+- global structure,
+- internal motion,
+- external motion,
+- recursive behavior.
+
+The resulting representation begins to resemble a hologram.
+
+Different levels become visible without creating a separate model for each one.
+
+## Black, White and the U-Axis
+
+Beyond red-green and blue-yellow lies another distinction.
+
+### Black
+
+Represents:
+
+```text
+U
+```
+
+### White
+
+Represents:
+
+```text
+upside-down U
+```
+
+### Gray
+
+Represents:
+
+```text
+absence of distinction
+```
+
+These colors function similarly to poles.
+
+They define a higher-order reference axis upon which other color relations operate.
+
+Where red-green and blue-yellow describe motion, black-white describes framing.
+
+One may think of them as representing:
+
+- containment,
+- openness,
+- inversion,
+- projection.
+
+The exact interpretation depends on the surrounding structure.
+
+## Diffusion as Meaning
+
+A notable consequence of the system is that color blending itself becomes meaningful.
+
+Not every mixture has equal significance.
+
+For example:
+
+- red and blue may diffuse into brown,
+- black and white may diffuse into gray,
+- other pairs preserve distinction.
+
+The diffusion pattern itself becomes information.
+
+Thus color is not applied after mathematics.
+
+Color participates in mathematics.
+
+## The Practical Goal
+
+The practical purpose of Laegna Colorics is simple:
+
+> Reduce the amount of interpretation the observer must perform mentally.
+
+Instead of reading equations and imagining hidden structure:
+
+- local relations become visible,
+- global relations become visible,
+- temporal relations become visible,
+- recursive relations become visible.
+
+The observer can inspect a representation and immediately identify where different classes of transformation occur.
+
+A successful color encoding therefore acts as a cognitive compression system.
+
+It does not replace mathematics.
+
+It makes mathematics easier to see.
+
+## Final Thesis
+
+Laegna Colorics treats color as a carrier of mathematical meaning.
+
+Red-green encodes local and temporal relations.
+
+Blue-yellow encodes structural and exponent-linearized relations.
+
+Black-white provides higher-order framing.
+
+Diffusion encodes transformation.
+
+The resulting image is not merely an illustration of a number.
+
+It is a projection of the number's relational topology.
+
+Color ceases to be decoration.
+
+Color becomes calculus.
