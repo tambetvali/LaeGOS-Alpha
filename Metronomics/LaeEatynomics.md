@@ -1,3 +1,9 @@
+![EatyCover](Eating/EatyCover.png)
+
+<br>
+
+---
+
 # Laegna PhySecs Number System
 
 Area of Laegna to study this dimension:
@@ -1266,3 +1272,9 @@ Each digit simultaneously preserves:
 6. hologram location.
 
 This is the minimum information required to make the Eaty Number System directly JSON-automatable while remaining faithful to its physical and holographic interpretation.
+
+---
+
+<br>
+
+![EatyTables](Eating/EatyTables.png)
