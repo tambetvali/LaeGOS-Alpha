@@ -32,6 +32,8 @@ Eating can look like object like yellow-orange plastic of round rectangle simila
 But over all, Eaty is the physical number system, not a personal entity doing these things:
 - It visually represents, number system doing those, so that both the visible and invisible part of it's computational flow and characteristics or algorithmic steps can be presented visually and academically.
 
+"Y" in eaty means that eat is brought to infinity, while "ea" before t is reversed because it's suffix, into "ae" easily, yet read in it's direction - thus, it connects finite count of numbers; y and t mean it's still able for theorems to infinity - it's synchronous, each new digit has new order linearized, in order of octaves, and aligned with it's physical metaphor which is in planck units, but maps many parallel theorems - most important is the *relation*, because time and space, really, start providing metaphors - not just planck unit in space, but sound, ocean waves, many other conceptions work parallelly, and conversions of units could be found based on ***Eastern* Eaty**, the ***Laegna*** *Number System*.
+
 # Laegna Eaty - the Physical Number System
 
 Table 1.
