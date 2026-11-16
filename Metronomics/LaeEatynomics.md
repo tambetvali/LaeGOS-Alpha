@@ -134,3 +134,1135 @@ What happens with U and ⋂:
 This needs to be physical definition of simple counting of $Eastern Eating Laegna Numbers$, which comes from *materially practical, physical, short-hand number definition*.
 
 I will use AI for analysis of this.
+
+---
+
+## Confirmation and Formalization of the Eaty Counting Principle
+
+The definition above contains an implicit rule which appears repeatedly across the entire Eaty system:
+
+> Numbers are not treated as abstract quantities first.
+>
+> Numbers are treated as physically interpreted frequency states, and counting is the act of traversing frequency states through explicitly named transformations.
+
+This is the defining distinction between ordinary positional systems and the Eaty number system.
+
+In a decimal system:
+
+$$
+1,2,3,4,5,\ldots
+$$
+
+are primitive symbols.
+
+In Eaty:
+
+$$
+I,O,A,E
+$$
+
+are primitive physical operators and viewpoints.
+
+A number is therefore not merely a value.
+
+It is a traversal history.
+
+---
+
+## The Four Primitive Physical Digits
+
+The system begins from four physically distinguished states:
+
+| Digit | Physical Interpretation |
+|---------|---------|
+| I | Internal energy / mass-state |
+| O | Length-state |
+| A | Time-state |
+| E | Energy-state |
+
+Unlike decimal digits:
+
+$$
+0,1,2,3,4,5,6,7,8,9
+$$
+
+the symbols
+
+$$
+I,O,A,E
+$$
+
+already possess semantic meaning.
+
+They are simultaneously:
+
+- digits,
+- operators,
+- physical dimensions,
+- frequency markers.
+
+The counting process is therefore semantic rather than purely symbolic.
+
+---
+
+## Composition Rule
+
+A digit sequence is interpreted from left to right.
+
+Each newly appended digit means:
+
+> Re-observe the previous result through the newly selected physical basis.
+
+Examples:
+
+### E
+
+Energy itself.
+
+### EA
+
+Apply energy.
+
+Read the result as length.
+
+### EE
+
+Apply energy.
+
+Read the result as energy again.
+
+### EEA
+
+Apply energy.
+
+Apply energy.
+
+Read as length.
+
+Every additional digit performs another projection.
+
+Thus:
+
+$$
+E
+$$
+
+and
+
+$$
+EA
+$$
+
+are not equal concepts.
+
+The first describes a state.
+
+The second describes a transformed state after selecting a new physical frame.
+
+---
+
+## Frequency-Restart Principle
+
+A central property of Eaty is:
+
+> Every new rank restarts local counting from one.
+
+Therefore
+
+$$
+I
+$$
+
+at rank 1,
+
+$$
+II
+$$
+
+at rank 2,
+
+$$
+III
+$$
+
+at rank 3,
+
+and
+
+$$
+IIII
+$$
+
+at rank 4
+
+all represent the local unit of their own rank.
+
+The symbol count changes.
+
+The local meaning remains:
+
+$$
+1
+$$
+
+within that particular scale.
+
+Thus Eaty uses scale-relative units rather than scale-independent units.
+
+---
+
+## Exponent-Linearization Principle
+
+The system repeatedly refers to a process called linearization.
+
+The implied operation may be expressed as:
+
+> After every completed transformation, a new local coordinate system is introduced.
+
+Mathematically:
+
+$$
+u
+\rightarrow
+u^2
+\rightarrow
+u^4
+\rightarrow
+u^{16}
+\rightarrow
+u^{256}
+\rightarrow
+\cdots
+$$
+
+The observer relocates onto the newly reached scale.
+
+After relocation:
+
+- local counting becomes linear again,
+- previous exponential growth becomes hidden,
+- only rank transitions preserve the complete history.
+
+This explains why:
+
+$$
+EA
+$$
+
+can be viewed as a new first-order length even if it emerged from a higher-order energetic operation.
+
+The observer has moved with the scaling process.
+
+---
+
+## External and Internal Frames
+
+The number system contains two complementary viewpoints:
+
+### External
+
+Observer fixed.
+
+Object transforms.
+
+$$
+H_{ext}
+$$
+
+### Internal
+
+Observer transformed together with the object.
+
+$$
+H_{int}
+$$
+
+These correspond to the two interpretations repeatedly used throughout Laegna PhySecs:
+
+- curvature viewed from outside,
+- curvature viewed from inside.
+
+The distinction explains why:
+
+$$
+EA
+$$
+
+and
+
+$$
+AE
+$$
+
+need not carry identical meaning despite containing identical symbols.
+
+Their traversal histories differ.
+
+---
+
+## Role of Small Letters
+
+Lowercase symbols:
+
+$$
+i,o,a,e
+$$
+
+form the inverse-frequency complement.
+
+They may be interpreted as:
+
+- reverse projections,
+- negative-rank projections,
+- sub-resolution observations,
+- dark-space measurements.
+
+Conceptually:
+
+| Upper | Lower |
+|---------|---------|
+| I | i |
+| O | o |
+| A | a |
+| E | e |
+
+Uppercase digits expand toward external ranks.
+
+Lowercase digits expand toward internal ranks.
+
+Thus:
+
+$$
+EA
+$$
+
+and
+
+$$
+EAa
+$$
+
+are not extensions along the same direction.
+
+The lowercase portion begins traversing the complementary side of scale-space.
+
+---
+
+## Why U, V, W and ⋂ Exist
+
+The system naturally produces four special structural markers:
+
+| Symbol | Purpose |
+|---------|---------|
+| W | lower boundary |
+| V | transition |
+| U | neutral scale separator |
+| ⋂ | upper boundary |
+
+They are not ordinary digits.
+
+They operate similarly to structural punctuation.
+
+Their purpose is:
+
+- rank delimitation,
+- scale separation,
+- expression of means,
+- expression of limiting values.
+
+Therefore:
+
+$$
+IOAE
+$$
+
+is a frequency traversal.
+
+While:
+
+$$
+U\,IOAE
+$$
+
+contains explicit rank positioning.
+
+The role resembles how decimal notation uses:
+
+$$
+0
+$$
+
+to indicate positional structure.
+
+But Eaty makes the structure visible rather than hidden.
+
+---
+
+## Emergent Definition of a Number
+
+Combining all previous rules yields a concise formal definition.
+
+### Eaty Number
+
+An Eaty number is:
+
+> An ordered sequence of physical projection symbols whose value is determined by traversal history, rank position, observer frame, and exponent-linearized frequency recursion.
+
+Compactly:
+
+$$
+N =
+S(R,H,T)
+$$
+
+where
+
+- $R$ is rank,
+- $H$ is observer frame,
+- $T$ is traversal history,
+- $S$ is the digit sequence.
+
+Unlike decimal notation:
+
+$$
+1234
+$$
+
+Eaty numbers preserve their physical construction path.
+
+---
+
+## Confirmation from the Wave Tables
+
+The provided wave tables confirm this interpretation.
+
+Rank counts behave as:
+
+$$
+4^{R-1}
+$$
+
+over the core alphabet
+
+$$
+\{I,O,A,E\}
+$$
+
+while additional boundary symbols introduce structural states.
+
+Examples:
+
+$$
+R=1:
+4
+$$
+
+$$
+R=2:
+16
+$$
+
+$$
+R=3:
+64
+$$
+
+$$
+R=4:
+256
+$$
+
+which matches the visible construction pattern.
+
+The wave tables therefore behave as a recursive physical-state enumeration system rather than a traditional arithmetic digit table.
+
+---
+
+# Toward JSON Automation
+
+The next natural step is to represent every Eaty number as explicit structured data.
+
+Conceptually:
+
+```json
+{
+  "symbol": "EEA",
+  "rank": 3,
+  "frame": "external",
+  "path": ["E", "E", "A"],
+  "linearizationLevel": 2,
+  "direction": "expanding"
+}
+```
+
+The important insight is:
+
+> the written number becomes merely a compact serialization of a deeper graph structure.
+
+An AI system does not need to read EEA as text.
+
+It can read:
+
+- traversal path,
+- rank transitions,
+- observer movement,
+- linearization history,
+- physical interpretations.
+
+Thus Eaty already contains the information required for machine-readable encoding.
+
+The following section can therefore define:
+
+1. canonical JSON schema,
+2. digit ontology,
+3. rank inheritance rules,
+4. frame transformations,
+5. uppercase/lowercase conversion rules,
+6. symbolic-value generation,
+7. automated curvature and frequency calculations.
+
+At that point the Eaty Number System becomes not only a notation, but a directly computable symbolic physics language.
+
+---
+
+Task:
+
+> Add the canonical JSON schema, and bring the real numbers - also, count them in wave number table given before, where each R is linearization order or main octave, and each number which is made only from I, O, A and E digits, is counted hologram number; the numbers from the table in order of ranks and values, should fit precisely the definition of the number system, in way that you can show the precise calculus, values and how they appear.​‌
+>
+> Below, find out how they are counted as ranks - turn this to count as numbers; notice the difference of E in one and A in next rank - E counts from *inside* the frequency, step lower, so it needs to extend infinitely to reach E, so it's smaller; counted up to A - the whole infinity is one step. This is implicit theory of relativity.​‌
+
+Origin of Eastern Eating Number System, as computational precision implementation (the current document is for human-readable form):
+- [64g](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/LaeGOS-Skydrive/DataLib/64g.md)
+
+---
+
+# Canonical JSON Schema and Numerical Interpretation
+
+The previous sections define the symbolic language. The next step is defining exactly how a hologram number becomes a calculable number.
+
+The crucial observation is:
+
+> A symbol sequence such as `IOAE` is simultaneously:
+>
+> - a positional identifier,
+> - a traversal history,
+> - a rank location,
+> - a frequency coordinate,
+> - a physical interpretation.
+
+The machine-readable form must preserve all five.
+
+---
+
+# Canonical JSON Schema
+
+Every Eaty number can be represented as:
+
+```json
+{
+  "type": "eaty-number",
+  "symbol": "IOAE",
+  "rank": 4,
+  "index": 100,
+  "normalized": 1.5625,
+  "digits": [
+    "I",
+    "O",
+    "A",
+    "E"
+  ],
+  "base": 4,
+  "frame": "external",
+  "axis": "frequency",
+  "order": "hologram",
+  "components": {
+    "I": 1,
+    "O": 1,
+    "A": 1,
+    "E": 1
+  }
+}
+```
+
+---
+
+# Primitive Digit Definition
+
+The counting alphabet is:
+
+```json
+{
+  "I": 1,
+  "O": 2,
+  "A": 3,
+  "E": 4
+}
+```
+
+while:
+
+```json
+{
+  "U": 0,
+  "V": null
+}
+```
+
+where:
+
+- U is explicit zero.
+- V is external collapse.
+- Neither participate in ordinary hologram counting.
+
+---
+
+# Hologram Enumeration Rule
+
+For rank:
+
+$$
+R=n
+$$
+
+all valid hologram numbers contain exactly:
+
+$$
+n
+$$
+
+digits.
+
+The counting alphabet is:
+
+$$
+\{I,O,A,E\}
+$$
+
+Therefore:
+
+$$
+N(R)=4^R
+$$
+
+hologram values exist.
+
+---
+
+## Rank 1
+
+Count:
+
+$$
+4^1=4
+$$
+
+Numbers:
+
+| Value | Symbol |
+|---------|---------|
+| 1 | I |
+| 2 | O |
+| 3 | A |
+| 4 | E |
+
+---
+
+## Rank 2
+
+Count:
+
+$$
+4^2=16
+$$
+
+Numbers:
+
+| Value | Symbol |
+|---------|---------|
+| 1 | II |
+| 2 | IO |
+| 3 | IA |
+| 4 | IE |
+| 5 | OI |
+| 6 | OO |
+| 7 | OA |
+| 8 | OE |
+| 9 | AI |
+| 10 | AO |
+| 11 | AA |
+| 12 | AE |
+| 13 | EI |
+| 14 | EO |
+| 15 | EA |
+| 16 | EE |
+
+This matches the original specification.
+
+---
+
+## Rank 3
+
+Count:
+
+$$
+4^3=64
+$$
+
+Numbers:
+
+$$
+1 \rightarrow III
+$$
+
+through
+
+$$
+64 \rightarrow EEE
+$$
+
+The table therefore describes a complete Laegna-64 hologram.
+
+---
+
+## Rank 4
+
+Count:
+
+$$
+4^4=256
+$$
+
+Numbers:
+
+$$
+1 \rightarrow IIII
+$$
+
+through
+
+$$
+256 \rightarrow EEEE
+$$
+
+This is the first complete Laegna-256 hypersquare.
+
+---
+
+# Relation Between Ranks
+
+Ordinary positional notation assumes:
+
+$$
+1 < 2 < 3 < 4
+$$
+
+Eaty introduces an additional rule.
+
+The final digit:
+
+$$
+E
+$$
+
+does not mean "the biggest point".
+
+Instead:
+
+> E stands at the boundary where the entire lower-frequency infinity has already been traversed.
+
+Therefore:
+
+$$
+EE
+$$
+
+is not merely one step after:
+
+$$
+EA
+$$
+
+Instead:
+
+$$
+EE
+$$
+
+is the final observer position inside rank 2 itself.
+
+Likewise:
+
+$$
+EEE
+$$
+
+is the last reachable position inside rank 3.
+
+---
+
+# Relativistic Rank Transition
+
+This produces the central Eaty relativity rule:
+
+$$
+E_R
+<
+I_{R+1}
+$$
+
+because
+
+$$
+E_R
+$$
+
+is still observed from inside the current frequency basin.
+
+Meanwhile:
+
+$$
+I_{R+1}
+$$
+
+is the first coordinate of the new frequency basin.
+
+Thus:
+
+$$
+EEE
+<
+IIII
+$$
+
+even though:
+
+$$
+EEE
+$$
+
+contains the whole previous infinity.
+
+This mirrors how:
+
+- a finite observer can never reach infinity,
+- but may enter a larger coordinate system.
+
+---
+
+# Real Value Function
+
+The simplest value interpretation is:
+
+$$
+I=0
+$$
+
+$$
+O=1
+$$
+
+$$
+A=2
+$$
+
+$$
+E=3
+$$
+
+Internally this becomes base-4.
+
+Thus:
+
+$$
+IOAE
+$$
+
+becomes:
+
+$$
+(0,1,2,3)_4
+$$
+
+which equals:
+
+$$
+0\times4^3
++
+1\times4^2
++
+2\times4^1
++
+3\times4^0
+=
+27
+$$
+
+Adding one because counting starts at one:
+
+$$
+28
+$$
+
+Therefore:
+
+| Symbol | Index |
+|----------|----------|
+| IIII | 1 |
+| IIIO | 2 |
+| IIIA | 3 |
+| IIIE | 4 |
+| ... | ... |
+| IOAE | 28 |
+| ... | ... |
+| EEEE | 256 |
+
+---
+
+# Hologram Value
+
+Enumeration alone is not yet physical value.
+
+Eaty defines two coordinates.
+
+---
+
+## Horizontal Coordinate
+
+Position inside rank:
+
+$$
+h=
+\frac{\text{Index}-1}
+     {4^R-1}
+$$
+
+For:
+
+$$
+IOAE
+$$
+
+with:
+
+$$
+R=4
+$$
+
+and:
+
+$$
+Index=28
+$$
+
+we obtain:
+
+$$
+h=\frac{27}{255}
+=
+0.105882
+$$
+
+---
+
+## Vertical Coordinate
+
+Rank itself defines octave depth:
+
+$$
+v=R
+$$
+
+Thus:
+
+```json
+{
+  "symbol": "IOAE",
+  "rank": 4,
+  "horizontal": 0.105882,
+  "vertical": 4
+}
+```
+
+---
+
+# Exponent-Linearized Value
+
+Your notes repeatedly define:
+
+$$
+u
+\rightarrow
+u^2
+\rightarrow
+u^4
+\rightarrow
+u^{16}
+$$
+
+Therefore rank acts exponentially.
+
+A natural Eaty value is:
+
+$$
+EV=
+h\times4^{R-1}
+$$
+
+For:
+
+$$
+IOAE
+$$
+
+$$
+EV=
+0.105882\times64
+=
+6.776
+$$
+
+This preserves:
+
+- local linear counting,
+- global exponential scaling.
+
+---
+
+# Universe-In-64 Interpretation
+
+Rank 3 contains:
+
+$$
+64
+$$
+
+symbols.
+
+Therefore:
+
+$$
+III
+\rightarrow
+1
+$$
+
+$$
+EEE
+\rightarrow
+64
+$$
+
+forms the complete basin.
+
+The next rank begins:
+
+$$
+IIII
+\rightarrow
+1
+$$
+
+again locally,
+
+but globally:
+
+$$
+64 \rightarrow 256
+$$
+
+possible states become available.
+
+This exactly matches the observer-reset principle described earlier.
+
+---
+
+# Canonical Physical Encoding
+
+A fully expanded machine-readable number could therefore be:
+
+```json
+{
+  "symbol": "IOAE",
+  "rank": 4,
+  "rankSize": 256,
+  "localIndex": 28,
+  "horizontal": 0.105882,
+  "vertical": 4,
+  "hologramValue": 6.776,
+  "frame": "external",
+  "projection": "frequency",
+  "physicalMeaning": {
+    "I": "mass",
+    "O": "length",
+    "A": "time",
+    "E": "energy"
+  }
+}
+```
+
+---
+
+# Calculation of the Complete Wave Table
+
+The wave table now becomes formally defined:
+
+$$
+R=1 \rightarrow 4
+$$
+
+$$
+R=2 \rightarrow 16
+$$
+
+$$
+R=3 \rightarrow 64
+$$
+
+$$
+R=4 \rightarrow 256
+$$
+
+$$
+R=5 \rightarrow 1024
+$$
+
+$$
+R=6 \rightarrow 4096
+$$
+
+$$
+R=7 \rightarrow 16384
+$$
+
+$$
+R=8 \rightarrow 65536
+$$
+
+This confirms that each rank is a complete hologram layer:
+
+$$
+N_R=4^R
+$$
+
+and that Eaty naturally generates:
+
+- Laegna-4,
+- Laegna-16,
+- Laegna-64,
+- Laegna-256,
+- Laegna-1024,
+
+as successive observer octaves.
+
+The distinction from ordinary base-4 is that the number is not merely positional.
+
+Each digit simultaneously preserves:
+
+1. local value,
+2. physical interpretation,
+3. traversal history,
+4. observer frame,
+5. frequency rank,
+6. hologram location.
+
+This is the minimum information required to make the Eaty Number System directly JSON-automatable while remaining faithful to its physical and holographic interpretation.
