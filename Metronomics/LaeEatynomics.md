@@ -631,6 +631,8 @@ At that point the Eaty Number System becomes not only a notation, but a directly
 
 ---
 
+![Eaty](Eating/Eaty.png)
+
 Task:
 
 > Add the canonical JSON schema, and bring the real numbers - also, count them in wave number table given before, where each R is linearization order or main octave, and each number which is made only from I, O, A and E digits, is counted hologram number; the numbers from the table in order of ranks and values, should fit precisely the definition of the number system, in way that you can show the precise calculus, values and how they appear.​‌
