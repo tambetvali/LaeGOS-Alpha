@@ -992,15 +992,7 @@ $$
 which equals:
 
 $$
-0\times4^3
-+
-1\times4^2
-+
-2\times4^1
-+
-3\times4^0
-=
-27
+0\times4^3 + 1\times4^2 + 2\times4^1 + 3\times4^0 = 27
 $$
 
 Adding one because counting starts at one:
@@ -1037,9 +1029,7 @@ Eaty defines two coordinates.
 Position inside rank:
 
 $$
-h=
-\frac{\text{Index}-1}
-     {4^R-1}
+h= \frac{\text{Index}-1}     {4^R-1}
 $$
 
 For:
@@ -1063,9 +1053,7 @@ $$
 we obtain:
 
 $$
-h=\frac{27}{255}
-=
-0.105882
+h=\frac{27}{255} = 0.105882
 $$
 
 ---
@@ -1110,8 +1098,7 @@ Therefore rank acts exponentially.
 A natural Eaty value is:
 
 $$
-EV=
-h\times4^{R-1}
+EV=h\times4^{R-1}
 $$
 
 For:
@@ -1121,10 +1108,7 @@ IOAE
 $$
 
 $$
-EV=
-0.105882\times64
-=
-6.776
+EV=0.105882\times64 = 6.776
 $$
 
 This preserves:
