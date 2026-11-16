@@ -53,6 +53,12 @@ Black is U, and white is upside-down U - gray is lack of them.
 ---
 
 Thus, each Laegna Number is color-encoded and diffusion-encoded naturally, one does not have to waste time on this:
-- Psycho
+- Psychologically, black-white, red-green, blue-yellow are the real opposites.
+- Programmatically, red-green are easily in one channel, blue-yellow in two channels, red is not aware of it's long-term effect's presence while other colors solve it.
+  - There are more psychological colors, more subtle, or gammas and other shapes needed to fully associate each of them.
+- Light encoding in exponent-linearized channel connected to linear channel, as one can see in RGB, easily converts to view where they connect.
 
-- 
+One can see R and G are separate channels rather than Y and B:
+- This is not so literal, as Y associates with inverse of G and B, and becomes projection of yellow into double-precision structure compared to B, in a sense; they form spatial, second order relation in unit $u^2$ in this sense.
+- Red and green *do not mix at all*.
+  - Their relation seemed less significant when I was *actually programming this based on [HP artist book](https://www.handprint.com/HP/WCL/color18a.html), as toy for myself in C#; I felt what I needed to compare at the end*.
