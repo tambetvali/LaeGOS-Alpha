@@ -136,9 +136,7 @@ $$
 Its derivative is:
 
 $$
-\frac{d}{dx}\log_b(x)
-=
-\frac{1}{x\ln b}
+\frac{d}{dx}\log_b(x) = \frac{1}{x\ln b}
 $$
 
 Its most important property is:
