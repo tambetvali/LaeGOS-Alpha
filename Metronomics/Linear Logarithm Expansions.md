@@ -4545,11 +4545,7 @@ If the explosion disappears when feedback is removed, the instability may origin
 Calculate:
 
 $$
-\Delta\phi_n
-=
-\phi_n^{\mathrm{sim}}
--
-\phi_n^{\mathrm{ref}}
+\Delta\phi_n = \phi_n^{\mathrm{sim}} - \phi_n^{\mathrm{ref}}
 $$
 
 Track the phase error over time.
