@@ -20,7 +20,7 @@ This is a Brief History of Number Magic:
 
 | Era                | Master of Magic                | Laegna Number System Basin            | Laegna Coordinates of Number System             | Laegna Numbers     | Orientation / even-odd |
 | :----------------- | :----------------------------- | :------------------------------------ | :---------------------------------------------- | :----------------- | :--------------------- |
-| ***Foundations of 1***   | Early Mesopotamia-Babylon; planck      | Base-1, $Base-O_1$                   | Octave E, Frequency -1 of -Base-1               | ⋃, N-Ary Union        | $V^2, V^E$, Basin -1, $odd*odd=odd^2$ |
+| ***Foundations of 1***   | Early Mesopotamia-Babylon, Sumerian; planck      | Base-1, $Base-O_1$                   | Octave E, Frequency -1 of -Base-1               | ⋃, N-Ary Union        | $V^2, V^E$, Basin -1, $odd*odd=odd^2$ |
 | *Foundations of 2*   | Digital Era, Knuth-Djikstra    | Base-2, Base OA, Base A        | Octave EE, Frequency -2 of -Base-2              | I, Negotion           | $U$, Basin 0, $even$           |
 | **Foundations of 4** | Hilbert, 2D octave math of $H_{int}$ and $H_{ext}$ symmetry, holonomic projection; Einstein $c^2$ | Base-4                         | Octave EE, Frequency -2 of -Base-2              | O, Negation           | $U$, Basin 0, $even$           |
 | **Foundations of 6**   | I Ching, 3 plus and 3 minus ranks | Base-6                         | Octave EE, Frequency -2 of -Base-2              | A, Position           | $U$, Basin 0, $even$           |
