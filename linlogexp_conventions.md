@@ -26,3 +26,17 @@ Verse, thus forms:
 Notice lin, log or exp linearizing the space, where linear-linearized space might convey it to middle of 3 bands, with slight error ϵ which reasons about whether log and exp are projected to same band, in $\sqrt(U)$, or considered separate channels in $U$ - the information loss appears heavily external and internal, compared in averaging both to common mean space.
 
 $U′$ is the position of spatial observer.
+
+---
+
+Laegna Ethics:
+- Heaven, Exter Realm, Y.
+- Earth, Enter Realm, X.
+- Hell, Infer Realm, Z.
+- Combined, The Realm, $(Z + X + Y) / 3 = \sqrt(X)$.
+
+Laegna PhySecs:
+- Exter Scale, Relativian, Y.
+- Enter Scale, Newtonian, X.
+- Infer Scale, Planckian-Quantum, Z.
+- Three-band reality: combined, $\sqrt(X) ⊜ X^2$, but the equality of T and R is broken if we measure any kind of desynchronous nature or aligned computation in two opposing bands, not their means.
