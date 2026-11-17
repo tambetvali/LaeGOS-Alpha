@@ -727,7 +727,7 @@ or a dedicated symbol such as:
 
 $$
 \;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
-\⊜
+⊜
 $$
 
 where two objects are compared according to hologram structure rather than value.
@@ -735,7 +735,7 @@ where two objects are compared according to hologram structure rather than value
 Thus:
 
 $$
-a \⊜ b
+a ⊜ b
 $$
 
 does not necessarily mean:
