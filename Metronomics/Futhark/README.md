@@ -1,3 +1,8 @@
+Images in this folder go for:
+- [LaZeroes / positioning Laegna Fuhark](https://github.com/tambetvali/LaeGOS-Alpha/blob/main/Metronomics/LaZeroCurve.md)
+
+---
+
 This folder is for images.
 
 Futhark is this structure:
