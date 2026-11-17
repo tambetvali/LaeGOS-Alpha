@@ -17,7 +17,12 @@ Verse, thus forms:
 - Metaverse $\sqrt(X) = $U′=U^2$, your initial 3-band-combined frequency, so parallel to X that they are numerically equivalent, but precision with two outer bands makes this a precision difference, a focusal bias and little noise.
   - Universe $U′=U$, linear newtonian realm and tradition ethics, algorithmic logic.
     - Verse X 1⊙1, $U$, linear newtonian realm as pure modulation. **Enter scope** in Laegna grouping, where en-ter is into syncronal t and r, diagonal projection.
+      - Linear space.
     - Verse Z 1⊘2, $U′=\sqrt(U)$.
+      - Logarithm-linearized space.
     - Verse Y 1⦸2, $U′=U^U$.
+      - Exponent-linearized space.
+
+Notice lin, log or exp linearizing the space, where linear-linearized space might convey it to middle of 3 bands, with slight error ϵ which reasons about whether log and exp are projected to same band, in $\sqrt(U)$, or considered separate channels in $U$ - the information loss appears heavily external and internal, compared in averaging both to common mean space.
 
 $U′$ is the position of spatial observer.
