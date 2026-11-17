@@ -33,6 +33,29 @@ CoPilot's answer is at the end at "CoPilot's Article 1, exponent-linearization a
 
 ---
 
+# Ranked Zero - Zero-Basin of Laegna Math
+
+Let's now build up this:
+
+We initially see zero at the middle, at 0 of number scale, it projects multiplicative identity to 1. This is scalar math.
+- Move curvature or exponent-linearization number up; zero moves to 1, projecting multiplicative identity to 0. This is vector math, where vector behaves like positive number system compared to double-vector.
+  - Move it one more levels up, and zero appears at double-vector, which reminds of complex numbers: zero's closest brother is i0 + 0, which is why we use complex numbers in Laegna. The double vector is internal, and appears as single zero-like structure in terms it operates on this; notice upper 0 and 1 we project to 2 and 4 octave-wise, 2 and 3 octave rank-wise, are projected backwards as in difference of scalar and single-vector math; two vectors linearize it through the first rank, then linearly through second rank's fractal linearization which happens through synchronization model of exponent-linearization, implied from it.
+    - Move it one more levels up, and matrix appears. Matrix rotates through definite two external zeroes, numbers become 2D - we can project matrix to single laegna number.
+      - Curvature is 2D compared to all 3 previous ones - curvature 1 is horizontal U-zone number (vertical and horizontal parts of matrix 2D curvature), written from left to right; curvature 2 is vertical V-zone number (two diagonals in matrix 2D curvature, which is why we call higher-zone projection *diagonals* normally in Laegna, because scalar-matrix relation defines internal-external terminology of Laegna as they contain the simplest hologram idealization of this cellular structure or actual matrix at this point, which defines *terms* in Laegna above everything else \[like linguistic talents\]). Matrix, here, becomes diagonal W zone number, where double-vector is M-zone. Notice if you have real laegna unknowns, you can also use U for U, upside-down U for V, V for double-vector W and W for matrix M. Rather, both systems count linearly in Laegna, because UVWM mean unknown, known, positive difference and positive distance, counting as well as unknown, negative difference, positive difference and higher unknown counting with all letters.
+     
+Now, as we go through octaves or exponent-linearization, minus octaves or logarithm-linearization, we can see:
+- Initially, zero is at center.
+  - As we go up, zero starts moving higher.
+  - As we go down, zero starts moving lower.
+
+For this, we get the whole distance we can linearly measure at each system, and see how zeros of lower system are part of linearity in higher.
+
+We can see how minus ranks move zero to initial minus positions.
+
+We can see how the zero of infinity is more seen from lower, so it's ideally projected to $H_ext$ where planck length, time, energy or mass is $H_int$ - notice energy and mass must be acceleration factors, such unit in same power as number can still linearize them, especially if numbers are growth functions always projected to 1 in their linearization or focal point.
+
+---
+
 ## CoPilot's Article 1: Exponent-Linearization and Logarithm-Linearization Main Theory
 
 The central hypothesis of exponent-linearization is that multiplicative curvature can be transformed into additive distance.
