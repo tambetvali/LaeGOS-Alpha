@@ -220,7 +220,7 @@ It is the reverse system to X.
 The metaverse is associated with the combined initial frequency:
 
 $$
-\sqrt X\;\,\⊜\;\,U'=U^2
+\sqrt X\;\,⊜\;\,U'=U^2
 $$
 
 It is parallel to X and can be numerically equivalent under the chosen conventions, but its two outer bands introduce a precision difference, focus bias and small noise.
@@ -330,7 +330,7 @@ The same organization appears in Laegna's physical interpretation.
 The combined three-band reality is represented symbolically as:
 
 $$
-\sqrt X\;\,\⊜\;\,X^2
+\sqrt X\;\,⊜\;\,X^2
 $$
 
 This is a structural equivalence within Laegna conventions, not a general mathematical identity.
@@ -1030,7 +1030,7 @@ The three-band structure develops when their differences become meaningful.
 The combined space is represented symbolically as:
 
 $$
-\sqrt X\;\,\⊜\;\,X^2
+\sqrt X\;\,⊜\;\,X^2
 $$
 
 This is a structural equivalence in Laegna, not an ordinary algebraic identity.
