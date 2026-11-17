@@ -1,3 +1,1232 @@
+
+
+# The Movement of Futhark of Laegna
+
+## Introduction
+
+The purpose of this article is to introduce one of the simplest structural ideas appearing throughout Laegna mathematics:
+
+> Numbers do not merely move through values.
+>
+> Numbers move through coordinate systems.
+
+Ordinary mathematics usually fixes the coordinate system and studies the movement of numbers.
+
+Laegna mathematics attempts the opposite viewpoint.
+
+The coordinates themselves move.
+
+The observed movement of a number may actually be the movement of:
+
+- the local zero,
+- the local identity,
+- the local rank,
+- the local focus,
+- the local projection.
+
+A number may therefore appear differently while representing the same underlying relation.
+
+---
+
+## Why It Matters
+
+Suppose we observe:
+
+$$
+1
+\rightarrow
+4
+\rightarrow
+16
+\rightarrow
+256
+\rightarrow
+65536
+$$
+
+The sequence appears explosive.
+
+However:
+
+$$
+\log_4
+$$
+
+produces:
+
+$$
+0
+\rightarrow
+1
+\rightarrow
+2
+\rightarrow
+4
+\rightarrow
+8
+$$
+
+Applying another logarithm:
+
+$$
+\log_2
+$$
+
+produces:
+
+$$
+0
+\rightarrow
+1
+\rightarrow
+2
+\rightarrow
+3
+$$
+
+The original complexity vanishes.
+
+A hidden linear coordinate appears.
+
+The observed object changes.
+
+The tracked relation does not.
+
+---
+
+## The Futhark Principle
+
+The word:
+
+> Futhark
+
+is interpreted here as:
+
+- Foot
+- Hark
+
+or a structure capable of locating and tracking position.
+
+The simplest Laegna Futhark is:
+
+```text
+2 : 2 : 2
+```
+
+A three-rank symmetry.
+
+This symmetry continuously reappears in the system:
+
+```text
+0
+1
+2
+```
+
+and
+
+```text
+2 + 2 = 4
+2 × 2 = 4
+2² = 4
+```
+
+The same destination appears through:
+
+- additive relation,
+- multiplicative relation,
+- exponential relation.
+
+Thus:
+
+```text
+0 → 1 → 2
+```
+
+acts as a primitive rank ladder.
+
+---
+
+## Three Fundamental Zeroes
+
+The simplest interpretation contains three distinct origins.
+
+### Scalar Zero
+
+$$
+0
+$$
+
+Additive identity.
+
+```text
+-1  0  1
+     ^
+```
+
+---
+
+### Multiplicative Zero
+
+$$
+1
+$$
+
+Multiplicative identity.
+
+```text
+1/2  1  2
+       ^
+```
+
+---
+
+### Rank Zero
+
+$$
+\log(1)=0
+$$
+
+Rank identity.
+
+```text
+-1  0  1
+     ^
+```
+
+in logarithmic coordinates.
+
+---
+
+These are not separate objects.
+
+They are projections of the same balancing relation.
+
+---
+
+## Zero Moving Upward
+
+Apply exponent-linearization.
+
+Local zero migrates upward.
+
+```text
+Rank +2
+
+--------- 0₂ ---------
+
+Rank +1
+
+--------- 0₁ ---------
+
+Rank  0
+
+--------- 0₀ ---------
+
+Rank -1
+
+--------- 0₋₁ ---------
+
+Rank -2
+
+--------- 0₋₂ ---------
+```
+
+The number being tracked remains fixed.
+
+The local center changes.
+
+---
+
+## Value Ladder
+
+Observe:
+
+```text
+0
+1
+2
+4
+16
+256
+65536
+```
+
+Each step introduces another projection layer.
+
+The visible coordinate changes.
+
+The hidden relation survives.
+
+---
+
+### First Linearization
+
+```text
+1
+4
+16
+256
+65536
+```
+
+becomes:
+
+```text
+0
+1
+2
+4
+8
+```
+
+through:
+
+$$
+\log_4
+$$
+
+---
+
+### Second Linearization
+
+```text
+0
+1
+2
+4
+8
+```
+
+becomes:
+
+```text
+0
+1
+2
+3
+```
+
+through:
+
+$$
+\log_2
+$$
+
+---
+
+### Third Linearization
+
+```text
+0
+1
+2
+3
+```
+
+becomes:
+
+```text
+0
+1
+1.585
+2
+```
+
+through further compression.
+
+Each rank uncovers a deeper coordinate.
+
+---
+
+## Coordinate Reordering
+
+Suppose:
+
+```text
+(U,V)
+```
+
+is visible.
+
+Projection forms:
+
+```text
+(U,V)
+
+  ↓
+
+  W
+```
+
+The coordinates:
+
+```text
+U
+V
+```
+
+appear lost.
+
+However they continue to exist internally.
+
+Thus:
+
+```text
+(U,V)
+```
+
+and
+
+```text
+W
+```
+
+contain the same relation at different resolutions.
+
+---
+
+### First Reordering
+
+```text
+U -------->
+
+|
+|
+|
+v
+
+V
+```
+
+becomes:
+
+```text
+U -------->
+
+|      /
+|    /
+|  /
+|/
+W
+```
+
+The diagonal replaces explicit coordinates.
+
+---
+
+### Second Reordering
+
+```text
+(U,V)
+```
+
+becomes:
+
+```text
+W
+```
+
+and later:
+
+```text
+M
+```
+
+where:
+
+```text
+(U,V)
+
+   ↓
+
+   W
+
+   ↓
+
+   M
+```
+
+---
+
+### Third Reordering
+
+Eventually:
+
+```text
+(U,V,W,M)
+```
+
+becomes:
+
+```text
+O
+```
+
+The coordinates are not destroyed.
+
+They are compressed.
+
+---
+
+## Futhark Tracking Diagram
+
+The movement of Futhark may be represented as:
+
+```text
+(U,V,W,M)
+
+      ↓
+
+     (W,M)
+
+      ↓
+
+      (M)
+
+      ↓
+
+      (O)
+
+      ↓
+
+      (0)
+```
+
+while reprojection performs:
+
+```text
+(0)
+
+ ↓
+
+(O)
+
+ ↓
+
+(M)
+
+ ↓
+
+(W,M)
+
+ ↓
+
+(U,V,W,M)
+```
+
+The same structure appears in reverse.
+
+---
+
+## Prime Modeling
+
+The primitive Laegna relation:
+
+```text
+0
+1
+2
+```
+
+generates:
+
+```text
+2
+2 + 2
+2 × 2
+2²
+```
+
+which all produce:
+
+```text
+4
+```
+
+Thus:
+
+```text
+Addition
+Multiplication
+Exponentiation
+```
+
+meet at the same coordinate.
+
+They differ only by rank.
+
+This is one reason the value:
+
+$$
+2
+$$
+
+acts as a primitive modeling coordinate.
+
+---
+
+## Internal and External Zeroes
+
+Lower ranks reveal external coordinates.
+
+Higher ranks internalize them.
+
+Thus:
+
+```text
+External Space
+
+(U,V,W,M)
+```
+
+projects into:
+
+```text
+Internal Space
+
+(O)
+```
+
+and eventually:
+
+```text
+Zero
+```
+
+while reprojection restores:
+
+```text
+Zero
+
+↓
+
+Origin
+
+↓
+
+Diagonal
+
+↓
+
+Coordinates
+
+↓
+
+Space
+```
+
+---
+
+## Coordinate Conservation Hypothesis
+
+The central hypothesis is:
+
+> Coordinates are not destroyed by projection.
+
+Instead:
+
+```text
+Visible Coordinate
+```
+
+becomes:
+
+```text
+Hidden Coordinate
+```
+
+which becomes:
+
+```text
+Reprojection Candidate
+```
+
+A sufficiently precise hologram may preserve enough evidence to reconstruct previous coordinate states.
+
+Thus:
+
+```text
+Projection
+
+Many → One
+```
+
+becomes:
+
+```text
+Reprojection
+
+One → Many
+```
+
+---
+
+## Machine-Readable Futhark Model
+
+```json
+{
+  "futhark": {
+    "primitive": [0,1,2],
+    "generator": 2,
+    "relations": [
+      "2+2=4",
+      "2*2=4",
+      "2^2=4"
+    ]
+  }
+}
+```
+
+```json
+{
+  "zeroes": {
+    "scalar": 0,
+    "multiplicative": 1,
+    "rank": 0,
+    "interpretation": "same balancing relation in different coordinate systems"
+  }
+}
+```
+
+```json
+{
+  "projection_chain": [
+    "U",
+    "V",
+    "W",
+    "M",
+    "O",
+    "Zero"
+  ],
+  "direction": "compression"
+}
+```
+
+```json
+{
+  "reprojection_chain": [
+    "Zero",
+    "O",
+    "M",
+    "W",
+    "V",
+    "U"
+  ],
+  "direction": "expansion"
+}
+```
+
+```json
+{
+  "four_octave_ladder": {
+    "values": [1,4,16,256,65536],
+    "rank_1": [0,1,2,4,8],
+    "rank_2": [0,1,2,3]
+  }
+}
+```
+
+```json
+{
+  "coordinate_conservation": {
+    "principle": "projection changes visibility, not existence",
+    "transitions": [
+      "visible",
+      "hidden",
+      "candidate",
+      "reprojected"
+    ]
+  }
+}
+```
+
+## Main Principle
+
+The movement of Futhark is the movement of coordinate identity across ranks.
+
+The number itself is often invariant.
+
+What changes is:
+
+- which coordinates are visible,
+- which coordinates are internal,
+- which coordinate acts as zero,
+- which coordinate acts as focus.
+
+The hierarchy:
+
+```text
+0
+→ 1
+→ 2
+→ 4
+→ 16
+→ 256
+→ 65536
+```
+
+and the repeated linearizations:
+
+```text
+65536
+→ 8
+→ 3
+```
+
+suggest a recurring pattern:
+
+> Higher ranks compress distinctions into origins.
+>
+> Lower ranks unfold origins into distinctions.
+
+The Futhark of Laegna is the tracking system that follows those origins as they migrate through the hierarchy of projections.
+
+---
+
+> And now, the first part:​‌
+> - Initial explanation, it's importance etc.​‌
+> - Tack zeroes down and up through diagrams.​‌
+> - Jsons, automatable, AI-understandable data at the end of initial part, in copyable code blocks (make sure they won't break your own code block).​‌
+>
+>Make sure these are real relations best expressing the structure I cal "movement of futhark of laegna", where futhark is like "foot" (english) and "hark" (estonian) - a 2-2-2 fractal which provides the ideal simplification of 3-ranked zero model, which repeats in system like relations of 0, 1, 2, and 2+2=2*2=2^2 forth and back, the prime modelling.
+
+CoPilot's first part was given just before this intro.
+
+---
+
+> Can you see how higher ranks linearize internal, lower ranks linearize external zeroes, by removing certain opposition coordinates by each sqrt(2), 2 or 4 octave - Z, X, Y octaves?
+
+> Can you linearize moving linear display of number upwards; track the same coordinates in each linear space where they reorder their components, and understand how equivalent number moves in zero ranks, best seen in 4-based 2D octaves?
+
+> Can you write article on this?
+
+CoPilot's article 3 is at the end as an answer, where we start more simply here (from the initial hypothesis it got from my explanation - we go in speed of explanativity, where AI might be more confused initially).
+
+---
+
+## Relative Zero Table
+
+### Rank-Zero Coordinates
+
+Ordinary mathematics:
+
+$$
+0
+$$
+
+is fixed.
+
+Laegna rank mathematics:
+
+$$
+0_r
+$$
+
+depends on rank.
+
+Each octave shift produces a new local origin.
+
+---
+
+### Symmetric Binary Octaves
+
+Take:
+
+$$
+2^n
+$$
+
+for symmetric ranks.
+
+| Rank | Value |
+|--------:|--------:|
+| -4 | $1/16$ |
+| -2 | $1/4$ |
+| -1 | $1/2$ |
+| 0 | $1$ |
+| 1 | $2$ |
+| 2 | $4$ |
+| 4 | $16$ |
+
+Notice:
+
+$$
+2^{-n}
+$$
+
+and
+
+$$
+2^n
+$$
+
+mirror each other around:
+
+$$
+2^0 = 1
+$$
+
+Thus the multiplicative zero projects to:
+
+$$
+1
+$$
+
+instead of
+
+$$
+0
+$$
+
+---
+
+### Symmetric External Octaves
+
+Now take:
+
+$$
+4^n
+$$
+
+which corresponds to two binary octaves per step.
+
+| Rank | Value |
+|--------:|--------:|
+| -4 | $1/256$ |
+| -2 | $1/16$ |
+| -1 | $1/4$ |
+| 0 | $1$ |
+| 1 | $4$ |
+| 2 | $16$ |
+| 4 | $256$ |
+
+Now each step doubles curvature rank.
+
+This naturally resembles moving from:
+
+$$
+U
+$$
+
+to
+
+$$
+V
+$$
+
+to
+
+$$
+W
+$$
+
+domains.
+
+---
+
+### Prime External Sequence
+
+A special sequence appears:
+
+$$
+4^{2^n}
+$$
+
+giving:
+
+| Prime Rank | Value |
+|---------:|---------:|
+| 0 | $1$ |
+| 1 | $4$ |
+| 2 | $16$ |
+| 3 | $256$ |
+| 4 | $65536$ |
+| 5 | $4294967296$ |
+
+because:
+
+$$
+4
+$$
+
+is repeatedly exponentiated by rank powers.
+
+This appears as an external-rank ladder.
+
+---
+
+### External Zero
+
+Ordinary scalar space:
+
+$$
+0
+$$
+
+is origin.
+
+Multiplicative space:
+
+$$
+1
+$$
+
+is origin.
+
+External-linearized space:
+
+$$
+4^0 = 1
+$$
+
+becomes origin.
+
+Thus:
+
+$$
+0_s
+\rightarrow
+1_m
+\rightarrow
+1_e
+$$
+
+where:
+
+- scalar zero is 0
+- multiplicative zero is 1
+- external zero is also 1
+
+but interpreted in different domains.
+
+---
+
+### Double-Zero
+
+A second origin appears when operations become objects.
+
+Instead of:
+
+$$
+a+b
+$$
+
+the operation itself possesses rank.
+
+Thus:
+
+$$
+(0,\;1)
+$$
+
+forms a two-coordinate origin.
+
+One coordinate tracks value.
+
+One coordinate tracks operation rank.
+
+This creates a double-zero.
+
+The first zero tracks quantity.
+
+The second zero tracks curvature.
+
+---
+
+### Downward Linearization
+
+The interesting asymmetry occurs here.
+
+Positive ranks:
+
+$$
+-1,0,1
+$$
+
+map naturally to:
+
+$$
+1/2,1,2
+$$
+
+However the negative-hologram projection often unfolds as:
+
+$$
+-2,-4,-6,-8,...
+$$
+
+instead of:
+
+$$
+-1,-2,-3,-4,...
+$$
+
+because downward ranks gain dimensional complexity.
+
+Each descent introduces additional hidden coordinates.
+
+One possible interpretation is:
+
+$$
+R_- = -2n
+$$
+
+while:
+
+$$
+R_+ = n
+$$
+
+meaning lower domains unfold two axes:
+
+$$
+U,V
+$$
+
+while upper domains collapse these into a single projected rank.
+
+This agrees surprisingly well with your observation that:
+
+> division and subtraction grow complexity downwards and backwards
+
+where multiplication and exponentiation collapse dimensions while division reveals them.
+
+---
+
+### Operation Ranks
+
+In Laegna terms:
+
+A number:
+
+$$
+a
+$$
+
+has rank:
+
+$$
+r(a)
+$$
+
+An operation:
+
+$$
+a \circ b
+$$
+
+has rank:
+
+$$
+r(a,b)
+$$
+
+which is one octave higher.
+
+Operation therefore becomes:
+
+1. Combine domains.
+2. Construct curvature.
+3. Measure diagonal.
+4. Project result.
+
+Thus:
+
+$$
+(a,b)
+\rightarrow
+UV
+\rightarrow
+W
+\rightarrow
+M
+\rightarrow
+result
+$$
+
+The result is literally the diagonal coordinate of the combined system.
+
+This makes:
+
+$$
++
+,
+-
+,
+\times
+,
+\div
+,
+\odot
+,
+\otimes
+,
+\oslash
+$$
+
+all special cases of a single curvature-projection operator.
+
+Only the curvature rule differs.
+
+---
+
+### Zero Basin Structure
+
+A compact picture is:
+
+$$
+\ldots
+\rightarrow
+0_{UU}
+\rightarrow
+0_U
+\rightarrow
+0
+\rightarrow
+1
+\rightarrow
+4
+\rightarrow
+16
+\rightarrow
+256
+\rightarrow
+65536
+\rightarrow
+\ldots
+$$
+
+with
+
+$$
+0
+$$
+
+being scalar zero,
+
+$$
+1
+$$
+
+being multiplicative zero,
+
+and
+
+$$
+1,4,16,256,65536,...
+$$
+
+forming the external-zero ladder.
+
+Each step is a new local linearity.
+
+Each local linearity acts as a basin around which the corresponding rank becomes approximately linear.
+
+---
+
+My initial set-up:
+
 # Laegna Curvature Zero
 
 $e = mc^2$
@@ -53,6 +1282,12 @@ For this, we get the whole distance we can linearly measure at each system, and 
 We can see how minus ranks move zero to initial minus positions.
 
 We can see how the zero of infinity is more seen from lower, so it's ideally projected to $H_ext$ where planck length, time, energy or mass is $H_int$ - notice energy and mass must be acceleration factors, such unit in same power as number can still linearize them, especially if numbers are growth functions always projected to 1 in their linearization or focal point.
+
+---
+
+> Can you calculate relative zero tables, especially in terms of symmetric planck-size octaves 2^n -4, -2, -1, 0, 1, 2, 4; and symmetric external octaves 4^n. Also the jsons. Exact numbers where one can compare zeroes, and see where they come from, where they go, and where exernal zeroes appear when external-linearized space has add-substract and multiply-divide operations swapped to mark double-zeroes as external single-zeroes in 4^n growing world, where it has single external position. Can you find and see and show all zeroes, especially in terms of prime ranks - externally 0, 1, 4, 16, 256, 65536 etc. - or you can make it more precise, the 4^n and it's 0..1 linearized parts - 0, 1, 2, 4, 16, 256, 65536 has more of the beginning linearized, can you explain also where this linearization appears in moving ranks below zero and around, reasoning why the -1 to 1 upwards is projected to exponent-linearized-but-sub-linear -2, -4, -6, -8 downwards? Can you see all this, and put together the whole topic of interest - how ranks of numbers and operations relate (operation uses 2-component number, but it's ranking is relatively the same, it gets one octave up complexity relating to two numbers, combines their dimensions, applies curvature to diagonal of the combination, and counts diagonal number as result - this is laegna definition of *operation*, and mean, geom. mean, plus, minus, mult, div, their hologram counterparts etc. are just numbers and ranks into this single dimensional-curvature definition of uniting and applying; it also shows how minus and division grow complexity on uv axes downwards and backwards.
+
+CoPilot's answer starts this article pack / single-file collection.
 
 ---
 
@@ -885,3 +2120,1371 @@ $$
 The linear system is therefore not fixed.
 
 Linearity itself becomes a movable coordinate.
+
+---
+
+## CoPilot's Article 3: Moving Zero, Rank Tracking, and 4-Octave Linearization
+
+The previous articles introduced exponent-linearization, logarithm-linearization, focus, and the hierarchy of ranked zeroes.
+
+The next question naturally follows:
+
+> If the same object exists in multiple rank spaces simultaneously, how can we track it as its coordinates reorder?
+
+The answer is that the number itself does not move.
+
+The coordinate system moves.
+
+What appears as motion of a number is often a motion of zero.
+
+---
+
+### The Invariant Coordinate
+
+Suppose:
+
+$$
+x=16
+$$
+
+In ordinary value space:
+
+$$
+x=16
+$$
+
+Applying logarithmization:
+
+$$
+\log_4(16)=2
+$$
+
+The object becomes:
+
+$$
+x'=2
+$$
+
+Applying logarithmization again:
+
+$$
+\log_2(2)=1
+$$
+
+Now:
+
+$$
+x''=1
+$$
+
+The value changed three times:
+
+$$
+16
+\rightarrow
+2
+\rightarrow
+1
+$$
+
+Yet the represented coordinate remained the same.
+
+Only the reference frame changed.
+
+Thus:
+
+$$
+x
+$$
+
+is not the number itself.
+
+It is the coordinate representation of an invariant relation.
+
+---
+
+### The Moving Zero
+
+Ordinary arithmetic assumes:
+
+$$
+0
+$$
+
+remains fixed.
+
+Rank arithmetic instead reveals:
+
+$$
+0
+$$
+
+depends upon representation.
+
+Examples:
+
+Scalar representation:
+
+$$
+0
+$$
+
+Multiplicative representation:
+
+$$
+1
+$$
+
+Base-4 octave representation:
+
+$$
+4^0=1
+$$
+
+Rank representation:
+
+$$
+\log_4(1)=0
+$$
+
+Meta-rank representation:
+
+$$
+\log_2(\log_4(4))=0
+$$
+
+Each representation introduces its own locally linear center.
+
+Thus:
+
+$$
+0_S
+\leftrightarrow
+0_M
+\leftrightarrow
+0_R
+\leftrightarrow
+0_{RR}
+$$
+
+The object remains fixed.
+
+The local origin changes.
+
+---
+
+### 4-Based Octaves
+
+The clearest visualization appears in base four.
+
+Consider:
+
+$$
+4^n
+$$
+
+for integer ranks.
+
+| Rank | Value |
+| --- | --- |
+| -4 | $1/256$ |
+| -2 | $1/16$ |
+| -1 | $1/4$ |
+| 0 | $1$ |
+| 1 | $4$ |
+| 2 | $16$ |
+| 4 | $256$ |
+
+The multiplicative world appears enormously curved.
+
+However:
+
+$$
+\log_4(4^n)=n
+$$
+
+Immediately produces:
+
+| Rank | Linear Coordinate |
+| --- | --- |
+| -4 | -4 |
+| -2 | -2 |
+| -1 | -1 |
+| 0 | 0 |
+| 1 | 1 |
+| 2 | 2 |
+| 4 | 4 |
+
+The curvature disappears.
+
+Only rank remains.
+
+---
+
+### Repeated Linearization
+
+Now examine:
+
+$$
+1
+,
+4
+,
+16
+,
+256
+,
+65536
+$$
+
+These correspond to:
+
+$$
+4^0
+,
+4^1
+,
+4^2
+,
+4^4
+,
+4^8
+$$
+
+Taking one logarithm:
+
+$$
+0
+,
+1
+,
+2
+,
+4
+,
+8
+$$
+
+Taking another logarithm:
+
+$$
+0
+,
+1
+,
+2
+,
+3
+$$
+
+A hidden linear coordinate emerges.
+
+Thus the structure:
+
+$$
+65536
+$$
+
+contains:
+
+$$
+8
+$$
+
+which contains:
+
+$$
+3
+$$
+
+depending only upon the chosen focus.
+
+---
+
+### Coordinate Reordering
+
+Suppose a number is represented as:
+
+$$
+(U,V)
+$$
+
+where:
+
+- $U$ is horizontal relation.
+- $V$ is vertical relation.
+
+A higher-rank projection may replace both coordinates by:
+
+$$
+W
+$$
+
+which acts as their diagonal relation.
+
+Thus:
+
+$$
+(U,V)
+\rightarrow
+W
+$$
+
+The coordinates did not disappear.
+
+They became internal.
+
+Applying the inverse transformation:
+
+$$
+W
+\rightarrow
+(U,V)
+$$
+
+restores them.
+
+This is analogous to:
+
+$$
+(x,y)
+\rightarrow
+\sqrt{x^2+y^2}
+$$
+
+where diagonal length replaces two explicit coordinates.
+
+---
+
+### Higher Ranks
+
+At every rank transition:
+
+$$
+R
+\rightarrow
+R+1
+$$
+
+some coordinates become implicit.
+
+A higher space sees:
+
+$$
+(U,V)
+$$
+
+as one object.
+
+An even higher space may see:
+
+$$
+(U,V,W)
+$$
+
+as one object.
+
+Eventually:
+
+$$
+(U,V,W,M)
+$$
+
+becomes a single coordinate.
+
+Thus:
+
+$$
+R+1
+$$
+
+contains more information internally than:
+
+$$
+R
+$$
+
+even though its external representation is simpler.
+
+---
+
+### Lower Ranks
+
+Descending ranks perform the opposite action.
+
+Instead of compressing coordinates:
+
+$$
+W
+\rightarrow
+(U,V)
+$$
+
+Instead of compressing dimensions:
+
+$$
+M
+\rightarrow
+(U,V,W)
+$$
+
+Thus:
+
+- Exponent-linearization hides coordinates.
+- Logarithm-linearization reveals coordinates.
+
+One gains simplicity.
+
+The other gains explicit structure.
+
+---
+
+### Why Negative Ranks Appear More Complex
+
+The asymmetry appears because decomposition exposes hidden coordinates.
+
+A projection may collapse:
+
+$$
+(U,V)
+\rightarrow
+W
+$$
+
+in one step.
+
+But recovering:
+
+$$
+W
+\rightarrow
+(U,V)
+$$
+
+requires reconstructing multiple relations.
+
+Consequently lower ranks often appear to expand more rapidly than higher ranks compress.
+
+This gives rise to observations such as:
+
+$$
+-1
+\rightarrow
+-2
+\rightarrow
+-4
+\rightarrow
+-8
+$$
+
+while positive ranks appear:
+
+$$
+0
+\rightarrow
+1
+\rightarrow
+2
+\rightarrow
+4
+\rightarrow
+8
+$$
+
+Each negative transition reveals additional opposition coordinates.
+
+Each positive transition absorbs them.
+
+---
+
+### Operations as Rank Objects
+
+Ordinary mathematics treats operations as actions.
+
+Laegna interpretation treats operations as numbers possessing rank.
+
+For two inputs:
+
+$$
+a
+$$
+
+and
+
+$$
+b
+$$
+
+the operation forms a combined domain:
+
+$$
+(a,b)
+$$
+
+A curvature is constructed.
+
+A diagonal is measured.
+
+The diagonal becomes the result.
+
+Symbolically:
+
+$$
+(a,b)
+\rightarrow
+UV
+\rightarrow
+W
+\rightarrow
+\text{Result}
+$$
+
+Thus:
+
+$$
++
+,
+-
+,
+\times
+,
+\div
+,
+\odot
+,
+\otimes
+,
+\oslash
+$$
+
+are not fundamentally different categories.
+
+They are alternative curvature rules applied to the same geometric process.
+
+---
+
+### The Ladder of Zeroes
+
+Tracking the same object through linearized spaces produces:
+
+$$
+\cdots
+\rightarrow
+0_{-2}
+\rightarrow
+0_{-1}
+\rightarrow
+0_S
+\rightarrow
+0_M
+\rightarrow
+0_R
+\rightarrow
+0_{RR}
+\rightarrow
+\cdots
+$$
+
+where each zero acts as:
+
+> The local coordinate around which that rank becomes linear.
+
+The number appears to move.
+
+The coordinate appears to change.
+
+Yet the underlying relation remains invariant.
+
+---
+
+### Main Principle
+
+The central observation is therefore:
+
+> Numbers do not move through ranks. Zero moves through ranks.
+
+Every logarithm reveals a deeper coordinate system.
+
+Every exponent hides one.
+
+Higher ranks internalize coordinates.
+
+Lower ranks externalize coordinates.
+
+Tracking the same object through repeated 4-octave linearization reveals a hierarchy of local origins, each acting as a focus around which its particular world becomes linear.
+
+The hierarchy of these origins forms a Zero Ladder, while the collection of all such local linearities forms the Zero Basin of Laegna Mathematics.
+
+---
+
+### Coordinate Reordering Diagrams
+
+The central observation is that coordinates are not destroyed during projection.
+
+They are reordered.
+
+A higher-rank observer sees fewer explicit coordinates.
+
+A lower-rank observer sees more explicit coordinates.
+
+---
+
+#### Scalar to Vector
+
+Initially:
+
+```text
+Scalar Space
+
+      0
+      |
+ -2 -1 0 1 2
+      |
+      x
+```
+
+After one rank projection:
+
+```text
+Vector Space
+
+          (+)
+           |
+(-) ------ x ------ (+)
+           |
+          (-)
+```
+
+The scalar coordinate remains present.
+
+It is now encoded across direction.
+
+---
+
+#### Vector to Double-Vector
+
+Vector space distinguishes horizontal directions.
+
+Double-vector space distinguishes relations between directions.
+
+```text
+Vector
+
+      A ---- B
+```
+
+becomes:
+
+```text
+Double Vector
+
+        /\
+       /  \
+      A----B
+       \  /
+        \/
+```
+
+A single line becomes a relation between lines.
+
+The original coordinates become internal.
+
+---
+
+#### UV Reordering
+
+Suppose:
+
+$$
+(U,V)
+$$
+
+represents two visible coordinates.
+
+```text
+Visible Coordinates
+
+U -------->
+|
+|
+|
+v
+V
+```
+
+A higher-rank projection replaces them with:
+
+$$
+W
+$$
+
+```text
+Diagonal Projection
+
+U -------->
+|      /
+|    /
+|  /
+|/
+W
+```
+
+Thus:
+
+$$
+(U,V)
+\rightarrow
+W
+$$
+
+The two coordinates are still present.
+
+They have become implicit within the diagonal.
+
+---
+
+#### Matrix Reordering
+
+The next projection combines multiple diagonals.
+
+```text
+(U,V,W)
+
+U----W
+|   /
+|  /
+| /
+V
+```
+
+becomes:
+
+```text
+      M
+
+      *
+     /|\
+    / | \
+   /  |  \
+  U   V   W
+```
+
+The matrix coordinate:
+
+$$
+M
+$$
+
+contains all three lower coordinates.
+
+The external representation becomes simpler.
+
+The internal complexity increases.
+
+---
+
+#### Rank Compression
+
+The same coordinate can be observed through multiple spaces.
+
+```text
+Level 0
+
+(U,V,W,M)
+
+Level 1
+
+(W,M)
+
+Level 2
+
+(M)
+
+Level 3
+
+(O)
+```
+
+where:
+
+$$
+O
+$$
+
+is the fully compressed coordinate.
+
+Every upward rank removes visible opposition pairs.
+
+---
+
+#### Rank Expansion
+
+Descending reverses the process.
+
+```text
+(O)
+
+↓
+
+(M)
+
+↓
+
+(W,M)
+
+↓
+
+(U,V,W,M)
+```
+
+Every downward rank reveals hidden coordinates.
+
+This produces the appearance that lower ranks contain more structure.
+
+---
+
+#### Moving Zero
+
+Suppose each rank possesses its own local origin.
+
+```text
+Rank +2
+
+------[0₂]------
+
+Rank +1
+
+------[0₁]------
+
+Rank  0
+
+------[0₀]------
+
+Rank -1
+
+------[0₋₁]------
+
+Rank -2
+
+------[0₋₂]------
+```
+
+The number itself does not move.
+
+The coordinate considered "zero" changes.
+
+A projection therefore appears as:
+
+```text
+0₋₂
+ ↓
+0₋₁
+ ↓
+0₀
+ ↓
+0₁
+ ↓
+0₂
+```
+
+while the tracked relation remains invariant.
+
+---
+
+#### 4-Octave Coordinate Ladder
+
+Using:
+
+$$
+4^n
+$$
+
+we obtain:
+
+```text
+Value Space
+
+1
+│
+4
+│
+16
+│
+256
+│
+65536
+```
+
+Linearized once:
+
+```text
+Rank Space
+
+0
+│
+1
+│
+2
+│
+4
+│
+8
+```
+
+Linearized again:
+
+```text
+Meta-Rank Space
+
+0
+│
+1
+│
+2
+│
+3
+```
+
+The apparent complexity collapses into a shorter coordinate chain.
+
+The coordinates have not disappeared.
+
+They have been reordered toward a new focus.
+
+---
+
+### Projection Principle
+
+The entire hierarchy may therefore be summarized as:
+
+```text
+(U,V,W,M,...)
+
+        ↓
+
+     Projection
+
+        ↓
+
+       (M)
+
+        ↓
+
+       (O)
+
+        ↓
+
+       Zero
+```
+
+and inversely:
+
+```text
+       Zero
+
+        ↓
+
+       (O)
+
+        ↓
+
+       (M)
+
+        ↓
+
+(U,V,W,M,...)
+```
+
+Higher ranks internalize coordinates.
+
+Lower ranks externalize coordinates.
+
+The observed movement of numbers is often the movement of the coordinate system itself, especially the local origin around which that rank becomes linear.
+
+---
+
+> Can you also write article tracking how initial coordinates disappear, new appear, and how the lost coordinates can still be found in reprojection candidates, where symmetric hologram would reproject them; raising the hologram precision real reprojections might be eventually found?
+
+### Coordinate Reordering Diagrams
+
+The central observation is that coordinates are not destroyed during projection.
+
+They are reordered.
+
+A higher-rank observer sees fewer explicit coordinates.
+
+A lower-rank observer sees more explicit coordinates.
+
+---
+
+#### Scalar to Vector
+
+Initially:
+
+```text
+Scalar Space
+
+      0
+      |
+ -2 -1 0 1 2
+      |
+      x
+```
+
+After one rank projection:
+
+```text
+Vector Space
+
+          (+)
+           |
+(-) ------ x ------ (+)
+           |
+          (-)
+```
+
+The scalar coordinate remains present.
+
+It is now encoded across direction.
+
+---
+
+#### Vector to Double-Vector
+
+Vector space distinguishes horizontal directions.
+
+Double-vector space distinguishes relations between directions.
+
+```text
+Vector
+
+      A ---- B
+```
+
+becomes:
+
+```text
+Double Vector
+
+        /\
+       /  \
+      A----B
+       \  /
+        \/
+```
+
+A single line becomes a relation between lines.
+
+The original coordinates become internal.
+
+---
+
+#### UV Reordering
+
+Suppose:
+
+$$
+(U,V)
+$$
+
+represents two visible coordinates.
+
+```text
+Visible Coordinates
+
+U -------->
+|
+|
+|
+v
+V
+```
+
+A higher-rank projection replaces them with:
+
+$$
+W
+$$
+
+```text
+Diagonal Projection
+
+U -------->
+|      /
+|    /
+|  /
+|/
+W
+```
+
+Thus:
+
+$$
+(U,V)
+\rightarrow
+W
+$$
+
+The two coordinates are still present.
+
+They have become implicit within the diagonal.
+
+---
+
+#### Matrix Reordering
+
+The next projection combines multiple diagonals.
+
+```text
+(U,V,W)
+
+U----W
+|   /
+|  /
+| /
+V
+```
+
+becomes:
+
+```text
+      M
+
+      *
+     /|\
+    / | \
+   /  |  \
+  U   V   W
+```
+
+The matrix coordinate:
+
+$$
+M
+$$
+
+contains all three lower coordinates.
+
+The external representation becomes simpler.
+
+The internal complexity increases.
+
+---
+
+#### Rank Compression
+
+The same coordinate can be observed through multiple spaces.
+
+```text
+Level 0
+
+(U,V,W,M)
+
+Level 1
+
+(W,M)
+
+Level 2
+
+(M)
+
+Level 3
+
+(O)
+```
+
+where:
+
+$$
+O
+$$
+
+is the fully compressed coordinate.
+
+Every upward rank removes visible opposition pairs.
+
+---
+
+#### Rank Expansion
+
+Descending reverses the process.
+
+```text
+(O)
+
+↓
+
+(M)
+
+↓
+
+(W,M)
+
+↓
+
+(U,V,W,M)
+```
+
+Every downward rank reveals hidden coordinates.
+
+This produces the appearance that lower ranks contain more structure.
+
+---
+
+#### Moving Zero
+
+Suppose each rank possesses its own local origin.
+
+```text
+Rank +2
+
+------[0₂]------
+
+Rank +1
+
+------[0₁]------
+
+Rank  0
+
+------[0₀]------
+
+Rank -1
+
+------[0₋₁]------
+
+Rank -2
+
+------[0₋₂]------
+```
+
+The number itself does not move.
+
+The coordinate considered "zero" changes.
+
+A projection therefore appears as:
+
+```text
+0₋₂
+ ↓
+0₋₁
+ ↓
+0₀
+ ↓
+0₁
+ ↓
+0₂
+```
+
+while the tracked relation remains invariant.
+
+---
+
+#### 4-Octave Coordinate Ladder
+
+Using:
+
+$$
+4^n
+$$
+
+we obtain:
+
+```text
+Value Space
+
+1
+│
+4
+│
+16
+│
+256
+│
+65536
+```
+
+Linearized once:
+
+```text
+Rank Space
+
+0
+│
+1
+│
+2
+│
+4
+│
+8
+```
+
+Linearized again:
+
+```text
+Meta-Rank Space
+
+0
+│
+1
+│
+2
+│
+3
+```
+
+The apparent complexity collapses into a shorter coordinate chain.
+
+The coordinates have not disappeared.
+
+They have been reordered toward a new focus.
+
+---
+
+### Projection Principle
+
+The entire hierarchy may therefore be summarized as:
+
+```text
+(U,V,W,M,...)
+
+        ↓
+
+     Projection
+
+        ↓
+
+       (M)
+
+        ↓
+
+       (O)
+
+        ↓
+
+       Zero
+```
+
+and inversely:
+
+```text
+       Zero
+
+        ↓
+
+       (O)
+
+        ↓
+
+       (M)
+
+        ↓
+
+(U,V,W,M,...)
+```
+
+Higher ranks internalize coordinates.
+
+Lower ranks externalize coordinates.
+
+The observed movement of numbers is often the movement of the coordinate system itself, especially the local origin around which that rank becomes linear.
