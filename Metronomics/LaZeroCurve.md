@@ -1,4 +1,8 @@
+![Laegna Zero Cover](Futhark/LaZeroCover.png)
 
+<br>
+
+---
 
 # The Movement of Futhark of Laegna
 
@@ -1282,6 +1286,12 @@ For this, we get the whole distance we can linearly measure at each system, and 
 We can see how minus ranks move zero to initial minus positions.
 
 We can see how the zero of infinity is more seen from lower, so it's ideally projected to $H_ext$ where planck length, time, energy or mass is $H_int$ - notice energy and mass must be acceleration factors, such unit in same power as number can still linearize them, especially if numbers are growth functions always projected to 1 in their linearization or focal point.
+
+---
+
+![Laegna Zero Ending](Futhark/LaZeroConcate.png)
+
+<br>
 
 ---
 
@@ -3488,3 +3498,9 @@ Higher ranks internalize coordinates.
 Lower ranks externalize coordinates.
 
 The observed movement of numbers is often the movement of the coordinate system itself, especially the local origin around which that rank becomes linear.
+
+---
+
+<br>
+
+![Laegna Zero Concate](Futhark/LaZeroEnding.png)
