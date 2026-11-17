@@ -31,9 +31,17 @@ $U′$ is the position of spatial observer.
 
 Laegna Ethics:
 - Heaven, Exter Realm, Y.
+  - This is the vertical measure of exponent elevation of the Civilization's progress, classically measured in exponent factors of this scale.
 - Earth, Enter Realm, X.
+  - This is the everyday "algorithmic" reality, going-on of the mundane life, the prosaistic reality.
 - Hell, Infer Realm, Z.
+  - This is reverse, logarithmic effect which removes the Civilization's progress, normally measured in small chaotic particles rather than big falls - Civilizations, rather than falling, give birth to better Civilizations.
 - Combined, The Realm, $(Z + X + Y) / 3 = \sqrt(X)$.
+  - This is the combined realm whose spatial complexity equals curvature 3, and projecting this normally has the same complications as projecting 9-dimensional space:
+    - Laegna is capable enough to work in $base_9$ to analyze these dimensions, or use $Base_{4_{4}}$ diagonal matrices and reduce any visible loss:
+      - Topologically in terms of *structurality*, in my mind space-16 is just perfect to project to space-4, altough not every event might be expected.
+      - Otherwise, Hilbert defined higher space cannot be projected to lower without loss - forms might need color (= light) aids, holofractal-patterns could be produced to physical forms in shape of waveform biases, which naturally resemble the higher space hologram.
+        - I can trivially reduce things like hyperballs, hypercubes, their n-dimensional counterparts, which is a simple waveform inference in $s′=s^2$ spatial and $t′=t$ temporal spaces, and notice in Hilbert's space $e = mc^2$ still holds, but it's *invariant* to $e = mc$ because $2+2$ and $2*2$ are not significantly different; from first tesimals, this goes up with synchornous Laegna Number Systems to this property.
 
 Laegna PhySecs:
 - Exter Scale, Relativian, Y.
