@@ -83,7 +83,6 @@ The next block (`LaegnaNumberClient`) demonstrates one such interpretation layer
 CoPilot.
 
 ```javascript
-
 /**
  * LaegnaBase4Controller
  *
@@ -898,6 +897,7 @@ Together, `LaegnaBase4Controller` and `LaegnaNumberClient` form a separation bet
 
 ## LaegnaNumberClient
 
+```python
 /**
  * ============================================================
  * LaegnaNumberClient
@@ -1615,6 +1615,7 @@ console.log(number.inspect());
     wave16: "..."
 }
 */
+```
 
 ---
 
@@ -2625,7 +2626,7 @@ Example:
 IIII -> curvature 0
 IOIO -> curvature 3
 IEIE -> curvature 3
-```~
+```
 
 This creates a primitive complexity measure.
 
@@ -2658,7 +2659,7 @@ Interesting because many Laegna constructions naturally use:
 IOOI
 AEEA
 IOAEOA
-```~
+```
 
 which are internally symmetric.
 
@@ -2744,7 +2745,7 @@ because:
 [Q P O P]
 [C B A B]
 [G F E F]
-```~
+```
 
 is already a spatial matrix.
 
@@ -2760,7 +2761,7 @@ The JavaScript controller introduced:
 d = dimensions
 b = bands
 i = complexity
-```~
+```
 
 The database could store explicit decompositions.
 
@@ -2850,7 +2851,7 @@ meaning:
 IOAE
   ├─ IO
   └─ AE
-```~
+```
 
 This enables recursive decomposition.
 
@@ -2909,7 +2910,7 @@ Instead of treating numbers only as values:
 
 ```text
 IOAE
-```~
+```
 
 could become:
 
@@ -2929,7 +2930,7 @@ derived from:
 Dimension
 Band
 Complexity
-```~
+```
 
 This aligns surprisingly well with the controller architecture where digits already carry coordinate metadata.
 
@@ -2975,7 +2976,7 @@ Enumeration
 Interpretation
     ↓
 Extension
-```~
+```
 
 This means the database is evolving toward something larger than a number table.
 
@@ -2993,7 +2994,7 @@ Wave
 Relation
     ↓
 Object
-```~
+```
 
 where every number possesses:
 
